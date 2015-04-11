@@ -1,0 +1,22 @@
+03/11 09:45:09.430/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 09:45:09.435/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 09:45:09.436/IST   INFO -   AllMarkets - version = 1
+03/11 09:45:09.516/IST   INFO -        trace -    creating AllMarkets
+03/11 09:45:10.350/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 09:45:11.248/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 09:45:11.248/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/11 09:45:33.130/IST   WARN -    UserError - 35# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 09:46:04.799/IST   WARN -    UserError - 36# told User(logging in) "Congratulations harit! You're now done. Now Jump in!".
+03/11 09:46:04.842/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+03/11 09:46:09.159/IST   WARN -    UserError - 38# told User(logging in) "<font color=red size=5><b>Sorry! This account name is unavailable. Please try another one. </b></font>harit".
+03/11 09:46:42.071/IST   WARN -    UserError - 39# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 09:46:56.938/IST   WARN -    UserError - 40# told User(logging in) "Congratulations mauka! You're now done. Now Jump in!".
+03/11 09:46:56.973/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+03/11 09:47:16.176/IST   WARN -    UserError - 42# told User(logging in) "Please type an account name and password".
+03/11 09:47:20.803/IST   WARN -    UserError - 43# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/11 09:47:30.978/IST   WARN -    UserError - 44# told mauka "Please specify a name for the market.".
+03/11 09:48:03.434/IST   INFO -   Transition - 45# State transition: new Multi Market, round: 0.
+03/11 09:48:03.436/IST   INFO -  PriceAction - 46# mauka traded with the market maker for 0 of India vs Zimbabwe:India at 50
+03/11 09:48:03.437/IST   INFO -  PriceAction - 47# mauka traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe at 50
+03/11 09:48:09.526/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/11 09:48:46.404/IST   WARN -    UserError - 54# told User(logging in) "Please type an account name and password".

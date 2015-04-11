@@ -1,0 +1,122 @@
+Zocalo is open source software released under the MIT license.
+There's a copy of the license here titled LICENSE.  We ship Zocalo
+with several compiled libraries, and include the licenses for each in
+our distribution.  We don't modify any of the libraries, so we aren't
+required to include their source.  We list here where you can download
+the source or object form yourself.  The jar files are in the jars
+directory, and the licenses are in jars/LICENSES.
+
+* Dojo, a javascript toolkit, and Cometd, which provices AJAX support
+License: Academic Free License v2.1 OR modified BSD license
+files: web/dojo
+jar files: bayeux-client-6.1.7.jar, cglib-2.1.jar,
+             cometd-api-0.9.20080221.jar, cometd-bayeux-6.1.11.jar
+url: http://cometdproject.dojotoolkit.org/, http://dojotoolkit.org/
+
+*  JUnit, a unit testing framework
+
+jar file: junit.jar
+License:  junit-cpl-v10.html
+url:      http://www.junit.org
+
+
+* JUnit addons, some additional software for use with Junit
+
+jar file: junit.jar
+url:      http://sourceforge.net/projects/junit-addons
+License:  Apache
+
+
+* Jetty, a Java HTTP Server and Servlet Container
+
+License:  jetty-LICENSE.html
+jar file: org.mortbay.jetty.jar
+url:      http://jetty.mortbay.org/jetty
+
+
+*  Hibernate, Object-Relational Mapping
+
+License: LGPL
+jar file: hibernate.jar
+url: http://hibernate.org
+doc: http://www.hibernate.org/hib_docs/reference/en/html/
+
+
+* Hsql
+
+url: http://hsqldb.sourceforge.net
+jar file: hsqldb.jar
+license: BSD 
+
+
+* JFreechart
+
+license: lgpl
+url: http://www.jfree.org/jfreechart/
+jar file: jfreechart-1.0.0-rc1.jar 
+
+
+* stringtemplate, a tool for building text from templates
+
+License:  BSD
+jar file: stringtemplate.jar
+url:      	http://www.stringtemplate.org
+
+
+* javax.mail, tools for dealing with email
+
+License: Sun CDDL
+jar files: mail.jar, activation.jar
+url:   https://glassfish.dev.java.net/javaee5/mail
+
+
+* Jakarta Commons, open source solutions for Java from Apache
+License:  Apache
+
+  ** commons-httpclient, http client support
+
+  jar file: commons-httpclient-2.0.2.jar
+  url:      http://jakarta.apache.org/commons/httpclient/
+
+  ** commons-lang, java utility classes
+
+  jar file: commons-lang-2.0.jar
+  url:      http://jakarta.apache.org/commons/lang/
+
+  ** commons-el, an interpreter for JSP Expression Language
+
+  jar file: commons-el.jar
+  url:      http://jakarta.apache.org/commons/el/
+
+  ** commons-logging, a wrapper for the standard logging API
+
+  jar file: commons-logging-api.jar
+  url: http://jakarta.apache.org/commons/logging/
+
+  ** TomCat/Jasper, a JSP implementation
+
+  License:   tomcat-LICENSE
+  jar files: jasper-compiler.jar, jasper-runtime.jar,
+                  jsp-api.jar, servlet-api.jar 
+  url:       http://jakarta.apache.org/tomcat
+
+  ** Log4J, a framework for logging in java programs
+
+  License:   log4j-LICENSE.txt
+  jar file:  log4j-1.2.14.jar
+  url:       http://logging.apache.org/log4j
+
+  ** Ant, a java-based build tool
+
+  jar file:   ant.jar
+  url:        http://ant.apache.org
+
+  ** ws-commons-util, Web Services Common Utilities
+  jar file: ws-commons-util-1.0.2.jar
+  url: http://ws.apache.org/commons
+  License: http://ws.apache.org/commons/util/license.html
+
+  ** xmlrpc, Apache java implementation of XML-RPC
+  jar files: xmlrpc-client-3.1.jar, xmlrpc-common-3.1.jar, xmlrpc-server-3.1.jar
+  url: http://ws.apache.org/xmlrpc
+  License: http://ws.apache.org/xmlrpc/license.html

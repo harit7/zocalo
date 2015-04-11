@@ -1,0 +1,101 @@
+     Copyright 2007, 2008 Chris Hibbert.  All rights reserved.  This file
+     is published under the terms of the MIT license, a copy of which has
+     been included with this distribution in the LICENSE file.
+
+This file describes the configuration of markets that can be done
+after installation.  installation instructions are in INSTALL (or
+INSTALL.txt on Wndows.)
+
+* Assigning the admin password and resetting it
+* logging in as admin; what admin can do.  How to stop being admin.
+* How to create an account.
+* How to create a market  
+* Where to find the server
+* User pages 
+
+--------------------
+
+The login page for the Zocalo markets is Welcome.jsp.
+(currently at webpages/Welcome.jsp.)  There are no accounts
+or markets configured when the system is first installed.
+Users who have authenticated with the admin password can
+create new markets.
+
+* Assigning the admin password and resetting it
+
+The administrator's password is assigned during
+installation.  If you forget what it is, you can change it
+or look it up by opening the file etc/zocalo.conf on the
+server.
+
+* logging in as admin; what you can do.  How to stop being admin.
+
+You can use the admin password to authenticate and create new markets.
+After you enter the admin password on the wecome page, login with a
+regular account and you will be able to create new markets by visiting
+the Create Markets page.  Deactivate the admin authority by entering
+an account name with no password on the login page.
+
+* How to create new accounts
+
+You can create a new account by visiting the Account Creation page
+from the login page.  Don't lose the password; there's currently no
+way to recover it.  New accounts start out with the funding that was
+configured when Zocalo was installed.  (This parameter can also be
+changed or viewed by opening etc/zocalo.conf.)
+
+* How to create new markets
+
+The admin password will allow anyone to create new markets.  When
+authenticated in with the admin password, you will see an extra
+control on the navigation bar.  This allows you to create new markets
+until you logout.
+
+New markets can be created with or without a Market Maker.
+Market Makers enable increased trading by always being ready
+to accept trades.  If there's not Market Maker, you can only
+make a trade when someone else has left a standing order.
+(This is known as a "double auction".)  If there will be
+many traders active in a particular market, the market maker
+might not be necessary, but it shouldn't get in the way.
+Configuring a Market Maker is probably the right choice for
+most markets, since it enables trading both when there are
+many traders and when there are few.
+
+The funds that the Market Maker uses to buy and sell come
+from the account of the trader who creates the market, so it
+may be useful to create markets from a separate account.
+
+* Where to find the server
+
+The server's web address depends on the configuration
+parameters you set at installation.  If you changed the port
+number to 80 during installation and your host machine is
+zocalo.esu.edu, the web address would be
+http://zocalo.esu.edu/webpages/Welcome.jsp.  If you set the
+port number to 30000, it would be
+http://zocalo.esu.edu:30000/webpages/Welcome.jsp.  When
+running a browser on the same machine as the server, you may
+have to use http://localhost/webpages/Welcome.jsp or
+http://localhost:30000/webpages/Welcome.jsp
+
+
+There are four main pages available:
+
+"all markets" lists all the open markets and their price
+levels and lets you navigate to the trading pages for each
+market.  
+
+The trading page shows a price history, the best bids and
+asks, your holdings and orders, and lets you enter new
+orders.  
+
+The "view account" page shows outstanding orders and
+holdings in all markets as well as current cash balance.
+
+The "trade history" page shows all the trades you've made,
+sorted by market and the time the trade was made.
+
+In addition, when logged in as admin, the following appears:
+
+The "Create Markets" page allows admin users to create new markets.

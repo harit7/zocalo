@@ -1,0 +1,347 @@
+/*C5*/SET SCHEMA PUBLIC
+CONNECT USER SA
+SET AUTOCOMMIT FALSE
+/*C6*/SET SCHEMA PUBLIC
+CONNECT USER SA
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+alter table ACCOUNTS drop constraint FKAF43ABE618085ABA
+alter table ACCOUNT_HOLDINGS drop constraint FKAB0B6C023AA42D41
+alter table ACCOUNT_HOLDINGS drop constraint FKAB0B6C02F513C021
+alter table ACCOUNT_HOLDINGS drop constraint FKAB0B6C024BC7993
+alter table ASKS drop constraint FK1ECD1A38904A85
+alter table BEST_ASKS drop constraint FKF4AB869538904A85
+alter table BEST_BIDS drop constraint FKF4ABD49138904A85
+alter table BIDS drop constraint FK1F1B1638904A85
+alter table BOOK drop constraint FK1F32E94C01F0EF
+alter table BOOK drop constraint FK1F32E978D5D654
+alter table BOOK_OFFERS drop constraint FK21F087AD3AA42D41
+alter table BOOK_OFFERS drop constraint FK21F087ADAF241F6D
+alter table BOOK_OFFERS drop constraint FK21F087AD458F91F6
+alter table CASHBANKS drop constraint FKD3585E44B5A0569A
+alter table CBANK_POS_TOKENS drop constraint FKB63B09459E4F249B
+alter table CBANK_POS_TOKENS drop constraint FKB63B0945152634D3
+alter table CBANK_POS_TOKENS drop constraint FKB63B0945A95DC501
+alter table CLAIMS drop constraint FK76A253B7CB114E02
+alter table COUPONBANKS drop constraint FKE782A5316A36D033
+alter table COUPONBANKS drop constraint FKE782A5317E3EEE70
+alter table COUPONS drop constraint FK63E3B8ED3AA42D41
+alter table COUPONS drop constraint FK63E3B8EDB5A0569A
+alter table FUNDSS drop constraint FK7C4587E5B5A0569A
+alter table MARKET drop constraint FK871F883C760F7B71
+alter table MARKET drop constraint FK871F883C7E3EEE70
+alter table MARKET drop constraint FK871F883CF5AE661E
+alter table MARKET drop constraint FK871F883CCB114E02
+alter table MARKETMAKER drop constraint FK9213FD6878D5D654
+alter table MARKETMAKER drop constraint FK9213FD68420317F3
+alter table MM_Probabilities drop constraint FK1D59E3143AA42D41
+alter table MM_Probabilities drop constraint FK1D59E3145AE3447D
+alter table ORDERREMOVALS drop constraint FK3E1573538904A85
+alter table ORDER_TBL drop constraint FK8ED4BB0D3AA42D41
+alter table ORDER_TBL drop constraint FK8ED4BB0DBBF8495E
+alter table OUTCOME drop constraint FKE8D793323AA42D41
+alter table POSITIONS drop constraint FKBD89C4A66AE28D7
+alter table REDEMPTIONS drop constraint FK6170EF8838904A85
+drop table ACCOUNTS if exists
+drop table ACCOUNT_HOLDINGS if exists
+drop table ASKS if exists
+drop table BEST_ASKS if exists
+drop table BEST_BIDS if exists
+drop table BIDS if exists
+drop table BOOK if exists
+drop table BOOK_OFFERS if exists
+drop table CASHBANKS if exists
+drop table CBANK_POS_TOKENS if exists
+drop table CLAIMS if exists
+drop table COUPONBANKS if exists
+drop table COUPONS if exists
+drop table CURRENCYTOKENS if exists
+drop table FUNDSS if exists
+drop table MARKET if exists
+drop table MARKETMAKER if exists
+drop table MM_Probabilities if exists
+drop table MOCKDATA if exists
+drop table ORDERREMOVALS if exists
+drop table ORDER_TBL if exists
+drop table OUTCOME if exists
+drop table POSITIONS if exists
+drop table REDEMPTIONS if exists
+drop table SELFDEALING if exists
+drop table SORTEDORDERS if exists
+drop table SORTEDORDERS_POS_ORDER if exists
+drop table TRADES if exists
+drop table UNCONFIRMED_USERS if exists
+drop table USERS if exists
+create table ACCOUNTS (ACCOUNTS_ID bigint not null, cash bigint not null, primary key (ACCOUNTS_ID))
+create table ACCOUNT_HOLDINGS (ACCOUNTS_ID bigint not null, COUPONS_ID bigint not null, POSITIONS_ID bigint not null, primary key (ACCOUNTS_ID, POSITIONS_ID))
+create table ASKS (ASKS_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (ASKS_ID))
+create table BEST_ASKS (BEST_ASKS_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (BEST_ASKS_ID))
+create table BEST_BIDS (BEST_BIDS_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (BEST_BIDS_ID))
+create table BIDS (BID_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (BID_ID))
+create table BOOK (BOOK_ID bigint not null, market bigint not null, claim bigint not null, primary key (BOOK_ID), unique (market))
+create table BOOK_OFFERS (BOOK_ID bigint not null, SORTEDORDERS_ID bigint not null, POSITIONS_ID bigint not null, primary key (BOOK_ID, POSITIONS_ID))
+create table CASHBANKS (CASHBANK_ID bigint not null, token bigint not null, primary key (CASHBANK_ID), unique (token))
+create table CBANK_POS_TOKENS (COUPONBANK_ID bigint not null, CURRENCYTOKEN_ID bigint not null, positions bigint not null, primary key (COUPONBANK_ID, positions))
+create table CLAIMS (CLAIMS_ID bigint not null, CLAIM_TYPE varchar(255) not null, name varchar(255), owner bigint not null, description varchar(255), primary key (CLAIMS_ID))
+create table COUPONBANKS (COUPONBANK_ID bigint not null, setsMinted double, setsRedeemed double, FUNDS_ID bigint not null, claim bigint not null, primary key (COUPONBANK_ID), unique (FUNDS_ID))
+create table COUPONS (COUPONS_ID bigint not null, balance double, token bigint not null, POSITIONS_ID bigint not null, primary key (COUPONS_ID))
+create table CURRENCYTOKENS (CURRENCYTOKEN_ID bigint not null, name varchar(255), primary key (CURRENCYTOKEN_ID))
+create table FUNDSS (FUNDS_ID bigint not null, balance double, token bigint not null, primary key (FUNDS_ID))
+create table MARKET (MARKETS_ID bigint not null, MARKET_TYPE varchar(255) not null, priceBetteringRequired bit, wholeShareTradingOnly bit, marketClosed bit, owner bigint not null, couponMint bigint not null, Outcome_ID bigint, claim bigint not null, unaryAssets bit, maxPrice double, primary key (MARKETS_ID), unique (Outcome_ID))
+create table MARKETMAKER (MARKETMAKER_ID bigint not null, MarketMaker_TYPE varchar(255) not null, beta double, market bigint not null, accounts bigint not null, probability double, primary key (MARKETMAKER_ID), unique (market), unique (accounts))
+create table MM_Probabilities (MARKETMAKER_ID bigint not null, Probability double not null, POSITIONS_ID bigint not null, primary key (MARKETMAKER_ID, POSITIONS_ID))
+create table MOCKDATA (DATUM_ID bigint not null, title varchar(255), primary key (DATUM_ID))
+create table ORDERREMOVALS (ORDERREMOVAL_ID bigint not null, owner varchar(255), price double, quantity double, quantityFulfilled double, quantityVoided double, time timestamp, pos bigint not null, primary key (ORDERREMOVAL_ID))
+create table ORDER_TBL (ORDER_ID bigint not null, price double, quantity double, quantityFulfilled double, quantityVoided double, USER_ID bigint not null, POSITIONS_ID bigint not null, primary key (ORDER_ID))
+create table OUTCOME (OUTCOME_ID bigint not null, OUTCOME_TYPE varchar(255) not null, continuous bit, POSITIONS_ID bigint, primary key (OUTCOME_ID))
+create table POSITIONS (POSITIONS_ID bigint not null, name varchar(255), CLAIMS_ID bigint not null, idx integer, primary key (POSITIONS_ID))
+create table REDEMPTIONS (Redemption_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (Redemption_ID))
+create table SELFDEALING (SELFDEALING_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (SELFDEALING_ID))
+create table SORTEDORDERS (SORTEDORDERS_ID bigint not null, POSITIONS_ID bigint not null, primary key (SORTEDORDERS_ID))
+create table SORTEDORDERS_POS_ORDER (SORTEDORDERS_ID bigint not null, ORDER_ID bigint not null, primary key (SORTEDORDERS_ID, ORDER_ID), unique (ORDER_ID))
+create table TRADES (TRADE_ID bigint not null, TRADE_TYPE varchar(255) not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, openingPrice double, closingPrice double, primary key (TRADE_ID))
+create table UNCONFIRMED_USERS (USER_ID bigint not null, name varchar(255), emailAddress varchar(255), password varchar(255), confirmationToken varchar(255), primary key (USER_ID))
+create table USERS (USER_ID bigint not null, name varchar(255), email varchar(255), hashedPassword varbinary(255), accounts bigint not null, primary key (USER_ID), unique (accounts))
+alter table ACCOUNTS add constraint FKAF43ABE618085ABA foreign key (cash) references FUNDSS
+alter table ACCOUNT_HOLDINGS add constraint FKAB0B6C023AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table ACCOUNT_HOLDINGS add constraint FKAB0B6C02F513C021 foreign key (ACCOUNTS_ID) references ACCOUNTS
+alter table ACCOUNT_HOLDINGS add constraint FKAB0B6C024BC7993 foreign key (COUPONS_ID) references COUPONS
+alter table ASKS add constraint FK1ECD1A38904A85 foreign key (pos) references POSITIONS
+alter table BEST_ASKS add constraint FKF4AB869538904A85 foreign key (pos) references POSITIONS
+alter table BEST_BIDS add constraint FKF4ABD49138904A85 foreign key (pos) references POSITIONS
+alter table BIDS add constraint FK1F1B1638904A85 foreign key (pos) references POSITIONS
+alter table BOOK add constraint FK1F32E94C01F0EF foreign key (claim) references CLAIMS
+alter table BOOK add constraint FK1F32E978D5D654 foreign key (market) references MARKET
+alter table BOOK_OFFERS add constraint FK21F087AD3AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table BOOK_OFFERS add constraint FK21F087ADAF241F6D foreign key (SORTEDORDERS_ID) references SORTEDORDERS
+alter table BOOK_OFFERS add constraint FK21F087AD458F91F6 foreign key (BOOK_ID) references BOOK
+alter table CASHBANKS add constraint FKD3585E44B5A0569A foreign key (token) references CURRENCYTOKENS
+alter table CBANK_POS_TOKENS add constraint FKB63B09459E4F249B foreign key (positions) references POSITIONS
+alter table CBANK_POS_TOKENS add constraint FKB63B0945152634D3 foreign key (CURRENCYTOKEN_ID) references CURRENCYTOKENS
+alter table CBANK_POS_TOKENS add constraint FKB63B0945A95DC501 foreign key (COUPONBANK_ID) references COUPONBANKS
+alter table CLAIMS add constraint FK76A253B7CB114E02 foreign key (owner) references USERS
+alter table COUPONBANKS add constraint FKE782A5316A36D033 foreign key (FUNDS_ID) references FUNDSS
+alter table COUPONBANKS add constraint FKE782A5317E3EEE70 foreign key (claim) references CLAIMS
+alter table COUPONS add constraint FK63E3B8ED3AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table COUPONS add constraint FK63E3B8EDB5A0569A foreign key (token) references CURRENCYTOKENS
+alter table FUNDSS add constraint FK7C4587E5B5A0569A foreign key (token) references CURRENCYTOKENS
+alter table MARKET add constraint FK871F883C760F7B71 foreign key (couponMint) references COUPONBANKS
+alter table MARKET add constraint FK871F883C7E3EEE70 foreign key (claim) references CLAIMS
+alter table MARKET add constraint FK871F883CF5AE661E foreign key (Outcome_ID) references OUTCOME
+alter table MARKET add constraint FK871F883CCB114E02 foreign key (owner) references USERS
+alter table MARKETMAKER add constraint FK9213FD6878D5D654 foreign key (market) references MARKET
+alter table MARKETMAKER add constraint FK9213FD68420317F3 foreign key (accounts) references ACCOUNTS
+alter table MM_Probabilities add constraint FK1D59E3143AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table MM_Probabilities add constraint FK1D59E3145AE3447D foreign key (MARKETMAKER_ID) references MARKETMAKER
+alter table ORDERREMOVALS add constraint FK3E1573538904A85 foreign key (pos) references POSITIONS
+alter table ORDER_TBL add constraint FK8ED4BB0D3AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table ORDER_TBL add constraint FK8ED4BB0DBBF8495E foreign key (USER_ID) references USERS
+alter table OUTCOME add constraint FKE8D793323AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table POSITIONS add constraint FKBD89C4A66AE28D7 foreign key (CLAIMS_ID) references CLAIMS
+alter table REDEMPTIONS add constraint FK6170EF8838904A85 foreign key (pos) references POSITIONS
+alter table SELFDEALING add constraint FK10726B0A38904A85 foreign key (pos) references POSITIONS
+alter table SORTEDORDERS add constraint FKEF719BE23AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table SORTEDORDERS_POS_ORDER add constraint FKD8B355466DA91987 foreign key (ORDER_ID) references ORDER_TBL
+alter table SORTEDORDERS_POS_ORDER add constraint FKD8B35546AF241F6D foreign key (SORTEDORDERS_ID) references SORTEDORDERS
+alter table TRADES add constraint FK93F92F8F38904A85 foreign key (pos) references POSITIONS
+alter table USERS add constraint FK4D495E8420317F3 foreign key (accounts) references ACCOUNTS
+DISCONNECT
+/*C5*/INSERT INTO CURRENCYTOKENS VALUES(1,'ignore')
+COMMIT
+INSERT INTO FUNDSS VALUES(1,0.0E0,1)
+INSERT INTO ACCOUNTS VALUES(1,1)
+INSERT INTO USERS VALUES(1,'owner','someone@example.com','d015cc465bdb4e51987df7fb870472d3fb9a3505',1)
+COMMIT
+INSERT INTO CLAIMS VALUES(1,'BIN','empty',1,'ignore this description')
+INSERT INTO POSITIONS VALUES(1,'yes',1,NULL)
+INSERT INTO POSITIONS VALUES(2,'no',1,NULL)
+DELETE FROM POSITIONS WHERE POSITIONS_ID=1
+INSERT INTO POSITIONS VALUES(1,'yes',1,0)
+DELETE FROM POSITIONS WHERE POSITIONS_ID=2
+INSERT INTO POSITIONS VALUES(2,'no',1,1)
+COMMIT
+/*C7*/SET SCHEMA PUBLIC
+CONNECT USER SA
+SET AUTOCOMMIT FALSE
+/*C8*/SET SCHEMA PUBLIC
+CONNECT USER SA
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+alter table ACCOUNTS drop constraint FKAF43ABE618085ABA
+alter table ACCOUNT_HOLDINGS drop constraint FKAB0B6C023AA42D41
+alter table ACCOUNT_HOLDINGS drop constraint FKAB0B6C02F513C021
+alter table ACCOUNT_HOLDINGS drop constraint FKAB0B6C024BC7993
+alter table ASKS drop constraint FK1ECD1A38904A85
+alter table BEST_ASKS drop constraint FKF4AB869538904A85
+alter table BEST_BIDS drop constraint FKF4ABD49138904A85
+alter table BIDS drop constraint FK1F1B1638904A85
+alter table BOOK drop constraint FK1F32E94C01F0EF
+alter table BOOK drop constraint FK1F32E978D5D654
+alter table BOOK_OFFERS drop constraint FK21F087AD3AA42D41
+alter table BOOK_OFFERS drop constraint FK21F087ADAF241F6D
+alter table BOOK_OFFERS drop constraint FK21F087AD458F91F6
+alter table CASHBANKS drop constraint FKD3585E44B5A0569A
+alter table CBANK_POS_TOKENS drop constraint FKB63B09459E4F249B
+alter table CBANK_POS_TOKENS drop constraint FKB63B0945152634D3
+alter table CBANK_POS_TOKENS drop constraint FKB63B0945A95DC501
+alter table CLAIMS drop constraint FK76A253B7CB114E02
+alter table COUPONBANKS drop constraint FKE782A5316A36D033
+alter table COUPONBANKS drop constraint FKE782A5317E3EEE70
+alter table COUPONS drop constraint FK63E3B8ED3AA42D41
+alter table COUPONS drop constraint FK63E3B8EDB5A0569A
+alter table FUNDSS drop constraint FK7C4587E5B5A0569A
+alter table MARKET drop constraint FK871F883C760F7B71
+alter table MARKET drop constraint FK871F883C7E3EEE70
+alter table MARKET drop constraint FK871F883CF5AE661E
+alter table MARKET drop constraint FK871F883CCB114E02
+alter table MARKETMAKER drop constraint FK9213FD6878D5D654
+alter table MARKETMAKER drop constraint FK9213FD68420317F3
+alter table MM_Probabilities drop constraint FK1D59E3143AA42D41
+alter table MM_Probabilities drop constraint FK1D59E3145AE3447D
+alter table ORDERREMOVALS drop constraint FK3E1573538904A85
+alter table ORDER_TBL drop constraint FK8ED4BB0D3AA42D41
+alter table ORDER_TBL drop constraint FK8ED4BB0DBBF8495E
+alter table OUTCOME drop constraint FKE8D793323AA42D41
+alter table POSITIONS drop constraint FKBD89C4A66AE28D7
+alter table REDEMPTIONS drop constraint FK6170EF8838904A85
+alter table SELFDEALING drop constraint FK10726B0A38904A85
+alter table SORTEDORDERS drop constraint FKEF719BE23AA42D41
+alter table SORTEDORDERS_POS_ORDER drop constraint FKD8B355466DA91987
+alter table SORTEDORDERS_POS_ORDER drop constraint FKD8B35546AF241F6D
+alter table TRADES drop constraint FK93F92F8F38904A85
+alter table USERS drop constraint FK4D495E8420317F3
+drop table ACCOUNTS if exists
+drop table ACCOUNT_HOLDINGS if exists
+drop table ASKS if exists
+drop table BEST_ASKS if exists
+drop table BEST_BIDS if exists
+drop table BIDS if exists
+drop table BOOK if exists
+drop table BOOK_OFFERS if exists
+drop table CASHBANKS if exists
+drop table CBANK_POS_TOKENS if exists
+drop table CLAIMS if exists
+drop table COUPONBANKS if exists
+drop table COUPONS if exists
+drop table CURRENCYTOKENS if exists
+drop table FUNDSS if exists
+drop table MARKET if exists
+drop table MARKETMAKER if exists
+drop table MM_Probabilities if exists
+drop table MOCKDATA if exists
+drop table ORDERREMOVALS if exists
+drop table ORDER_TBL if exists
+drop table OUTCOME if exists
+drop table POSITIONS if exists
+drop table REDEMPTIONS if exists
+drop table SELFDEALING if exists
+drop table SORTEDORDERS if exists
+drop table SORTEDORDERS_POS_ORDER if exists
+drop table TRADES if exists
+drop table UNCONFIRMED_USERS if exists
+drop table USERS if exists
+create table ACCOUNTS (ACCOUNTS_ID bigint not null, cash bigint not null, primary key (ACCOUNTS_ID))
+create table ACCOUNT_HOLDINGS (ACCOUNTS_ID bigint not null, COUPONS_ID bigint not null, POSITIONS_ID bigint not null, primary key (ACCOUNTS_ID, POSITIONS_ID))
+create table ASKS (ASKS_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (ASKS_ID))
+create table BEST_ASKS (BEST_ASKS_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (BEST_ASKS_ID))
+create table BEST_BIDS (BEST_BIDS_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (BEST_BIDS_ID))
+create table BIDS (BID_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (BID_ID))
+create table BOOK (BOOK_ID bigint not null, market bigint not null, claim bigint not null, primary key (BOOK_ID), unique (market))
+create table BOOK_OFFERS (BOOK_ID bigint not null, SORTEDORDERS_ID bigint not null, POSITIONS_ID bigint not null, primary key (BOOK_ID, POSITIONS_ID))
+create table CASHBANKS (CASHBANK_ID bigint not null, token bigint not null, primary key (CASHBANK_ID), unique (token))
+create table CBANK_POS_TOKENS (COUPONBANK_ID bigint not null, CURRENCYTOKEN_ID bigint not null, positions bigint not null, primary key (COUPONBANK_ID, positions))
+create table CLAIMS (CLAIMS_ID bigint not null, CLAIM_TYPE varchar(255) not null, name varchar(255), owner bigint not null, description varchar(255), primary key (CLAIMS_ID))
+create table COUPONBANKS (COUPONBANK_ID bigint not null, setsMinted double, setsRedeemed double, FUNDS_ID bigint not null, claim bigint not null, primary key (COUPONBANK_ID), unique (FUNDS_ID))
+create table COUPONS (COUPONS_ID bigint not null, balance double, token bigint not null, POSITIONS_ID bigint not null, primary key (COUPONS_ID))
+create table CURRENCYTOKENS (CURRENCYTOKEN_ID bigint not null, name varchar(255), primary key (CURRENCYTOKEN_ID))
+create table FUNDSS (FUNDS_ID bigint not null, balance double, token bigint not null, primary key (FUNDS_ID))
+create table MARKET (MARKETS_ID bigint not null, MARKET_TYPE varchar(255) not null, priceBetteringRequired bit, wholeShareTradingOnly bit, marketClosed bit, owner bigint not null, couponMint bigint not null, Outcome_ID bigint, claim bigint not null, unaryAssets bit, maxPrice double, primary key (MARKETS_ID), unique (Outcome_ID))
+create table MARKETMAKER (MARKETMAKER_ID bigint not null, MarketMaker_TYPE varchar(255) not null, beta double, market bigint not null, accounts bigint not null, probability double, primary key (MARKETMAKER_ID), unique (market), unique (accounts))
+create table MM_Probabilities (MARKETMAKER_ID bigint not null, Probability double not null, POSITIONS_ID bigint not null, primary key (MARKETMAKER_ID, POSITIONS_ID))
+create table MOCKDATA (DATUM_ID bigint not null, title varchar(255), primary key (DATUM_ID))
+create table ORDERREMOVALS (ORDERREMOVAL_ID bigint not null, owner varchar(255), price double, quantity double, quantityFulfilled double, quantityVoided double, time timestamp, pos bigint not null, primary key (ORDERREMOVAL_ID))
+create table ORDER_TBL (ORDER_ID bigint not null, price double, quantity double, quantityFulfilled double, quantityVoided double, USER_ID bigint not null, POSITIONS_ID bigint not null, primary key (ORDER_ID))
+create table OUTCOME (OUTCOME_ID bigint not null, OUTCOME_TYPE varchar(255) not null, continuous bit, POSITIONS_ID bigint, primary key (OUTCOME_ID))
+create table POSITIONS (POSITIONS_ID bigint not null, name varchar(255), CLAIMS_ID bigint not null, idx integer, primary key (POSITIONS_ID))
+create table REDEMPTIONS (Redemption_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (Redemption_ID))
+create table SELFDEALING (SELFDEALING_ID bigint not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, primary key (SELFDEALING_ID))
+create table SORTEDORDERS (SORTEDORDERS_ID bigint not null, POSITIONS_ID bigint not null, primary key (SORTEDORDERS_ID))
+create table SORTEDORDERS_POS_ORDER (SORTEDORDERS_ID bigint not null, ORDER_ID bigint not null, primary key (SORTEDORDERS_ID, ORDER_ID), unique (ORDER_ID))
+create table TRADES (TRADE_ID bigint not null, TRADE_TYPE varchar(255) not null, owner varchar(255), price double, quantity double, time timestamp, pos bigint not null, openingPrice double, closingPrice double, primary key (TRADE_ID))
+create table UNCONFIRMED_USERS (USER_ID bigint not null, name varchar(255), emailAddress varchar(255), password varchar(255), confirmationToken varchar(255), primary key (USER_ID))
+create table USERS (USER_ID bigint not null, name varchar(255), email varchar(255), hashedPassword varbinary(255), accounts bigint not null, primary key (USER_ID), unique (accounts))
+alter table ACCOUNTS add constraint FKAF43ABE618085ABA foreign key (cash) references FUNDSS
+alter table ACCOUNT_HOLDINGS add constraint FKAB0B6C023AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table ACCOUNT_HOLDINGS add constraint FKAB0B6C02F513C021 foreign key (ACCOUNTS_ID) references ACCOUNTS
+alter table ACCOUNT_HOLDINGS add constraint FKAB0B6C024BC7993 foreign key (COUPONS_ID) references COUPONS
+alter table ASKS add constraint FK1ECD1A38904A85 foreign key (pos) references POSITIONS
+alter table BEST_ASKS add constraint FKF4AB869538904A85 foreign key (pos) references POSITIONS
+alter table BEST_BIDS add constraint FKF4ABD49138904A85 foreign key (pos) references POSITIONS
+alter table BIDS add constraint FK1F1B1638904A85 foreign key (pos) references POSITIONS
+alter table BOOK add constraint FK1F32E94C01F0EF foreign key (claim) references CLAIMS
+alter table BOOK add constraint FK1F32E978D5D654 foreign key (market) references MARKET
+alter table BOOK_OFFERS add constraint FK21F087AD3AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table BOOK_OFFERS add constraint FK21F087ADAF241F6D foreign key (SORTEDORDERS_ID) references SORTEDORDERS
+alter table BOOK_OFFERS add constraint FK21F087AD458F91F6 foreign key (BOOK_ID) references BOOK
+alter table CASHBANKS add constraint FKD3585E44B5A0569A foreign key (token) references CURRENCYTOKENS
+alter table CBANK_POS_TOKENS add constraint FKB63B09459E4F249B foreign key (positions) references POSITIONS
+alter table CBANK_POS_TOKENS add constraint FKB63B0945152634D3 foreign key (CURRENCYTOKEN_ID) references CURRENCYTOKENS
+alter table CBANK_POS_TOKENS add constraint FKB63B0945A95DC501 foreign key (COUPONBANK_ID) references COUPONBANKS
+alter table CLAIMS add constraint FK76A253B7CB114E02 foreign key (owner) references USERS
+alter table COUPONBANKS add constraint FKE782A5316A36D033 foreign key (FUNDS_ID) references FUNDSS
+alter table COUPONBANKS add constraint FKE782A5317E3EEE70 foreign key (claim) references CLAIMS
+alter table COUPONS add constraint FK63E3B8ED3AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table COUPONS add constraint FK63E3B8EDB5A0569A foreign key (token) references CURRENCYTOKENS
+alter table FUNDSS add constraint FK7C4587E5B5A0569A foreign key (token) references CURRENCYTOKENS
+alter table MARKET add constraint FK871F883C760F7B71 foreign key (couponMint) references COUPONBANKS
+alter table MARKET add constraint FK871F883C7E3EEE70 foreign key (claim) references CLAIMS
+alter table MARKET add constraint FK871F883CF5AE661E foreign key (Outcome_ID) references OUTCOME
+alter table MARKET add constraint FK871F883CCB114E02 foreign key (owner) references USERS
+alter table MARKETMAKER add constraint FK9213FD6878D5D654 foreign key (market) references MARKET
+alter table MARKETMAKER add constraint FK9213FD68420317F3 foreign key (accounts) references ACCOUNTS
+alter table MM_Probabilities add constraint FK1D59E3143AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table MM_Probabilities add constraint FK1D59E3145AE3447D foreign key (MARKETMAKER_ID) references MARKETMAKER
+alter table ORDERREMOVALS add constraint FK3E1573538904A85 foreign key (pos) references POSITIONS
+alter table ORDER_TBL add constraint FK8ED4BB0D3AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table ORDER_TBL add constraint FK8ED4BB0DBBF8495E foreign key (USER_ID) references USERS
+alter table OUTCOME add constraint FKE8D793323AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table POSITIONS add constraint FKBD89C4A66AE28D7 foreign key (CLAIMS_ID) references CLAIMS
+alter table REDEMPTIONS add constraint FK6170EF8838904A85 foreign key (pos) references POSITIONS
+alter table SELFDEALING add constraint FK10726B0A38904A85 foreign key (pos) references POSITIONS
+alter table SORTEDORDERS add constraint FKEF719BE23AA42D41 foreign key (POSITIONS_ID) references POSITIONS
+alter table SORTEDORDERS_POS_ORDER add constraint FKD8B355466DA91987 foreign key (ORDER_ID) references ORDER_TBL
+alter table SORTEDORDERS_POS_ORDER add constraint FKD8B35546AF241F6D foreign key (SORTEDORDERS_ID) references SORTEDORDERS
+alter table TRADES add constraint FK93F92F8F38904A85 foreign key (pos) references POSITIONS
+alter table USERS add constraint FK4D495E8420317F3 foreign key (accounts) references ACCOUNTS
+DISCONNECT
+/*C7*/INSERT INTO CURRENCYTOKENS VALUES(1,'ignore')
+COMMIT
+INSERT INTO FUNDSS VALUES(1,0.0E0,1)
+INSERT INTO ACCOUNTS VALUES(1,1)
+INSERT INTO USERS VALUES(1,'owner','someone@example.com','d015cc465bdb4e51987df7fb870472d3fb9a3505',1)
+COMMIT
+INSERT INTO CLAIMS VALUES(1,'BIN','actualClaim',1,'FirstClaim')
+INSERT INTO POSITIONS VALUES(1,'yes',1,NULL)
+INSERT INTO POSITIONS VALUES(2,'no',1,NULL)
+DELETE FROM POSITIONS WHERE POSITIONS_ID=1
+INSERT INTO POSITIONS VALUES(1,'yes',1,0)
+DELETE FROM POSITIONS WHERE POSITIONS_ID=2
+INSERT INTO POSITIONS VALUES(2,'no',1,1)
+COMMIT
+INSERT INTO CLAIMS VALUES(2,'BIN','actualClaim',1,'secondClaim')
+INSERT INTO POSITIONS VALUES(3,'yes',2,NULL)
+INSERT INTO POSITIONS VALUES(4,'no',2,NULL)
+DELETE FROM POSITIONS WHERE POSITIONS_ID=3
+INSERT INTO POSITIONS VALUES(3,'yes',2,0)
+DELETE FROM POSITIONS WHERE POSITIONS_ID=4
+INSERT INTO POSITIONS VALUES(4,'no',2,1)
+COMMIT
+/*C9*/SET SCHEMA PUBLIC
+CONNECT USER SA
+SET AUTOCOMMIT FALSE
+/*C10*/SET SCHEMA PUBLIC
+CONNECT USER SA
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+DISCONNECT

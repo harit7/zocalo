@@ -1,0 +1,75 @@
+
+sessionTitle: privateDividends
+rounds: 3
+players: traderA, traderB, traderC, traderD
+roles: trader1, trader2
+
+# in minutes
+timeLimit: 2
+
+traderA.role: trader1
+traderB.role: trader1
+traderC.role: trader2
+traderD.role: trader2
+
+initialHint: Trading has not started yet.
+
+endowment.trader1: 200
+tickets.trader1: 5
+endowment.trader2: 150
+tickets.trader2: 10
+
+betterPriceRequired: false
+useUnaryAssets: false
+
+# These values are specified by round.
+commonMessage:        raisePrice, changePrice, noMessage
+actualValue:          0,          100,         40
+
+traderA.payCommonDividend: no
+traderA.privateDividends: 300, 200, 100
+traderB.payCommonDividend: yes, no, yes
+traderB.privateDividends: 10, 400, 200
+traderC.payCommonDividend: yes
+traderC.privateDividends: 80, 40, 20
+# traderD unmentioned here; payCommon defaults true, privateDiv is 0
+
+# These values are specified by Player and Round.
+
+traderA.hint:         not100,     not40,       not100
+traderB.hint:         not40,      notZero,     notZero
+traderC.hint:        not100,     notZero,     notZero
+traderD.hint:        not40,        not40,       not100
+
+# text labels can be used in hints or commonMessage
+
+not100: The ticket value is not 100.
+not40: The ticket value is not 40.
+notZero: The ticket value is not 0.
+noMessage:
+raisePrice: Some players are trying to raise the apparent price
+changePrice: Some players are trying to change the apparent price
+
+# The following strings override default value labels used in the interface to
+#describe score computations.  If no value or an illegal value is provided the
+#default will be used.
+
+# Provide a value to replace "Your clue", which describes hints given to a
+#particular trader in an experiment.
+
+messageLabel: Your clue
+
+#Provide a value to replace "Shared Message", which describes a hint given to
+#all traders in an experiment.
+
+commonMessageLabel: Shared Message
+
+#Provide a value to replace "Actual Ticket Value", which describes the value
+#of each coupon a trader might hold in an experiment
+
+actualValueLabel: Actual Ticket Value
+
+#Provide a value to replace the description of the Total Asset Value.  If the
+#string doesn't follow the format of the default, the HTML display may not work
+
+totalAssetsLabel: Total Asset Value<br><font size='-2'>(cash + tickets)</font>

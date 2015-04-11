@@ -1,0 +1,207 @@
+03/10 06:17:29.542/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 06:17:29.545/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 06:17:29.618/IST   INFO -        trace -    creating AllMarkets
+03/10 06:17:31.335/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 06:17:31.335/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 06:17:38.815/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 06:34:24.175/IST   WARN -    UserError - 44# told User(logging in) "Please type an account name and password".
+03/10 06:35:20.015/IST   WARN -    UserError - 45# told User(logging in) "unknown account or password".
+03/10 06:35:21.474/IST   WARN -    UserError - 46# told User(logging in) "unknown account or password".
+03/10 06:35:22.726/IST   WARN -    UserError - 47# told User(logging in) "unknown account or password".
+03/10 06:35:35.785/IST   WARN -    UserError - 48# told User(logging in) "unknown account or password".
+03/10 06:35:36.494/IST   WARN -    UserError - 49# told User(logging in) "unknown account or password".
+03/10 06:36:00.936/IST   WARN -    UserError - 50# told User(logging in) "unknown account or password".
+03/10 06:36:48.975/IST   WARN -    UserError - 51# told User(logging in) "unknown account or password".
+03/10 06:36:49.715/IST   WARN -    UserError - 52# told User(logging in) "unknown account or password".
+03/10 06:37:27.609/IST   WARN -    UserError - 53# told User(logging in) "<font color=red size=5><b>Oops! That password doesn't qualify! You must have at least 7 characters, with at least one being a number.</b></font>".
+03/10 06:38:32.039/IST   WARN -    UserError - 54# told User(logging in) "Please enter a username.".
+03/10 06:39:19.726/IST   WARN -    UserError - 55# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 06:39:32.047/IST   WARN -    UserError - 56# told User(logging in) "Please type an account name and password".
+03/10 06:40:13.226/IST   WARN -    UserError - 57# told User(logging in) "Congratulations rohit! You're now done. Now Jump in!".
+03/10 06:40:13.261/IST   WARN -    UserError - 58# told User(logging in) "Please type an account name and password".
+03/10 06:40:49.197/IST   WARN -    UserError - 59# told User(logging in) "<font color=red size=5><b>Oops! That password doesn't qualify! You must have at least 7 characters, with at least one being a number.</b></font>".
+03/10 06:41:46.842/IST   WARN -    UserError - 60# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 06:41:49.938/IST   WARN -    UserError - 61# told rohit "the price is already higher than you requested.".
+03/10 06:42:28.906/IST  DEBUG -      Trading - rohit wants to buy South Africa with limit of 25 @ 12.
+03/10 06:42:28.921/IST   INFO -  PriceAction - 62# rohit traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 11.1111 to 11
+03/10 06:42:28.922/IST   INFO -  PriceAction - 63# rohit traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 11.1111 to 11
+03/10 06:42:28.923/IST   INFO -  PriceAction - 64# rohit traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 11.1111 to 11
+03/10 06:42:28.923/IST   INFO -  PriceAction - 65# rohit traded with the market maker for 0 of Who is the Champion:India changing the price from 11.1111 to 11
+03/10 06:42:28.924/IST   INFO -  PriceAction - 66# rohit traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 11.1111 to 11
+03/10 06:42:28.924/IST   INFO -  PriceAction - 67# rohit traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 11.1111 to 11
+03/10 06:42:28.925/IST   INFO -  PriceAction - 68# rohit traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 11.1111 to 11
+03/10 06:42:28.925/IST   INFO -  PriceAction - 69# rohit traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 11.1111 to 11
+03/10 06:42:28.926/IST   INFO -  PriceAction - 70# rohit traded with the market maker for 0.396 of Who is the Champion:South Africa changing the price from 11.1111 to 12
+03/10 06:42:28.927/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:West Indies: 11, Who is the Champion:Bangladesh: 11, Who is the Champion:New Zealand: 11, Who is the Champion:India: 11, Who is the Champion:Austrailia: 11, Who is the Champion:Sri Lanka: 11, Who is the Champion:Pakistan: 11, Who is the Champion:Ireland: 11, Who is the Champion:South Africa: 12
+03/10 06:42:28.928/IST   WARN -    UserError - 71# told rohit "Bought 0.396 shares of the team.".
+03/10 06:42:29.176/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 06:43:03.870/IST  DEBUG -      Trading - rohit wants to buy Pakistan with limit of 25 @ 11.
+03/10 06:43:17.413/IST  DEBUG -      Trading - rohit wants to buy Pakistan with limit of 25 @ 11.
+03/10 06:43:40.308/IST  DEBUG -      Trading - rohit wants to buy New Zealand with limit of 25 @ 11.
+03/10 06:44:13.657/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 25 @ 20.
+03/10 06:44:39.894/IST  DEBUG -      Trading - rohit wants to sell Bangladesh with limit of 25 @ 19.
+03/10 06:44:39.903/IST   INFO -  PriceAction - 153# rohit traded with the market maker for -0.919 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 19
+03/10 06:44:39.904/IST   INFO -  PriceAction - 154# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 80 to 81
+03/10 06:44:39.904/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 19, India vs Bangladesh Quarter Final:India: 81
+03/10 06:44:39.905/IST   WARN -    UserError - 155# told rohit "Sold 0.919 shares of the team.".
+03/10 06:44:39.979/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:44:56.217/IST   WARN -    UserError - 168# told User(logging in) "Congratulations JayG! You're now done. Now Jump in!".
+03/10 06:44:56.460/IST   WARN -    UserError - 169# told User(logging in) "Please type an account name and password".
+03/10 06:45:03.778/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 25 @ 19.
+03/10 06:45:03.835/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:45:14.230/IST   WARN -    UserError - 172# told User(logging in) "unknown account or password".
+03/10 06:45:20.183/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 25 @ 20.
+03/10 06:45:20.191/IST   INFO -  PriceAction - 173# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 81 to 80
+03/10 06:45:20.192/IST   INFO -  PriceAction - 174# rohit traded with the market maker for 0.919 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 19 to 20
+03/10 06:45:20.239/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:45:20.239/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 80, India vs Bangladesh Quarter Final:Bangladesh: 20
+03/10 06:45:20.241/IST   WARN -    UserError - 175# told rohit "Bought 0.919 shares of the team.".
+03/10 06:45:20.305/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:45:37.542/IST  DEBUG -      Trading - rohit wants to buy India with limit of 25 @ 80.
+03/10 06:45:37.596/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:45:46.343/IST  DEBUG -      Trading - rohit wants to buy India with limit of 25 @ 80.
+03/10 06:46:02.702/IST  DEBUG -      Trading - rohit wants to buy India with limit of 25 @ 90.
+03/10 06:46:02.710/IST   INFO -  PriceAction - 188# rohit traded with the market maker for 11.699 of India vs Bangladesh Quarter Final:India changing the price from 80 to 90
+03/10 06:46:02.710/IST   INFO -  PriceAction - 189# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 10
+03/10 06:46:02.758/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:46:02.758/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 90, India vs Bangladesh Quarter Final:Bangladesh: 10
+03/10 06:46:02.760/IST   WARN -    UserError - 190# told rohit "Bought 11.699 shares of the team.".
+03/10 06:46:02.821/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:46:34.408/IST  DEBUG -      Trading - rohit wants to liquidate India
+03/10 06:46:34.416/IST   INFO -  PriceAction - 197# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 10 to 20
+03/10 06:46:34.417/IST   INFO -  PriceAction - 198# rohit traded with the market maker for -11.699 of India vs Bangladesh Quarter Final:India changing the price from 90 to 80
+03/10 06:46:34.461/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:46:34.462/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 06:46:34.504/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:46:34.505/IST   WARN -    UserError - 199# told rohit "Sold 11.699".
+03/10 06:46:59.714/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 25 @ 50.
+03/10 06:46:59.721/IST   INFO -  PriceAction - 206# rohit traded with the market maker for 20 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 50
+03/10 06:46:59.721/IST   INFO -  PriceAction - 207# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 80 to 50
+03/10 06:46:59.772/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:46:59.773/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 50, India vs Bangladesh Quarter Final:India: 50
+03/10 06:46:59.774/IST   WARN -    UserError - 210# told rohit "Bought 20 shares of the team.".
+03/10 06:46:59.839/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:47:11.697/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:47:17.337/IST  DEBUG -      Trading - rohit wants to liquidate Bangladesh
+03/10 06:47:17.345/IST   INFO -  PriceAction - 221# rohit traded with the market maker for -20 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 20
+03/10 06:47:17.345/IST   INFO -  PriceAction - 222# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 50 to 80
+03/10 06:47:17.395/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:47:17.396/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 06:47:17.445/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:47:17.445/IST   WARN -    UserError - 223# told rohit "Sold 20.000".
+03/10 06:47:32.894/IST  DEBUG -      Trading - rohit wants to sell India with limit of 25 @ 20.
+03/10 06:47:32.901/IST   INFO -  PriceAction - 234# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 80
+03/10 06:47:32.901/IST   INFO -  PriceAction - 235# rohit traded with the market maker for -40 of India vs Bangladesh Quarter Final:India changing the price from 80 to 20
+03/10 06:47:32.950/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:47:32.950/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 80, India vs Bangladesh Quarter Final:India: 20
+03/10 06:47:32.952/IST   WARN -    UserError - 238# told rohit "Sold 40 shares of the team.".
+03/10 06:47:33.016/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:48:05.564/IST  DEBUG -      Trading - rohit wants to liquidate Bangladesh
+03/10 06:48:05.573/IST   INFO -  PriceAction - 253# rohit traded with the market maker for -40 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 80 to 20
+03/10 06:48:05.573/IST   INFO -  PriceAction - 254# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 20 to 80
+03/10 06:48:05.621/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:48:05.622/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 06:48:05.669/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:48:05.670/IST   WARN -    UserError - 255# told rohit "Sold 40.000".
+03/10 06:48:17.921/IST  DEBUG -      Trading - JayG wants to buy India with limit of 2500 @ 80.
+03/10 06:48:37.735/IST  DEBUG -      Trading - JayG wants to buy India with limit of 2500 @ 80.
+03/10 06:48:58.230/IST  DEBUG -      Trading - rohit wants to sell India with limit of 25 @ 20.
+03/10 06:48:58.237/IST   INFO -  PriceAction - 270# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 80
+03/10 06:48:58.238/IST   INFO -  PriceAction - 271# rohit traded with the market maker for -40 of India vs Bangladesh Quarter Final:India changing the price from 80 to 20
+03/10 06:48:58.286/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:48:58.286/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 80, India vs Bangladesh Quarter Final:India: 20
+03/10 06:48:58.288/IST   WARN -    UserError - 274# told rohit "Sold 40 shares of the team.".
+03/10 06:48:58.353/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:49:17.807/IST  DEBUG -      Trading - rohit wants to liquidate Bangladesh
+03/10 06:49:17.815/IST   INFO -  PriceAction - 293# rohit traded with the market maker for -40 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 80 to 20
+03/10 06:49:17.815/IST   INFO -  PriceAction - 294# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 20 to 80
+03/10 06:49:17.857/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:49:17.858/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 06:49:17.900/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:49:17.900/IST   WARN -    UserError - 295# told rohit "Sold 40.000".
+03/10 06:49:39.317/IST  DEBUG -      Trading - rohit wants to sell India with limit of 25 @ 20.
+03/10 06:49:39.324/IST   INFO -  PriceAction - 314# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 80
+03/10 06:49:39.324/IST   INFO -  PriceAction - 315# rohit traded with the market maker for -40 of India vs Bangladesh Quarter Final:India changing the price from 80 to 20
+03/10 06:49:39.372/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:49:39.372/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 80, India vs Bangladesh Quarter Final:India: 20
+03/10 06:49:39.374/IST   WARN -    UserError - 318# told rohit "Sold 40 shares of the team.".
+03/10 06:49:39.431/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:51:00.416/IST  DEBUG -      Trading - rohit wants to liquidate Bangladesh
+03/10 06:51:00.424/IST   INFO -  PriceAction - 341# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 20 to 80
+03/10 06:51:00.425/IST   INFO -  PriceAction - 342# rohit traded with the market maker for -40 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 80 to 20
+03/10 06:51:00.476/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:51:00.477/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 80, India vs Bangladesh Quarter Final:Bangladesh: 20
+03/10 06:51:00.520/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:51:00.521/IST   WARN -    UserError - 375# told rohit "Sold 40.000".
+03/10 06:51:31.421/IST  DEBUG -      Trading - rohit wants to sell India with limit of 25 @ 20.
+03/10 06:51:31.428/IST   INFO -  PriceAction - 398# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 80
+03/10 06:51:31.429/IST   INFO -  PriceAction - 399# rohit traded with the market maker for -40 of India vs Bangladesh Quarter Final:India changing the price from 80 to 20
+03/10 06:51:31.474/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:51:31.474/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 80, India vs Bangladesh Quarter Final:India: 20
+03/10 06:51:31.475/IST   WARN -    UserError - 402# told rohit "Sold 40 shares of the team.".
+03/10 06:51:31.528/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:54:01.695/IST  DEBUG -      Trading - rohit wants to buy Austrailia with limit of 25 @ 11.
+03/10 06:54:46.577/IST  DEBUG -      Trading - rohit wants to buy Austrailia with limit of 25 @ 25.
+03/10 06:54:46.587/IST   INFO -  PriceAction - 447# rohit traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 11 to 9.2697
+03/10 06:54:46.587/IST   INFO -  PriceAction - 448# rohit traded with the market maker for 0 of Who is the Champion:India changing the price from 11 to 9.2697
+03/10 06:54:46.588/IST   INFO -  PriceAction - 449# rohit traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 11 to 9.2697
+03/10 06:54:46.588/IST   INFO -  PriceAction - 450# rohit traded with the market maker for 4.515 of Who is the Champion:Austrailia changing the price from 11 to 25
+03/10 06:54:46.589/IST   INFO -  PriceAction - 451# rohit traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 11 to 9.2697
+03/10 06:54:46.589/IST   INFO -  PriceAction - 452# rohit traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 12 to 10.1124
+03/10 06:54:46.590/IST   INFO -  PriceAction - 453# rohit traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 11 to 9.2697
+03/10 06:54:46.590/IST   INFO -  PriceAction - 454# rohit traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 11 to 9.2697
+03/10 06:54:46.591/IST   INFO -  PriceAction - 455# rohit traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 11 to 9.2697
+03/10 06:54:46.651/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 06:54:46.652/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:Bangladesh: 9, Who is the Champion:India: 9, Who is the Champion:New Zealand: 9, Who is the Champion:Austrailia: 25, Who is the Champion:Pakistan: 9, Who is the Champion:South Africa: 10, Who is the Champion:Ireland: 9, Who is the Champion:West Indies: 9, Who is the Champion:Sri Lanka: 9
+03/10 06:54:46.653/IST   WARN -    UserError - 510# told rohit "Bought 4.515 shares of the team.".
+03/10 06:54:46.725/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 06:57:10.818/IST  DEBUG -      Trading - rohit wants to buy India with limit of 30 @ 20.
+03/10 06:57:10.871/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 06:57:20.868/IST  DEBUG -      Trading - rohit wants to buy India with limit of 40 @ 20.
+03/10 06:58:26.026/IST   WARN -    UserError - 617# told rohit "price must be greater than 0 and less than 100.".
+03/10 06:58:32.408/IST   WARN -    UserError - 644# told rohit "price must be greater than 0 and less than 100.".
+03/10 06:58:57.970/IST   WARN -    UserError - 671# told rohit "price must be greater than 0 and less than 100.".
+03/10 07:00:33.329/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 2 @ 90.
+03/10 07:00:33.337/IST   INFO -  PriceAction - 698# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 20 to 17.411
+03/10 07:00:33.338/IST   INFO -  PriceAction - 699# rohit traded with the market maker for 2.459 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 80 to 82.589
+03/10 07:00:33.383/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:00:33.384/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 17, India vs Bangladesh Quarter Final:Bangladesh: 83
+03/10 07:00:33.385/IST   WARN -    UserError - 736# told rohit "Bought 2.459 shares of the team.".
+03/10 07:00:33.439/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:00:45.025/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 2 @ 90.
+03/10 07:00:45.032/IST   INFO -  PriceAction - 765# rohit traded with the market maker for 2.388 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 82.589 to 84.8428
+03/10 07:00:45.033/IST   INFO -  PriceAction - 766# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 17.411 to 15.1572
+03/10 07:00:45.075/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:00:45.076/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 85, India vs Bangladesh Quarter Final:India: 15
+03/10 07:00:45.076/IST   WARN -    UserError - 767# told rohit "Bought 2.388 shares of the team.".
+03/10 07:00:45.137/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:00:59.241/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 2 @ 90.
+03/10 07:00:59.250/IST   INFO -  PriceAction - 798# rohit traded with the market maker for 2.33 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 84.8428 to 86.8049
+03/10 07:00:59.250/IST   INFO -  PriceAction - 799# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 15.1572 to 13.1951
+03/10 07:00:59.297/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:00:59.298/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 87, India vs Bangladesh Quarter Final:India: 13
+03/10 07:00:59.299/IST   WARN -    UserError - 800# told rohit "Bought 2.33 shares of the team.".
+03/10 07:00:59.356/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:02:04.276/IST  DEBUG -      Trading - rohit wants to buy India with limit of 2 @ 90.
+03/10 07:02:04.283/IST   INFO -  PriceAction - 833# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 86.8049 to 75.5681
+03/10 07:02:04.283/IST   INFO -  PriceAction - 834# rohit traded with the market maker for 10.888 of India vs Bangladesh Quarter Final:India changing the price from 13.1951 to 24.4319
+03/10 07:02:04.333/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:02:04.334/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 76, India vs Bangladesh Quarter Final:India: 24
+03/10 07:02:04.335/IST   WARN -    UserError - 877# told rohit "Bought 10.888 shares of the team.".
+03/10 07:02:04.396/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:02:53.646/IST  DEBUG -      Trading - rohit wants to buy India with limit of 2 @ 80.
+03/10 07:02:53.653/IST   INFO -  PriceAction - 912# rohit traded with the market maker for 6.858 of India vs Bangladesh Quarter Final:India changing the price from 24.4319 to 34.2142
+03/10 07:02:53.653/IST   INFO -  PriceAction - 913# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 75.5681 to 65.7858
+03/10 07:02:53.700/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:02:53.701/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 34, India vs Bangladesh Quarter Final:Bangladesh: 66
+03/10 07:02:53.702/IST   WARN -    UserError - 914# told rohit "Bought 6.858 shares of the team.".
+03/10 07:02:53.760/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:03:12.480/IST  DEBUG -      Trading - rohit wants to buy Bangladesh with limit of 2 @ 70.
+03/10 07:03:12.487/IST   INFO -  PriceAction - 951# rohit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 34.2142 to 30
+03/10 07:03:12.488/IST   INFO -  PriceAction - 952# rohit traded with the market maker for 2.792 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 65.7858 to 70
+03/10 07:03:12.535/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:03:12.536/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 30, India vs Bangladesh Quarter Final:Bangladesh: 70
+03/10 07:03:12.537/IST   WARN -    UserError - 953# told rohit "Bought 2.792 shares of the team.".
+03/10 07:03:12.595/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:29:43.553/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 07:30:48.188/IST   WARN -    UserError - 1056# told User(logging in) "Please type an account name and password".

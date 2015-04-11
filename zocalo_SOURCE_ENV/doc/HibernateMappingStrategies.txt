@@ -1,0 +1,229 @@
+				   GETTERS AND SETTERS AND PROXIES
+
+CGLib's Proxy objects extend persistent Classes and execute the base class (or inherited) methods.  They override the getter and setter methods to return the actual state.  When methods of a base class are private, subclasses can't override them.  This particularly impacts the getter and setter methods, but would also effect any other method that accesses the base class's instance variables directly.  The recommendation from Hibernate is to always use getters and setters to access instance variables, even inside an object's methods.  (The one exception I've identified is that constructors can safely access instance state, since that code doesn't execute in the proxies, it use the no-arg constructors exclusively.)
+
+This means that when you are working with Hibernate, Getter and Setter methods should never be private.  In turn, this means that the compiler will allow (at the least) other classes in the same package to call the getters and setters.  The only mechanism I know of that can help monitor this and make it possible to manually ensure that they aren't used (when the getters and setters should have been private) is to declare them deprecated. 
+
+Since persistent objects may be replaced by Hibernate's proxies at runtime, all access to fields should go through the getters and setters that Hibernate knows to override in the proxies.  When the getters and setters provide access that doesn't violate least authority, the deprecation can be dropped, and the protection changed to whatever makes sense.  When the getters and setters should have been private in order to allow the class itself (but no one else) to access the state, I'll define secondary private accessors, dropping the "get" and "set" portion of the name.
+
+The general rule is always deprecate getFoo() and setFoo() unless they should be accessible to acquaintences of the class.  When the class itself needs access to the fields, but no one else should have access, declare private foo() and foo(f).
+
+===============================================
+							 COLLECTIONS
+
+The following descriptions are from chapters 7 and 8 of the Hibernate 3.0.5 Reference manual, and the CheatSheet at http://ndpsoftware.com/HibernateMappingCheatSheet.html.
+
+    Ref Man description        Ref Man      Description
+
+Unidirectional one to one FK   8.2.2        X records 1 Y, only one X per Y, no inverse
+Unidirectional one to many JT  8.3.1        X finds many Y via external table
+Unidirectional many to one     8.2.1        X records 1 Y, no inverse (Simple Reference Ch)
+Unidirectional many to one JT  8.3.2        X finds its unique Y via external table
+Unidirectional many to many JT 8.3.4        X finds many Y via external table
+Bidirectional one to one FK    8.4.2        X records 1 Y, Y knows unique X via inverse
+Bidirectional one to many / many to one 8.4.1 each X knows one Y.  Y finds many X via inverse
+Bidirectional one to many / many to one JT 8.5.1 external table. unique in one direction
+Bidirectional many to many JT  8.5.3 (7.3.2) external table.  not unique
+Top-level Collection (Ch)    (stored outside any class)
+exernal mapping (FK)  7.2.3
+
+These are all the variants I used: 
+
+*:1   8.2.1       *:1:u 8.2.2      *:1:u:i  8.4.2
+
+1:*:J   8.3.1     *:1:i 8.4.1      collection  7.2.3    1:*:u  8.3.1
+
+
+These are the mappings used for each class relationship:
+
+*:1     BinaryClaim records Owner.  no inverse
+*:1:i   Position records BinaryClaim.  BinaryClaims can get list of Position
+*:1:u   CashBank records Token.   no inverse
+*:1     Coupon records Position.   no inverse
+*:1     Coupon records Token. no inverse.  Eager fetch (outer join)
+*:1     Fund   records Token. no inverse.  Eager fetch (outer join)
+*:1     Order  records Position. no inverse
+*:1:i   Order  records Owner.  Owner can get list of owned Order
+*:1:u   User   records Account.  no inverse
+*:1:u   CouponBank records Funds.  no inverse
+*:1     CouponBank records Claim.  no inverse
+*:1     Account records Fund.  no inverse
+*:1:u   Markets records CouponBank (mint).  no inverse
+*:1:u   Markets records Claim.  no inverse.  
+*1:u    Markets record Outcomes.  no Inverse.  Outcome has table-per-hierarchy, so not "not-null".
+
+1:*:J   CouponBank know their Tokens via an external map on Positions.  no inverse. 
+
+*:1     Book records Claim.  no inverse
+*:1:u:i Book        records Market; Market knows Book via inverse
+1:*:J   Book know their SortedOrders via an external map on Positions.  no inverse. 
+
+1:*:u   SortedOrders know their Order via an external Set.  no inverse
+
+*:1:u:i MarketMaker records Market; Market knows MarketMaker via inverse
+
+
+CouponBank has a map from Position-names to Tokens (all positions are for the same claim)
+Account    has a map from Positions      to Coupons (No restrictions on Positions)
+
+O holds a map from K to V:
+ <map table=o_k_v >
+   <key column=o_id not-null="true">    collection key (collection owner)  O  
+   <map-key-many-to-many column=K_id class=K>           collection index   K
+   <many-to-many column=V_ID class=V not-found=ignore>  collection element V
+
+
+
+  *:1:u  1:*:i
+Each object of Class A points to at most one B.  Each B is pointed to only once.  A and B lifetimes are independent.  Associations may be fluid.
+
+Each object of Class A points to one of Class B, but Bs can exist in other contexts.  A class that nearly always has a pointer to a single object of another class, but the other object sometimes appears in other contexts, so 1:1 doesn't work.
+
+Each object of Class A points to one of Class B, but multiple As can share the same B.  If each B knows about all its As, this is one-to-many.  One represention is 1:* on one end, and a virtual set on the other.
+
+There are various kinds of associations.  It may be that one object "owns" another, and that you can be sure either that there will always be a unique owner, or that there will always be a unique owned object.  In these cases, you can use 1:* on one end and *:1 on the other.
+
+
+  *:* associations must be maintained in a separate table.  If you are representing nodes in a directional graph, the table needs a separate entry for each source and each destination.  If sets of associations might be reused or shared, then you'll need an additional column to represent the collection each pair of nodes belongs to.  You can refer to the collection of pairs using the collection's id.
+
+  1:1 one-to-one is only useful for situations where two classes are very strongly associated with one another.  Hibernate uses the same primary key for both, so it must be the case that one of them never appears without the other (The master could sometimes appear without the subsidiary, but not vice versa), and it's better if they are only ever created in tandem.
+
+Simple Reference (Ch)  *:1 --
+Basic Collection (Ch)  set --  (stored in second Class's table)
+Basic Collection inverted (Ch)  set *:1:i (stored in second Class's table)
+Collection (Ch) set set	     (stored in separate table)
+Top-level Collection (Ch)    (stored outside any class)
+Entity Map (Ch) map --- ---  (key is owning class; inndexed by one class)
+
+===============================================
+
+Things that confused me:
+
+1:1
+
+You don't usually have to specify the column; Hibernate will use the Primary Key (PK) of the table that holds the Class you specify as a Foreign Key (FK), and the column will be named the same as the PK in its table.
+
+name= is the name of the instance variable in the containing class
+
+When you have associations that are recorded as instance variables on both side of the relationship, Hibernate expects one side to be the master.  Usually, it makes sense to use the side that refers uniquely to the other, if there is one.  If there isn't, you'll probably have to use an external table.
+
+My hardest bug to find:
+
+unique=true
+
+Draw a diagram, and write down on it the arity, ownership, inversion, and uniqueness of each relationship.
+
+Every object that gets created needs to be identified to Hibernate as a persistent object.  You can do that by calling session.save(o) when it's created, or by storing the object in an instance variable that is annotated cascade=all or similar.
+
+===============================================
+
+					   INHERITANCE/POLYMORPHISM
+
+
+
+In my first round of working code, I had three Hierarchies that required mapping in Hibernate. One of them, I fudged: Funds and Coupons descend from Currency, but are not polymorphic in use, so I used two tables and didn't mention the inheritance to Hibernate.  The class Trade, which represents a record of a completed Trade has two subclasses: BookTrade and MakerTrade.  They have the same instance variables, so I used a discriminator and described them in Trade's mapping file.  The only subclass of Claim that I implemented was BinaryClaim, so I listed BinaryClaim in Claim's mapping.  I've added MultiClaim, and mapped it in the same file.
+
+I also need to add Binary and Multiple descendents of Market and MarketMaker.
+
+Market doesn't care.  Subclasses are only there in order to cast for parallelism. 
+
+MarketMaker BinaryMarketMaker MultiMarketMaker
+ MarketMaker has one price per position regardless (with the total constrained to 1).
+    BinaryMarketMaker has two probabilities
+    MultiMarketMaker has as many probabilities as positions
+ (We may eventually collapse the marketmakers back down)
+
+Claim BinaryClaim MultiClaim
+
+Book has two prices in Binary, and two prices per position for Multi.  But we'll deal
+with that later.  For now, there's just Book.
+
+===============================================
+
+                    Tracking trades and price changes
+
+Transaction
+  timestamp
+  (Market)   [Multiple markets could have the same Claim]
+  *Trade/Price Change   [multiple Trades/xaction]
+
+Trade
+  taker    USER_ID
+  quantity
+
+  bookTrade
+	order   ORDER_ID
+
+  MarketTrade
+    Position   POSITIONS_ID
+	open
+	close      (open and close are only recorded on market trades)
+
+Price Change
+  *best bid after    [in multi-markets, many prices can change/transaction]
+  *best ask after    [in multi-markets, many prices can change/transaction]
+
+Order     (no new Record type; add PriceChange when warranted)
+  buy/sell
+  price
+  quantity
+  quantityRemaining
+  owner       USER_ID
+  position    POSITIONS_ID
+
+Order Removal
+  order     ORDER_ID
+  quantityVoided
+
+Redemption
+  timestamp
+  position   POSITIONS_ID
+  price
+  quantity
+  holder    USER_ID
+
+new binary buy book order    b@25
+new binary sell book order   s@75
+binary book order away from frontier  b@10
+withdraw order in combined binary market  
+withdraw visible order in book-only binary market
+withdraw non-visible order in book-only binary market
+binary market order using up one book order
+binary market order partially satisfying one book order
+binary market order using up multiple book orders
+binary market order using up book and market orders
+market order in multi-market AMM
+
+Trace
+  XactionTrace
+  OrderTrace
+  TradeTrace
+	BookTradeTrace
+	MarketTradeTrace
+  OrderRemovalTrace
+  PriceChangeTrace
+  RedemptionTrace
+
+I want to create a transaction record during the transaction.  It should save the right data to the
+DB.  I then want to be able to retrieve a data series for a particular Position in order to be able
+to graph it.  (It appears that I'll have to manually populate the TimePeriodValuesCollection in
+order to graph it.  There are JDBC interface classes, but none retrieve TimePeriodValues.)
+
+retrieved as position ==> time-indexed data
+
+				Binary
+  time => open, close, quantity
+
+				Multi
+  time =>
+	  quantity
+  (Quantity might apply to a particular position or to all)
+	  position =>  Open, close
+
+			   Price Change
+  time =>
+	  position =>  Open, close
+
+Don't store quantity with price change.  It's available from the trade records.
+        (transaction=> {timestamp, Trade => quantity} )  for trades
+        (transaction=> {timestamp, Order => quantity} )  for orders

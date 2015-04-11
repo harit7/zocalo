@@ -1,0 +1,15 @@
+03/13 07:22:18.910/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 07:22:18.914/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 07:22:18.915/IST   INFO -   AllMarkets - version = 1
+03/13 07:22:18.995/IST   INFO -        trace -    creating AllMarkets
+03/13 07:22:19.824/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 07:22:20.738/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 07:22:20.738/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 07:22:36.576/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/13 07:22:53.827/IST  DEBUG -      Trading - test2 wants to sell Zimbabwe with limit of 25 @ 30.
+03/13 07:22:53.837/IST   WARN -   CouponBank - CouponBank received 0 instead of 145.100104 in printNewCouponSets().
+03/13 07:22:53.838/IST   INFO -  PriceAction - 48# test2 traded with the market maker for -145.1 of India vs Zimbabwe:Zimbabwe changing the price from 99.99 to 30
+03/13 07:22:53.842/IST   INFO -  PriceAction - 49# test2 traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 0.01 to 70
+03/13 07:22:53.843/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 30, India vs Zimbabwe:India: 70
+03/13 07:22:53.844/IST   WARN -    UserError - 50# told test2 "Sold 145.1 shares of the team.".
+03/13 07:22:54.103/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.

@@ -1,0 +1,28 @@
+04/06 11:20:13.507/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/06 11:20:13.510/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/06 11:20:13.568/IST   INFO -        trace -    creating AllMarkets
+04/06 11:20:15.209/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/06 11:20:15.209/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/06 11:20:24.007/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/06 11:20:34.265/IST   WARN -    UserError - 36# told User(logging in) "unknown account or password".
+04/06 11:20:49.613/IST   WARN -    UserError - 37# told User(logging in) "unknown account or password".
+04/06 11:20:57.512/IST   WARN -    UserError - 38# told User(logging in) "unknown account or password".
+04/06 11:21:05.884/IST   WARN -    UserError - 39# told User(logging in) "unknown account or password".
+04/06 11:21:33.815/IST   WARN -    UserError - 40# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 11:21:47.213/IST   WARN -    UserError - 41# told User(logging in) "Congratulations test1! You're now done. Now Jump in!".
+04/06 11:21:47.305/IST   WARN -    UserError - 42# told User(logging in) "Please type an account name and password".
+04/06 11:22:52.204/IST   WARN -    UserError - 43# told User(logging in) "Please type an account name and password".
+04/06 11:22:54.369/IST   WARN -    UserError - 44# told User(logging in) "Sorry! This account name is unavailable. Please try another one. test1".
+04/06 11:23:28.418/IST   WARN -    UserError - 45# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 11:23:38.031/IST   WARN -    UserError - 46# told User(logging in) "Congratulations testadmin! You're now done. Now Jump in!".
+04/06 11:23:38.180/IST   WARN -    UserError - 47# told User(logging in) "Please type an account name and password".
+04/06 11:23:56.024/IST   WARN -    UserError - 48# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/06 11:24:07.347/IST   WARN -    UserError - 49# told User(logging in) "unknown account or password".
+04/06 11:24:27.438/IST   WARN -    UserError - 50# told testadmin "Please specify a name for the market.".
+04/06 11:24:35.039/IST   INFO -   Transition - 51# State transition: new Multi Market, round: 0.
+04/06 11:24:35.040/IST   INFO -  PriceAction - 52# testadmin traded with the market maker for 0 of market1:yes at 33.3333
+04/06 11:24:35.042/IST   INFO -  PriceAction - 53# testadmin traded with the market maker for 0 of market1:no at 33.3333
+04/06 11:24:35.042/IST   INFO -  PriceAction - 54# testadmin traded with the market maker for 0 of market1:maybe at 33.3333
+04/06 11:24:38.777/IST   WARN -    UserError - 55# told User(logging in) "Please type an account name and password".
+04/06 11:24:50.373/IST   INFO -     NewChart - The chart for market1 has been updated.
+04/06 11:26:53.558/IST  DEBUG -      Trading - test1 wants to buy yes with limit of 100 @ 34.

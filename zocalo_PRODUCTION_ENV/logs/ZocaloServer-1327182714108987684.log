@@ -1,0 +1,46 @@
+03/11 03:16:39.395/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 03:16:39.401/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 03:16:39.402/IST  ERROR -   AllMarkets - fuck you
+03/11 03:16:39.515/IST   INFO -        trace -    creating AllMarkets
+03/11 03:16:40.044/IST  ERROR - HibernateUtil - in hibernate util
+03/11 03:16:40.485/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/harit/Courses/GT/Project/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 03:16:41.485/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 03:16:41.486/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/11 03:17:18.763/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/11 03:17:28.063/IST   WARN -    UserError - 36# told User(logging in) "unknown account or password".
+03/11 03:17:49.120/IST   WARN -    UserError - 37# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 03:17:58.114/IST   WARN -    UserError - 38# told User(logging in) "Congratulations harit! You're now done. Now Jump in!".
+03/11 03:17:58.183/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+03/11 03:18:06.701/IST   WARN -    UserError - 40# told User(logging in) "Please type an account name and password".
+03/11 03:18:12.373/IST   WARN -    UserError - 41# told User(logging in) "<font color=red size=5><b>Sorry! This account name is unavailable. Please try another one. </b></font>harit".
+03/11 03:18:25.244/IST   WARN -    UserError - 42# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 03:18:34.261/IST   WARN -    UserError - 43# told User(logging in) "Congratulations haritcsa! You're now done. Now Jump in!".
+03/11 03:18:34.335/IST   WARN -    UserError - 44# told User(logging in) "Please type an account name and password".
+03/11 03:18:39.327/IST   WARN -    UserError - 45# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/11 03:18:49.380/IST   WARN -    UserError - 46# told harit "Please specify a name for the market.".
+03/11 03:19:09.114/IST   INFO -   Transition - 47# State transition: new Multi Market, round: 0.
+03/11 03:19:09.116/IST   INFO -  PriceAction - 48# harit traded with the market maker for 0 of test:India at 50
+03/11 03:19:09.118/IST   INFO -  PriceAction - 49# harit traded with the market maker for 0 of test:Bangladesh at 50
+03/11 03:19:14.623/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 03:19:18.487/IST   WARN -    UserError - 54# told User(logging in) "Please type an account name and password".
+03/11 03:20:18.873/IST  DEBUG -      Trading - haritcsa wants to sell India with limit of 25 @ 20.
+03/11 03:20:18.894/IST   INFO -  PriceAction - 55# haritcsa traded with the market maker for 0 of test:Bangladesh changing the price from 50 to 80
+03/11 03:20:18.896/IST   INFO -  PriceAction - 56# haritcsa traded with the market maker for -20.004 of test:India changing the price from 50 to 20
+03/11 03:20:19.099/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 03:20:19.099/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 80, test:India: 20
+03/11 03:20:19.102/IST   WARN -    UserError - 59# told haritcsa "Sold 20.004 shares of the team.".
+03/11 03:20:19.203/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 03:20:41.721/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 20.
+03/11 03:20:41.795/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 03:20:49.397/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 20.
+03/11 03:21:21.220/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 40.
+03/11 03:21:21.229/IST   INFO -  PriceAction - 64# haritcsa traded with the market maker for -20 of test:Bangladesh changing the price from 80 to 50.0073
+03/11 03:21:21.230/IST   INFO -  PriceAction - 65# haritcsa traded with the market maker for 0 of test:India changing the price from 20 to 49.9927
+03/11 03:21:21.290/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 03:21:21.291/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 50, test:India: 50
+03/11 03:21:21.293/IST   INFO -  PriceAction - 66# haritcsa traded with the market maker for -5.855 of test:Bangladesh changing the price from 50.0073 to 40
+03/11 03:21:21.294/IST   INFO -  PriceAction - 67# haritcsa traded with the market maker for 0 of test:India changing the price from 49.9927 to 60
+03/11 03:21:21.345/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 03:21:21.346/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 40, test:India: 60
+03/11 03:21:21.347/IST   WARN -    UserError - 68# told haritcsa "Sold 25.855 shares of the team.".
+03/11 03:21:21.422/IST   INFO -     NewChart - The chart for test has been updated.

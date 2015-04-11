@@ -1,0 +1,6 @@
+04/10 08:13:50.105/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/10 08:13:50.107/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/10 08:13:50.165/IST   INFO -        trace -    creating AllMarkets
+04/10 08:13:52.004/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+04/10 08:13:52.004/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/10 08:13:59.630/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".

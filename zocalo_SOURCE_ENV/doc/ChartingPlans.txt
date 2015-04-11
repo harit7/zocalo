@@ -1,0 +1,41 @@
+Binary Book market
+  Separate: show price frontiers using XYStepAreaRenderer.  Show transactions (w/color for
+        buy/sell) and volumes. 
+     Interim: Show price range on trades.  (Not necessary to show price frontier.)  So OHLC with
+  		moving average should be fine.  (HighLowChartDemo2) + volume
+   Aggregate: OHLC, frontiers and volume.
+     Interim: OHLC and volume.
+Binary AMM
+  Separate: Use a step chart.  Prices only move on transactions
+  Aggregate: OHLC chart (with horizontals?  Yes; combine XYStepRenderer and HighLowRenderer) 
+     Interim: OHLC chart
+Binary combined
+  Separate: Price frontiers, current price as step chart, display transactions with color and volume
+    Interim: Step chart, display transactions (without color) and volume
+  Aggregate: price frontiers, current price as step chart, OHLC
+     Interim: Step chart, OHLC
+
+Multi Book Market
+  Separate: All positions: StepChart on last trade; detailed view on each position
+     Interim: None
+   Aggregate: All Positions: overlapping Step Charts; 
+     Interim: None
+Multi AMM
+  Separate: Step Chart, ADD VOLUME
+  Aggregate: OHLC chart (with horizontals?  Yes; combine XYStepRenderer and HighLowRenderer) 
+Multi combined
+  Separate: Price frontiers, current price as step chart, display transactions with color and volume
+    Interim: None
+  Aggregate: price frontiers, current price as step chart, OHLC
+     Interim: None
+
+for an AMM OHLC chart, combine XYStepRenderer and HighLowRenderer
+
+Should marketMaker history show quantities?  (YES)
+
+To graph a book-only binary market, show best offer frontiers, transactions and volume.
+   Show buys in green and sells in red?
+
+x A slow maker-driven market should show open close using XYStepRenderer from an XYDataset.
+A busier maker would aggregate by days/weeks/etc. using OHLC.
+

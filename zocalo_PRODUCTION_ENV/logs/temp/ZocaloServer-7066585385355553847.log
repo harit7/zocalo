@@ -1,0 +1,15 @@
+04/07 07:38:49.998/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 07:38:50.000/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 07:38:50.058/IST   INFO -        trace -    creating AllMarkets
+04/07 07:38:51.867/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 07:38:51.867/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/07 07:39:14.979/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/07 07:39:30.351/IST   WARN -    UserError - 36# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/07 07:39:40.719/IST   WARN -    UserError - 37# told User(logging in) "Congratulations test1! You're now done. Now Jump in!".
+04/07 07:39:40.917/IST   WARN -    UserError - 38# told User(logging in) "Please type an account name and password".
+04/07 07:41:33.245/IST  DEBUG -      Trading - test1 wants to buy 8 with limit of 100 @ 15.
+04/07 07:41:33.501/IST   WARN -  MarketMaker - User (test1) couldn't provide promised cash (28845.9276).
+04/07 07:42:39.353/IST  DEBUG -      Trading - test1 wants to buy 8 with limit of 100 @ 12.
+04/07 07:42:39.467/IST   WARN -  MarketMaker - User (test1) couldn't provide promised cash (4638.54195).
+04/07 07:47:39.724/IST  DEBUG -      Trading - test1 wants to buy 8 with limit of 10 @ 12.
+04/07 07:47:39.934/IST   WARN -  MarketMaker - User (test1) couldn't provide promised cash (5638.59110).

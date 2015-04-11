@@ -1,0 +1,12 @@
+03/13 05:10:21.227/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 05:10:21.232/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 05:10:21.232/IST   INFO -   AllMarkets - version = 1
+03/13 05:10:21.312/IST   INFO -        trace -    creating AllMarkets
+03/13 05:10:22.137/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 05:10:23.043/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 05:10:23.043/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 05:10:36.655/IST   WARN -    UserError - 35# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/13 05:10:44.067/IST   WARN -    UserError - 36# told mauka "Please specify a name for the market.".
+03/13 05:13:16.946/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+03/13 05:13:20.680/IST   WARN -    UserError - 40# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".
+03/13 05:13:28.369/IST   WARN -    UserError - 41# told User(logging in) "unknown account or password".

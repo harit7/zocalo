@@ -1,0 +1,21 @@
+04/13 11:47:49.353/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/13 11:47:49.356/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/13 11:47:49.414/IST   INFO -        trace -    creating AllMarkets
+04/13 11:47:51.187/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+04/13 11:47:51.188/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/13 11:47:58.706/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/13 11:48:05.610/IST   INFO -     NewChart - The chart for IPL2012 has been updated.
+04/13 11:48:34.558/IST  DEBUG -      Trading - test2 wants to buy Kolkata Knight Riders with limit of 25 @ 15.
+04/13 11:48:34.574/IST   INFO -  PriceAction - 657# test2 traded with the market maker for 0 of IPL2012:Chennai Super Kings changing the price from 29.8291 to 27.5365
+04/13 11:48:34.580/IST   INFO -  PriceAction - 658# test2 traded with the market maker for 0 of IPL2012:Rajasthan Royals changing the price from 7.9234 to 7.3144
+04/13 11:48:34.581/IST   INFO -  PriceAction - 659# test2 traded with the market maker for 0 of IPL2012:Royal Challengers Bangalore changing the price from 7.9234 to 7.3144
+04/13 11:48:34.581/IST   INFO -  PriceAction - 660# test2 traded with the market maker for 32.687 of IPL2012:Kolkata Knight Riders changing the price from 7.9234 to 15
+04/13 11:48:34.582/IST   INFO -  PriceAction - 661# test2 traded with the market maker for 0 of IPL2012:Delhi Daredevils changing the price from 7.9233 to 7.3144
+04/13 11:48:34.582/IST   INFO -  PriceAction - 662# test2 traded with the market maker for 0 of IPL2012:Deccan Chargers changing the price from 11.6308 to 10.7369
+04/13 11:48:34.582/IST   INFO -  PriceAction - 663# test2 traded with the market maker for 0 of IPL2012:Mumbai Indians changing the price from 7.9234 to 7.3144
+04/13 11:48:34.583/IST   INFO -  PriceAction - 664# test2 traded with the market maker for 0 of IPL2012:Pune Warriors India changing the price from 11 to 10.1546
+04/13 11:48:34.583/IST   INFO -  PriceAction - 665# test2 traded with the market maker for 0 of IPL2012:Kings XI Punjab changing the price from 7.9234 to 7.3144
+04/13 11:48:34.667/IST   INFO -     NewChart - The chart for IPL2012 has been updated.
+04/13 11:48:34.667/IST   INFO -  PriceChange - prices in market 'IPL2012' changed.  IPL2012:Chennai Super Kings: 28, IPL2012:Rajasthan Royals: 7, IPL2012:Royal Challengers Bangalore: 7, IPL2012:Kolkata Knight Riders: 15, IPL2012:Delhi Daredevils: 7, IPL2012:Deccan Chargers: 11, IPL2012:Mumbai Indians: 7, IPL2012:Pune Warriors India: 10, IPL2012:Kings XI Punjab: 7
+04/13 11:48:34.668/IST   WARN -    UserError - 666# told test2 "Bought 32.687 shares of the team.".
+04/13 11:48:34.853/IST   INFO -     NewChart - The chart for IPL2012 has been updated.

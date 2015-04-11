@@ -1,0 +1,25 @@
+03/11 02:16:44.297/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 02:16:44.303/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 02:16:44.421/IST   INFO -        trace -    creating AllMarkets
+03/11 02:16:46.473/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/harit/Courses/GT/Project/zocalo/zocalo_SOURCE_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 02:17:08.535/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 02:17:08.536/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/11 02:17:49.095/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/11 02:18:07.449/IST   WARN -    UserError - 36# told User(logging in) "unknown account or password".
+03/11 02:18:15.110/IST   WARN -    UserError - 37# told User(logging in) "unknown account or password".
+03/11 02:19:19.125/IST   WARN -    UserError - 38# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 02:19:32.105/IST   WARN -    UserError - 39# told User(logging in) "Congratulations haritcsa! You're now done. Now Jump in!".
+03/11 02:19:32.385/IST   WARN -    UserError - 40# told User(logging in) "Please type an account name and password".
+03/11 02:20:22.763/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+03/11 02:20:29.238/IST   WARN -    UserError - 42# told User(logging in) "<font color=red size=5><b>Sorry! This account name is unavailable. Please try another one. </b></font>haritcsa".
+03/11 02:20:40.906/IST   WARN -    UserError - 43# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 02:20:47.578/IST   WARN -    UserError - 44# told User(logging in) "Congratulations harit! You're now done. Now Jump in!".
+03/11 02:20:47.627/IST   WARN -    UserError - 45# told User(logging in) "Please type an account name and password".
+03/11 02:20:56.901/IST   WARN -    UserError - 46# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/11 02:21:05.425/IST   WARN -    UserError - 47# told harit "Please specify a name for the market.".
+03/11 02:21:29.951/IST   INFO -   Transition - 48# State transition: new Multi Market, round: 0.
+03/11 02:21:29.953/IST   INFO -  PriceAction - 49# harit traded with the market maker for 0 of test:yes at 33.3333
+03/11 02:21:29.956/IST   INFO -  PriceAction - 50# harit traded with the market maker for 0 of test:no at 33.3333
+03/11 02:21:29.957/IST   INFO -  PriceAction - 51# harit traded with the market maker for 0 of test:maybe at 33.3333
+03/11 02:21:38.435/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 02:21:58.435/IST   WARN -    UserError - 58# told User(logging in) "Please type an account name and password".

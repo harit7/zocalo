@@ -1,0 +1,4 @@
+urlid zdb
+url jdbc:hsqldb:hsql://localhost:9001/zdb
+username sa
+password

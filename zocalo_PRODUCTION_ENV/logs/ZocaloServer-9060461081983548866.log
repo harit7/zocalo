@@ -1,0 +1,24 @@
+03/15 12:12:43.900/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/15 12:12:43.904/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/15 12:12:43.905/IST   INFO -   AllMarkets - version = 2
+03/15 12:12:43.984/IST   INFO -        trace -    creating AllMarkets
+03/15 12:12:44.817/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/15 12:12:45.711/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/15 12:12:45.711/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/15 12:12:56.967/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/15 12:14:40.767/IST   WARN -    UserError - 36# told iota "market is closed.".
+03/15 12:17:01.367/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+03/15 12:17:53.455/IST   WARN -    UserError - 38# told User(logging in) "<font color=green size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/15 12:18:13.474/IST   WARN -    UserError - 39# told User(logging in) "Congratulations DK! You're now done. Now Jump in!".
+03/15 12:18:13.505/IST   WARN -    UserError - 40# told User(logging in) "Please type an account name and password".
+03/15 12:21:51.312/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+03/15 12:22:01.732/IST   WARN -    UserError - 42# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/15 12:22:18.011/IST   WARN -    UserError - 43# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/15 12:22:49.572/IST   WARN -    UserError - 44# told mauka "Please specify a name for the market.".
+03/15 12:25:24.379/IST   WARN -    UserError - 47# told mauka "Please specify a name for the market.".
+03/15 12:28:59.430/IST   WARN -    UserError - 48# told mauka "Please specify a name for the market.".
+03/15 12:29:25.477/IST   WARN -    UserError - 49# told mauka "Please specify a name for the market.".
+03/15 12:39:16.032/IST   WARN -    UserError - 50# told mauka "Please specify a name for the market.".
+03/15 12:40:08.930/IST   WARN -    UserError - 51# told User(logging in) "Please type an account name and password".
+03/15 12:40:15.981/IST   WARN -    UserError - 52# told User(logging in) "unknown account or password".
+03/15 12:40:24.137/IST   WARN -    UserError - 53# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".

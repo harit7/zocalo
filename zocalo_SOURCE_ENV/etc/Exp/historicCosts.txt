@@ -1,0 +1,79 @@
+sessionTitle: HistCost_1.33Cash_0.5Loan
+rounds: 5
+players: t1, t2, t3,t4, t5, t6,t7,t8,t9
+roles: trader1, trader2,trader3
+
+# in minutes
+timeLimit: 2
+showEarnings: true
+carryForward: true
+maxPrice: 1000
+capitalGains: historicCost
+suppressAccountingDetails: true
+markToMarket.loan.ratio: .5
+coupon.basis: 360
+loansDueInRound: 3
+
+thresholdValue: 360, 336, 312, 288, 264
+aboveThresholdMessage: <b><font size=5><p style='color:blue'></b></font></p>
+belowThresholdMessage: <b><font size=5><p style='color:blue'></b></font></p>
+
+t1.role: trader1
+t2.role: trader1
+t3.role: trader1
+t4.role: trader2
+t5.role: trader2
+t6.role: trader2
+t7.role: trader3
+t8.role: trader3
+t9.role: trader3
+
+initialHint: Trading has not started yet.
+
+endowment.trader1: 1880
+tickets.trader1: 2
+endowment.trader2: 1440
+tickets.trader2: 3
+endowment.trader3: 1080
+tickets.trader3: 4
+
+betterPriceRequired: true
+
+useUnaryAssets: true
+
+# These values are specified by round.
+
+commonMessage:  blank
+actualValue:      8,8,28,8,60
+
+# These values are specified by Player and Round.
+
+t1.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t2.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t3.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t4.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t5.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t6.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t7.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t8.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+t9.hint:  dividend1,dividend2,dividend3, dividend4,dividend5
+
+# text labels can be used in hints or commonMessage
+
+dividend1:<font size=4><b><p style='color:blue'>At the end of each round, a share will pay the owner a dividend of either 0, 8, 28, or 60 cents, with equal chances. </p><p style='color:fuchsia'>The average dividend value for the remaining rounds is 15*24=360 cents per share.</p></b></font>
+dividend2:<font size=4><b><p style='color:blue'>At the end of each round, a share will pay the owner a dividend of either 0, 8, 28, or 60 cents, with equal chances. </p><p style='color:fuchsia'>The average dividend value for the remaining rounds is 14*24=336 cents per share.</p></b></font>
+dividend3:<font size=4><b><p style='color:blue'>At the end of each round, a share will pay the owner a dividend of either 0, 8, 28, or 60 cents, with equal chances. </p><p style='color:fuchsia'>The average dividend value for the remaining rounds is 13*24=312 cents per share.</p></b></font>
+dividend4:<font size=4><b><p style='color:blue'>At the end of each round, a share will pay the owner a dividend of either 0, 8, 28, or 60 cents, with equal chances. </p><p style='color:fuchsia'>The average dividend value for the remaining rounds is 12*24=288 cents per share.</p></b></font>
+dividend5:<font size=4><b><p style='color:blue'>At the end of each round, a share will pay the owner a dividend of either 0, 8, 28, or 60 cents, with equal chances. </p><p style='color:fuchsia'>The average dividend value for the remaining rounds is 11*24=264 cents per share.</p></b></font>
+
+low: <b><font size=5><p style='color:blue'>THE PRICE IS TOO LOW.</b></font></p>
+high: <b><font size=5><p style='color:blue'>THE PRICE IS TOO HIGH.</b></font></p>
+blank:
+
+messageLabel: .
+
+commonMessageLabel: .
+
+actualValueLabel: <b>Dividend Value this Round</b>
+
+totalAssetsLabel: <b>Total Cash Balance</b><br><font size='-2'>(cash + dividends)</font>

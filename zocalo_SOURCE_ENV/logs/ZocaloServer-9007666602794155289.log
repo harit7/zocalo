@@ -1,0 +1,29 @@
+03/09 11:52:03.004/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 11:52:03.007/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 11:52:03.081/IST   INFO -        trace -    creating AllMarkets
+03/09 11:52:04.726/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 11:52:04.726/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 11:52:12.359/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/09 11:56:08.927/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/09 11:56:19.286/IST   WARN -    UserError - 37# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 11:56:29.783/IST   WARN -    UserError - 38# told harit "Please specify a name for the market.".
+03/09 11:56:52.100/IST   INFO -   Transition - 39# State transition: new Multi Market, round: 0.
+03/09 11:56:52.101/IST   INFO -  PriceAction - 40# harit traded with the market maker for 0 of Q2:Mumbai Indians at 50
+03/09 11:56:52.102/IST   INFO -  PriceAction - 41# harit traded with the market maker for 0 of Q2:Royal Challengers Bangalore at 50
+03/09 11:56:56.569/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/09 11:57:00.765/IST   WARN -    UserError - 46# told User(logging in) "Please type an account name and password".
+03/09 11:57:37.421/IST   WARN -    UserError - 47# told User(logging in) "Please type an account name and password".
+03/09 11:57:48.680/IST   WARN -    UserError - 48# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 11:57:57.293/IST   WARN -    UserError - 49# told harit "A market with the name 'Q2' already exists.".
+03/09 11:58:07.640/IST   WARN -    UserError - 52# told harit "A market with the name 'Q2' already exists.".
+03/09 11:58:09.149/IST   WARN -    UserError - 55# told harit "A market with the name 'Q2' already exists.".
+03/09 11:58:09.825/IST   WARN -    UserError - 58# told User(logging in) "Please type an account name and password".
+03/09 11:58:21.860/IST   WARN -    UserError - 59# told User(logging in) "unknown account or password".
+03/09 11:58:41.081/IST   WARN -    UserError - 60# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 11:58:48.268/IST   WARN -    UserError - 61# told harit "A market with the name 'Q2' already exists.".
+03/09 11:58:50.257/IST   WARN -    UserError - 64# told User(logging in) "Please type an account name and password".
+03/09 11:58:56.636/IST   WARN -    UserError - 65# told User(logging in) "Please type an account name and password".
+03/09 11:59:02.216/IST   WARN -    UserError - 66# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".
+03/09 11:59:10.618/IST   WARN -    UserError - 67# told User(logging in) "unknown account or password".
+03/09 11:59:14.997/IST   WARN -    UserError - 68# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 11:59:20.808/IST   WARN -    UserError - 69# told harit "A market with the name 'Q2' already exists.".

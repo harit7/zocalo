@@ -1,0 +1,29 @@
+04/06 11:48:05.749/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/06 11:48:05.751/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/06 11:48:05.811/IST   INFO -        trace -    creating AllMarkets
+04/06 11:48:07.566/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/06 11:48:07.566/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/06 11:48:14.228/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/06 11:48:20.469/IST   WARN -    UserError - 36# told User(logging in) "unknown account or password".
+04/06 11:48:40.394/IST   WARN -    UserError - 37# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 11:48:50.343/IST   WARN -    UserError - 38# told User(logging in) "Congratulations test1! You're now done. Now Jump in!".
+04/06 11:48:50.489/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+04/06 11:48:58.673/IST   WARN -    UserError - 40# told User(logging in) "Sorry! This account name is unavailable. Please try another one. test1".
+04/06 11:49:14.877/IST   WARN -    UserError - 41# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 11:49:26.832/IST   WARN -    UserError - 42# told User(logging in) "Congratulations testadmin! You're now done. Now Jump in!".
+04/06 11:49:26.928/IST   WARN -    UserError - 43# told User(logging in) "Please type an account name and password".
+04/06 11:49:33.844/IST   WARN -    UserError - 44# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/06 11:49:47.460/IST   WARN -    UserError - 45# told testadmin "Please specify a name for the market.".
+04/06 11:50:07.469/IST   INFO -   Transition - 46# State transition: new Multi Market, round: 0.
+04/06 11:50:07.472/IST   INFO -  PriceAction - 47# testadmin traded with the market maker for 0 of IPL11:1 at 11.1111
+04/06 11:50:07.475/IST   INFO -  PriceAction - 48# testadmin traded with the market maker for 0 of IPL11:2 at 11.1111
+04/06 11:50:07.476/IST   INFO -  PriceAction - 49# testadmin traded with the market maker for 0 of IPL11:3 at 11.1111
+04/06 11:50:07.476/IST   INFO -  PriceAction - 50# testadmin traded with the market maker for 0 of IPL11:4 at 11.1111
+04/06 11:50:07.477/IST   INFO -  PriceAction - 51# testadmin traded with the market maker for 0 of IPL11:5 at 11.1111
+04/06 11:50:07.478/IST   INFO -  PriceAction - 52# testadmin traded with the market maker for 0 of IPL11:6 at 11.1111
+04/06 11:50:07.479/IST   INFO -  PriceAction - 53# testadmin traded with the market maker for 0 of IPL11:7 at 11.1111
+04/06 11:50:07.480/IST   INFO -  PriceAction - 54# testadmin traded with the market maker for 0 of IPL11:8 at 11.1111
+04/06 11:50:07.480/IST   INFO -  PriceAction - 55# testadmin traded with the market maker for 0 of IPL11:9 at 11.1111
+04/06 11:50:09.311/IST   WARN -    UserError - 56# told User(logging in) "Please type an account name and password".
+04/06 11:50:16.475/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/06 11:51:02.878/IST  DEBUG -      Trading - test1 wants to buy 1 with limit of 100 @ 12.

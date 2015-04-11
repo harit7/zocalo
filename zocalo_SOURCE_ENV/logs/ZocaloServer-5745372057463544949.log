@@ -1,0 +1,6 @@
+03/11 03:12:14.977/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 03:12:14.981/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 03:12:14.981/IST  ERROR -   AllMarkets - fuck you
+03/11 03:12:15.187/IST   INFO -        trace -    creating AllMarkets
+03/11 03:12:16.047/IST  ERROR - HibernateUtil - in hibernate util
+03/11 03:12:16.646/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/harit/Courses/GT/Project/zocalo/zocalo_SOURCE_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml

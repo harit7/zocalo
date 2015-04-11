@@ -1,0 +1,4 @@
+03/11 03:13:49.671/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 03:13:49.680/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 03:13:49.681/IST  ERROR -   AllMarkets - fuck you
+03/11 03:13:49.792/IST   INFO -        trace -    creating AllMarkets

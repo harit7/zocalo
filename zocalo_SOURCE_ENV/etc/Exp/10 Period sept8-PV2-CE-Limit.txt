@@ -1,0 +1,171 @@
+sessionTitle: sept8pv2CE
+rounds: 10
+players: trader1, trader2, trader3,trader4, trader5, trader6,trader7,trader8,trader9
+roles: traderA,traderB,traderC,traderD,traderE,traderF,traderG,traderH,traderI,
+
+# in minutes
+timeLimit: 6
+
+showEarnings: true
+
+carryForward: false
+
+logoPath:none
+
+thresholdValue: 360, 336, 312, 288, 264, 240, 216, 192, 168, 144, 120, 96, 72, 48, 24
+
+aboveThresholdMessage: <b><font size=5><p style='color:blue'></b></font></p>
+
+belowThresholdMessage: <b><font size=5><p style='color:blue'></b></font></p>
+
+
+maxPrice: 400
+
+trader1.role: traderA
+trader2.role: traderB
+trader3.role: traderC
+trader4.role: traderD
+trader5.role: traderE
+trader6.role: traderF
+trader7.role: traderG
+trader8.role: traderH
+trader9.role: traderI
+
+trader1.shareHoldingLimit: 3
+trader2.shareHoldingLimit: 3
+trader3.shareHoldingLimit: 4
+trader4.shareHoldingLimit: 4
+trader5.shareHoldingLimit: 3
+trader6.shareHoldingLimit: 3
+trader7.shareHoldingLimit: 3
+trader8.shareHoldingLimit: 3
+trader9.shareHoldingLimit: 3
+
+
+trader1.payCommonDividend: no
+trader1.privateDividends: 180,180,180,180,180
+trader2.payCommonDividend: no
+trader2.privateDividends: 175,175,175,175,175
+trader3.payCommonDividend: no
+trader3.privateDividends: 150,150,150,150,150
+trader4.payCommonDividend: no
+trader4.privateDividends: 135,135,135,135,135
+trader5.payCommonDividend: no
+trader5.privateDividends: 105,105,105,105,105
+trader6.payCommonDividend: no
+trader6.privateDividends: 105,105,105,105,105
+trader7.payCommonDividend: no
+trader7.privateDividends: 70,70,70,70,70
+trader8.payCommonDividend: no
+trader8.privateDividends: 60,60,60,60,60
+trader9.payCommonDividend: no
+trader9.privateDividends: 50,50,50,50,50
+
+initialHint: Trading has not started yet.
+
+endowment.traderA: 410
+tickets.traderA: 0
+endowment.traderB: 305
+tickets.traderB: 1
+endowment.traderC: 410
+tickets.traderC: 1
+endowment.traderD: 305
+tickets.traderD: 2
+endowment.traderE: 600
+tickets.traderE: 0
+endowment.traderF: 300
+tickets.traderF: 3
+endowment.traderG: 300
+tickets.traderG: 3
+endowment.traderH: 300
+tickets.traderH: 3
+endowment.traderI: 200
+tickets.traderI: 3
+
+
+
+# should the market require that new orders be at better prices than
+# previous ones?  "true" says yes.  "false" indicates that new orders
+# can be limit orders away from the market frontier.
+
+betterPriceRequired: true
+
+# should binary assets be supported in addition to unary?  "true" says
+# that participants can only sell assets if they have some on hand,
+# and all ticket holdings will be positive.  "false" supports binary
+# assets.  In this case, coupons can be positive or negative, and when
+# a buyer and seller agree on price, a new pair can be created.
+
+useUnaryAssets: true
+
+# These values are specified by round.
+
+commonMessage:
+
+actualValue:      8,8,28,8,60,8,8,28,8,60
+
+# These values are specified by Player and Round.
+
+
+trader1.hint:  dividend1,dividend1,dividend1, dividend1,dividend1,dividend1,dividend1,dividend1, dividend1,dividend1
+trader2.hint:  dividend2,dividend2,dividend2, dividend2,dividend2,dividend2,dividend2,dividend2, dividend2,dividend2
+trader3.hint:  dividend3,dividend3,dividend3, dividend3,dividend3,dividend3,dividend3,dividend3, dividend3,dividend3
+trader4.hint:  dividend4,dividend4,dividend4, dividend4,dividend4,dividend4,dividend4,dividend4, dividend4,dividend4
+trader5.hint:  dividend5,dividend5,dividend5, dividend5,dividend5,dividend5,dividend5,dividend5, dividend5,dividend5
+trader6.hint:  dividend6,dividend6,dividend6, dividend6,dividend6,dividend6,dividend6,dividend6, dividend6,dividend6
+trader7.hint:  dividend7,dividend7,dividend7, dividend7,dividend7,dividend7,dividend7,dividend7, dividend7,dividend7
+trader8.hint:  dividend8,dividend8,dividend8, dividend8,dividend8,dividend8,dividend8,dividend8, dividend8,dividend8
+trader9.hint:  dividend9,dividend9,dividend9, dividend9,dividend9,dividend9,dividend9,dividend9, dividend9,dividend9
+
+
+# text labels can be used in hints or commonMessage
+
+dividend1:<p style='color:blue'><font size=4><b> Your dividend will be 180 cents per share at the end of the round. <br><br> You will receive dividends for up to 3 shares.</b></font></p>
+
+dividend2:<p style='color:blue'><font size=4><b> Your dividend will be 175 cents per share at the end of the round. <br><br> You will receive dividends for up to 3 shares.</b></font></p>
+
+dividend3:<p style='color:blue'><font size=4><b> Your dividend will be 150 cents per share at the end of the round. <br><br> You will receive dividends for up to 4 shares.</b></font></p>
+
+dividend4:<p style='color:blue'><font size=4><b> Your dividend will be 135 cents per share at the end of the round. <br><br> You will receive dividends for up to 4 shares.</b></font></p>
+
+dividend5:<p style='color:blue'><font size=4><b> Your dividend will be 105 cents per share at the end of the round. <br><br> You will receive dividends for up to 3 shares.</b></font></p>
+
+dividend6:<p style='color:blue'><font size=4><b> Your dividend will be 105 cents per share at the end of the round. <br><br> You will receive dividends for up to 3 shares.</b></font></p>
+
+dividend7:<p style='color:blue'><font size=4><b> Your dividend will be 70 cents per share at the end of the round. <br><br> You will receive dividends for up to 3 shares.</b></font></p>
+
+dividend8:<p style='color:blue'><font size=4><b> Your dividend will be 60 cents per share at the end of the round. <br><br> You will receive dividends for up to 3 shares.</b></font></p>
+
+dividend9:<p style='color:blue'><font size=4><b> Your dividend will be 50 cents per share at the end of the round. <br><br> You will receive dividends for up to 3 shares.</b></font></p>
+
+
+
+
+low: <b><font size=5><p style='color:blue'>THE PRICE IS TOO LOW.</b></font></p>
+high: <b><font size=5><p style='color:blue'>THE PRICE IS TOO HIGH.</b></font></p>
+blank:
+
+# The following strings override default value labels used in the interface to
+#describe score computations.  If no value or an illegal value is provided the
+#default will be used.
+
+# Provide a value to replace "Your clue", which describes hints given to a
+#particular trader in an experiment.
+
+messageLabel: .
+
+#Provide a value to replace "Shared Message", which describes a hint given to
+#all traders in an experiment.
+
+commonMessageLabel: --------------------------------
+
+
+#Provide a value to replace "Actual Ticket Value", which describes the value
+#of each coupon a trader might hold in an experiment
+
+actualValueLabel: <b>Actual Share Dividend</b>
+
+#Provide a value to replace the description of the Total Asset Value.  If the
+#string doesn't follow the format of the default, the HTML display may not work
+
+totalAssetsLabel: <b>Total Cash Balance</b><br><font size='-2'>(cash + dividends)</font>

@@ -1,0 +1,52 @@
+sessionTitle: MarkToMarket-09-9
+rounds: 15
+players: traderA, traderB, traderC, traderD, traderE, traderF, traderG, traderH, traderI
+timeLimit: 5
+initialHint: Trading has not started yet.
+useUnaryAssets: true
+betterPriceRequired: false
+markToMarket.loan.ratio: .25
+carryForward: true
+maxPrice: 1000
+suppressAccountingDetails: true
+
+traderA.role: trader
+traderB.role: trader
+traderC.role: trader
+traderD.role: trader
+traderE.role: trader
+traderF.role: trader
+traderG.role: trader
+traderH.role: trader
+traderI.role: trader
+
+dividendValue:   28, 8, 0, 60, 0, 8, 28, 0, 28, 0, 60, 8, 28, 60, 60
+endowment.trader: 900
+tickets.trader: 3
+coupon.basis: 350
+
+TraderA.hint: blank,  not60,  not60,  not8,  not28,  not28,  notZero,  blank,  notZero,  not60,  not28,  blank,  not60,  not8,  not28
+TraderB.hint: notZero,  not28,  not60,  not28,  blank,  blank,  not8,  not28,  not60,  not8,  blank,  notzero,  notZero,  blank,  blank
+TraderC.hint: not60,  blank,  not28,  not8,  not60,  redeem for prize,  blank,  not60,  not60,  blank,  not28,  not60,  not8,  notZero,  not8
+traderD.hint: not8,  not60,  not28,  blank,  not8,  not60,  notzero,  blank,  notZero,  not8,  not8,  notZero,  blank,  not28,  not8
+TraderE.hint: blank,  ZOCALO,  not8,  not28,  not8,  blank,  not8,  not60,  not8,  not60,  not28,  blank,  not8,  not28,  not28
+TraderF.hint: not8,  not28,  blank,  notZero,  not60,  not60,  blank,  not60,  not8,  not28,  notZero,  not28,  blank,  not8,  blank
+TraderG.hint: not8,  not60,  blank,  notZero,  not28,  blank,  not60, not28,  notZero,  go for it!,  blank,  not28,  notZero,  not28,  not8
+TraderH.hint: not60,  blank,  not28,  not8,  not8,  not28,  not60,  not8,  blank,  blank,  notzero,  not60,  not60,  notZero,  notZero
+TraderI.hint: notZero, notzero, not8, blank, blank, notZero, not8, not8, blank, not28, not8, not28, not8, blank, notZero
+
+not60: The ticket value is not 60.
+not28: The ticket value is not 28.
+notZero: The ticket value is not 0.
+not8: The ticket value is not 8.
+blank:  --No Hint--
+
+messageLabel: Your clue
+
+commonMessageLabel: Shared Message
+
+actualValueLabel: Dividend per share this Round 
+
+publicValueLabel: Dividend Value
+
+

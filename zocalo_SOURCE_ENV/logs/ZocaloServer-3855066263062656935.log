@@ -1,0 +1,8 @@
+03/09 06:56:26.688/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 06:56:26.692/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 06:56:26.817/IST   INFO -        trace -    creating AllMarkets
+03/09 06:56:28.807/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 06:56:28.808/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 06:56:46.031/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/09 06:57:03.932/IST   WARN -  MarketOwner - Unable to send message. Is mail configured correctly?  user: 'harit2' email: 'harit.vishwakarma@csa.iisc.ernet.in'.
+03/09 06:57:03.932/IST   WARN -    UserError - 36# told User(logging in) "Oops! Looks like we encountered a problem creating your account. Please retry.".

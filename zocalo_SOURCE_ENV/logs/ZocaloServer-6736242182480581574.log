@@ -1,0 +1,6 @@
+03/11 01:46:56.217/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 01:46:56.222/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 01:46:56.339/IST   INFO -        trace -    creating AllMarkets
+03/11 01:46:59.364/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/harit/Courses/GT/Project/zocalo/zocalo_SOURCE_ENV/build/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 01:47:26.592/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 01:47:26.592/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false

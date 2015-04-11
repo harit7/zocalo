@@ -1,0 +1,51 @@
+sessionTitle: practice-Feb1
+rounds: 5
+players: trader1, trader2, trader3, trader4
+roles: traderA, traderB, traderC, traderD
+timeLimit: 10
+belowThresholdMessage: <b><font size=5><p style='color:blue'></b></font></p>
+aboveThresholdMessage: <b><font size=5><p style='color:blue'></b></font></p>
+thresholdValue: 360, 336, 312, 288, 264, 240, 216, 192, 168, 144, 120, 96, 72, 48, 24
+actualValue: 8,8,8,8
+endowment
+
+useUnaryAssets: true
+betterPriceRequired: true
+carryForward: false
+showEarnings: true
+
+WholeShareTradingOnly: true
+maxPrice: 400
+
+requireReserves: false
+
+tickets.traderA: 0
+endowment.traderA: 410
+tickets.traderB: 1
+endowment.traderB: 305
+tickets.traderC: 1
+endowment.traderC: 410
+tickets.traderD: 2
+endowment.traderD: 305
+
+trader1.payCommonDividend: no
+trader1.privateDividends: 180,180,180,180,180
+trader4.payCommonDividend: no
+trader4.privateDividends: 135,135,135,135,135
+trader2.payCommonDividend: no
+trader2.privateDividends: 175,175,175,175,175
+trader3.payCommonDividend: no
+trader3.privateDividends: 150,150,150,150,150
+
+
+trader1.role: traderA
+trader1.hint: dividend1,dividend1,dividend1, dividend1,dividend
+
+trader4.role: traderD
+trader4.hint: dividend4,dividend4,dividend4, dividend4,dividend
+
+trader2.role: traderB
+trader2.hint: dividend2,dividend2,dividend2, dividend2,dividend
+
+trader3.role: traderC
+trader3.hint: dividend3,dividend3,dividend3, dividend3,dividend

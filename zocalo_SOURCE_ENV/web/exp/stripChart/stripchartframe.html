@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Transaction history</title>
+<!--
+Copyright 2007-2009 Chris Hibbert.
+Copyright 2005 CommerceNet Consortium, LLC.  All rights reserved.
+
+This software is published under the terms of the MIT license, a copy
+of which has been included with this distribution in the LICENSE file.
+-->
+<script type="text/javascript" src="../dojo/dojo/dojo.js"></script>
+<script type="text/javascript"> dojo.require("dojox.cometd"); </script>
+<link rel="stylesheet" type="text/css" href="chart.style.css">
+<script type="text/javascript" src="../experiment.js"></script>
+<script type="text/javascript" src="stripchart.js"></script>
+<script type="text/javascript"> top.chart = chartMaker(); </script>
+</head>
+<body onLoad="onload_actions();">
+<script type="text/javascript">
+
+    function onLiveMessage(msg) {
+        var event = msg.data;
+        updateTimeRemaining(event);
+        top.chart.replaceLiveColumn(event);
+        replaceCurrentOffers(findOffers(), event);
+        updateBestPrices(event);
+    }
+
+    function onHistMessage(msg) {
+        var event = msg.data;
+        updateTimeRemaining(event);
+        top.chart.addHistoricalColumn(event);
+        removeDeletionPrice(event.traded);
+        updateStatus("");
+        callHistoricalAction();
+    }
+
+    function onTransitionMessage(msg) {
+        var event = msg.data;
+        updateTimeRemaining(event);
+        updateStatus(event.displayText);
+        if (event.transition == "startRound") {
+            top.chart.clear_chart();
+            clear_offers(findOffers());
+            updateBestPrices({ sell: "", buy: ""});
+            callStartRoundActions();
+        } else {
+            callTransitionAction(event.transition);
+        }
+
+        top.chart.updateScale();
+    }
+
+    var subscribed = false;
+
+    function onload_actions() {
+        dojox.cometd.init('/cometd');
+        if (! subscribed) {
+            dojox.cometd.startBatch();
+             dojox.cometd.subscribe(liveTopic,onLiveMessage);
+             dojox.cometd.subscribe(historicTopic,onHistMessage);
+             dojox.cometd.subscribe(transitionTopic,onTransitionMessage);
+            dojox.cometd.endBatch();
+            subscribed = true;
+        }
+        clear_offers(findOffers());
+        top.chart.updateScale();
+    }
+</script>
+<table id="chartTable"> <tbody>
+    <tr><td colspan=4 align=center>
+          <div class="experimentStatus" id="experimentStatus"><p><br><br></p></div>
+        </td>
+    </tr>
+    <tr>
+            <td id=leftLabels width=20><div style="position: relative; top: -208;">
+			  <div style="position: absolute; top:40;">90</div>
+			  <div style="position: absolute; top:80;">80</div>
+			  <div style="position: absolute; top:120;">70</div>
+			  <div style="position: absolute; top:160;">60</div>
+			  <div style="position: absolute; top:200;">50</div>
+			  <div style="position: absolute; top:240;">40</div>
+			  <div style="position: absolute; top:280;">30</div>
+			  <div style="position: absolute; top:320;">20</div>
+			  <div style="position: absolute; top:360;">10</div>
+				</div>
+            </td>
+            <td>
+            <div class="chart" id="chart">
+            </div>
+            </td>
+            <td width=20 id=rightLabels><div style="position: relative; top: -208;">
+			  <div style="position: absolute; top:40;">90</div>
+			  <div style="position: absolute; top:80;">80</div>
+			  <div style="position: absolute; top:120;">70</div>
+			  <div style="position: absolute; top:160;">60</div>
+			  <div style="position: absolute; top:200;">50</div>
+			  <div style="position: absolute; top:240;">40</div>
+			  <div style="position: absolute; top:280;">30</div>
+			  <div style="position: absolute; top:320;">20</div>
+			  <div style="position: absolute; top:360;">10</div>
+				</div>
+            </td>
+            <td>
+            <div class="offers" id="offers">
+            </div>
+            </td>
+    </tr>
+</tbody> </table>
+</body>
+</html>

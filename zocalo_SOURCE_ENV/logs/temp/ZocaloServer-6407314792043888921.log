@@ -1,0 +1,25 @@
+04/07 07:33:12.575/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 07:33:12.578/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 07:33:12.637/IST   INFO -        trace -    creating AllMarkets
+04/07 07:33:14.435/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 07:33:14.435/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/07 07:33:19.940/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/07 07:33:40.061/IST   WARN -    UserError - 36# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/07 07:33:52.642/IST   WARN -    UserError - 37# told User(logging in) "Congratulations testadmin! You're now done. Now Jump in!".
+04/07 07:33:52.856/IST   WARN -    UserError - 38# told User(logging in) "Please type an account name and password".
+04/07 07:34:01.820/IST   WARN -    UserError - 39# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/07 07:34:11.946/IST   WARN -    UserError - 40# told testadmin "Please specify a name for the market.".
+04/07 07:34:21.848/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+04/07 07:34:49.930/IST   WARN -    UserError - 42# told testadmin "Please specify a name for the market.".
+04/07 07:35:09.569/IST   INFO -   Transition - 43# State transition: new Multi Market, round: 0.
+04/07 07:35:09.571/IST   INFO -  PriceAction - 44# testadmin traded with the market maker for 0 of IPLTest:1 at 11.1111
+04/07 07:35:09.573/IST   INFO -  PriceAction - 45# testadmin traded with the market maker for 0 of IPLTest:2 at 11.1111
+04/07 07:35:09.574/IST   INFO -  PriceAction - 46# testadmin traded with the market maker for 0 of IPLTest:3 at 11.1111
+04/07 07:35:09.575/IST   INFO -  PriceAction - 47# testadmin traded with the market maker for 0 of IPLTest:4 at 11.1111
+04/07 07:35:09.575/IST   INFO -  PriceAction - 48# testadmin traded with the market maker for 0 of IPLTest:5 at 11.1111
+04/07 07:35:09.577/IST   INFO -  PriceAction - 49# testadmin traded with the market maker for 0 of IPLTest:6 at 11.1111
+04/07 07:35:09.577/IST   INFO -  PriceAction - 50# testadmin traded with the market maker for 0 of IPLTest:7 at 11.1111
+04/07 07:35:09.578/IST   INFO -  PriceAction - 51# testadmin traded with the market maker for 0 of IPLTest:8 at 11.1111
+04/07 07:35:09.579/IST   INFO -  PriceAction - 52# testadmin traded with the market maker for 0 of IPLTest:9 at 11.1111
+04/07 07:35:19.136/IST   INFO -     NewChart - The chart for IPLTest has been updated.
+04/07 07:36:37.659/IST   WARN -    UserError - 71# told User(logging in) "Please type an account name and password".

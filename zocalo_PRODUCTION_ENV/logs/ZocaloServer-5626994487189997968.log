@@ -1,0 +1,135 @@
+03/11 11:26:06.753/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 11:26:06.758/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 11:26:06.758/IST   INFO -   AllMarkets - version = 1
+03/11 11:26:06.837/IST   INFO -        trace -    creating AllMarkets
+03/11 11:26:07.669/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 11:26:08.578/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 11:26:08.578/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/11 11:26:17.858/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/11 11:26:18.456/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/11 11:26:23.364/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+03/11 11:28:15.200/IST  DEBUG -      Trading - vishal wants to liquidate India
+03/11 11:28:15.215/IST   INFO -  PriceAction - 62# vishal traded with the market maker for 0 of test:Bangladesh changing the price from 55 to 62.0024
+03/11 11:28:15.216/IST   INFO -  PriceAction - 63# vishal traded with the market maker for -4.17 of test:India changing the price from 45 to 37.9976
+03/11 11:28:15.217/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 62, test:India: 38
+03/11 11:28:15.218/IST   WARN -    UserError - 64# told vishal "Sold 4.170".
+03/11 11:28:23.587/IST  DEBUG -      Trading - vishal wants to sell Bangladesh with limit of 25 @ 12.
+03/11 11:28:23.596/IST   INFO -  PriceAction - 77# vishal traded with the market maker for 0 of test:India changing the price from 38 to 88
+03/11 11:28:23.597/IST   INFO -  PriceAction - 78# vishal traded with the market maker for -35.815 of test:Bangladesh changing the price from 62 to 12
+03/11 11:28:23.598/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 88, test:Bangladesh: 12
+03/11 11:28:23.598/IST   WARN -    UserError - 79# told vishal "Sold 35.815 shares of the team.".
+03/11 11:28:23.816/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:28:36.845/IST  DEBUG -      Trading - vishal wants to liquidate India
+03/11 11:28:36.858/IST   INFO -  PriceAction - 148# vishal traded with the market maker for 0 of test:Bangladesh changing the price from 12 to 61.9919
+03/11 11:28:36.859/IST   INFO -  PriceAction - 149# vishal traded with the market maker for -35.81 of test:India changing the price from 88 to 38.0081
+03/11 11:28:36.922/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:28:36.922/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 62, test:India: 38
+03/11 11:28:36.981/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:28:36.982/IST   WARN -    UserError - 150# told vishal "Sold 35.810".
+03/11 11:28:57.327/IST  DEBUG -      Trading - vishal wants to sell Bangladesh with limit of 25 @ 12.
+03/11 11:28:57.336/IST   INFO -  PriceAction - 167# vishal traded with the market maker for -35.815 of test:Bangladesh changing the price from 62 to 12
+03/11 11:28:57.337/IST   INFO -  PriceAction - 168# vishal traded with the market maker for 0 of test:India changing the price from 38 to 88
+03/11 11:28:57.391/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:28:57.391/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 12, test:India: 88
+03/11 11:28:57.392/IST   WARN -    UserError - 169# told vishal "Sold 35.815 shares of the team.".
+03/11 11:28:57.462/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:29:07.437/IST  DEBUG -      Trading - vishal wants to liquidate India
+03/11 11:29:07.447/IST   INFO -  PriceAction - 188# vishal traded with the market maker for 0 of test:Bangladesh changing the price from 12 to 61.9919
+03/11 11:29:07.448/IST   INFO -  PriceAction - 189# vishal traded with the market maker for -35.81 of test:India changing the price from 88 to 38.0081
+03/11 11:29:07.502/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:29:07.502/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 62, test:India: 38
+03/11 11:29:07.554/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:29:07.555/IST   WARN -    UserError - 190# told vishal "Sold 35.810".
+03/11 11:29:16.841/IST  DEBUG -      Trading - vishal wants to sell Bangladesh with limit of 25 @ 12.
+03/11 11:29:16.848/IST   INFO -  PriceAction - 211# vishal traded with the market maker for -35.815 of test:Bangladesh changing the price from 62 to 12
+03/11 11:29:16.849/IST   INFO -  PriceAction - 212# vishal traded with the market maker for 0 of test:India changing the price from 38 to 88
+03/11 11:29:16.901/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:29:16.901/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 12, test:India: 88
+03/11 11:29:16.902/IST   WARN -    UserError - 213# told vishal "Sold 35.815 shares of the team.".
+03/11 11:29:16.967/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:30:20.735/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:31:01.738/IST   WARN -    UserError - 348# told User(logging in) "Please type an account name and password".
+03/11 11:32:43.890/IST   WARN -    UserError - 425# told haritcsa "price must be greater than 0 and less than 100.".
+03/11 11:33:01.794/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 1.
+03/11 11:33:01.802/IST   INFO -  PriceAction - 464# haritcsa traded with the market maker for -26.535 of test:Bangladesh changing the price from 12 to 2.1221
+03/11 11:33:01.803/IST   INFO -  PriceAction - 465# haritcsa traded with the market maker for 0 of test:India changing the price from 88 to 97.8779
+03/11 11:33:01.869/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:33:01.870/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 2, test:India: 98
+03/11 11:33:01.870/IST   WARN -    UserError - 530# told haritcsa "Sold 26.535 shares of the team.".
+03/11 11:33:01.932/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:33:21.816/IST   WARN -    UserError - 569# told User(logging in) "Please type an account name and password".
+03/11 11:33:32.646/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:33:41.623/IST   WARN -    UserError - 572# told User(logging in) "Please type an account name and password".
+03/11 11:34:32.709/IST  DEBUG -      Trading - haritcsa wants to liquidate India
+03/11 11:34:32.717/IST   INFO -  PriceAction - 597# haritcsa traded with the market maker for 0 of test:Bangladesh changing the price from 2 to 11.379
+03/11 11:34:32.718/IST   INFO -  PriceAction - 598# haritcsa traded with the market maker for -26.54 of test:India changing the price from 98 to 88.621
+03/11 11:34:32.783/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:34:32.783/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 11, test:India: 89
+03/11 11:34:32.832/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:34:32.833/IST   WARN -    UserError - 665# told haritcsa "Sold 26.540".
+03/11 11:34:54.364/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 1.
+03/11 11:34:54.371/IST   INFO -  PriceAction - 706# haritcsa traded with the market maker for -26.398 of test:Bangladesh changing the price from 11 to 1.9453
+03/11 11:34:54.372/IST   INFO -  PriceAction - 707# haritcsa traded with the market maker for 0 of test:India changing the price from 89 to 98.0547
+03/11 11:34:54.420/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:34:54.421/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 2, test:India: 98
+03/11 11:34:54.422/IST   WARN -    UserError - 708# told haritcsa "Sold 26.398 shares of the team.".
+03/11 11:34:54.481/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:36:01.832/IST   WARN -    UserError - 751# told User(logging in) "Please type an account name and password".
+03/11 11:36:09.553/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:36:22.671/IST  DEBUG -      Trading - haritcsa wants to liquidate India
+03/11 11:36:22.679/IST   INFO -  PriceAction - 866# haritcsa traded with the market maker for -26.4 of test:India changing the price from 98 to 88.7184
+03/11 11:36:22.679/IST   INFO -  PriceAction - 867# haritcsa traded with the market maker for 0 of test:Bangladesh changing the price from 2 to 11.2816
+03/11 11:36:22.732/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:36:22.733/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 89, test:Bangladesh: 11
+03/11 11:36:22.786/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 11:36:22.787/IST   WARN -    UserError - 868# told haritcsa "Sold 26.400".
+03/11 11:37:02.180/IST   WARN -    UserError - 959# told User(logging in) "Please type an account name and password".
+03/11 11:37:08.517/IST   WARN -    UserError - 960# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/11 11:37:14.131/IST   WARN -    UserError - 961# told User(logging in) "unknown account or password".
+03/11 11:37:15.121/IST   WARN -    UserError - 962# told User(logging in) "Please type an account name and password".
+03/11 11:37:31.533/IST   WARN -    UserError - 963# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 11:37:52.362/IST   WARN -    UserError - 964# told User(logging in) "Congratulations mauka! You're now done. Now Jump in!".
+03/11 11:37:52.403/IST   WARN -    UserError - 965# told User(logging in) "Please type an account name and password".
+03/11 11:38:41.115/IST   WARN -    UserError - 966# told mauka "Please specify a name for the market.".
+03/11 11:38:43.668/IST   WARN -    UserError - 967# told User(logging in) "Please type an account name and password".
+03/11 11:40:27.881/IST   INFO -   Transition - 992# State transition: new Multi Market, round: 0.
+03/11 11:40:27.882/IST   INFO -  PriceAction - 993# mauka traded with the market maker for 0 of World Cup Final:India at 11.1111
+03/11 11:40:27.883/IST   INFO -  PriceAction - 994# mauka traded with the market maker for 0 of World Cup Final:Pakistan at 11.1111
+03/11 11:40:27.883/IST   INFO -  PriceAction - 995# mauka traded with the market maker for 0 of World Cup Final:Sri Lanka at 11.1111
+03/11 11:40:27.884/IST   INFO -  PriceAction - 996# mauka traded with the market maker for 0 of World Cup Final:Bangladesh at 11.1111
+03/11 11:40:27.884/IST   INFO -  PriceAction - 997# mauka traded with the market maker for 0 of World Cup Final:Austrailia at 11.1111
+03/11 11:40:27.885/IST   INFO -  PriceAction - 998# mauka traded with the market maker for 0 of World Cup Final:South Africa at 11.1111
+03/11 11:40:27.885/IST   INFO -  PriceAction - 999# mauka traded with the market maker for 0 of World Cup Final:Ireland at 11.1111
+03/11 11:40:27.886/IST   INFO -  PriceAction - 1000# mauka traded with the market maker for 0 of World Cup Final:New Zealand at 11.1111
+03/11 11:40:27.886/IST   INFO -  PriceAction - 1001# mauka traded with the market maker for 0 of World Cup Final:West Indies at 11.1111
+03/11 11:40:34.837/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/11 11:41:08.709/IST   WARN -    UserError - 1029# told User(logging in) "Please type an account name and password".
+03/11 11:41:30.697/IST   WARN -    UserError - 1030# told User(logging in) "Please type an account name and password".
+03/11 11:42:12.773/IST  DEBUG -      Trading - vishal wants to buy India with limit of 25 @ 78.
+03/11 11:42:12.781/IST   INFO -  PriceAction - 1031# vishal traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 11 to 2.7191
+03/11 11:42:12.782/IST   INFO -  PriceAction - 1032# vishal traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 11 to 2.7191
+03/11 11:42:12.782/IST   INFO -  PriceAction - 1033# vishal traded with the market maker for 0 of World Cup Final:South Africa changing the price from 11 to 2.7191
+03/11 11:42:12.783/IST   INFO -  PriceAction - 1034# vishal traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 11 to 2.7191
+03/11 11:42:12.783/IST   INFO -  PriceAction - 1035# vishal traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 11 to 2.7191
+03/11 11:42:12.784/IST   INFO -  PriceAction - 1036# vishal traded with the market maker for 0 of World Cup Final:West Indies changing the price from 11 to 2.7191
+03/11 11:42:12.785/IST   INFO -  PriceAction - 1037# vishal traded with the market maker for 15.272 of World Cup Final:India changing the price from 11 to 78.2472
+03/11 11:42:12.785/IST   INFO -  PriceAction - 1038# vishal traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 11 to 2.7191
+03/11 11:42:12.786/IST   INFO -  PriceAction - 1039# vishal traded with the market maker for 0 of World Cup Final:Ireland changing the price from 11 to 2.7191
+03/11 11:42:12.830/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/11 11:42:12.831/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Sri Lanka: 3, World Cup Final:New Zealand: 3, World Cup Final:South Africa: 3, World Cup Final:Bangladesh: 3, World Cup Final:Pakistan: 3, World Cup Final:West Indies: 3, World Cup Final:India: 78, World Cup Final:Austrailia: 3, World Cup Final:Ireland: 3
+03/11 11:42:12.832/IST   WARN -    UserError - 1049# told vishal "Bought 15.272 shares of the team.".
+03/11 11:42:12.892/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/11 11:42:50.022/IST  DEBUG -      Trading - vishal wants to liquidate India
+03/11 11:42:50.031/IST   INFO -  PriceAction - 1050# vishal traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 3 to 12.1359
+03/11 11:42:50.032/IST   INFO -  PriceAction - 1051# vishal traded with the market maker for 0 of World Cup Final:Ireland changing the price from 3 to 12.1359
+03/11 11:42:50.032/IST   INFO -  PriceAction - 1052# vishal traded with the market maker for 0 of World Cup Final:West Indies changing the price from 3 to 12.1359
+03/11 11:42:50.033/IST   INFO -  PriceAction - 1053# vishal traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 3 to 12.1359
+03/11 11:42:50.034/IST   INFO -  PriceAction - 1054# vishal traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 3 to 12.1359
+03/11 11:42:50.034/IST   INFO -  PriceAction - 1055# vishal traded with the market maker for -15.27 of World Cup Final:India changing the price from 78 to 2.913
+03/11 11:42:50.035/IST   INFO -  PriceAction - 1056# vishal traded with the market maker for 0 of World Cup Final:South Africa changing the price from 3 to 12.1359
+03/11 11:42:50.036/IST   INFO -  PriceAction - 1057# vishal traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 3 to 12.1359
+03/11 11:42:50.036/IST   INFO -  PriceAction - 1058# vishal traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 3 to 12.1359
+03/11 11:42:50.073/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/11 11:42:50.074/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Pakistan: 12, World Cup Final:Ireland: 12, World Cup Final:West Indies: 12, World Cup Final:Sri Lanka: 12, World Cup Final:Bangladesh: 12, World Cup Final:India: 3, World Cup Final:South Africa: 12, World Cup Final:New Zealand: 12, World Cup Final:Austrailia: 12
+03/11 11:42:50.109/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/11 11:42:50.110/IST   WARN -    UserError - 1059# told vishal "Sold 15.270".

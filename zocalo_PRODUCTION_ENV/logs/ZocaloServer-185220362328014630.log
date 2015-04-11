@@ -1,0 +1,8 @@
+03/09 11:13:33.395/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 11:13:33.398/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 11:13:33.472/IST   INFO -        trace -    creating AllMarkets
+03/09 11:13:35.119/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 11:13:35.119/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 11:14:20.751/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/09 11:14:29.866/IST   INFO -     NewChart - The chart for Q1 has been updated.
+03/09 11:14:38.320/IST   WARN -    UserError - 40# told User(logging in) "Please type an account name and password".

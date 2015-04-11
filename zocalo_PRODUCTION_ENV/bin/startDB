@@ -1,0 +1,54 @@
+#! /bin/sh
+
+:     Copyright 2009 Chris Hibbert.  All rights reserved.
+:    This file is published under the terms of the MIT license, a copy of
+:    which has been included with this distribution in the LICENSE file.
+
+if [ ! -d jars ] 
+then
+   echo "    " Please run this command in the directory containing the jars directory.
+   exit 2
+fi
+
+if [ ! -f etc/zocalo.conf ] 
+then
+   echo "    " Could not find etc/zocalo.conf.  Something is wrong with
+   echo "    " the installation.  Please try re-installing.
+   exit 2
+fi
+
+if [ ! -e ../P-data/zocalo.properties ] 
+then
+   createDB=1
+   create="create"
+   mkdir -p ../P-data
+else
+   createDB=0
+   create="update"
+fi
+
+mkdir -p logs
+
+ dbUrlFile=`grep database.url.file etc/zocalo.conf | sed -e "s/.*: //" -e "s/#.*//"`
+ dbUrlBase=`grep database.url.base etc/zocalo.conf | sed -e "s/.*: //" -e "s/#.*//"`
+ dbFileBase=`grep database.file.base etc/zocalo.conf | sed -e "s/.*: //" -e "s/#.*//"`
+
+if [ -z "$dbUrlFile" -o -z "$dbUrlBase" -o -z "$dbFileBase" ]
+then
+   echo "    " Improper configuration detected.  Please request configuration 
+   echo "    " help from http://zocalo.sourceforge.net
+   exit 2
+fi
+
+java -cp jars/hsqldb.jar org.hsqldb.Server -database.0 $dbFileBase -dbname.0 $dbUrlFile &
+
+ jarFiles=`find . -name "*.jar"`
+ jarPath=`echo $jarFiles | sed -e 's/ /:/g'`
+
+if [ "$createDB" == "1" ] 
+then
+ java -Dhibernate.connection.url=${dbUrlBase}/${dbUrlFile} \
+  -Dhibernate.hbm2ddl.auto=$create \
+  -cp ${jarPath}:jars/hibernate3.jar org.hibernate.tool.hbm2ddl.SchemaExport\
+	jars/hibernate.jar
+fi

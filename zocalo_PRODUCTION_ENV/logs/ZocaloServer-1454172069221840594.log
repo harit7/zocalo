@@ -1,0 +1,85 @@
+03/13 06:16:57.125/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 06:16:57.129/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 06:16:57.130/IST   INFO -   AllMarkets - version = 1
+03/13 06:16:57.209/IST   INFO -        trace -    creating AllMarkets
+03/13 06:16:58.043/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 06:16:58.958/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 06:16:58.958/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 06:18:16.967/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/13 06:24:26.303/IST   WARN -    UserError - 36# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/13 06:24:49.898/IST   WARN -    UserError - 37# told User(logging in) "Congratulations test2! You're now done. Now Jump in!".
+03/13 06:24:49.928/IST   WARN -    UserError - 38# told User(logging in) "Please type an account name and password".
+03/13 06:25:17.204/IST  DEBUG -      Trading - test2 wants to sell India with limit of 25 @ 20.
+03/13 06:25:17.213/IST   WARN -   CouponBank - CouponBank received 0 instead of 32.0663688 in printNewCouponSets().
+03/13 06:25:17.214/IST   INFO -  PriceAction - 39# test2 traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 30.23 to 80
+03/13 06:25:17.216/IST   INFO -  PriceAction - 40# test2 traded with the market maker for -32.066 of India vs Zimbabwe:India changing the price from 69.77 to 20
+03/13 06:25:17.217/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 80, India vs Zimbabwe:India: 20
+03/13 06:25:17.218/IST   WARN -    UserError - 41# told test2 "Sold 32.066 shares of the team.".
+03/13 06:25:17.456/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:25:21.824/IST  DEBUG -      Trading - test2 wants to liquidate Zimbabwe
+03/13 06:25:21.837/IST   INFO -  PriceAction - 108# test2 traded with the market maker for -32.066 of India vs Zimbabwe:Zimbabwe changing the price from 80 to 30.23
+03/13 06:25:21.838/IST   INFO -  PriceAction - 109# test2 traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 20 to 69.77
+03/13 06:25:21.918/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:25:21.919/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 30, India vs Zimbabwe:India: 70
+03/13 06:25:21.994/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:25:21.994/IST   WARN -    UserError - 110# told test2 "Sold 32.066".
+03/13 06:25:28.303/IST  DEBUG -      Trading - test2 wants to sell Zimbabwe with limit of 25 @ 30.
+03/13 06:25:28.312/IST   INFO -  PriceAction - 113# test2 traded with the market maker for -0.158 of India vs Zimbabwe:Zimbabwe changing the price from 30.23 to 30
+03/13 06:25:28.313/IST   INFO -  PriceAction - 114# test2 traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 69.77 to 70
+03/13 06:25:28.388/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:25:28.389/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 30, India vs Zimbabwe:India: 70
+03/13 06:25:28.389/IST   WARN -    UserError - 115# told test2 "Sold 0.158 shares of the team.".
+03/13 06:25:28.482/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:25:33.071/IST  DEBUG -      Trading - test2 wants to liquidate India
+03/13 06:25:33.082/IST   INFO -  PriceAction - 120# test2 traded with the market maker for -0.158 of India vs Zimbabwe:India changing the price from 70 to 69.77
+03/13 06:25:33.083/IST   INFO -  PriceAction - 121# test2 traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 30 to 30.23
+03/13 06:25:33.154/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:25:33.155/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 70, India vs Zimbabwe:Zimbabwe: 30
+03/13 06:25:33.226/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:25:33.226/IST   WARN -    UserError - 122# told test2 "Sold 0.158".
+03/13 06:26:06.200/IST   WARN -    UserError - 129# told User(logging in) "Please type an account name and password".
+03/13 06:27:48.115/IST   WARN -    UserError - 130# told User(logging in) "Please type an account name and password".
+03/13 06:30:33.480/IST   WARN -    UserError - 131# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/13 06:31:46.212/IST   WARN -    UserError - 132# told User(logging in) "Congratulations rohithdv! You're now done. Now Jump in!".
+03/13 06:31:46.248/IST   WARN -    UserError - 133# told User(logging in) "Please type an account name and password".
+03/13 06:33:14.221/IST  DEBUG -      Trading - rohithdv wants to sell India with limit of 25 @ 40.
+03/13 06:33:14.228/IST   WARN -   CouponBank - CouponBank received 0 instead of 17.9159451 in printNewCouponSets().
+03/13 06:33:14.229/IST   INFO -  PriceAction - 134# rohithdv traded with the market maker for -17.916 of India vs Zimbabwe:India changing the price from 69.77 to 40
+03/13 06:33:14.230/IST   INFO -  PriceAction - 135# rohithdv traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 30.23 to 60
+03/13 06:33:14.316/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:14.317/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 40, India vs Zimbabwe:Zimbabwe: 60
+03/13 06:33:14.317/IST   WARN -    UserError - 210# told rohithdv "Sold 17.916 shares of the team.".
+03/13 06:33:14.410/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:26.495/IST  DEBUG -      Trading - rohithdv wants to sell Zimbabwe with limit of 25 @ 30.
+03/13 06:33:26.504/IST   INFO -  PriceAction - 211# rohithdv traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 40 to 69.77
+03/13 06:33:26.504/IST   INFO -  PriceAction - 212# rohithdv traded with the market maker for -17.916 of India vs Zimbabwe:Zimbabwe changing the price from 60 to 30.23
+03/13 06:33:26.563/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:26.564/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 70, India vs Zimbabwe:Zimbabwe: 30
+03/13 06:33:26.566/IST   INFO -  PriceAction - 213# rohithdv traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 69.77 to 70
+03/13 06:33:26.567/IST   INFO -  PriceAction - 214# rohithdv traded with the market maker for -0.158 of India vs Zimbabwe:Zimbabwe changing the price from 30.23 to 30
+03/13 06:33:26.626/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:26.626/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 70, India vs Zimbabwe:Zimbabwe: 30
+03/13 06:33:26.627/IST   WARN -    UserError - 215# told rohithdv "Sold 18.074 shares of the team.".
+03/13 06:33:26.703/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:33.791/IST  DEBUG -      Trading - rohithdv wants to liquidate India
+03/13 06:33:33.800/IST   INFO -  PriceAction - 218# rohithdv traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 30 to 30.23
+03/13 06:33:33.800/IST   INFO -  PriceAction - 219# rohithdv traded with the market maker for -0.158 of India vs Zimbabwe:India changing the price from 70 to 69.77
+03/13 06:33:33.857/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:33.858/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 30, India vs Zimbabwe:India: 70
+03/13 06:33:33.916/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:33.916/IST   WARN -    UserError - 220# told rohithdv "Sold 0.158".
+03/13 06:33:48.227/IST  DEBUG -      Trading - rohithdv wants to buy Zimbabwe with limit of 25 @ 55.
+03/13 06:33:48.233/IST   WARN -   CouponBank - CouponBank received 0 instead of 14.9613762 in printNewCouponSets().
+03/13 06:33:48.234/IST   INFO -  PriceAction - 227# rohithdv traded with the market maker for 14.961 of India vs Zimbabwe:Zimbabwe changing the price from 30.23 to 55
+03/13 06:33:48.235/IST   INFO -  PriceAction - 228# rohithdv traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 69.77 to 45
+03/13 06:33:48.292/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:48.292/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 55, India vs Zimbabwe:India: 45
+03/13 06:33:48.293/IST   WARN -    UserError - 229# told rohithdv "Bought 14.961 shares of the team.".
+03/13 06:33:48.362/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:54.910/IST  DEBUG -      Trading - rohithdv wants to liquidate Zimbabwe
+03/13 06:33:54.918/IST   INFO -  PriceAction - 238# rohithdv traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 45 to 69.77
+03/13 06:33:54.918/IST   INFO -  PriceAction - 239# rohithdv traded with the market maker for -14.961 of India vs Zimbabwe:Zimbabwe changing the price from 55 to 30.23
+03/13 06:33:54.976/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:54.976/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 70, India vs Zimbabwe:Zimbabwe: 30
+03/13 06:33:55.032/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 06:33:55.032/IST   WARN -    UserError - 240# told rohithdv "Sold 14.961".

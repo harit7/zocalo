@@ -1,0 +1,537 @@
+most (db) prices are in entered and displayed in whole cents.  AMM's price on list markets page is decimal, with an inconsistent number of digits.
+
+Shouldn't be able to enter a book order if can't afford price plus reserves.
+
+Look at submitted loan acceptances for redirects.
+
+reformat Borrower.capitalGains() and compare versions.
+
+Provide a manager screen for Prediction Markets to control parameters and review player returns.
+
+Inkling has multi-outome markets in which more than one outcome might be true at judging: Who will take the top three spots in NASCAR?
+
+New Manipulator/Judge payoff functions
+
+allow admins to adjust balances.  Allow closing claims.  Either unwind trades, or refund at current value (or 50?)
+ 
+update install documentation to help on email.  (SiteConstants.st)
+
+javascript jslint.  look at closures.
+
+Limited traders shouldn't see market orders they can't accept.
+
++ configurably: automatically cancel all orders other than the current best bid/ask.
+
+CCI: predicting destinations and arrival times.  What kinds of markets? 
+
+JenniferC: Configurations
+
+Multi-outcome market
+
+When best sell is 55, you can offer to buy to 55 and leave both buy and sell offers on the book.
+
+some scoreComponents are stored as dollars and some as cents
+
+make new market announcement glow and fade to normal.
+
+Add instructions for using logToCSV.pl to PM config
+
+AJAX updating in Binary Markets
+	book orders
+	orders to cancel
+in Binary and Multi-Markets:
+	?holdings
+	?balance
+	?trade history
+
+Design new UI for quant-limited multi-outcome trading.
+
+ClaimPurchase doesn't provide a way to distinguish limit from market orders in binary claims
+
+Stop the refresh of the experimenter page, use AJAX to refresh anything that changes.
+   Scores, Judge estimates
+Move Judge refresh to AJAX rather than html.
+
+Separate SessionTestCase from tests that setup their own session, to  ensure that there aren't any shadowed instance variables.
+
+Ask Malone for permission to open source the RPC agent code
+
+Log total cost of a transaction
+
+Wendy and Jeremy believe that the DB "fills up" and needs to be pruned.  What causes heap space to run out in the HSQL thread?
+
+integrate AWS Elastic Block storage into logging.
+
+SessionScoringTest:TestDividendReserves() is checking that the reserves are equal to the total actual dividends.  Shouldn't that be the total expected or max dividends?
+
+Add more prominent advice about being admin, dropping authority
+
+IE
+  try to create user with 6-character password, produces  "Cannot display web page."
+  Cannot display web page on successful login
+   Doesn't display successful admin authent message
+   Cannot display web page for "create markets"
+
+Make a version of the install doc in pdf form.  (use formatting rather
+than ascii for emphasis).
+  quickstart guide, user's guide.
+  outlines from Lawrence Gallant 4/23/09  (zocalo/support)
+  Applications guide--tips and hints
+
+https://sourceforge.net/projects/zocalo/
+
+Provide access to price limit screen from cost limit page and vice versa.
+
+Multi-outcome Book market
+
+PersistentTradeTest.testTradeIsBuy() has a test that flips results randomly.  what's going on?
+ 
+Use thread-bound transactions.  
+? Synchronize on markets
+
+Make a Mac installer.   ==>  How to hook into email system?
+
+Market maker trades should Log total spent.
+
+the frontpage should show some activity, even when not logged in, so visitors can see things happening: most active, recent, expiring soon or completed markets. Also, the layout should be flexible, e.g. using cascading style sheets, so we can make changes to the look and feel easily. Registered users should at least be able to change their screen name, password and email, and preferably add an image or links.  Users should be able to configure their choice of trading style (price limit vs. value limit.)  A language file or other means for translation would be nice to for use in non native english speaking countries.
+
+*** 4/30/08  Experiment 420 Play 9:   price went negative
+
+Remove experiment iframes
+
+ReloadablePage should move adminUser and transactions to UserPage
+
+How much work would it be to not notify the user about completed transactions until they're committed?
+
+Wendy provided DB logs: why did the NewsServer run out of money?
+
+Jason's Thesis
+
+Many stack traces in ~/ideas/MIT-CCI/Experiment-2008June-9/Server.out
+Most of the transaction attempts in ...-2008June-9/ZocaloServer-10664.log weren't committed
+
+Remove accounts for experimental use of PMs.
+
+On startup, experiments sometimes throws 
+Exception in thread "main" java.lang.NoSuchMethodError: org.mortbay.util.DateCache.now()Ljava/lang/String;
+        at org.mortbay.log.StdErrLog.info(StdErrLog.java:67)
+        at org.mortbay.log.Log.<clinit>(Log.java:63)
+        at org.mortbay.component.Container.add(Container.java:200)
+        at org.mortbay.component.Container.update(Container.java:164)
+        at org.mortbay.component.Container.update(Container.java:106)
+        at org.mortbay.jetty.Server.setConnectors(Server.java:158)
+        at org.mortbay.jetty.Server.<init>(Server.java:85)
+        at net.commerce.zocalo.JspSupport.ServletUtil.createServerWithListener(ServletUtil.java:45)
+        at net.commerce.zocalo.JspSupport.ServletUtil.initializeServerTopLevel(ServletUtil.java:114)
+        at net.commerce.zocalo.JspSupport.ServletUtil.initializeServerTopLevelWithCGI(ServletUtil.java:110)
+        at net.commerce.zocalo.experiment.ExperimentServer.<init>(ExperimentServer.java:16)
+        at net.commerce.zocalo.experiment.ExperimentServer.main(ExperimentServer.java:21)
+
+CCI
+   Show outcome labels on Y-axis for binary claims
+
+History should show redemptions when displaying all markets
+
+Add a history page for the admin showing all users in a market and what they earned.
+
+Need to record endowments of markets as debits to owner's balance.
+
+passwords appear in http requests and log
+
+Add an administrator config page to set config variables.  Notice which ones can't be undone.
+
+allow installation choice of date priority or quantity priority among orders.
+
+?Record to log when creating a market or closing one?
+
+Enable closing a claim with a continuous payout in addition to binary
+outcomes.
+
+Make the combination of CarryForward and privateDividends work.  Prevent use until implementation is complete.
+
+CommonDividendLabel and PrivateDividendLabel should be configurable.
+
+When re-writing experiments, scoring should be done by a strategy object that asks session for dividends, etc, asks trader for cash and coupons, and can render html, log, etc.
+
+MarketMaker.buyWithPriceLimit() took PRICE as an INT, but it's now DOUBLE. See if it needs to be scaled or something.
+
+Prices in DB are inconsistent.  Trades are cents; Orders are dollars.
+
+TradeSupport uses AllMarkets staticly to create new markets.  Security
+is by detectAdminCookie().
+
+ClaimSupport.getMarket() calls HibernateUtil directly
+
+LogToColumns doesn't understand quantities in bestBid/bestAsk.  When summarizing a market, quantities might not be 1.
+
+From Chapman:
+   parameterize experiments via web interface
+   convert log file from web interface
+
+From CCI:
+----------------------------
+F * put cancel on the best orders list  (merge "all your orders" with "best orders")
+ * Show summary of gain/loss on closed markets
+F * All markets updates w/ajax
+NO * separate entry box for buy and sell
+NO * best bids should show price first  (with decimal point) 
+----------------------------
+
+Login throws Null Pointer exception.
+
+purchase ack doesn't mention position.  Price looks like max()?
+
+https for login
+
+Public page with pointer to login page.
+
+put email on a separate thread
+
+Multi-markets should allow users to manage baskets.
+
+Make combined markets look like a helpful innovation by giving useful
+price quotes in the i/f.
+
+? Add an admin page that would allow the admin to see confirmation tokens
+
+integrate new version of jfreechart
+Install new version of NSIS.  (Better tools for collecting config responses.)
+
+Admin cookies should time out.
+
+Add User profile page visible to other players.
+Top User page.
+Show player standings
+
+Allow user to change email address (if new address is confirmed.)
+
+Price history should include time-range selection.
+
+Allow closing contracts with a proportional outcome.
+
+Best Bid/Ask should combine quantities when displaying best orders
+
+Rudimentary help page: 
+  What each page does.  How to trade.
+  The general idea behind prediction markets
+  links to wikipedia, chris masse, some markets, zocalo
+
+visit login page: choose "register"
+      on failure: suggest "register"
+create account page:
+		check terms and conditions agreement if Ts & Cs present
+
+Markets should be categorized
+
+UnconfirmedUser should have a timeout
+
+Quadratic Rule (or something for date-range claims)
+
+Some (quarterly?) Markets: non-farm payroll, unemployment, cpi,
+business confidence, occupancy rates (local?)
+  Use gov't numbers so no IP problems.  Cut off trading day before.
+
+Replace opposite() in Claim with complementaryPositions.  BinaryClaim
+would know that the opposite is the unique answer.  Others would
+return a collection.
+
+Re-check logToColumns.pl.  (set up a regression test?)
+
+Unify stripchart/Action descendents with history/*Records
+- make Actions use SecureUser rather than user.name()
+x was TradeRec.addTo() only for testing?  How will *Records be resurrected from DB?
+         It was.  We already retrieve Actions using queries.  Good Enough.
+           Let's continue to convert the data a la AllMarkets.getHistoricalPrices() for now.
+   Transaction date is date of every sub-Action
+   Remove PriceHistoryRecord when everything is converted to Actions
+
+x BookTradeRec ==> BookTrade
+      Should BookTrade point to the Order [Not for initial Impl: MultiMarkets]
+x MarketTradeRec==> MakerTrade   (average price, trader)
+       When you retrieve from MakerTrade in the DB, you'll get all the info
+x PriceChangeRec ==> add to stripchart/
+(later) TransactionRec ==> add to stripchart/
+   Market, MarketMaker, Book have to pass around transaction records
+
+   PriceHistoryRec is root TradeRec(BookTRec&MarketTRec), PriceChangeRec,TransactionRec
+   TradeHistory  is the ReloadablePage that currently displays transactions in a table
+   PriceHistory is used by HistoryTest to create TimePeriodValuesCollections as an example
+
+Multi-Markets currently have marketmaker, but no book markets.  With a market maker, you want
+to display trades as moving a price from open to close.  With BookMarkets, trades happen at
+particular prices, and prices can move before, after, or between trades.  
+x       BookMarkets want to show newBest(Bid/Ask)
+x       AMMs want to show open/close.
+x        Trade/Maker already shows open/close
+       TransactionRec is used to combine multiple BookTrades (and MarketTrades)
+	      it's unnecessary when you only have AMM.
+         Should I build TransactionRecs for Binary markets?  That would allow history to show
+		 bestOffers as well as multiple transactions as ranges rather than average price.
+
+Make the simple binary market show volume in its plot using a
+CombinedDomainXYPlot.  Adjust the sizes of the plot using weights in 
+the call plot.add(subplot, weight).  CombinedXYPlotDemo4 shows the result.
+
+Price history for binary and multi-claims with Book, AMM, and both.
+       [See ChartingPlans.txt]
+
+make the value of a basket be adjustable.  Choose a consistent way to display it.
+
+Time zones (on Transaction History page) should be configurable by the user
+
+Track account values
+  enable control of account balance on creation
+  enable admin modifications to account balances
+  ensure all changes to account balance are logged
+    creation
+    closing markets
+    deposits & withdrawals
+
+judge's estimate not proofed.   (No current ability to print errors.)
+
+Rewrite ClaimPurchase:historyChartNameForJsp() to use the mechanism
+in ChartTest:testDrawChartFromDB() to retrieve data.   (PERFORMANCE)
+
+Withdraw bids when users exceed their budget.
+
+Why do smaller quantities in multi-markets seem to move prices
+comparably to binary markets?
+
+claimPurchase() tries to work even if there aren't cookies.  Should
+this pattern be removed or copied to other pages?  see useCookie and
+setUserFromCookie().
+
+What will increase use in the short term?
+------------------------
+    CUSTOMERS & DRIVERS
+
+Donut market
+  create accounts
+  close markets
+
+Zocalo as a service
+  web account  (softlayer.com)
+  email account creation
+--------------------
+   CATEGORIZED PROJECTS
+
+Robustness
+  production database (derby)
+  schema migration
+  stable schema (ptrs rather than names)
+
+Deployable
+  email for transaction confirmation
+x  email for login confirmation
+
+Usability
+  record trades as high-low-close
+x  Indicate markets that are closed.  Markets page and trading page.
+  prices and quantities should use integers with radix & range.
+  history display: choose one claim
+  price chart: choose timescale
+  page for anon users: select a chart and market description
+
+User configurability
+  Users should have a settings page.  (toggle confirm trades)
+  allow users to change password.
+  choose chart size
+  choose order entry form
+x  at login, collect email address
+x  don't show closed markets.
+  filter out orders for closed markets
+   set local time zone for printing transaction records.
+
+housekeeping
+  drop CNet from package names and copyright notices
+
+Prediction Market features
+  n-way claims
+  different marketmakers (show polymorphism): digital & linear
+  continuous payouts
+  time limits on orders
+  Unary assets: open ended claims; unlimited prices
+  Whole share trading for Market Maker
+
+Catch these exceptions and display a page. 
+  Seen twice: collection was not processed before flush()   8/3/06
+        after book order entry is processed.
+
+Isolated tasks for class projects:
+    Currency, User configurability, continuous payouts, marketmakers,
+	cache charts, price estimates, detailed transaction record, 
+    email for transaction notification
+
+When closing a market, cash out Market Maker and return funds to owner
+
+More detailed transaction log: carry around a Record object
+  Who bought and sold (including book orders)
+  which orders were market orders and book orders
+  what was purchased from the Market Maker
+  Tell the current buyer the Price and Quantity
+  Notify the owner of the book order via email.
+  Provide a transactions page giving the user access to history.
+    (show orders entered and accepted.)
+
+DB changes
+  convert Action Report objects to hold User objects rather than names.
+
+login security
+  submit passwords using ssl
+  use captcha and allow uninvited login
+
+UI usability
+  Upgrade to Jetty 6.0--continuations for AJAX
+  use AJAX to update outstanding orders and prices.
+  Support for immediate buy, & current bid and ask using AJAX.
+
+Documentation
+  Write up the class diagram now that persistence works.
+  Organize description of prediction markets
+  Provide help for users
+
+Advanced
+  Alternate displays 
+	price history separated by bid and ask
+  Cache charts; update on trading, not viewing (Significant price change should notify)
+  MarketMaker should provide price estimates for a few quantities
+  Display price chart to anonymous users
+
+Make separate sesssions work
+  Convert AllMarkets to MarketGroup, make it part of the (browser) Session context
+  Need a mechanism to identify the session when logging in
+
+Should left-over orders (partial market maker, and partial new book
+order) truncate the quantity to an integer value?  I don't think so.
+
+Split User into separate objs to limit access to Accounts
+
+Experiments: Document actualValue versus dividendValue.
+
+Configurability:
+  Allow specification of assets for each trader separately.
+  Budget limit on Orders (vs. transactions; per market or per account)
+    (currently can't enter new order if it exceeds your budget)
+
+Configurability for experiments:
+  Document actualValue versus dividendValue.
+  Allow specification of assets for each trader separately.
+  No judges
+  Allow judges to trade
+
+Order Book Display could identify user's own orders
+
+--------
+FINISHED
+
+NO Change default PM config to start without a port number.
+
+x Sometimes, creating multiple accounts doesn't work. Is server not clearing instVars?  Are they being propogated to the browser?
+
+x RPCTrade.buy() calls beginTransactionForJSP();  Does it need to be fixed 
+x for recent changes to transactions and synch() blocks?
+
+x binary market experiments that aren't declared to use unary assets invert the prices 
+x displayed on the stripchart
+x    rev 532 says: Track Trading costs better.  Unary markets report
+x    prices based on buying and selling "yes".  Others report buying or
+x    selling of identified Position.  Set up to report cost of holdings.
+x Binary markets need to report proper prices, then display appropriately on a stripchart.
+
+x finish parameterization of "Round" label
+
+x Write a high-level overview of the design of Zocalo for overview.html.
+
+x Update Prediction Markets charts using ajax
+
+x Use AJAX to update charts.
+
+Chapman:
+x   new scoring approaches:
+x     judges scored from table of values.
+x	 Manipulators get diff btwn actual value and average trading value
+x    disable judge score entry 
+x ensure that each estimate is recorded
+
+x Try rearranging stripchart (-->ajax) package again
+
+x add data migration for Market.lastTraded() 
+
+x Make RPC port configurable.
+
+x When market creator has insufficient funds, give an error message and
+x don't create the market so they can try again.
+
+x Price chart sometimes doesn't refresh
+
+x Write chart to temporary file and move to standard location.
+
+x Cancel button sometimes ineffective.
+
+x Chapman wants to multiply earnings by a constant for specific players
+
+x void account created if welcome email isn't deliverable.  Delete it if possible , or provide a mechanism to do so. (time-out?)
+
+x If you try to create a multi-market, and the creator doesn't have as much money as the stated endowment, the marketmaker is set to null, and the market doesn't work.  Add a test and prevent this.
+
+x CCI is a separate branch.  merge it back in.
+x    What configuration do I have to enable to keep it separate?
+x    access to history
+x    RPCPort
+
+x Porter: unary trading doesn't pay dividends corrently.
+
+x Write a high-level overview of the design of Zocalo for overview.html.
+
+x Chapman wants dormant traders
+x   Add to config
+x   recognize in config file
+
+xCCI wants more ajax
+x   publish changing MM prices
+x   Update to UI without interrupting User; ensure user's meaning doesn't change
+
+x Separate thread for updating graphs
+x AJAX notification should include market name, in the channel
+x        market pages should subscribe to a bayeux channel.
+
+x AJAX notification of chart updates should include market name, in the channel
+
+x make chart generation timing tests use isBusy().  (ChartThreadTest, e.g.)
+
+x Sandler: make "Shares" in traderSubSubFrame.jsp parameterizable.
+x unneeded: handle negative initial shares in short sales config
+
+x Book.addOrder MUST refuse if new order overlaps with existing.
+
+x Labels on binary trade chart aren't price/volume, they're claim/claim
+
+x CCI: "a new market has opened: go to it".  
+
+x In mark-to-market, deadbeat should be notified when trading is re-enabled.
+
+x create market should trim().  Spaces at end of names are bad.
+x CreateMarket should take you to the market so you will set the description.
+
+xAJAX updating in binary markets
+x	marketmaker price
+x	tradehistory chart
+
+x AJAX updating in multi markets
+x  MM prices
+x	tradehistory chart
+
+=Chapman Mark-To-Market
+x	Loans based on current valuation
+x	automatically offer 20% of net worth--user must hit "accept" to increase loan
+x    If traders can't pay back decrease in available debt, shares will be seized
+x	display capital gains (and other changes in net worth)
+x  rearrange table to be horizontal
+
+x =BigDecimal
+x     rescale printing dollars and cents
+x     don't commit BigDecimals to DB if they're not going to be used.
+x    Add second level cache
+x     Consider whether to turn Price into a component (sharing maxValue is the issue)
+x         Price has a PriceContext object.  Perhaps everthing goes in here and is shared from the x Market?
+x     Check on scoring and scaling by CurrencyScale

@@ -1,0 +1,11 @@
+03/13 03:05:39.955/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 03:05:39.959/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 03:05:39.960/IST   INFO -   AllMarkets - version = 1
+03/13 03:05:40.039/IST   INFO -        trace -    creating AllMarkets
+03/13 03:05:40.862/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 03:05:41.781/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 03:05:41.781/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 03:07:36.158/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/13 03:13:48.109/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/13 03:13:59.278/IST   WARN -    UserError - 37# told User(logging in) "unknown account or password".
+03/13 03:15:31.036/IST   WARN -    UserError - 462# told User(logging in) "Please type an account name and password".

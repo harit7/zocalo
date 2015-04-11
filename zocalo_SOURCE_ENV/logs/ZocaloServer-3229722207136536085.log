@@ -1,0 +1,9 @@
+03/10 04:48:54.106/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 04:48:54.109/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 04:48:54.183/IST   INFO -        trace -    creating AllMarkets
+03/10 04:48:55.826/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 04:48:55.827/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 04:49:05.855/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 04:49:39.636/IST   WARN -    UserError - 36# told User(logging in) "<font color=red size=5><b>Oops! That password doesn't qualify! You must have at least 7 characters, with at least one being a number.</b></font>".
+03/10 04:50:07.200/IST   WARN -  MarketOwner - Unable to send message. Is mail configured correctly?  user: 'pradeep' email: 'vishalkakkar90@gmail.com'.
+03/10 04:50:07.200/IST   WARN -    UserError - 37# told User(logging in) "Oops! Looks like we encountered a problem creating your account. Please retry.".

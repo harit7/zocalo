@@ -1,0 +1,224 @@
+03/09 04:22:00.755/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 04:22:00.759/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 04:22:00.880/IST   INFO -        trace -    creating AllMarkets
+03/09 04:22:03.471/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 04:22:03.471/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 04:22:07.801/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/09 04:22:31.708/IST  DEBUG -      Trading - vishal wants to sell no with limit of 100 @ 20.
+03/09 04:22:31.768/IST   INFO -  PriceAction - 36# vishal traded with the market maker for -20 of one:no changing the price from 50 to 20
+03/09 04:22:31.790/IST   INFO -  PriceAction - 37# vishal traded with the market maker for 0 of one:yes changing the price from 50 to 80
+03/09 04:22:31.792/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 20, one:yes: 80
+03/09 04:22:31.793/IST   WARN -    UserError - 38# told vishal "Sold 20 shares of the team.".
+03/09 04:22:32.209/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:23:17.231/IST  DEBUG -      Trading - vishal wants to buy no with limit of 100 @ 30.
+03/09 04:23:17.240/IST   INFO -  PriceAction - 43# vishal traded with the market maker for 0 of one:yes changing the price from 80 to 70
+03/09 04:23:17.240/IST   INFO -  PriceAction - 44# vishal traded with the market maker for 7.776 of one:no changing the price from 20 to 30
+03/09 04:23:17.308/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:23:17.309/IST   INFO -  PriceChange - prices in market 'one' changed.  one:yes: 70, one:no: 30
+03/09 04:23:17.310/IST   WARN -    UserError - 45# told vishal "Bought 7.776 shares of the team.".
+03/09 04:23:17.417/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:24:36.903/IST  DEBUG -      Trading - vishal wants to liquidate yes
+03/09 04:24:36.914/IST   INFO -  PriceAction - 50# vishal traded with the market maker for -12.224 of one:yes changing the price from 70 to 50
+03/09 04:24:36.915/IST   INFO -  PriceAction - 51# vishal traded with the market maker for 0 of one:no changing the price from 30 to 50
+03/09 04:24:36.982/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:24:36.983/IST   INFO -  PriceChange - prices in market 'one' changed.  one:yes: 50, one:no: 50
+03/09 04:24:37.044/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:24:37.045/IST   WARN -    UserError - 58# told vishal "Sold 12.224".
+03/09 04:27:36.285/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 60.
+03/09 04:27:36.296/IST   INFO -  PriceAction - 63# vishal traded with the market maker for 0 of one:no changing the price from 50 to 40
+03/09 04:27:36.297/IST   INFO -  PriceAction - 64# vishal traded with the market maker for 5.85 of one:yes changing the price from 50 to 60
+03/09 04:27:36.367/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:27:36.368/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 40, one:yes: 60
+03/09 04:27:36.368/IST   WARN -    UserError - 73# told vishal "Bought 5.85 shares of the team.".
+03/09 04:27:36.454/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:27:41.909/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 60.
+03/09 04:27:41.983/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:27:54.428/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 60.
+03/09 04:29:01.456/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 60.
+03/09 04:29:43.068/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 70.
+03/09 04:29:43.088/IST   INFO -  PriceAction - 122# vishal traded with the market maker for 0 of one:no changing the price from 40 to 30
+03/09 04:29:43.090/IST   INFO -  PriceAction - 123# vishal traded with the market maker for 6.374 of one:yes changing the price from 60 to 70
+03/09 04:29:43.162/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:29:43.162/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 30, one:yes: 70
+03/09 04:29:43.163/IST   WARN -    UserError - 134# told vishal "Bought 6.374 shares of the team.".
+03/09 04:29:43.250/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:30:05.523/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 80.
+03/09 04:30:05.529/IST   INFO -  PriceAction - 145# vishal traded with the market maker for 0 of one:no changing the price from 30 to 20
+03/09 04:30:05.530/IST   INFO -  PriceAction - 146# vishal traded with the market maker for 7.776 of one:yes changing the price from 70 to 80
+03/09 04:30:05.604/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:30:05.605/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 20, one:yes: 80
+03/09 04:30:05.605/IST   WARN -    UserError - 147# told vishal "Bought 7.776 shares of the team.".
+03/09 04:30:05.698/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:31:20.138/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:32:32.264/IST  DEBUG -      Trading - vishal wants to buy no with limit of 100 @ 30.
+03/09 04:32:32.271/IST   INFO -  PriceAction - 222# vishal traded with the market maker for 0 of one:yes changing the price from 80 to 70
+03/09 04:32:32.271/IST   INFO -  PriceAction - 223# vishal traded with the market maker for 7.776 of one:no changing the price from 20 to 30
+03/09 04:32:32.352/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:32:32.353/IST   INFO -  PriceChange - prices in market 'one' changed.  one:yes: 70, one:no: 30
+03/09 04:32:32.353/IST   WARN -    UserError - 238# told vishal "Bought 7.776 shares of the team.".
+03/09 04:32:32.434/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:33:38.121/IST   WARN -    UserError - 253# told vishal "price must be greater than 0 and less than 100.".
+03/09 04:33:38.193/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:33:52.983/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 71.
+03/09 04:33:52.990/IST   INFO -  PriceAction - 284# vishal traded with the market maker for 0 of one:no changing the price from 30 to 29
+03/09 04:33:52.991/IST   INFO -  PriceAction - 285# vishal traded with the market maker for 0.694 of one:yes changing the price from 70 to 71
+03/09 04:33:53.054/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:33:53.055/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 29, one:yes: 71
+03/09 04:33:53.055/IST   WARN -    UserError - 286# told vishal "Bought 0.694 shares of the team.".
+03/09 04:33:53.163/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:34:32.298/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 73.
+03/09 04:34:32.302/IST   INFO -  PriceAction - 303# vishal traded with the market maker for 0 of one:no changing the price from 29 to 27
+03/09 04:34:32.303/IST   INFO -  PriceAction - 304# vishal traded with the market maker for 1.432 of one:yes changing the price from 71 to 73
+03/09 04:34:32.359/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:34:32.359/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 27, one:yes: 73
+03/09 04:34:32.360/IST   WARN -    UserError - 305# told vishal "Bought 1.432 shares of the team.".
+03/09 04:34:32.443/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:34:53.645/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 83.
+03/09 04:34:53.652/IST   INFO -  PriceAction - 324# vishal traded with the market maker for 0 of one:no changing the price from 27 to 17
+03/09 04:34:53.652/IST   INFO -  PriceAction - 325# vishal traded with the market maker for 8.526 of one:yes changing the price from 73 to 83
+03/09 04:34:53.716/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:34:53.717/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 17, one:yes: 83
+03/09 04:34:53.717/IST   WARN -    UserError - 326# told vishal "Bought 8.526 shares of the team.".
+03/09 04:34:53.801/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:35:14.085/IST  DEBUG -      Trading - vishal wants to liquidate yes
+03/09 04:35:14.094/IST   INFO -  PriceAction - 347# vishal traded with the market maker for -22.876 of one:yes changing the price from 83 to 50
+03/09 04:35:14.094/IST   INFO -  PriceAction - 348# vishal traded with the market maker for 0 of one:no changing the price from 17 to 50
+03/09 04:35:14.214/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:35:14.214/IST   INFO -  PriceChange - prices in market 'one' changed.  one:yes: 50, one:no: 50
+03/09 04:35:14.274/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:35:14.275/IST   WARN -    UserError - 349# told vishal "Sold 22.876".
+03/09 04:35:49.641/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 99.
+03/09 04:35:49.647/IST   INFO -  PriceAction - 370# vishal traded with the market maker for 0 of one:no changing the price from 50 to 1
+03/09 04:35:49.647/IST   INFO -  PriceAction - 371# vishal traded with the market maker for 66.294 of one:yes changing the price from 50 to 99
+03/09 04:35:49.712/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:35:49.713/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 1, one:yes: 99
+03/09 04:35:49.713/IST   WARN -    UserError - 374# told vishal "Bought 66.294 shares of the team.".
+03/09 04:35:49.786/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:39:06.166/IST  DEBUG -      Trading - vishal wants to buy no with limit of 100 @ 50.
+03/09 04:39:06.173/IST   INFO -  PriceAction - 399# vishal traded with the market maker for 66.294 of one:no changing the price from 1 to 50
+03/09 04:39:06.173/IST   INFO -  PriceAction - 400# vishal traded with the market maker for 0 of one:yes changing the price from 99 to 50
+03/09 04:39:06.249/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:39:06.250/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 50, one:yes: 50
+03/09 04:39:06.250/IST   WARN -    UserError - 427# told vishal "Bought 66.294 shares of the team.".
+03/09 04:39:06.334/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:39:43.269/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 50.
+03/09 04:39:43.340/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:40:01.947/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 51.
+03/09 04:40:01.953/IST   INFO -  PriceAction - 480# vishal traded with the market maker for 0 of one:no changing the price from 50 to 49
+03/09 04:40:01.954/IST   INFO -  PriceAction - 481# vishal traded with the market maker for 0.577 of one:yes changing the price from 50 to 51
+03/09 04:40:02.012/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:40:02.013/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 49, one:yes: 51
+03/09 04:40:02.013/IST   WARN -    UserError - 482# told vishal "Bought 0.577 shares of the team.".
+03/09 04:40:02.083/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:40:51.745/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 52.
+03/09 04:40:51.754/IST   INFO -  PriceAction - 511# vishal traded with the market maker for 0 of one:no changing the price from 49 to 48
+03/09 04:40:51.755/IST   INFO -  PriceAction - 512# vishal traded with the market maker for 0.578 of one:yes changing the price from 51 to 52
+03/09 04:40:51.817/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:40:51.818/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 48, one:yes: 52
+03/09 04:40:51.818/IST   WARN -    UserError - 513# told vishal "Bought 0.578 shares of the team.".
+03/09 04:40:51.885/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:42:44.481/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 54.
+03/09 04:42:44.486/IST   INFO -  PriceAction - 544# vishal traded with the market maker for 0 of one:no changing the price from 48 to 46
+03/09 04:42:44.487/IST   INFO -  PriceAction - 545# vishal traded with the market maker for 1.158 of one:yes changing the price from 52 to 54
+03/09 04:42:44.551/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:42:44.551/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 46, one:yes: 54
+03/09 04:42:44.551/IST   WARN -    UserError - 578# told vishal "Bought 1.158 shares of the team.".
+03/09 04:42:44.621/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:53:35.236/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:54:04.078/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 80.
+03/09 04:54:04.083/IST   INFO -  PriceAction - 709# vishal traded with the market maker for 0 of one:no changing the price from 46 to 20
+03/09 04:54:04.084/IST   INFO -  PriceAction - 710# vishal traded with the market maker for 17.687 of one:yes changing the price from 54 to 80
+03/09 04:54:04.146/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:54:04.146/IST   INFO -  PriceChange - prices in market 'one' changed.  one:no: 20, one:yes: 80
+03/09 04:54:04.146/IST   WARN -    UserError - 711# told vishal "Bought 17.687 shares of the team.".
+03/09 04:54:04.226/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:54:31.380/IST   WARN -    UserError - 746# told User(logging in) "Please type an account name and password".
+03/09 04:55:53.927/IST   INFO -     NewChart - The chart for one has been updated.
+03/09 04:56:16.221/IST   INFO -  PriceAction - 785# vishal redeemed 20 coupons  for one:yes at 0
+03/09 04:56:16.224/IST   INFO -  PriceAction - 786# Market Maker redeemed 0 coupons  for one:yes at 0
+03/09 04:56:16.225/IST   INFO -  PriceAction - 787# Market Maker redeemed 20 coupons  for one:no at 100
+03/09 04:56:16.225/IST   INFO -   CouponBank - 788# Redeemed 19.999999819 'no' Coupons for one
+03/09 04:56:16.227/IST   WARN -    UserError - 789# told harit "23.22 was refunded at Market close.".
+03/09 04:56:16.227/IST   WARN -    UserError - 790# told harit "Redeemed 136.945 pairs.".
+03/09 04:56:40.058/IST   WARN -    UserError - 793# told User(logging in) "Please type an account name and password".
+03/09 05:34:51.033/IST   WARN -    UserError - 828# told User(logging in) "Please type an account name and password".
+03/09 05:35:09.791/IST   WARN -    UserError - 829# told User(logging in) "Please type an account name and password".
+03/09 05:36:32.046/IST   WARN -    UserError - 864# told vishal "market is closed.".
+03/09 05:37:05.646/IST   WARN -    UserError - 900# told User(logging in) "Please type an account name and password".
+03/09 05:38:26.137/IST   WARN -    UserError - 935# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 05:38:39.341/IST   WARN -    UserError - 936# told harit "Please specify a name for the market.".
+03/09 05:39:11.337/IST   INFO -   Transition - 937# State transition: new Multi Market, round: 0.
+03/09 05:39:11.337/IST   INFO -  PriceAction - 938# harit traded with the market maker for 0 of two:yes at 50
+03/09 05:39:11.338/IST   INFO -  PriceAction - 939# harit traded with the market maker for 0 of two:no at 50
+03/09 05:39:44.310/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:40:11.327/IST   WARN -    UserError - 944# told User(logging in) "Please type an account name and password".
+03/09 05:40:57.187/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 56.
+03/09 05:40:57.191/IST   INFO -  PriceAction - 945# vishal traded with the market maker for 0 of two:no changing the price from 50 to 44
+03/09 05:40:57.191/IST   INFO -  PriceAction - 946# vishal traded with the market maker for 3.479 of two:yes changing the price from 50 to 56
+03/09 05:40:57.231/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:40:57.231/IST   INFO -  PriceChange - prices in market 'two' changed.  two:no: 44, two:yes: 56
+03/09 05:40:57.232/IST   WARN -    UserError - 949# told vishal "Bought 3.479 shares of the team.".
+03/09 05:40:57.289/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:42:07.710/IST   WARN -    UserError - 952# told vishal "price must be greater than 0 and less than 100.".
+03/09 05:42:07.763/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:42:21.203/IST  DEBUG -      Trading - vishal wants to buy no with limit of 100 @ 56.
+03/09 05:42:21.208/IST   INFO -  PriceAction - 959# vishal traded with the market maker for 0 of two:yes changing the price from 56 to 50
+03/09 05:42:21.208/IST   INFO -  PriceAction - 960# vishal traded with the market maker for 3.479 of two:no changing the price from 44 to 50
+03/09 05:42:21.254/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:42:21.254/IST   INFO -  PriceChange - prices in market 'two' changed.  two:yes: 50, two:no: 50
+03/09 05:42:21.256/IST   INFO -  PriceAction - 961# vishal traded with the market maker for 0 of two:yes changing the price from 50 to 44
+03/09 05:42:21.257/IST   INFO -  PriceAction - 962# vishal traded with the market maker for 3.479 of two:no changing the price from 50 to 56
+03/09 05:42:21.300/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:42:21.301/IST   INFO -  PriceChange - prices in market 'two' changed.  two:yes: 44, two:no: 56
+03/09 05:42:21.301/IST   WARN -    UserError - 963# told vishal "Bought 6.958 shares of the team.".
+03/09 05:42:21.432/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:43:22.779/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 50.
+03/09 05:43:22.784/IST   INFO -  PriceAction - 970# vishal traded with the market maker for 0 of two:no changing the price from 56 to 50
+03/09 05:43:22.784/IST   INFO -  PriceAction - 971# vishal traded with the market maker for 3.479 of two:yes changing the price from 44 to 50
+03/09 05:43:22.861/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:43:22.862/IST   INFO -  PriceChange - prices in market 'two' changed.  two:no: 50, two:yes: 50
+03/09 05:43:22.862/IST   WARN -    UserError - 980# told vishal "Bought 3.479 shares of the team.".
+03/09 05:43:22.934/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:43:54.440/IST  DEBUG -      Trading - vishal wants to buy no with limit of 100 @ 53.
+03/09 05:43:54.444/IST   INFO -  PriceAction - 989# vishal traded with the market maker for 0 of two:yes changing the price from 50 to 47
+03/09 05:43:54.445/IST   INFO -  PriceAction - 990# vishal traded with the market maker for 1.733 of two:no changing the price from 50 to 53
+03/09 05:43:54.494/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:43:54.495/IST   INFO -  PriceChange - prices in market 'two' changed.  two:yes: 47, two:no: 53
+03/09 05:43:54.495/IST   WARN -    UserError - 991# told vishal "Bought 1.733 shares of the team.".
+03/09 05:43:54.551/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:44:33.905/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 53.
+03/09 05:44:33.910/IST   INFO -  PriceAction - 1002# vishal traded with the market maker for 0 of two:no changing the price from 53 to 50
+03/09 05:44:33.910/IST   INFO -  PriceAction - 1003# vishal traded with the market maker for 1.733 of two:yes changing the price from 47 to 50
+03/09 05:44:33.983/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:44:33.983/IST   INFO -  PriceChange - prices in market 'two' changed.  two:no: 50, two:yes: 50
+03/09 05:44:33.984/IST   INFO -  PriceAction - 1004# vishal traded with the market maker for 0 of two:no changing the price from 50 to 47
+03/09 05:44:33.985/IST   INFO -  PriceAction - 1005# vishal traded with the market maker for 1.733 of two:yes changing the price from 50 to 53
+03/09 05:44:34.040/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:44:34.041/IST   INFO -  PriceChange - prices in market 'two' changed.  two:no: 47, two:yes: 53
+03/09 05:44:34.041/IST   WARN -    UserError - 1006# told vishal "Bought 3.467 shares of the team.".
+03/09 05:44:34.097/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:44:51.228/IST  DEBUG -      Trading - vishal wants to buy no with limit of 100 @ 50.
+03/09 05:44:51.237/IST   INFO -  PriceAction - 1021# vishal traded with the market maker for 1.733 of two:no changing the price from 47 to 50
+03/09 05:44:51.237/IST   INFO -  PriceAction - 1022# vishal traded with the market maker for 0 of two:yes changing the price from 53 to 50
+03/09 05:44:51.284/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:44:51.284/IST   INFO -  PriceChange - prices in market 'two' changed.  two:no: 50, two:yes: 50
+03/09 05:44:51.284/IST   WARN -    UserError - 1023# told vishal "Bought 1.733 shares of the team.".
+03/09 05:44:51.347/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:46:47.267/IST  DEBUG -      Trading - vishal wants to buy yes with limit of 100 @ 51.
+03/09 05:46:47.272/IST   INFO -  PriceAction - 1040# vishal traded with the market maker for 0.577 of two:yes changing the price from 50 to 51
+03/09 05:46:47.272/IST   INFO -  PriceAction - 1041# vishal traded with the market maker for 0 of two:no changing the price from 50 to 49
+03/09 05:46:47.326/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:46:47.327/IST   INFO -  PriceChange - prices in market 'two' changed.  two:yes: 51, two:no: 49
+03/09 05:46:47.327/IST   WARN -    UserError - 1060# told vishal "Bought 0.577 shares of the team.".
+03/09 05:46:47.423/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:49:03.169/IST  DEBUG -      Trading - vishal wants to buy no with limit of 100 @ 55.
+03/09 05:49:03.171/IST   INFO -  PriceAction - 1079# vishal traded with the market maker for 0.577 of two:no changing the price from 49 to 50
+03/09 05:49:03.172/IST   INFO -  PriceAction - 1080# vishal traded with the market maker for 0 of two:yes changing the price from 51 to 50
+03/09 05:49:03.246/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:49:03.246/IST   INFO -  PriceChange - prices in market 'two' changed.  two:no: 50, two:yes: 50
+03/09 05:49:03.248/IST   INFO -  PriceAction - 1101# vishal traded with the market maker for 2.895 of two:no changing the price from 50 to 55
+03/09 05:49:03.248/IST   INFO -  PriceAction - 1102# vishal traded with the market maker for 0 of two:yes changing the price from 50 to 45
+03/09 05:49:03.313/IST   INFO -     NewChart - The chart for two has been updated.
+03/09 05:49:03.313/IST   INFO -  PriceChange - prices in market 'two' changed.  two:no: 55, two:yes: 45
+03/09 05:49:03.313/IST   WARN -    UserError - 1103# told vishal "Bought 3.472 shares of the team.".
+03/09 05:49:03.385/IST   INFO -     NewChart - The chart for two has been updated.

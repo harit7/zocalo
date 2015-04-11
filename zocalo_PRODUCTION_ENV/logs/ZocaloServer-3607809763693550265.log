@@ -1,0 +1,5 @@
+03/13 12:26:19.586/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 12:26:19.591/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 12:26:19.591/IST   INFO -   AllMarkets - version = 1
+03/13 12:26:19.671/IST   INFO -        trace -    creating AllMarkets
+03/13 12:26:20.502/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml

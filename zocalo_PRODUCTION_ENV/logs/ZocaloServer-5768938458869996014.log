@@ -1,0 +1,15 @@
+03/14 11:42:34.615/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/14 11:42:34.620/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/14 11:42:34.620/IST   INFO -   AllMarkets - version = 2
+03/14 11:42:34.700/IST   INFO -        trace -    creating AllMarkets
+03/14 11:42:35.525/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/14 11:42:36.412/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/14 11:42:36.412/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/14 11:42:46.324/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/14 11:42:57.806/IST   WARN -    UserError - 60# told User(logging in) "Please type an account name and password".
+03/14 11:43:04.868/IST   WARN -    UserError - 61# told User(logging in) "<font color=red size=5><b>Account already confirmed!</b></font>".
+03/14 11:44:15.006/IST   WARN -    UserError - 62# told User(logging in) "<font color=red size=5><b>Sorry! This user name is unavailable. Please try another one. </b></font>test3".
+03/14 11:44:36.655/IST   WARN -    UserError - 63# told User(logging in) "<font color=green size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/14 11:44:59.545/IST   WARN -    UserError - 64# told User(logging in) "Congratulations iota! You're now done. Now Jump in!".
+03/14 11:44:59.579/IST   WARN -    UserError - 65# told User(logging in) "Please type an account name and password".
+03/14 11:45:32.704/IST   WARN -    UserError - 66# told iota "market is closed.".

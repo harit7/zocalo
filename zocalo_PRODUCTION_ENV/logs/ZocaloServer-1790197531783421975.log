@@ -1,0 +1,77 @@
+03/10 01:59:20.980/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 01:59:20.983/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 01:59:21.056/IST   INFO -        trace -    creating AllMarkets
+03/10 01:59:22.703/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 01:59:22.703/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 01:59:27.942/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 02:01:52.237/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 25.
+03/10 02:01:52.249/IST   INFO -  PriceAction - 36# haritcsa traded with the market maker for -15.85 of Quarter Final 1:Bangladesh changing the price from 50 to 25
+03/10 02:01:52.251/IST   INFO -  PriceAction - 37# haritcsa traded with the market maker for 0 of Quarter Final 1:India changing the price from 50 to 75
+03/10 02:01:52.252/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:Bangladesh: 25, Quarter Final 1:India: 75
+03/10 02:01:52.253/IST   WARN -    UserError - 38# told haritcsa "Sold 15.85 shares of the team.".
+03/10 02:01:52.455/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:02:17.515/IST  DEBUG -      Trading - haritcsa wants to sell India with limit of 25 @ 25.
+03/10 02:02:17.523/IST   INFO -  PriceAction - 43# haritcsa traded with the market maker for -15.85 of Quarter Final 1:India changing the price from 75 to 50
+03/10 02:02:17.524/IST   INFO -  PriceAction - 44# haritcsa traded with the market maker for 0 of Quarter Final 1:Bangladesh changing the price from 25 to 50
+03/10 02:02:17.576/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:02:17.576/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:India: 50, Quarter Final 1:Bangladesh: 50
+03/10 02:02:17.578/IST   INFO -  PriceAction - 45# haritcsa traded with the market maker for -15.85 of Quarter Final 1:India changing the price from 50 to 25
+03/10 02:02:17.579/IST   INFO -  PriceAction - 46# haritcsa traded with the market maker for 0 of Quarter Final 1:Bangladesh changing the price from 50 to 75
+03/10 02:02:17.628/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:02:17.628/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:India: 25, Quarter Final 1:Bangladesh: 75
+03/10 02:02:17.629/IST   WARN -    UserError - 47# told haritcsa "Sold 31.699 shares of the team.".
+03/10 02:02:17.703/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:02:36.826/IST   WARN -    UserError - 54# told haritcsa "price must be greater than 0 and less than 100.".
+03/10 02:02:36.888/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:02:42.997/IST   WARN -    UserError - 61# told haritcsa "price must be greater than 0 and less than 100.".
+03/10 02:02:48.683/IST   WARN -    UserError - 68# told haritcsa "price must be greater than 0 and less than 100.".
+03/10 02:03:06.515/IST   WARN -    UserError - 75# told haritcsa "price must be greater than 0 and less than 100.".
+03/10 02:03:53.717/IST   WARN -    UserError - 82# told haritcsa "price must be greater than 0 and less than 100.".
+03/10 02:04:41.960/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh @ true.
+03/10 02:05:00.454/IST   WARN -    UserError - 89# told haritcsa "price must be greater than 0 and less than 100.".
+03/10 02:30:53.836/IST  DEBUG -      Trading - haritcsa wants to liquidate Bangladesh
+03/10 02:30:53.845/IST   INFO -  PriceAction - 96# haritcsa traded with the market maker for -15.85 of Quarter Final 1:Bangladesh changing the price from 75 to 50
+03/10 02:30:53.845/IST   INFO -  PriceAction - 97# haritcsa traded with the market maker for 0 of Quarter Final 1:India changing the price from 25 to 50
+03/10 02:30:53.900/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:30:53.900/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:Bangladesh: 50, Quarter Final 1:India: 50
+03/10 02:30:53.949/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:30:53.950/IST   WARN -    UserError - 106# told haritcsa "Sold 15.850".
+03/10 02:31:21.469/IST  DEBUG -      Trading - haritcsa wants to buy Bangladesh with limit of 25 @ 90.
+03/10 02:31:21.477/IST   INFO -  PriceAction - 113# haritcsa traded with the market maker for 31.699 of Quarter Final 1:Bangladesh changing the price from 50 to 90
+03/10 02:31:21.477/IST   INFO -  PriceAction - 114# haritcsa traded with the market maker for 0 of Quarter Final 1:India changing the price from 50 to 10
+03/10 02:31:21.523/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:31:21.523/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:Bangladesh: 90, Quarter Final 1:India: 10
+03/10 02:31:21.525/IST   WARN -    UserError - 117# told haritcsa "Bought 31.699 shares of the team.".
+03/10 02:31:21.591/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:31:48.975/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 30.
+03/10 02:31:48.983/IST   INFO -  PriceAction - 128# haritcsa traded with the market maker for 0 of Quarter Final 1:Bangladesh changing the price from 90 to 70
+03/10 02:31:48.984/IST   INFO -  PriceAction - 129# haritcsa traded with the market maker for 19.475 of Quarter Final 1:India changing the price from 10 to 30
+03/10 02:31:49.037/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:31:49.037/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:Bangladesh: 70, Quarter Final 1:India: 30
+03/10 02:31:49.038/IST   WARN -    UserError - 130# told haritcsa "Bought 19.475 shares of the team.".
+03/10 02:31:49.100/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:33:35.473/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 50.
+03/10 02:33:35.481/IST   INFO -  PriceAction - 143# haritcsa traded with the market maker for -12.224 of Quarter Final 1:Bangladesh changing the price from 70 to 50
+03/10 02:33:35.481/IST   INFO -  PriceAction - 144# haritcsa traded with the market maker for 0 of Quarter Final 1:India changing the price from 30 to 50
+03/10 02:33:35.546/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:33:35.546/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:Bangladesh: 50, Quarter Final 1:India: 50
+03/10 02:33:35.548/IST   WARN -    UserError - 159# told haritcsa "Sold 12.224 shares of the team.".
+03/10 02:33:35.604/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:34:18.112/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 70.
+03/10 02:34:18.120/IST   INFO -  PriceAction - 174# haritcsa traded with the market maker for 0 of Quarter Final 1:Bangladesh changing the price from 50 to 30
+03/10 02:34:18.120/IST   INFO -  PriceAction - 175# haritcsa traded with the market maker for 12.224 of Quarter Final 1:India changing the price from 50 to 70
+03/10 02:34:18.163/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:34:18.164/IST   INFO -  PriceChange - prices in market 'Quarter Final 1' changed.  Quarter Final 1:Bangladesh: 30, Quarter Final 1:India: 70
+03/10 02:34:18.165/IST   WARN -    UserError - 176# told haritcsa "Bought 12.224 shares of the team.".
+03/10 02:34:18.226/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:34:54.345/IST   WARN -    UserError - 193# told User(logging in) "Please type an account name and password".
+03/10 02:35:19.271/IST   INFO -     NewChart - The chart for Quarter Final 1 has been updated.
+03/10 02:35:35.612/IST   INFO -  PriceAction - 214# haritcsa redeemed 12.224 coupons  for Quarter Final 1:India at 100
+03/10 02:35:35.612/IST   INFO -  PriceAction - 215# haritcsa redeemed 0 coupons  for Quarter Final 1:Bangladesh at 0
+03/10 02:35:35.614/IST   INFO -  PriceAction - 216# Market Maker redeemed 12.224 coupons  for Quarter Final 1:Bangladesh at 0
+03/10 02:35:35.614/IST   INFO -  PriceAction - 217# Market Maker redeemed 0 coupons  for Quarter Final 1:India at 100
+03/10 02:35:35.614/IST   INFO -   CouponBank - 218# Redeemed 12.2239242 'India' Coupons for Quarter Final 1
+03/10 02:35:35.615/IST   WARN -    UserError - 219# told harit "5.15 was refunded at Market close.".
+03/10 02:35:35.616/IST   WARN -    UserError - 220# told harit "Redeemed 75.622 pairs.".
+03/10 02:35:39.648/IST   WARN -    UserError - 223# told User(logging in) "Please type an account name and password".
+03/10 02:36:20.184/IST   WARN -    UserError - 224# told haritcsa "market is closed.".

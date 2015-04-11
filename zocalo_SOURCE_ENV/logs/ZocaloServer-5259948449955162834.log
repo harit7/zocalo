@@ -1,0 +1,216 @@
+03/10 09:51:05.341/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 09:51:05.344/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 09:51:05.418/IST   INFO -        trace -    creating AllMarkets
+03/10 09:51:07.062/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 09:51:07.062/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 09:52:05.011/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 09:55:39.547/IST  DEBUG -      Trading - PradeeP_248 wants to buy West Indies with limit of 25 @ 45.
+03/10 09:55:39.561/IST   INFO -  PriceAction - 36# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 2.0433 to 1.1473
+03/10 09:55:39.562/IST   INFO -  PriceAction - 37# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 2.0433 to 1.1473
+03/10 09:55:39.563/IST   INFO -  PriceAction - 38# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 2.0433 to 1.1473
+03/10 09:55:39.564/IST   INFO -  PriceAction - 39# PradeeP_248 traded with the market maker for 0 of Who is the Champion:India changing the price from 80 to 44.9178
+03/10 09:55:39.564/IST   INFO -  PriceAction - 40# PradeeP_248 traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 2.0433 to 1.1473
+03/10 09:55:39.565/IST   INFO -  PriceAction - 41# PradeeP_248 traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 2.2291 to 1.2516
+03/10 09:55:39.565/IST   INFO -  PriceAction - 42# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 2.0433 to 1.1473
+03/10 09:55:39.566/IST   INFO -  PriceAction - 43# PradeeP_248 traded with the market maker for 16.7 of Who is the Champion:West Indies changing the price from 2.0433 to 45
+03/10 09:55:39.566/IST   INFO -  PriceAction - 44# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 5.5108 to 3.0942
+03/10 09:55:39.567/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:Ireland: 1, Who is the Champion:Pakistan: 1, Who is the Champion:Sri Lanka: 1, Who is the Champion:India: 45, Who is the Champion:New Zealand: 1, Who is the Champion:South Africa: 1, Who is the Champion:Bangladesh: 1, Who is the Champion:West Indies: 45, Who is the Champion:Austrailia: 3
+03/10 09:55:39.569/IST   WARN -    UserError - 45# told PradeeP_248 "Bought 16.7 shares of the team.".
+03/10 09:55:39.830/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 09:56:13.649/IST  DEBUG -      Trading - PradeeP_248 wants to buy Pakistan with limit of 25 @ 60.
+03/10 09:56:13.660/IST   INFO -  PriceAction - 127# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 1.1473 to 0.4642
+03/10 09:56:13.660/IST   INFO -  PriceAction - 128# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 3.0942 to 1.252
+03/10 09:56:13.661/IST   INFO -  PriceAction - 129# PradeeP_248 traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 45 to 18.2089
+03/10 09:56:13.661/IST   INFO -  PriceAction - 130# PradeeP_248 traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 1.2516 to 0.5064
+03/10 09:56:13.662/IST   INFO -  PriceAction - 131# PradeeP_248 traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 1.1473 to 0.4642
+03/10 09:56:13.662/IST   INFO -  PriceAction - 132# PradeeP_248 traded with the market maker for 0 of Who is the Champion:India changing the price from 44.9178 to 18.1757
+03/10 09:56:13.663/IST   INFO -  PriceAction - 133# PradeeP_248 traded with the market maker for 22.127 of Who is the Champion:Pakistan changing the price from 1.1473 to 60
+03/10 09:56:13.663/IST   INFO -  PriceAction - 134# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 1.1473 to 0.4642
+03/10 09:56:13.664/IST   INFO -  PriceAction - 135# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 1.1473 to 0.4642
+03/10 09:56:13.743/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 09:56:13.744/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:Ireland: 0, Who is the Champion:Austrailia: 1, Who is the Champion:West Indies: 18, Who is the Champion:South Africa: 1, Who is the Champion:New Zealand: 0, Who is the Champion:India: 18, Who is the Champion:Pakistan: 60, Who is the Champion:Sri Lanka: 0, Who is the Champion:Bangladesh: 0
+03/10 09:56:13.745/IST   WARN -    UserError - 136# told PradeeP_248 "Bought 22.127 shares of the team.".
+03/10 09:56:13.852/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 09:59:55.677/IST  DEBUG -      Trading - PradeeP_248 wants to buy Sri Lanka with limit of 25 @ 80.
+03/10 09:59:55.687/IST   INFO -  PriceAction - 155# PradeeP_248 traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 0.5064 to 0.1018
+03/10 09:59:55.687/IST   INFO -  PriceAction - 156# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 60 to 12.056
+03/10 09:59:55.688/IST   INFO -  PriceAction - 157# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 0.4642 to 0.0933
+03/10 09:59:55.688/IST   INFO -  PriceAction - 158# PradeeP_248 traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 0.4642 to 0.0933
+03/10 09:59:55.689/IST   INFO -  PriceAction - 159# PradeeP_248 traded with the market maker for 0 of Who is the Champion:India changing the price from 18.1757 to 3.6521
+03/10 09:59:55.689/IST   INFO -  PriceAction - 160# PradeeP_248 traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 18.2089 to 3.6588
+03/10 09:59:55.690/IST   INFO -  PriceAction - 161# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 1.252 to 0.2516
+03/10 09:59:55.690/IST   INFO -  PriceAction - 162# PradeeP_248 traded with the market maker for 30.74 of Who is the Champion:Sri Lanka changing the price from 0.4642 to 80
+03/10 09:59:55.691/IST   INFO -  PriceAction - 163# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 0.4642 to 0.0933
+03/10 09:59:55.774/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 09:59:55.774/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:South Africa: 0, Who is the Champion:Pakistan: 12, Who is the Champion:Ireland: 0, Who is the Champion:New Zealand: 0, Who is the Champion:India: 4, Who is the Champion:West Indies: 4, Who is the Champion:Austrailia: 0, Who is the Champion:Sri Lanka: 80, Who is the Champion:Bangladesh: 0
+03/10 09:59:55.776/IST   WARN -    UserError - 254# told PradeeP_248 "Bought 30.74 shares of the team.".
+03/10 09:59:55.877/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 10:00:15.877/IST  DEBUG -      Trading - PradeeP_248 wants to buy Bangladesh with limit of 25 @ 99.
+03/10 10:00:15.887/IST   INFO -  PriceAction - 282# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 0.2516 to 0.0025
+03/10 10:00:15.888/IST   INFO -  PriceAction - 283# PradeeP_248 traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 0.1018 to 0.001
+03/10 10:00:15.889/IST   INFO -  PriceAction - 284# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 80 to 0.8007
+03/10 10:00:15.889/IST   INFO -  PriceAction - 285# PradeeP_248 traded with the market maker for 0 of Who is the Champion:India changing the price from 3.6521 to 0.0366
+03/10 10:00:15.890/IST   INFO -  PriceAction - 286# PradeeP_248 traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 3.6588 to 0.0366
+03/10 10:00:15.890/IST   INFO -  PriceAction - 287# PradeeP_248 traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 0.0933 to 0.0009
+03/10 10:00:15.891/IST   INFO -  PriceAction - 288# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 12.056 to 0.1207
+03/10 10:00:15.891/IST   INFO -  PriceAction - 289# PradeeP_248 traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 0.0933 to 0.0009
+03/10 10:00:15.891/IST   INFO -  PriceAction - 290# PradeeP_248 traded with the market maker for 52.664 of Who is the Champion:Bangladesh changing the price from 0.0933 to 99
+03/10 10:00:15.963/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 10:00:15.963/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:Austrailia: 0, Who is the Champion:South Africa: 0, Who is the Champion:Sri Lanka: 1, Who is the Champion:India: 0, Who is the Champion:West Indies: 0, Who is the Champion:New Zealand: 0, Who is the Champion:Pakistan: 0, Who is the Champion:Ireland: 0, Who is the Champion:Bangladesh: 99
+03/10 10:00:15.964/IST   WARN -    UserError - 291# told PradeeP_248 "Bought 52.664 shares of the team.".
+03/10 10:00:16.068/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 10:06:36.148/IST  DEBUG -      Trading - PradeeP_248 wants to sell India with limit of 25 @ 56.
+03/10 10:06:36.156/IST   INFO -  PriceAction - 328# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 44
+03/10 10:06:36.156/IST   INFO -  PriceAction - 329# PradeeP_248 traded with the market maker for -16.521 of India vs Bangladesh Quarter Final:India changing the price from 80 to 56
+03/10 10:06:36.157/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 44, India vs Bangladesh Quarter Final:India: 56
+03/10 10:06:36.158/IST   WARN -    UserError - 330# told PradeeP_248 "Sold 16.521 shares of the team.".
+03/10 10:06:36.240/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:06:56.001/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 56.
+03/10 10:06:56.073/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:07:03.733/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 56.
+03/10 10:07:11.068/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 56.
+03/10 10:08:38.969/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 57.
+03/10 10:08:38.977/IST   INFO -  PriceAction - 391# PradeeP_248 traded with the market maker for 0.587 of India vs Bangladesh Quarter Final:India changing the price from 56 to 57
+03/10 10:08:38.978/IST   INFO -  PriceAction - 392# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 44 to 43
+03/10 10:08:39.073/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:08:39.074/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 57, India vs Bangladesh Quarter Final:Bangladesh: 43
+03/10 10:08:39.075/IST   WARN -    UserError - 447# told PradeeP_248 "Bought 0.587 shares of the team.".
+03/10 10:08:39.148/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:08:54.113/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 58.
+03/10 10:08:54.119/IST   INFO -  PriceAction - 452# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 43 to 42
+03/10 10:08:54.120/IST   INFO -  PriceAction - 453# PradeeP_248 traded with the market maker for 0.59 of India vs Bangladesh Quarter Final:India changing the price from 57 to 58
+03/10 10:08:54.180/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:08:54.181/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 42, India vs Bangladesh Quarter Final:India: 58
+03/10 10:08:54.182/IST   WARN -    UserError - 454# told PradeeP_248 "Bought 0.59 shares of the team.".
+03/10 10:08:54.252/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:09:14.310/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 59.
+03/10 10:09:14.317/IST   INFO -  PriceAction - 461# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 42 to 41
+03/10 10:09:14.318/IST   INFO -  PriceAction - 462# PradeeP_248 traded with the market maker for 0.594 of India vs Bangladesh Quarter Final:India changing the price from 58 to 59
+03/10 10:09:14.376/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:09:14.377/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 41, India vs Bangladesh Quarter Final:India: 59
+03/10 10:09:14.378/IST   WARN -    UserError - 463# told PradeeP_248 "Bought 0.594 shares of the team.".
+03/10 10:09:14.444/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:10:25.660/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 80.
+03/10 10:10:25.667/IST   INFO -  PriceAction - 472# PradeeP_248 traded with the market maker for 14.749 of India vs Bangladesh Quarter Final:India changing the price from 59 to 80
+03/10 10:10:25.668/IST   INFO -  PriceAction - 473# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 41 to 20
+03/10 10:10:25.727/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:10:25.728/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 80, India vs Bangladesh Quarter Final:Bangladesh: 20
+03/10 10:10:25.729/IST   WARN -    UserError - 534# told PradeeP_248 "Bought 14.749 shares of the team.".
+03/10 10:10:25.796/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:02.493/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 90.
+03/10 10:11:02.502/IST   INFO -  PriceAction - 545# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 10
+03/10 10:11:02.502/IST   INFO -  PriceAction - 546# PradeeP_248 traded with the market maker for 11.699 of India vs Bangladesh Quarter Final:India changing the price from 80 to 90
+03/10 10:11:02.556/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:02.557/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 10, India vs Bangladesh Quarter Final:India: 90
+03/10 10:11:02.558/IST   WARN -    UserError - 547# told PradeeP_248 "Bought 11.699 shares of the team.".
+03/10 10:11:02.624/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:19.688/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 95.
+03/10 10:11:19.697/IST   INFO -  PriceAction - 560# PradeeP_248 traded with the market maker for 10.78 of India vs Bangladesh Quarter Final:India changing the price from 90 to 95
+03/10 10:11:19.698/IST   INFO -  PriceAction - 561# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 10 to 5
+03/10 10:11:19.749/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:19.750/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 95, India vs Bangladesh Quarter Final:Bangladesh: 5
+03/10 10:11:19.751/IST   WARN -    UserError - 562# told PradeeP_248 "Bought 10.78 shares of the team.".
+03/10 10:11:19.822/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:26.546/IST  DEBUG -      Trading - PradeeP_248 wants to sell India with limit of 25 @ 50.
+03/10 10:11:26.554/IST   INFO -  PriceAction - 577# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 5 to 20
+03/10 10:11:26.555/IST   INFO -  PriceAction - 578# PradeeP_248 traded with the market maker for -22.479 of India vs Bangladesh Quarter Final:India changing the price from 95 to 80
+03/10 10:11:26.612/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:26.612/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 10:11:26.613/IST   INFO -  PriceAction - 579# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 50
+03/10 10:11:26.614/IST   INFO -  PriceAction - 580# PradeeP_248 traded with the market maker for -20 of India vs Bangladesh Quarter Final:India changing the price from 80 to 50
+03/10 10:11:26.670/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:26.671/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 50, India vs Bangladesh Quarter Final:India: 50
+03/10 10:11:26.672/IST   WARN -    UserError - 581# told PradeeP_248 "Sold 42.479 shares of the team.".
+03/10 10:11:26.742/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:41.477/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 50.
+03/10 10:11:41.541/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:48.286/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 50.
+03/10 10:11:59.006/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 55.
+03/10 10:11:59.012/IST   INFO -  PriceAction - 636# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 45
+03/10 10:11:59.012/IST   INFO -  PriceAction - 637# PradeeP_248 traded with the market maker for 2.895 of India vs Bangladesh Quarter Final:India changing the price from 50 to 55
+03/10 10:11:59.069/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:11:59.070/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 45, India vs Bangladesh Quarter Final:India: 55
+03/10 10:11:59.071/IST   WARN -    UserError - 638# told PradeeP_248 "Bought 2.895 shares of the team.".
+03/10 10:11:59.135/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:12:09.298/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 60.
+03/10 10:12:09.303/IST   INFO -  PriceAction - 659# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 45 to 40
+03/10 10:12:09.304/IST   INFO -  PriceAction - 660# PradeeP_248 traded with the market maker for 2.955 of India vs Bangladesh Quarter Final:India changing the price from 55 to 60
+03/10 10:12:09.357/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:12:09.358/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 40, India vs Bangladesh Quarter Final:India: 60
+03/10 10:12:09.359/IST   WARN -    UserError - 661# told PradeeP_248 "Bought 2.955 shares of the team.".
+03/10 10:12:09.418/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:12:17.970/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 70.
+03/10 10:12:17.976/IST   INFO -  PriceAction - 684# PradeeP_248 traded with the market maker for 6.374 of India vs Bangladesh Quarter Final:India changing the price from 60 to 70
+03/10 10:12:17.977/IST   INFO -  PriceAction - 685# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 40 to 30
+03/10 10:12:18.027/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:12:18.027/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 70, India vs Bangladesh Quarter Final:Bangladesh: 30
+03/10 10:12:18.029/IST   WARN -    UserError - 686# told PradeeP_248 "Bought 6.374 shares of the team.".
+03/10 10:12:18.088/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:12:29.409/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 90.
+03/10 10:12:29.415/IST   INFO -  PriceAction - 711# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 30 to 20
+03/10 10:12:29.415/IST   INFO -  PriceAction - 712# PradeeP_248 traded with the market maker for 7.776 of India vs Bangladesh Quarter Final:India changing the price from 70 to 80
+03/10 10:12:29.465/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:12:29.466/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 10:12:29.469/IST   INFO -  PriceAction - 713# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 10
+03/10 10:12:29.470/IST   INFO -  PriceAction - 714# PradeeP_248 traded with the market maker for 11.699 of India vs Bangladesh Quarter Final:India changing the price from 80 to 90
+03/10 10:12:29.520/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:12:29.520/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 10, India vs Bangladesh Quarter Final:India: 90
+03/10 10:12:29.521/IST   WARN -    UserError - 715# told PradeeP_248 "Bought 19.475 shares of the team.".
+03/10 10:12:29.585/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:08.639/IST  DEBUG -      Trading - PradeeP_248 wants to sell India with limit of 25 @ 50.
+03/10 10:13:08.645/IST   INFO -  PriceAction - 744# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 10 to 20
+03/10 10:13:08.645/IST   INFO -  PriceAction - 745# PradeeP_248 traded with the market maker for -11.699 of India vs Bangladesh Quarter Final:India changing the price from 90 to 80
+03/10 10:13:08.699/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:08.699/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 10:13:08.700/IST   INFO -  PriceAction - 746# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 50
+03/10 10:13:08.701/IST   INFO -  PriceAction - 747# PradeeP_248 traded with the market maker for -20 of India vs Bangladesh Quarter Final:India changing the price from 80 to 50
+03/10 10:13:08.754/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:08.755/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 50, India vs Bangladesh Quarter Final:India: 50
+03/10 10:13:08.756/IST   WARN -    UserError - 748# told PradeeP_248 "Sold 31.699 shares of the team.".
+03/10 10:13:08.833/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:19.559/IST  DEBUG -      Trading - PradeeP_248 wants to liquidate Bangladesh
+03/10 10:13:19.565/IST   INFO -  PriceAction - 781# PradeeP_248 traded with the market maker for -20 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 20
+03/10 10:13:19.566/IST   INFO -  PriceAction - 782# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 50 to 80
+03/10 10:13:19.621/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:19.622/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 10:13:19.677/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:19.678/IST   WARN -    UserError - 783# told PradeeP_248 "Sold 20.000".
+03/10 10:13:37.433/IST  DEBUG -      Trading - PradeeP_248 wants to buy Bangladesh with limit of 25 @ 50.
+03/10 10:13:37.439/IST   INFO -  PriceAction - 816# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 80 to 50
+03/10 10:13:37.440/IST   INFO -  PriceAction - 817# PradeeP_248 traded with the market maker for 20 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 20 to 50
+03/10 10:13:37.493/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:37.493/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 50, India vs Bangladesh Quarter Final:Bangladesh: 50
+03/10 10:13:37.495/IST   WARN -    UserError - 820# told PradeeP_248 "Bought 20 shares of the team.".
+03/10 10:13:37.555/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:54.420/IST  DEBUG -      Trading - PradeeP_248 wants to buy Bangladesh with limit of 25 @ 60.
+03/10 10:13:54.426/IST   INFO -  PriceAction - 857# PradeeP_248 traded with the market maker for 5.85 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 60
+03/10 10:13:54.427/IST   INFO -  PriceAction - 858# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 50 to 40
+03/10 10:13:54.478/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:13:54.479/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 60, India vs Bangladesh Quarter Final:India: 40
+03/10 10:13:54.480/IST   WARN -    UserError - 859# told PradeeP_248 "Bought 5.85 shares of the team.".
+03/10 10:13:54.547/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:14:35.772/IST  DEBUG -      Trading - PradeeP_248 wants to buy Bangladesh with limit of 25 @ 70.
+03/10 10:14:35.779/IST   INFO -  PriceAction - 898# PradeeP_248 traded with the market maker for 6.374 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 60 to 70
+03/10 10:14:35.779/IST   INFO -  PriceAction - 899# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 40 to 30
+03/10 10:14:35.836/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:14:35.837/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 70, India vs Bangladesh Quarter Final:India: 30
+03/10 10:14:35.838/IST   WARN -    UserError - 900# told PradeeP_248 "Bought 6.374 shares of the team.".
+03/10 10:14:35.907/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:14:53.752/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 50.
+03/10 10:14:53.759/IST   INFO -  PriceAction - 941# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 70 to 50
+03/10 10:14:53.759/IST   INFO -  PriceAction - 942# PradeeP_248 traded with the market maker for 12.224 of India vs Bangladesh Quarter Final:India changing the price from 30 to 50
+03/10 10:14:53.818/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:14:53.818/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 50, India vs Bangladesh Quarter Final:India: 50
+03/10 10:14:53.820/IST   WARN -    UserError - 943# told PradeeP_248 "Bought 12.224 shares of the team.".
+03/10 10:14:53.890/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:15:29.024/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 50.
+03/10 10:15:29.091/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:15:46.114/IST  DEBUG -      Trading - PradeeP_248 wants to buy India with limit of 25 @ 50.
+03/10 10:18:45.001/IST  DEBUG -      Trading - PradeeP_248 wants to buy Bangladesh with limit of 25 @ 50.
+03/10 10:19:25.296/IST  DEBUG -      Trading - PradeeP_248 wants to sell Bangladesh with limit of 25 @ 40.
+03/10 10:19:25.302/IST   INFO -  PriceAction - 1112# PradeeP_248 traded with the market maker for -5.85 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 40
+03/10 10:19:25.303/IST   INFO -  PriceAction - 1113# PradeeP_248 traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 50 to 60
+03/10 10:19:25.371/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 10:19:25.371/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 40, India vs Bangladesh Quarter Final:India: 60
+03/10 10:19:25.372/IST   WARN -    UserError - 1208# told PradeeP_248 "Sold 5.85 shares of the team.".
+03/10 10:19:25.435/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.

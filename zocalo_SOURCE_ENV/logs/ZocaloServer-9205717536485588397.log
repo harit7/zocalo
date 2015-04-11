@@ -1,0 +1,30 @@
+03/10 09:12:59.457/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 09:12:59.460/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 09:12:59.534/IST   INFO -        trace -    creating AllMarkets
+03/10 09:13:01.191/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 09:13:01.191/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 09:13:03.526/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 09:15:12.981/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 09:19:34.816/IST   WARN -    UserError - 135# told User(logging in) "Please type an account name and password".
+03/10 09:22:35.382/IST   WARN -    UserError - 136# told User(logging in) "Please type an account name and password".
+03/10 09:23:47.560/IST   WARN -    UserError - 137# told User(logging in) "Please type an account name and password".
+03/10 09:24:12.676/IST   WARN -    UserError - 138# told User(logging in) "unknown account or password".
+03/10 09:24:35.836/IST   WARN -    UserError - 139# told User(logging in) "unknown account or password".
+03/10 09:25:01.643/IST   WARN -    UserError - 140# told User(logging in) "unknown account or password".
+03/10 09:25:15.587/IST   WARN -    UserError - 141# told User(logging in) "unknown account or password".
+03/10 09:25:25.513/IST   WARN -    UserError - 142# told User(logging in) "unknown account or password".
+03/10 09:25:34.483/IST   WARN -    UserError - 143# told User(logging in) "unknown account or password".
+03/10 09:25:43.432/IST   WARN -    UserError - 144# told User(logging in) "Please type an account name and password".
+03/10 09:25:55.278/IST   WARN -    UserError - 145# told User(logging in) "unknown account or password".
+03/10 09:26:21.650/IST   WARN -    UserError - 146# told User(logging in) "unknown account or password".
+03/10 09:26:59.344/IST   WARN -    UserError - 147# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 09:28:58.480/IST   WARN -    UserError - 148# told User(logging in) "Congratulations PradeeP_24! You're now done. Now Jump in!".
+03/10 09:28:58.509/IST   WARN -    UserError - 149# told User(logging in) "Please type an account name and password".
+03/10 09:29:22.306/IST   WARN -    UserError - 150# told User(logging in) "unknown account or password".
+03/10 09:29:58.398/IST   WARN -    UserError - 151# told User(logging in) "unknown account or password".
+03/10 09:30:02.454/IST   WARN -    UserError - 152# told User(logging in) "Please type an account name and password".
+03/10 09:30:14.083/IST   WARN -    UserError - 153# told User(logging in) "<font color=red size=5><b>Sorry! This account name is unavailable. Please try another one. </b></font>PradeeP_24".
+03/10 09:30:33.884/IST   WARN -    UserError - 154# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 09:30:46.686/IST   WARN -    UserError - 155# told User(logging in) "Congratulations PradeeP_248! You're now done. Now Jump in!".
+03/10 09:30:46.712/IST   WARN -    UserError - 156# told User(logging in) "Please type an account name and password".
+03/10 09:31:43.036/IST   WARN -    UserError - 157# told User(logging in) "unknown account or password".

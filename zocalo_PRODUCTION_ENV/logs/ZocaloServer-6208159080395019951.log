@@ -1,0 +1,30 @@
+03/13 04:26:46.362/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 04:26:46.367/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 04:26:46.367/IST   INFO -   AllMarkets - version = 1
+03/13 04:26:46.446/IST   INFO -        trace -    creating AllMarkets
+03/13 04:26:47.290/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 04:26:48.221/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 04:26:48.222/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 04:27:04.760/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/13 04:27:27.266/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/13 04:27:28.604/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+03/13 04:27:48.962/IST  DEBUG -      Trading - haritcsa wants to liquidate Zimbabwe
+03/13 04:27:48.979/IST   INFO -  PriceAction - 48# haritcsa traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 70 to 95.2312
+03/13 04:27:48.982/IST   INFO -  PriceAction - 49# haritcsa traded with the market maker for -30.98 of India vs Zimbabwe:Zimbabwe changing the price from 30 to 4.7688
+03/13 04:27:48.984/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 95, India vs Zimbabwe:Zimbabwe: 5
+03/13 04:27:48.984/IST   WARN -    UserError - 50# told haritcsa "Sold 30.980".
+03/13 04:27:56.787/IST   WARN -    UserError - 61# told User(logging in) "Please type an account name and password".
+03/13 04:28:14.115/IST   WARN -    UserError - 62# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/13 04:28:24.586/IST   WARN -    UserError - 63# told User(logging in) "Congratulations test! You're now done. Now Jump in!".
+03/13 04:28:24.625/IST   WARN -    UserError - 64# told User(logging in) "Please type an account name and password".
+03/13 04:28:37.408/IST   WARN -    UserError - 65# told User(logging in) "Please type an account name and password".
+03/13 04:28:39.432/IST   WARN -    UserError - 66# told User(logging in) "<font color=red size=5><b>Sorry! This account name is unavailable. Please try another one. </b></font>test".
+03/13 04:28:45.168/IST   WARN -    UserError - 67# told User(logging in) "Please type an account name and password".
+03/13 04:29:02.507/IST  DEBUG -      Trading - harit wants to buy Zimbabwe with limit of 25 @ 20.
+03/13 04:29:02.520/IST   INFO -  PriceAction - 138# harit traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 95 to 80
+03/13 04:29:02.520/IST   INFO -  PriceAction - 139# harit traded with the market maker for 22.484 of India vs Zimbabwe:Zimbabwe changing the price from 5 to 20
+03/13 04:29:02.521/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 80, India vs Zimbabwe:Zimbabwe: 20
+03/13 04:29:02.522/IST   WARN -    UserError - 140# told harit "Bought 22.484 shares of the team.".
+03/13 04:29:02.757/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 04:29:14.681/IST   WARN -    UserError - 566# told User(logging in) "Please type an account name and password".
+03/13 04:29:27.918/IST   WARN -    UserError - 567# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".

@@ -1,0 +1,14 @@
+03/10 01:09:21.700/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 01:09:21.703/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 01:09:21.777/IST   INFO -        trace -    creating AllMarkets
+03/10 01:09:23.413/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 01:09:23.413/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 01:09:42.059/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 01:10:06.525/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/10 01:10:11.464/IST   WARN -    UserError - 37# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/10 01:10:17.843/IST   WARN -    UserError - 38# told harit "Please specify a name for the market.".
+03/10 01:10:43.411/IST   INFO -   Transition - 39# State transition: new Multi Market, round: 0.
+03/10 01:10:43.412/IST   INFO -  PriceAction - 40# harit traded with the market maker for 0 of Quarter Final 1:India at 50
+03/10 01:10:43.413/IST   INFO -  PriceAction - 41# harit traded with the market maker for 0 of Quarter Final 1:Bangladesh at 50
+03/10 01:10:51.877/IST   WARN -    UserError - 42# told User(logging in) "Please type an account name and password".
+03/10 01:10:57.133/IST   WARN -    UserError - 43# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".

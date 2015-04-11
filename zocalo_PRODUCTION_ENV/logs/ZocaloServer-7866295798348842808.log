@@ -1,0 +1,36 @@
+03/11 11:57:15.296/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 11:57:15.301/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 11:57:15.301/IST   INFO -   AllMarkets - version = 1
+03/11 11:57:15.381/IST   INFO -        trace -    creating AllMarkets
+03/11 11:57:16.209/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 11:57:17.119/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 11:57:17.119/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/11 11:57:39.561/IST   WARN -    UserError - 44# told User(logging in) "Please type an account name and password".
+03/11 11:57:44.968/IST   WARN -    UserError - 45# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/11 11:58:11.469/IST   WARN -    UserError - 46# told mauka "Please specify a name for the market.".
+03/11 11:58:11.473/IST   WARN -    UserError - 47# told mauka "Please specify a name for the market.".
+03/11 11:58:38.058/IST   INFO -   Transition - 48# State transition: new Multi Market, round: 0.
+03/11 11:58:38.060/IST   INFO -  PriceAction - 49# mauka traded with the market maker for 0 of India vs Zimbabwe:India at 50
+03/11 11:58:38.061/IST   INFO -  PriceAction - 50# mauka traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe at 50
+03/11 11:59:16.058/IST   WARN -    UserError - 157# told User(logging in) "Please type an account name and password".
+03/11 11:59:25.277/IST   WARN -    UserError - 158# told mauka "A market with the name 'India vs Zimbabwe' already exists.".
+03/11 11:59:25.494/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/11 11:59:33.413/IST   WARN -    UserError - 163# told User(logging in) "Please type an account name and password".
+03/11 11:59:38.331/IST  DEBUG -      Trading - vishal wants to sell Zimbabwe with limit of 25 @ 1.
+03/11 11:59:38.348/IST   INFO -  PriceAction - 164# vishal traded with the market maker for -33.666 of India vs Zimbabwe:Zimbabwe changing the price from 50 to 8.8421
+03/11 11:59:38.349/IST   INFO -  PriceAction - 165# vishal traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 50 to 91.1579
+03/11 11:59:38.396/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/11 11:59:38.397/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 9, India vs Zimbabwe:India: 91
+03/11 11:59:38.398/IST   WARN -    UserError - 166# told vishal "Sold 33.666 shares of the team.".
+03/11 11:59:38.466/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/11 11:59:54.157/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/11 11:59:56.867/IST   WARN -    UserError - 215# told User(logging in) "Please type an account name and password".
+03/12 12:00:34.998/IST  DEBUG -      Trading - vishal wants to liquidate India
+03/12 12:00:35.012/IST   INFO -  PriceAction - 216# vishal traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 9 to 50.4924
+03/12 12:00:35.013/IST   INFO -  PriceAction - 217# vishal traded with the market maker for -33.67 of India vs Zimbabwe:India changing the price from 91 to 49.5076
+03/12 12:00:35.056/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/12 12:00:35.057/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 50, India vs Zimbabwe:India: 50
+03/12 12:00:35.100/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/12 12:00:35.100/IST   WARN -    UserError - 218# told vishal "Sold 33.670".
+03/12 12:00:52.386/IST   WARN -    UserError - 221# told User(logging in) "Please type an account name and password".
+03/12 12:00:55.931/IST   WARN -    UserError - 222# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".

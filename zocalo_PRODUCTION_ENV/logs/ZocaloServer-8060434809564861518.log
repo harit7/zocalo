@@ -1,0 +1,259 @@
+03/13 01:31:18.543/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 01:31:18.548/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 01:31:18.548/IST   INFO -   AllMarkets - version = 1
+03/13 01:31:18.627/IST   INFO -        trace -    creating AllMarkets
+03/13 01:31:19.450/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 01:31:20.355/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 01:31:20.356/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 01:31:33.722/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/13 01:32:01.504/IST  DEBUG -      Trading - harit wants to sell India with limit of 25 @ 20.
+03/13 01:32:01.516/IST   INFO -  PriceAction - 60# harit traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 44 to 80
+03/13 01:32:01.520/IST   INFO -  PriceAction - 61# harit traded with the market maker for -20.779 of India vs Zimbabwe:India changing the price from 56 to 20
+03/13 01:32:01.521/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 80, India vs Zimbabwe:India: 20
+03/13 01:32:01.522/IST   WARN -    UserError - 62# told harit "Sold 20.779 shares of the team.".
+03/13 01:32:01.742/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 01:32:11.409/IST  DEBUG -      Trading - harit wants to buy India with limit of 25 @ 80.
+03/13 01:32:11.420/IST   INFO -  PriceAction - 121# harit traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 80 to 43.9986
+03/13 01:32:11.420/IST   INFO -  PriceAction - 122# harit traded with the market maker for 20.78 of India vs Zimbabwe:India changing the price from 20 to 56.0014
+03/13 01:32:11.485/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 01:32:11.486/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 44, India vs Zimbabwe:India: 56
+03/13 01:32:11.489/IST   INFO -  PriceAction - 123# harit traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 43.9986 to 20
+03/13 01:32:11.490/IST   INFO -  PriceAction - 124# harit traded with the market maker for 13.852 of India vs Zimbabwe:India changing the price from 56.0014 to 80
+03/13 01:32:11.550/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 01:32:11.551/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 20, India vs Zimbabwe:India: 80
+03/13 01:32:11.551/IST   WARN -    UserError - 125# told harit "Bought 34.632 shares of the team.".
+03/13 01:32:11.633/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 01:32:19.347/IST  DEBUG -      Trading - harit wants to liquidate India
+03/13 01:32:19.358/IST   INFO -  PriceAction - 152# harit traded with the market maker for 0 of India vs Zimbabwe:Zimbabwe changing the price from 20 to 43.9951
+03/13 01:32:19.359/IST   INFO -  PriceAction - 153# harit traded with the market maker for -13.85 of India vs Zimbabwe:India changing the price from 80 to 56.0049
+03/13 01:32:19.420/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 01:32:19.421/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 44, India vs Zimbabwe:India: 56
+03/13 01:32:19.480/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 01:32:19.480/IST   WARN -    UserError - 154# told harit "Sold 13.850".
+03/13 01:32:33.283/IST  DEBUG -      Trading - harit wants to buy West Indies with limit of 25 @ 99.
+03/13 01:32:33.293/IST   INFO -  PriceAction - 239# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 11 to 0.1236
+03/13 01:32:33.294/IST   INFO -  PriceAction - 240# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 11 to 0.1236
+03/13 01:32:33.295/IST   INFO -  PriceAction - 241# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 11 to 0.1236
+03/13 01:32:33.295/IST   INFO -  PriceAction - 242# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 11 to 0.1236
+03/13 01:32:33.296/IST   INFO -  PriceAction - 243# harit traded with the market maker for 0 of World Cup Final:India changing the price from 11 to 0.1236
+03/13 01:32:33.297/IST   INFO -  PriceAction - 244# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 11 to 0.1236
+03/13 01:32:33.297/IST   INFO -  PriceAction - 245# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 11 to 0.1236
+03/13 01:32:33.298/IST   INFO -  PriceAction - 246# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 11 to 0.1236
+03/13 01:32:33.299/IST   INFO -  PriceAction - 247# harit traded with the market maker for 9.009 of World Cup Final:West Indies changing the price from 11 to 99.0112
+03/13 01:32:33.300/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Bangladesh: 0, World Cup Final:Pakistan: 0, World Cup Final:South Africa: 0, World Cup Final:Ireland: 0, World Cup Final:India: 0, World Cup Final:Sri Lanka: 0, World Cup Final:New Zealand: 0, World Cup Final:Austrailia: 0, World Cup Final:West Indies: 99
+03/13 01:32:33.300/IST   WARN -    UserError - 248# told harit "Bought 9.009 shares of the team.".
+03/13 01:32:33.480/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:32:40.057/IST  DEBUG -      Trading - harit wants to liquidate West Indies
+03/13 01:32:40.068/IST   INFO -  PriceAction - 573# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:32:40.069/IST   INFO -  PriceAction - 574# harit traded with the market maker for 9.01 of World Cup Final:West Indies changing the price from 99 to 100
+03/13 01:32:40.070/IST   INFO -  PriceAction - 575# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:32:40.070/IST   INFO -  PriceAction - 576# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 0 to 0
+03/13 01:32:40.071/IST   INFO -  PriceAction - 577# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:32:40.071/IST   INFO -  PriceAction - 578# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:32:40.072/IST   INFO -  PriceAction - 579# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:32:40.072/IST   INFO -  PriceAction - 580# harit traded with the market maker for 0 of World Cup Final:India changing the price from 0 to 0
+03/13 01:32:40.073/IST   INFO -  PriceAction - 581# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:32:40.156/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:32:40.157/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:South Africa: 0, World Cup Final:West Indies: 100, World Cup Final:Ireland: 0, World Cup Final:Sri Lanka: 0, World Cup Final:Bangladesh: 0, World Cup Final:Austrailia: 0, World Cup Final:New Zealand: 0, World Cup Final:India: 0, World Cup Final:Pakistan: 0
+03/13 01:32:40.237/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:32:40.237/IST   WARN -    UserError - 582# told harit "Sold 9.010".
+03/13 01:36:35.155/IST  DEBUG -      Trading - harit wants to buy Sri Lanka with limit of 25 @ 5.
+03/13 01:36:35.167/IST   INFO -  PriceAction - 646# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:36:35.168/IST   INFO -  PriceAction - 647# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:36:35.168/IST   INFO -  PriceAction - 648# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:36:35.169/IST   INFO -  PriceAction - 649# harit traded with the market maker for 0 of World Cup Final:India changing the price from 0 to 0
+03/13 01:36:35.169/IST   INFO -  PriceAction - 650# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:36:35.170/IST   INFO -  PriceAction - 651# harit traded with the market maker for 0.512 of World Cup Final:Sri Lanka changing the price from 0 to 5
+03/13 01:36:35.170/IST   INFO -  PriceAction - 652# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:36:35.171/IST   INFO -  PriceAction - 653# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:36:35.171/IST   INFO -  PriceAction - 654# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 100 to 95
+03/13 01:36:35.299/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:36:35.300/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Ireland: 0, World Cup Final:Bangladesh: 0, World Cup Final:Austrailia: 0, World Cup Final:India: 0, World Cup Final:Pakistan: 0, World Cup Final:Sri Lanka: 5, World Cup Final:New Zealand: 0, World Cup Final:South Africa: 0, World Cup Final:West Indies: 95
+03/13 01:36:35.301/IST   WARN -    UserError - 943# told harit "Bought 0.512 shares of the team.".
+03/13 01:36:35.397/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:36:43.780/IST  DEBUG -      Trading - harit wants to buy Sri Lanka with limit of 25 @ 50.
+03/13 01:36:43.791/IST   INFO -  PriceAction - 1016# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:36:43.792/IST   INFO -  PriceAction - 1017# harit traded with the market maker for 0 of World Cup Final:India changing the price from 0 to 0
+03/13 01:36:43.792/IST   INFO -  PriceAction - 1018# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:36:43.793/IST   INFO -  PriceAction - 1019# harit traded with the market maker for 4.607 of World Cup Final:Sri Lanka changing the price from 5 to 50
+03/13 01:36:43.794/IST   INFO -  PriceAction - 1020# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:36:43.794/IST   INFO -  PriceAction - 1021# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:36:43.795/IST   INFO -  PriceAction - 1022# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:36:43.795/IST   INFO -  PriceAction - 1023# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 95 to 50
+03/13 01:36:43.796/IST   INFO -  PriceAction - 1024# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:36:43.865/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:36:43.866/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Austrailia: 0, World Cup Final:India: 0, World Cup Final:New Zealand: 0, World Cup Final:Sri Lanka: 50, World Cup Final:Pakistan: 0, World Cup Final:South Africa: 0, World Cup Final:Bangladesh: 0, World Cup Final:West Indies: 50, World Cup Final:Ireland: 0
+03/13 01:36:43.867/IST   WARN -    UserError - 1025# told harit "Bought 4.607 shares of the team.".
+03/13 01:36:43.968/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:37:00.547/IST  DEBUG -      Trading - harit wants to sell Sri Lanka with limit of 25 @ 11.
+03/13 01:37:28.696/IST  DEBUG -      Trading - harit wants to sell Sri Lanka with limit of 25 @ 11.
+03/13 01:37:39.510/IST   WARN -    UserError - 1107# told harit "price must be greater than 0 and less than 100.".
+03/13 01:37:39.588/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:37:48.036/IST  DEBUG -      Trading - harit wants to sell Sri Lanka with limit of 25 @ 11.
+03/13 01:38:06.056/IST  DEBUG -      Trading - harit wants to buy West Indies with limit of 25 @ 99.
+03/13 01:38:06.062/IST   INFO -  PriceAction - 1198# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 50 to 1
+03/13 01:38:06.063/IST   INFO -  PriceAction - 1199# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:38:06.063/IST   INFO -  PriceAction - 1200# harit traded with the market maker for 0 of World Cup Final:India changing the price from 0 to 0
+03/13 01:38:06.064/IST   INFO -  PriceAction - 1201# harit traded with the market maker for 5.016 of World Cup Final:West Indies changing the price from 50 to 99
+03/13 01:38:06.065/IST   INFO -  PriceAction - 1202# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:38:06.065/IST   INFO -  PriceAction - 1203# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:38:06.066/IST   INFO -  PriceAction - 1204# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:38:06.066/IST   INFO -  PriceAction - 1205# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:38:06.067/IST   INFO -  PriceAction - 1206# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:38:06.129/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:38:06.130/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Sri Lanka: 1, World Cup Final:Ireland: 0, World Cup Final:India: 0, World Cup Final:West Indies: 99, World Cup Final:Bangladesh: 0, World Cup Final:New Zealand: 0, World Cup Final:Pakistan: 0, World Cup Final:South Africa: 0, World Cup Final:Austrailia: 0
+03/13 01:38:06.131/IST   WARN -    UserError - 1207# told harit "Bought 5.016 shares of the team.".
+03/13 01:38:06.212/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:38:18.747/IST  DEBUG -      Trading - harit wants to buy India with limit of 25 @ 48.
+03/13 01:38:18.755/IST   INFO -  PriceAction - 1298# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:38:18.756/IST   INFO -  PriceAction - 1299# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:38:18.756/IST   INFO -  PriceAction - 1300# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 1 to 0.52
+03/13 01:38:18.757/IST   INFO -  PriceAction - 1301# harit traded with the market maker for 4.914 of World Cup Final:India changing the price from 0 to 48
+03/13 01:38:18.757/IST   INFO -  PriceAction - 1302# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:38:18.758/IST   INFO -  PriceAction - 1303# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:38:18.758/IST   INFO -  PriceAction - 1304# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:38:18.759/IST   INFO -  PriceAction - 1305# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:38:18.759/IST   INFO -  PriceAction - 1306# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 99 to 51.48
+03/13 01:38:18.820/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:38:18.821/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Bangladesh: 0, World Cup Final:Pakistan: 0, World Cup Final:Sri Lanka: 1, World Cup Final:India: 48, World Cup Final:New Zealand: 0, World Cup Final:Ireland: 0, World Cup Final:Austrailia: 0, World Cup Final:South Africa: 0, World Cup Final:West Indies: 51
+03/13 01:38:18.821/IST   WARN -    UserError - 1307# told harit "Bought 4.914 shares of the team.".
+03/13 01:38:18.902/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:38:32.535/IST  DEBUG -      Trading - harit wants to buy South Africa with limit of 25 @ 10.
+03/13 01:38:32.543/IST   INFO -  PriceAction - 1407# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:38:32.543/IST   INFO -  PriceAction - 1408# harit traded with the market maker for 1.024 of World Cup Final:South Africa changing the price from 0 to 10
+03/13 01:38:32.544/IST   INFO -  PriceAction - 1409# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:38:32.544/IST   INFO -  PriceAction - 1410# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 51 to 45.9
+03/13 01:38:32.545/IST   INFO -  PriceAction - 1411# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:38:32.545/IST   INFO -  PriceAction - 1412# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 1 to 0.9
+03/13 01:38:32.546/IST   INFO -  PriceAction - 1413# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:38:32.546/IST   INFO -  PriceAction - 1414# harit traded with the market maker for 0 of World Cup Final:India changing the price from 48 to 43.2
+03/13 01:38:32.547/IST   INFO -  PriceAction - 1415# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:38:32.606/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:38:32.607/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Austrailia: 0, World Cup Final:South Africa: 10, World Cup Final:Pakistan: 0, World Cup Final:West Indies: 46, World Cup Final:Bangladesh: 0, World Cup Final:Sri Lanka: 1, World Cup Final:New Zealand: 0, World Cup Final:India: 43, World Cup Final:Ireland: 0
+03/13 01:38:32.607/IST   WARN -    UserError - 1416# told harit "Bought 1.024 shares of the team.".
+03/13 01:38:32.686/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:38:55.019/IST  DEBUG -      Trading - harit wants to liquidate India
+03/13 01:39:21.617/IST  DEBUG -      Trading - harit wants to liquidate South Africa
+03/13 01:39:21.622/IST   INFO -  PriceAction - 1525# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:39:21.623/IST   INFO -  PriceAction - 1526# harit traded with the market maker for -1.02 of World Cup Final:South Africa changing the price from 10 to 0.0366
+03/13 01:39:21.623/IST   INFO -  PriceAction - 1527# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 1 to 1.1107
+03/13 01:39:21.624/IST   INFO -  PriceAction - 1528# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:39:21.624/IST   INFO -  PriceAction - 1529# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 46 to 51.0924
+03/13 01:39:21.625/IST   INFO -  PriceAction - 1530# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:39:21.625/IST   INFO -  PriceAction - 1531# harit traded with the market maker for 0 of World Cup Final:India changing the price from 43 to 47.7603
+03/13 01:39:21.626/IST   INFO -  PriceAction - 1532# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:39:21.626/IST   INFO -  PriceAction - 1533# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:39:21.685/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:39:21.685/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:New Zealand: 0, World Cup Final:South Africa: 0, World Cup Final:Sri Lanka: 1, World Cup Final:Pakistan: 0, World Cup Final:West Indies: 51, World Cup Final:Austrailia: 0, World Cup Final:India: 48, World Cup Final:Bangladesh: 0, World Cup Final:Ireland: 0
+03/13 01:39:21.742/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:39:21.743/IST   WARN -    UserError - 1534# told harit "Sold 1.020".
+03/13 01:39:26.404/IST  DEBUG -      Trading - harit wants to liquidate West Indies
+03/13 01:39:26.412/IST   INFO -  PriceAction - 1652# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:39:26.413/IST   INFO -  PriceAction - 1653# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:39:26.413/IST   INFO -  PriceAction - 1654# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:39:26.414/IST   INFO -  PriceAction - 1655# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:39:26.414/IST   INFO -  PriceAction - 1656# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 1 to 2.0007
+03/13 01:39:26.415/IST   INFO -  PriceAction - 1657# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:39:26.415/IST   INFO -  PriceAction - 1658# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:39:26.416/IST   INFO -  PriceAction - 1659# harit traded with the market maker for -5.02 of World Cup Final:West Indies changing the price from 51 to 1.9646
+03/13 01:39:26.416/IST   INFO -  PriceAction - 1660# harit traded with the market maker for 0 of World Cup Final:India changing the price from 48 to 96.0347
+03/13 01:39:26.474/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:39:26.475/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:South Africa: 0, World Cup Final:Bangladesh: 0, World Cup Final:Ireland: 0, World Cup Final:Austrailia: 0, World Cup Final:Sri Lanka: 2, World Cup Final:Pakistan: 0, World Cup Final:New Zealand: 0, World Cup Final:West Indies: 2, World Cup Final:India: 96
+03/13 01:39:26.531/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:39:26.531/IST   WARN -    UserError - 1661# told harit "Sold 5.020".
+03/13 01:39:30.661/IST  DEBUG -      Trading - harit wants to liquidate Sri Lanka
+03/13 01:39:34.343/IST  DEBUG -      Trading - harit wants to liquidate India
+03/13 01:39:34.349/IST   INFO -  PriceAction - 1788# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:39:34.349/IST   INFO -  PriceAction - 1789# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:39:34.350/IST   INFO -  PriceAction - 1790# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:39:34.350/IST   INFO -  PriceAction - 1791# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:39:34.351/IST   INFO -  PriceAction - 1792# harit traded with the market maker for -4.91 of World Cup Final:India changing the price from 96 to 48.0391
+03/13 01:39:34.351/IST   INFO -  PriceAction - 1793# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:39:34.352/IST   INFO -  PriceAction - 1794# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 2 to 25.9805
+03/13 01:39:34.352/IST   INFO -  PriceAction - 1795# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 2 to 25.9805
+03/13 01:39:34.353/IST   INFO -  PriceAction - 1796# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:39:34.406/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:39:34.407/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Austrailia: 0, World Cup Final:South Africa: 0, World Cup Final:Ireland: 0, World Cup Final:Bangladesh: 0, World Cup Final:India: 48, World Cup Final:New Zealand: 0, World Cup Final:West Indies: 26, World Cup Final:Sri Lanka: 26, World Cup Final:Pakistan: 0
+03/13 01:39:34.459/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:39:34.459/IST   WARN -    UserError - 1797# told harit "Sold 4.910".
+03/13 01:39:39.816/IST  DEBUG -      Trading - harit wants to liquidate Sri Lanka
+03/13 01:40:33.401/IST  DEBUG -      Trading - harit wants to liquidate Sri Lanka
+03/13 01:40:37.951/IST  DEBUG -      Trading - harit wants to liquidate India
+03/13 01:40:38.036/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:40:38.036/IST   WARN -    UserError - 2293# told harit "Sold 0.000".
+03/13 01:41:02.846/IST  DEBUG -      Trading - harit wants to buy West Indies with limit of 25 @ 99.
+03/13 01:41:02.863/IST   INFO -  PriceAction - 2582# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 11 to 0.1236
+03/13 01:41:02.864/IST   INFO -  PriceAction - 2583# harit traded with the market maker for 9.009 of World Cup Final:West Indies changing the price from 11 to 99.0112
+03/13 01:41:02.864/IST   INFO -  PriceAction - 2584# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 11 to 0.1236
+03/13 01:41:02.865/IST   INFO -  PriceAction - 2585# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 11 to 0.1236
+03/13 01:41:02.865/IST   INFO -  PriceAction - 2586# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 11 to 0.1236
+03/13 01:41:02.866/IST   INFO -  PriceAction - 2587# harit traded with the market maker for 0 of World Cup Final:India changing the price from 11 to 0.1236
+03/13 01:41:02.866/IST   INFO -  PriceAction - 2588# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 11 to 0.1236
+03/13 01:41:02.867/IST   INFO -  PriceAction - 2589# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 11 to 0.1236
+03/13 01:41:02.867/IST   INFO -  PriceAction - 2590# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 11 to 0.1236
+03/13 01:41:02.923/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:41:02.924/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Pakistan: 0, World Cup Final:West Indies: 99, World Cup Final:Bangladesh: 0, World Cup Final:Austrailia: 0, World Cup Final:Sri Lanka: 0, World Cup Final:India: 0, World Cup Final:South Africa: 0, World Cup Final:Ireland: 0, World Cup Final:New Zealand: 0
+03/13 01:41:02.925/IST   WARN -    UserError - 2591# told harit "Bought 9.009 shares of the team.".
+03/13 01:41:02.998/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:41:08.615/IST  DEBUG -      Trading - harit wants to liquidate West Indies
+03/13 01:41:08.623/IST   INFO -  PriceAction - 2736# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:41:08.623/IST   INFO -  PriceAction - 2737# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 0 to 0
+03/13 01:41:08.624/IST   INFO -  PriceAction - 2738# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:41:08.624/IST   INFO -  PriceAction - 2739# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:41:08.625/IST   INFO -  PriceAction - 2740# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:41:08.625/IST   INFO -  PriceAction - 2741# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:41:08.626/IST   INFO -  PriceAction - 2742# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:41:08.626/IST   INFO -  PriceAction - 2743# harit traded with the market maker for 9.01 of World Cup Final:West Indies changing the price from 99 to 100
+03/13 01:41:08.627/IST   INFO -  PriceAction - 2744# harit traded with the market maker for 0 of World Cup Final:India changing the price from 0 to 0
+03/13 01:41:08.683/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:41:08.683/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Pakistan: 0, World Cup Final:Sri Lanka: 0, World Cup Final:New Zealand: 0, World Cup Final:Bangladesh: 0, World Cup Final:South Africa: 0, World Cup Final:Ireland: 0, World Cup Final:Austrailia: 0, World Cup Final:West Indies: 100, World Cup Final:India: 0
+03/13 01:41:08.740/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:41:08.740/IST   WARN -    UserError - 2745# told harit "Sold 9.010".
+03/13 01:41:44.443/IST   WARN -    UserError - 2899# told harit "price must be greater than 0 and less than 100.".
+03/13 01:41:50.118/IST  DEBUG -      Trading - harit wants to buy Sri Lanka with limit of 25 @ 10.
+03/13 01:41:50.126/IST   INFO -  PriceAction - 3062# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:41:50.127/IST   INFO -  PriceAction - 3063# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:41:50.127/IST   INFO -  PriceAction - 3064# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:41:50.128/IST   INFO -  PriceAction - 3065# harit traded with the market maker for 0 of World Cup Final:India changing the price from 0 to 0
+03/13 01:41:50.128/IST   INFO -  PriceAction - 3066# harit traded with the market maker for 1.024 of World Cup Final:Sri Lanka changing the price from 0 to 10
+03/13 01:41:50.129/IST   INFO -  PriceAction - 3067# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 100 to 90
+03/13 01:41:50.129/IST   INFO -  PriceAction - 3068# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:41:50.130/IST   INFO -  PriceAction - 3069# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:41:50.130/IST   INFO -  PriceAction - 3070# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:41:50.185/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:41:50.186/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:South Africa: 0, World Cup Final:Austrailia: 0, World Cup Final:New Zealand: 0, World Cup Final:India: 0, World Cup Final:Sri Lanka: 10, World Cup Final:West Indies: 90, World Cup Final:Ireland: 0, World Cup Final:Pakistan: 0, World Cup Final:Bangladesh: 0
+03/13 01:41:50.186/IST   WARN -    UserError - 3071# told harit "Bought 1.024 shares of the team.".
+03/13 01:41:50.260/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:41:58.401/IST  DEBUG -      Trading - harit wants to sell West Indies with limit of 25 @ 5.
+03/13 01:41:58.409/IST   INFO -  PriceAction - 3234# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:41:58.409/IST   INFO -  PriceAction - 3235# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:41:58.410/IST   INFO -  PriceAction - 3236# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:41:58.410/IST   INFO -  PriceAction - 3237# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:41:58.411/IST   INFO -  PriceAction - 3238# harit traded with the market maker for -8.702 of World Cup Final:West Indies changing the price from 90 to 5
+03/13 01:41:58.411/IST   INFO -  PriceAction - 3239# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:41:58.412/IST   INFO -  PriceAction - 3240# harit traded with the market maker for 0 of World Cup Final:India changing the price from 0 to 0
+03/13 01:41:58.412/IST   INFO -  PriceAction - 3241# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 10 to 95
+03/13 01:41:58.413/IST   INFO -  PriceAction - 3242# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:41:58.468/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:41:58.469/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Ireland: 0, World Cup Final:Austrailia: 0, World Cup Final:Pakistan: 0, World Cup Final:New Zealand: 0, World Cup Final:West Indies: 5, World Cup Final:South Africa: 0, World Cup Final:India: 0, World Cup Final:Sri Lanka: 95, World Cup Final:Bangladesh: 0
+03/13 01:41:58.469/IST   WARN -    UserError - 3243# told harit "Sold 8.702 shares of the team.".
+03/13 01:41:58.543/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:42:09.325/IST  DEBUG -      Trading - harit wants to buy India with limit of 25 @ 30.
+03/13 01:42:09.332/IST   INFO -  PriceAction - 3415# harit traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 95 to 66.5
+03/13 01:42:09.333/IST   INFO -  PriceAction - 3416# harit traded with the market maker for 0 of World Cup Final:South Africa changing the price from 0 to 0
+03/13 01:42:09.333/IST   INFO -  PriceAction - 3417# harit traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 0 to 0
+03/13 01:42:09.334/IST   INFO -  PriceAction - 3418# harit traded with the market maker for 0 of World Cup Final:Ireland changing the price from 0 to 0
+03/13 01:42:09.334/IST   INFO -  PriceAction - 3419# harit traded with the market maker for 0 of World Cup Final:West Indies changing the price from 5 to 3.5
+03/13 01:42:09.335/IST   INFO -  PriceAction - 3420# harit traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 0 to 0
+03/13 01:42:09.335/IST   INFO -  PriceAction - 3421# harit traded with the market maker for 3.071 of World Cup Final:India changing the price from 0 to 30
+03/13 01:42:09.336/IST   INFO -  PriceAction - 3422# harit traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 0 to 0
+03/13 01:42:09.336/IST   INFO -  PriceAction - 3423# harit traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 0 to 0
+03/13 01:42:09.391/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:42:09.392/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Sri Lanka: 66, World Cup Final:South Africa: 0, World Cup Final:Bangladesh: 0, World Cup Final:Ireland: 0, World Cup Final:West Indies: 4, World Cup Final:Pakistan: 0, World Cup Final:India: 30, World Cup Final:Austrailia: 0, World Cup Final:New Zealand: 0
+03/13 01:42:09.392/IST   WARN -    UserError - 3424# told harit "Bought 3.071 shares of the team.".
+03/13 01:42:09.463/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/13 01:42:29.037/IST  DEBUG -      Trading - harit wants to liquidate Sri Lanka
+03/13 01:56:50.532/IST   WARN -    UserError - 3605# told User(logging in) "Please type an account name and password".
+03/13 01:57:03.630/IST   WARN -    UserError - 3606# told User(logging in) "Please type an account name and password".
+03/13 01:58:20.305/IST   WARN -    UserError - 3639# told User(logging in) "Please type an account name and password".
+03/13 02:01:09.411/IST   WARN -    UserError - 3650# told haritcsa "market is closed.".

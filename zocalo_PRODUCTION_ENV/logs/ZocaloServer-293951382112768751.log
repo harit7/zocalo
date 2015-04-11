@@ -1,0 +1,5 @@
+03/11 09:33:32.665/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 09:33:32.670/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 09:33:32.670/IST   INFO -   AllMarkets - version = 1
+03/11 09:33:32.750/IST   INFO -        trace -    creating AllMarkets
+03/11 09:33:33.260/IST  ERROR - HibernateUtil - in hibernate util

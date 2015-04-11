@@ -1,0 +1,28 @@
+03/09 02:42:32.184/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 02:42:32.190/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 02:42:32.302/IST   INFO -        trace -    creating AllMarkets
+03/09 02:42:34.178/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 02:42:34.179/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 02:42:39.053/IST   WARN -    UserError - 35# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:42:55.147/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/09 02:42:59.418/IST   WARN -    UserError - 37# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:43:06.305/IST   WARN -    UserError - 38# told harit "Please specify a name for the market.".
+03/09 02:43:22.823/IST   INFO -   Transition - 39# State transition: new Multi Market, round: 0.
+03/09 02:43:22.824/IST   INFO -  PriceAction - 40# harit traded with the market maker for 0 of ICC 3:yes at 50
+03/09 02:43:22.825/IST   INFO -  PriceAction - 41# harit traded with the market maker for 0 of ICC 3:no at 50
+03/09 02:43:44.889/IST   INFO -     NewChart - The chart for ICC 3 has been updated.
+03/09 02:44:01.599/IST   WARN -    UserError - 46# told User(logging in) "Please type an account name and password".
+03/09 02:44:07.690/IST   WARN -    UserError - 47# told User(logging in) "Please type an account name and password".
+03/09 02:44:12.760/IST   WARN -    UserError - 48# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:44:20.560/IST   WARN -    UserError - 49# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".
+03/09 02:45:04.407/IST   INFO -   CouponBank - 56# Redeemed 0 'no' Coupons for ICC 3
+03/09 02:45:04.410/IST   WARN -    UserError - 57# told harit "5.00 was refunded at Market close.".
+03/09 02:45:04.410/IST   WARN -    UserError - 58# told harit "Redeemed 0 pairs.".
+03/09 02:45:53.302/IST   WARN -    UserError - 61# told User(logging in) "Please type an account name and password".
+03/09 03:28:05.873/IST   WARN -    UserError - 62# told User(logging in) "Please type an account name and password".
+03/09 03:30:46.917/IST   WARN -  MarketOwner - Unable to send message. Is mail configured correctly?  user: 'vishal' email: 'vishalkakkar90@gmail.com'.
+03/09 03:30:46.917/IST   WARN -    UserError - 63# told User(logging in) "Oops! Looks like we encountered a problem creating your account. Please retry.".
+03/09 03:48:42.022/IST   WARN -    UserError - 64# told User(logging in) "Oops! That password doesn't qualify! You must have at least 7 characters, with at least one being a number.".
+03/09 03:48:50.189/IST   WARN -    UserError - 65# told User(logging in) "Please enter a username.".
+03/09 03:50:05.114/IST   WARN -  MarketOwner - Unable to send message. Is mail configured correctly?  user: 'vishal' email: 'vishalkakkar90@gmail.com'.
+03/09 03:50:05.114/IST   WARN -    UserError - 66# told User(logging in) "Oops! Looks like we encountered a problem creating your account. Please retry.".

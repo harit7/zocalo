@@ -1,0 +1,33 @@
+03/10 05:08:25.030/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 05:08:25.033/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 05:08:25.107/IST   INFO -        trace -    creating AllMarkets
+03/10 05:08:26.772/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 05:08:26.773/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 05:08:46.165/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 05:11:29.804/IST   WARN -    UserError - 36# told User(logging in) "unknown account or password".
+03/10 05:11:36.721/IST   WARN -    UserError - 37# told User(logging in) "unknown account or password".
+03/10 05:11:42.075/IST   WARN -    UserError - 38# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/10 05:11:45.444/IST   WARN -    UserError - 39# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".
+03/10 05:11:50.600/IST   WARN -    UserError - 40# told User(logging in) "Please type an account name and password".
+03/10 05:14:29.034/IST   WARN -    UserError - 41# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 05:14:45.020/IST   WARN -    UserError - 42# told User(logging in) "Congratulations mauka! You're now done. Now Jump in!".
+03/10 05:14:45.056/IST   WARN -    UserError - 43# told User(logging in) "Please type an account name and password".
+03/10 05:15:05.287/IST   WARN -    UserError - 44# told User(logging in) "Please type an account name and password".
+03/10 05:15:13.720/IST   WARN -    UserError - 45# told User(logging in) "<font color=red size=5><b>Sorry! This account name is unavailable. Please try another one. </b></font>mauka".
+03/10 05:15:29.556/IST   WARN -    UserError - 46# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 05:15:46.602/IST   WARN -    UserError - 47# told User(logging in) "Congratulations haritcsa! You're now done. Now Jump in!".
+03/10 05:15:46.635/IST   WARN -    UserError - 48# told User(logging in) "Please type an account name and password".
+03/10 05:15:55.239/IST   WARN -    UserError - 49# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/10 05:16:20.510/IST   WARN -    UserError - 50# told mauka "Please specify a name for the market.".
+03/10 05:24:11.295/IST   INFO -   Transition - 51# State transition: new Multi Market, round: 0.
+03/10 05:24:11.296/IST   INFO -  PriceAction - 52# mauka traded with the market maker for 0 of Who is the Champion:India at 11.1111
+03/10 05:24:11.297/IST   INFO -  PriceAction - 53# mauka traded with the market maker for 0 of Who is the Champion:Pakistan at 11.1111
+03/10 05:24:11.298/IST   INFO -  PriceAction - 54# mauka traded with the market maker for 0 of Who is the Champion:Sri Lanka at 11.1111
+03/10 05:24:11.298/IST   INFO -  PriceAction - 55# mauka traded with the market maker for 0 of Who is the Champion:Bangladesh at 11.1111
+03/10 05:24:11.299/IST   INFO -  PriceAction - 56# mauka traded with the market maker for 0 of Who is the Champion:Austrailia at 11.1111
+03/10 05:24:11.299/IST   INFO -  PriceAction - 57# mauka traded with the market maker for 0 of Who is the Champion:South Africa at 11.1111
+03/10 05:24:11.300/IST   INFO -  PriceAction - 58# mauka traded with the market maker for 0 of Who is the Champion:Ireland at 11.1111
+03/10 05:24:11.300/IST   INFO -  PriceAction - 59# mauka traded with the market maker for 0 of Who is the Champion:New Zealand at 11.1111
+03/10 05:24:11.301/IST   INFO -  PriceAction - 60# mauka traded with the market maker for 0 of Who is the Champion:West Indies at 11.1111
+03/10 05:24:27.409/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:26:07.253/IST   WARN -    UserError - 106# told User(logging in) "Please type an account name and password".

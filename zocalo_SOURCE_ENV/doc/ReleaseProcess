@@ -1,0 +1,55 @@
+verify Licenses are up to date.
+
+edit PRODUCT_VERSION in build/DBInstaller.nsi and build/EXPinstaller.nsi
+Update CHANGES
+Update NOTES
+Review DevelopmentPlans
+Do the copyright notices need to be updated?
+   (LICENSE, overview.html, install*)
+
+Look for schema changes that require migration code
+
+   foreach file ( `find src -name \*hbm.xml` )
+    svn diff -r 436 $file 
+    end
+
+build source, tar, installers, javadoc ('ant release')
+
+build installers under windows.
+   move the built zip files to windows
+   install NSIS (available in pkgs or at sourceforge)
+   install NSIS Dialogs plug-in
+      (copy Dialogs.dll to Contrib; copy defines.nsh to Include)
+   extract the zip files.  Each contains a directory and associated .nsi file
+   feed the .nsi file to NSIS
+   copy the produced zocalo-**-Setup.exe files back to your release directory
+
+copy to Releases
+    rename files with version numbers first
+
+copy to sourceforge  
+    use cyberduck to upload files (one at a time so you can tell when each finishes)
+    Requires SFTP now.   From the shell worked.  and Cyberduck
+
+Update zocalo.sourceforge.net page
+   ~/Sites/SourceForge/web/index.html
+	use cyberduck; cd web
+    put index.html
+
+update javadoc on zocalo.sourceforge.net
+  iTerm knows how to create a terminal session.
+   tar and compress the javadoc directory, and use cyberduck to upload it.
+  delete old javadoc; extract new
+
+Add a tag for release to svn
+    svn cp $svnsf/trunk $svnsf/tags/2008.3
+
+Update the release page on sourceforge
+
+Send an announcement
+  Develop/News/Admin
+--------------------
+update license date
+   svn co -N $svnsf/trunk/ trunk
+   svn merge -r474:536 $svnsf/trunk/devel/etc/LICENSE trunk/LICENSE
+   svn ci trunk/

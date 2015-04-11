@@ -1,0 +1,44 @@
+sessionTitle: Reserves-Feb09cth
+rounds: 3
+players: traderA1, traderB, traderA2, traderB2
+roles: trader, trader2
+
+# in minutes
+timeLimit: 4
+
+carryForward: true
+useUnaryAssets: false
+betterPriceRequired: false
+requireReserves: true
+
+traderA1.role: trader
+traderA2.role: trader2
+traderB.role: trader
+traderB2.role: trader2
+initialHint: Trading has not started yet.
+
+endowment.trader: 300
+tickets.trader: 0
+endowment.trader2: 400
+tickets.trader2: 0
+
+# These values are specified by round.
+commonMessage:        noMessage, noMessage, noMessage
+dividendValue:          60,          40,         20
+
+# These values are specified by Player and Round.
+
+traderA1.hint:         moreThanDollar,     not100,       not100
+traderA2.hint:         not40,      notZero,     notZero
+traderB.hint:          not100,     notZero,     notZero
+traderB2.hint:          notZero,     not100,     notZero
+
+# text labels can be used in hints or commonMessage
+
+moreThanDollar: The total dividend is more than 100
+lessThanDollar: The total dividend is less than 100
+not100: The current dividend is not 100.
+not40: The current dividend is not 40.
+notZero: The current dividend is not 0.
+noMessage:
+

@@ -1,0 +1,267 @@
+     Copyright 2006-2011 Chris Hibbert.  Portions Copyright 2005, 2006
+     CommerceNet Consortium, LLC.  All rights reserved.  This file is
+     published under the terms of the MIT license, a copy of which has
+     been included with this distribution in the LICENSE file.
+
+The installation process is intended to be short and painless.  Please
+let us know if it doesn't seem straightforward, and we'll work to make
+it better.
+http://sourceforge.net/tracker/?func=add&group_id=140256&atid=745978
+
+
+                INSTALLATION STEPS
+
+  * Configure the Zocalo server
+  * Start the database server
+  * Start the Zocalo server
+  * How to Create New Accounts
+  * How to Configure and Run Markets
+  * RPC Server
+  * Navigation
+
+**************************************************
+
+* Configure the Zocalo server
+
+	 * SET THE ADMIN PASSWORD
+	 * SET THE USERS' CURRENCY ALLOCATION
+	 * SPECIFY THE PORT
+	 * CONFIGURE THE LOCATION OF THE DATABASE.
+	 * CONFIGURE THE MAIL SYSTEM
+	 * SET CONFIGURATION FLAGS AS DESIRED
+
+These instructions walk you through the process of installing the
+Prediction Market configuration of Zocalo.  This version lets you run
+prediction markets that users can access over a network (Internet,
+intranet, etc.).  Users register their own accounts and confirm them
+after receiving an email message from the server.  You'll need to set
+up the email parameters even if you are testing and don't expect to
+have any other users--in order to create markets and to buy and sell,
+you'll need an account that you've confirmed via email.
+
+The following parameters can be modified by editing the file etc/zocalo.conf.
+
+
+* SET THE ADMIN PASSWORD
+
+Only users who know the admin password are allowed to create new
+markets.  The password is defined in the configuration file.  Its
+initial value (the word "unsafe") is visible in the source files on
+sourceforge!  (You can see it here:
+http://zocalo.svn.sourceforge.net/viewvc/zocalo/trunk/devel/etc/DB/zocalo.conf)
+YOU MUST CHANGE IT TO HAVE ANY SECURITY!  Pick something people won't
+guess.  You don't have to memorize it, you can find the current value
+by looking in your config file (etc/zocalo.conf).
+
+  admin.password: unsafe
+
+Admin isn't a standard account; instead it is a "role" that any user
+can specify before logging in via the web, which allows additional
+features of the software to be visible.  You authenticate as admin by
+logging in with any name (whether known to the system or not) and the
+password from the config file.  After you have authenticated as admin,
+you will be able to create new markets.  You can stop exercising admin
+authentication by logging in without a password.
+
+
+* SET THE USERS' CURRENCY ALLOCATION
+
+You can modify the initial amount of currency that users get in their
+accounts by changing initial.user.funds.  It's $1000 to start with.
+
+  initial.user.funds: 1000
+
+
+* SPECIFY THE PORT
+
+If there is more than one web server running on a machine, they use
+different port numbers.  If Zocalo will be the only web server
+running, then you don't need to specify this value, and the URLs won't
+require a port number.  If other web servers will also be running, or
+if you want to run more than one Zocalo instance on the same machine,
+each instance will have to use a different port number.  
+
+#server.port: 30000
+
+
+* CONFIGURE THE LOCATION OF THE DATABASE.
+
+Zocalo stores all of its information about users, markets, and
+trading history in a database.  Only very sophisticated users should
+modify these settings.
+
+If you know how to install different database software (we use hsql),
+you can change database.url.base and database.url.file to reflect
+this.  If the database should be stored on a different disk, you can
+make ../P-data be a symbolic link to that other location, or you can
+change the database.file.base parameter (an absolute path would be
+best).
+
+
+* CONFIGURE THE MAIL SYSTEM
+
+When users create new accounts on the Zocalo server, it automatically
+sends them email with a secret url for them to visit to confirm their
+registration.  (The email address provided when creating an account
+isn't currently used for anything else.)  
+
+You can change the text and format of the message by editing the file
+templates/ConfirmRegistration.st.  In order to deliver the message,
+Zocalo needs to be able to login to a mail server.  Use the parameters
+below to configure a mail server and account that will allow the
+Zocalo server to send email messages.
+
+mail.host: mail.example.com
+mail.user: emailaccount
+mail.password: emailPassword
+mail.secure: false
+mail.auth: true
+
+On Unix/Linux machines, the simplest way to configure zocalo to send
+mail is to specify an executable.  Common choices are /bin/mail and
+/usr/bin/mailx.  If you're using another program, ensure that it works
+the same way: it should send mail when invoked with the subject and
+recipient in the argument list ("-s subject recipient") and expect the
+message body on stdIn.
+# mail.executable: /usr/bin/mailx
+# mail.executable: /bin/mail
+
+If you use a mail server (like gmail) that supports TLS for security,
+you should change mail.secure: to true, and add  "mail.port: 465".
+
+When new users register with the server, it autmatically sends them
+email with a secret url for them to visit to confirm their
+registration.  You can change the text and format of the message by
+editing the files in the templates directory.  In order to reduce the
+amount of spam they must process, many mail servers will only accept
+mail from email addresses they recognize.  In order to enable the
+server to send out mail, you'll have to edit the file
+templates/siteConstants.st and change the "from:" field to be someone
+authorized to send mail.  (insert the email address corresponding to
+the password you used above.)
+
+
+	 * SET CONFIGURATION FLAGS AS DESIRED
+
+*  Cost Limits
+
+Users can specify trades in terms of a cost limit rather than a
+quantity limit.  (Users specify a maximum cost of an order rather than
+a maximum quantity.)  This is currently configurable at install time,
+and applies to markets with more than two possible outcomes.  If you
+want this functionality, specify
+
+useCostLimit: true
+
+* History Links
+
+When the Prediction Markets configuration is used for lab experiments,
+traders shouldn't be able to look at the trading history.  When this
+option is set to true, only the Admin user has access to history.
+
+limit.history.access: true
+
+**************************************************
+
+* Start the Database server
+
+Run the script bin/startDB.  This will start the database server.  If
+the database doesn't exist, it will be initialized.  The database
+continues to run until the machine is rebooted.  You can shut it down
+using the bin/shutdown script.
+
+**************************************************
+
+* Start the Zocalo server
+
+Run the script bin/zocalo.csh, which will invoke Java to run the
+server.  A copy will also be written to logs/ZocaloServer***.log.
+('***' will be replaced by a sequence number.)  You can change the
+logfile name in zocalo.conf.
+
+The server will run until you stop it with control-C or the machine
+crashes or is turned off.  You can stop it with control-C in order to
+change the parameters in the config file, but then you will need to
+start it again.
+
+**************************************************
+
+* How to Create New Accounts
+
+You can create a new account by visiting the Account Creation page
+from the login page.  Don't lose the password; there's currently no
+way to recover or change it.  New accounts start out with the funding
+that was configured when Zocalo was installed.  (This parameter can
+also be changed or viewed by opening etc/zocalo.conf.)
+
+**************************************************
+
+* How to Configure and Run Markets
+
+The login page for the Zocalo markets is Welcome.jsp.  There are no
+accounts or markets configured when the system is first installed.
+Users who have authenticated with the admin password can create new
+markets.  So you first want to create an account (and confirm it) and
+then authenticate as admin and login in order to create accounts.
+
+  Creating new Markets
+
+In order to authenticate as admin, login with any user name and the
+admin password.  You can drop the admin authority later by logging in
+with any account name and a blank password.  Admin is not a separate
+account; instead it's a role that you can have while logged in that
+allows you to create new markets.  Once you see the message "Added
+Admin credentials. .... ", you login again with an account that you
+have confirmed.
+
+While you have admin authority, an extra button ("Create Markets")
+will be added to the row of navigation buttons at the top of each
+page.  Visiting that page allows you to create new markets.  Binary
+Markets (2 outcomes labeled "yes" and "no") and multi-outcome markets
+(enter a set of labels separated by commas) can be created.  Binary
+markets can be created with or without a market maker.  When you
+include a market maker, users will be able to trade directly with the
+market maker in addition to adding or accepting book orders.  When
+there's no market maker, the market is a simple double auction: people
+can post offers to buy or sell and can accept existing offers.
+Multi-outcome markets currently operate only with the market maker.
+Integrating book orders is a future project.
+
+**************************************************
+
+*  RPC server
+
+Zocalo has support for an external RPC server, which can allow
+automated agents to bid in markets.  The current implementation
+doesn't provide basic security.  The agents can assert arbitrary
+identies, and open and close markets without constraint, so it's best
+to limit their use to closed networks.  There are a few properties
+that can be used to control the use of RPC.  None of these are present
+in the default configuration file to make it a little harder for
+people to actually enable it.  set RPC.server.enable to true to enable use
+of the RPC Server.  RPC.server.port (default 8180) controls the IP
+port that the RPC Client will be able to connect on.  
+
+
+
+**************************************************
+
+* Navigation
+
+The server offers non-admin users a choice of 4 pages:
+
+* The Markets page ("all markets") lists all the open markets and their
+   price levels and lets you go to the trading pages for each market.
+
+   Trading pages show price history, the best bids and asks, your
+   holdings and orders, and lets you enter new orders.
+
+* The Account page shows outstanding orders and holdings in all
+   markets as well as current cash.  
+
+* The History page shows all the trades you've made.
+
+As mentioned above, the admin additionally sees a page for creating
+new markets.  The History page can be suppressed by setting
+limit.history.access as described above.
+

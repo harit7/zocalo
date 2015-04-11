@@ -1,0 +1,31 @@
+04/08 03:29:50.689/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/08 03:29:50.691/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/08 03:29:50.748/IST   INFO -        trace -    creating AllMarkets
+04/08 03:29:52.499/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+04/08 03:29:52.499/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/08 03:31:39.910/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/08 03:38:10.144/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+04/08 03:38:31.273/IST   WARN -    UserError - 37# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/08 03:38:53.784/IST   WARN -    UserError - 38# told User(logging in) "Congratulations testadmin! You're now done. Now Jump in!".
+04/08 03:38:53.790/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+04/08 03:39:04.127/IST   WARN -    UserError - 40# told User(logging in) "Sorry! This account name is unavailable. Please try another one. testadmin".
+04/08 03:39:18.899/IST   WARN -    UserError - 41# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/08 03:39:33.376/IST   WARN -    UserError - 42# told User(logging in) "Congratulations test1! You're now done. Now Jump in!".
+04/08 03:39:33.519/IST   WARN -    UserError - 43# told User(logging in) "Please type an account name and password".
+04/08 03:40:06.941/IST   WARN -    UserError - 44# told User(logging in) "Please type an account name and password".
+04/08 03:40:11.448/IST   WARN -    UserError - 45# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/08 03:40:21.162/IST   WARN -    UserError - 46# told testadmin "Please specify a name for the market.".
+04/08 03:40:39.851/IST   INFO -   Transition - 47# State transition: new Multi Market, round: 0.
+04/08 03:40:39.853/IST   INFO -  PriceAction - 48# testadmin traded with the market maker for 0 of testmarket:1 at 11.1111
+04/08 03:40:39.855/IST   INFO -  PriceAction - 49# testadmin traded with the market maker for 0 of testmarket:2 at 11.1111
+04/08 03:40:39.855/IST   INFO -  PriceAction - 50# testadmin traded with the market maker for 0 of testmarket:3 at 11.1111
+04/08 03:40:39.855/IST   INFO -  PriceAction - 51# testadmin traded with the market maker for 0 of testmarket:4 at 11.1111
+04/08 03:40:39.856/IST   INFO -  PriceAction - 52# testadmin traded with the market maker for 0 of testmarket:5 at 11.1111
+04/08 03:40:39.856/IST   INFO -  PriceAction - 53# testadmin traded with the market maker for 0 of testmarket:6 at 11.1111
+04/08 03:40:39.857/IST   INFO -  PriceAction - 54# testadmin traded with the market maker for 0 of testmarket:7 at 11.1111
+04/08 03:40:39.857/IST   INFO -  PriceAction - 55# testadmin traded with the market maker for 0 of testmarket:8 at 11.1111
+04/08 03:40:39.857/IST   INFO -  PriceAction - 56# testadmin traded with the market maker for 0 of testmarket:9 at 11.1111
+04/08 03:40:46.111/IST   INFO -     NewChart - The chart for testmarket has been updated.
+04/08 03:40:49.119/IST   WARN -    UserError - 75# told User(logging in) "Please type an account name and password".
+04/08 03:41:04.529/IST   WARN -    UserError - 76# told test1 "A market with the name 'testmarket' already exists.".
+04/08 03:41:17.613/IST   WARN -    UserError - 77# told User(logging in) "Please type an account name and password".

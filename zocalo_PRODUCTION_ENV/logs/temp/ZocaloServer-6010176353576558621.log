@@ -1,0 +1,15 @@
+04/07 02:47:43.107/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 02:47:43.109/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 02:47:43.173/IST   INFO -        trace -    creating AllMarkets
+04/07 02:47:44.801/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 02:47:44.801/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/07 02:47:51.460/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/07 02:48:08.700/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 02:49:27.011/IST  DEBUG -      Trading - test1 wants to buy 3 with limit of 100 @ 50.
+04/07 02:53:05.754/IST   WARN -    UserError - 567# told User(logging in) "Please type an account name and password".
+04/07 02:53:29.975/IST   WARN -    UserError - 568# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/07 02:54:07.134/IST   WARN -    UserError - 569# told User(logging in) "Congratulations laha1! You're now done. Now Jump in!".
+04/07 02:54:07.149/IST   WARN -    UserError - 570# told User(logging in) "Please type an account name and password".
+04/07 02:54:25.021/IST  DEBUG -      Trading - laha1 wants to buy 1 with limit of 100 @ 23.
+04/07 03:08:59.300/IST  DEBUG -      Trading - laha1 wants to buy 1 with limit of 100 @ 23.
+04/07 03:10:24.250/IST   WARN -    UserError - 571# told User(logging in) "Please type an account name and password".

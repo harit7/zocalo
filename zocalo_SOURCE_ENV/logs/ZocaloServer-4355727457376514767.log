@@ -1,0 +1,26 @@
+04/10 06:59:34.610/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/10 06:59:34.613/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/10 06:59:34.671/IST   INFO -        trace -    creating AllMarkets
+04/10 06:59:36.483/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+04/10 06:59:36.483/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/10 06:59:39.620/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/10 07:00:04.848/IST   WARN -    UserError - 36# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+04/10 07:00:20.206/IST   WARN -    UserError - 37# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+04/10 07:00:30.077/IST   WARN -    UserError - 38# told User(logging in) "Congratulations test2! You're now done. Now Jump in!".
+04/10 07:00:30.122/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+04/10 07:00:39.490/IST   WARN -    UserError - 40# told User(logging in) "Congratulations testadmin2! You're now done. Now Jump in!".
+04/10 07:00:39.507/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+04/10 07:00:56.315/IST   WARN -    UserError - 42# told User(logging in) "Please type an account name and password".
+04/10 07:01:01.384/IST   WARN -    UserError - 43# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/10 07:01:09.055/IST   WARN -    UserError - 44# told testadmin2 "Please specify a name for the market.".
+04/10 07:01:52.830/IST   INFO -   Transition - 45# State transition: new Multi Market, round: 0.
+04/10 07:01:52.831/IST   INFO -  PriceAction - 46# testadmin2 traded with the market maker for 0 of IPL2012:Mumbai Indians at 11.1111
+04/10 07:01:52.832/IST   INFO -  PriceAction - 47# testadmin2 traded with the market maker for 0 of IPL2012:Royal Challengers Bangalore at 11.1111
+04/10 07:01:52.833/IST   INFO -  PriceAction - 48# testadmin2 traded with the market maker for 0 of IPL2012:Chennai Super Kings at 11.1111
+04/10 07:01:52.833/IST   INFO -  PriceAction - 49# testadmin2 traded with the market maker for 0 of IPL2012:Pune Warriors India at 11.1111
+04/10 07:01:52.834/IST   INFO -  PriceAction - 50# testadmin2 traded with the market maker for 0 of IPL2012:Kings XI Punjab at 11.1111
+04/10 07:01:52.835/IST   INFO -  PriceAction - 51# testadmin2 traded with the market maker for 0 of IPL2012:Delhi Daredevils at 11.1111
+04/10 07:01:52.835/IST   INFO -  PriceAction - 52# testadmin2 traded with the market maker for 0 of IPL2012:Kolkata Knight Riders at 11.1111
+04/10 07:01:52.835/IST   INFO -  PriceAction - 53# testadmin2 traded with the market maker for 0 of IPL2012:Deccan Chargers at 11.1111
+04/10 07:01:52.836/IST   INFO -  PriceAction - 54# testadmin2 traded with the market maker for 0 of IPL2012:Rajasthan Royals at 11.1111
+04/10 07:01:54.980/IST   WARN -    UserError - 55# told User(logging in) "Please type an account name and password".

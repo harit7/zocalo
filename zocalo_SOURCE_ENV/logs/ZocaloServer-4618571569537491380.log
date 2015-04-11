@@ -1,0 +1,23 @@
+03/08 11:50:00.653/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/08 11:50:00.659/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/08 11:50:00.764/IST   INFO -        trace -    creating AllMarkets
+03/08 11:50:02.676/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/08 11:50:02.676/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/08 11:50:22.378/IST   WARN -    UserError - 35# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+03/08 11:50:49.218/IST   WARN -    UserError - 36# told User(logging in) "Congratulations harit! You're now done. Now Jump in!".
+03/08 11:50:49.232/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+03/08 11:50:51.361/IST   WARN -    UserError - 38# told User(logging in) "Sorry! This account name is unavailable. Please try another one. harit".
+03/08 11:52:53.478/IST   WARN -    UserError - 39# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/08 11:53:02.662/IST   WARN -    UserError - 40# told harit "Please specify a name for the market.".
+03/08 11:54:52.452/IST   INFO -   Transition - 41# State transition: new Binary Market, round: 0.
+03/08 11:55:56.204/IST   WARN -    UserError - 42# told User(logging in) "Please type an account name and password".
+03/08 11:56:34.636/IST   WARN -    UserError - 43# told harit "A market with the name 'world' already exists.".
+03/08 11:56:35.552/IST   INFO -     NewChart - The chart for world has been updated.
+03/08 11:57:01.170/IST   WARN -    UserError - 44# told harit "A market with the name 'world' already exists.".
+03/08 11:58:45.835/IST   INFO -   CouponBank - 45# Redeemed 0 'yes' Coupons for world
+03/08 11:58:45.838/IST   WARN -    UserError - 46# told harit "50.00 was refunded at Market close.".
+03/08 11:58:45.838/IST   WARN -    UserError - 47# told harit "Redeemed 0 pairs.".
+03/08 11:59:30.842/IST   INFO -   CouponBank - 48# Redeemed 0 'no' Coupons for world
+03/08 11:59:30.845/IST   WARN -    UserError - 49# told harit "0.00 was refunded at Market close.".
+03/08 11:59:30.846/IST   WARN -    UserError - 50# told harit "Redeemed 0 pairs.".
+03/09 12:00:12.011/IST   WARN -    UserError - 51# told harit "market is closed.".

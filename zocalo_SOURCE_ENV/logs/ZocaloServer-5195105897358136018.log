@@ -1,0 +1,14 @@
+03/10 04:15:40.613/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 04:15:40.616/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 04:15:40.690/IST   INFO -        trace -    creating AllMarkets
+03/10 04:15:42.333/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 04:15:42.333/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 04:15:45.458/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 04:22:08.501/IST   WARN -    UserError - 45# told User(logging in) "Please type an account name and password".
+03/10 04:22:09.033/IST   WARN -    UserError - 46# told User(logging in) "Please type an account name and password".
+03/10 04:22:25.895/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:46:43.267/IST   WARN -    UserError - 53# told User(logging in) "Please type an account name and password".
+03/10 04:47:26.899/IST   WARN -  MarketOwner - Unable to send message. Is mail configured correctly?  user: 'pradeep' email: 'vishalkakkar90@gmail.com'.
+03/10 04:47:26.900/IST   WARN -    UserError - 54# told User(logging in) "Oops! Looks like we encountered a problem creating your account. Please retry.".
+03/10 04:48:33.637/IST   WARN -    UserError - 55# told User(logging in) "Please type an account name and password".
+03/10 04:48:48.350/IST   WARN -    UserError - 56# told User(logging in) "unknown account or password".

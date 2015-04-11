@@ -1,0 +1,46 @@
+03/09 02:31:55.487/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 02:31:55.492/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 02:31:55.598/IST   INFO -        trace -    creating AllMarkets
+03/09 02:31:57.389/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 02:31:57.390/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 02:32:07.296/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/09 02:32:19.791/IST   WARN -    UserError - 36# told harit "market is closed.".
+03/09 02:32:35.587/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+03/09 02:33:01.992/IST   WARN -    UserError - 38# told User(logging in) "Please type an account name and password".
+03/09 02:33:07.002/IST   WARN -    UserError - 39# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:33:15.620/IST   WARN -    UserError - 40# told harit "Please specify a name for the market.".
+03/09 02:34:20.371/IST   INFO -   Transition - 41# State transition: new Multi Market, round: 0.
+03/09 02:34:20.372/IST   INFO -  PriceAction - 42# harit traded with the market maker for 0 of ICC World Cup 2015:yes at 50
+03/09 02:34:20.373/IST   INFO -  PriceAction - 43# harit traded with the market maker for 0 of ICC World Cup 2015:no at 50
+03/09 02:34:40.510/IST   INFO -     NewChart - The chart for ICC World Cup 2015 has been updated.
+03/09 02:34:50.943/IST   INFO -   CouponBank - 48# Redeemed 0 'yes' Coupons for ICC World Cup 2015
+03/09 02:34:50.946/IST   WARN -    UserError - 49# told harit "50.00 was refunded at Market close.".
+03/09 02:34:50.946/IST   WARN -    UserError - 50# told harit "Redeemed 0 pairs.".
+03/09 02:35:21.994/IST   WARN -    UserError - 53# told harit "market is closed.".
+03/09 02:35:30.365/IST   WARN -    UserError - 58# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:35:30.375/IST   WARN -    UserError - 59# told harit "market is closed.".
+03/09 02:35:41.398/IST   WARN -    UserError - 62# told harit "market is closed.".
+03/09 02:35:56.237/IST   WARN -    UserError - 63# told harit "market is closed.".
+03/09 02:36:09.266/IST   WARN -    UserError - 66# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:36:09.279/IST   WARN -    UserError - 67# told harit "market is closed.".
+03/09 02:36:16.265/IST   WARN -    UserError - 70# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:36:16.277/IST   WARN -    UserError - 71# told harit "market is closed.".
+03/09 02:37:01.013/IST   WARN -    UserError - 74# told User(logging in) "Please type an account name and password".
+03/09 02:37:12.274/IST   WARN -    UserError - 75# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:37:12.283/IST   WARN -    UserError - 76# told harit "market is closed.".
+03/09 02:37:15.518/IST   WARN -    UserError - 79# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:37:15.534/IST   WARN -    UserError - 80# told harit "market is closed.".
+03/09 02:37:23.525/IST   WARN -    UserError - 83# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:37:23.538/IST   WARN -    UserError - 84# told harit "market is closed.".
+03/09 02:37:31.466/IST   WARN -    UserError - 87# told User(logging in) "Please type an account name and password".
+03/09 02:37:37.513/IST   WARN -    UserError - 88# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".
+03/09 02:37:46.671/IST   WARN -    UserError - 89# told harit "market is closed.".
+03/09 02:37:53.887/IST   WARN -    UserError - 92# told User(logging in) "Please type an account name and password".
+03/09 02:37:59.044/IST   WARN -    UserError - 93# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:38:08.284/IST   WARN -    UserError - 94# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:38:08.293/IST   WARN -    UserError - 95# told harit "market is closed.".
+03/09 02:38:19.502/IST   WARN -    UserError - 98# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:38:19.508/IST   WARN -    UserError - 99# told harit "market is closed.".
+03/09 02:38:34.692/IST   WARN -    UserError - 102# told User(logging in) "Please type an account name and password".
+03/09 02:38:52.593/IST   WARN -    UserError - 103# told harit "A market with the name 'ICC World Cup 2015' already exists.".
+03/09 02:38:52.608/IST   WARN -    UserError - 104# told harit "market is closed.".

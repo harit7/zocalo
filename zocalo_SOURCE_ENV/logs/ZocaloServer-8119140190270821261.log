@@ -1,0 +1,19 @@
+03/11 02:15:50.130/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 02:15:50.136/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 02:15:50.255/IST   INFO -        trace -    creating AllMarkets
+03/11 02:15:52.821/IST  ERROR - Configuration - Could not compile the mapping document
+org.hibernate.MappingException: duplicate import: net.commerce.zocalo.claim.Claim
+	at org.hibernate.cfg.Mappings.addImport(Mappings.java:105)
+	at org.hibernate.cfg.HbmBinder.bindPersistentClassCommonValues(HbmBinder.java:541)
+	at org.hibernate.cfg.HbmBinder.bindClass(HbmBinder.java:488)
+	at org.hibernate.cfg.HbmBinder.bindRootClass(HbmBinder.java:234)
+	at org.hibernate.cfg.HbmBinder.bindRoot(HbmBinder.java:152)
+	at org.hibernate.cfg.Configuration.add(Configuration.java:362)
+	at org.hibernate.cfg.Configuration.addInputStream(Configuration.java:400)
+	at org.hibernate.cfg.Configuration.addClass(Configuration.java:468)
+	at net.commerce.zocalo.hibernate.HibernateUtil.addClasses(HibernateUtil.java:97)
+	at net.commerce.zocalo.hibernate.HibernateUtil.initializeSessionFactory(HibernateUtil.java:51)
+	at net.commerce.zocalo.service.AllMarkets.initializeDB(AllMarkets.java:120)
+	at net.commerce.zocalo.service.AllMarkets.configure(AllMarkets.java:99)
+	at net.commerce.zocalo.service.AllMarkets.<init>(AllMarkets.java:91)
+	at net.commerce.zocalo.service.AllMarkets.main(AllMarkets.java:47)

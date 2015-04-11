@@ -1,0 +1,12 @@
+03/12 12:02:50.004/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/12 12:02:50.008/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/12 12:02:50.009/IST   INFO -   AllMarkets - version = 1
+03/12 12:02:50.088/IST   INFO -        trace -    creating AllMarkets
+03/12 12:02:50.914/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/12 12:02:51.821/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/12 12:02:51.821/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/12 12:03:14.104/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/12 12:04:19.587/IST   WARN -    UserError - 82# told User(logging in) "Please type an account name and password".
+03/12 12:04:44.025/IST  DEBUG -      Trading - haritcsa wants to buy Zimbabwe with limit of 25 @ 50.
+03/12 12:05:29.016/IST   WARN -    UserError - 83# told User(logging in) "Please type an account name and password".
+03/12 12:05:53.731/IST  DEBUG -      Trading - haritcsa wants to sell West Indies with limit of 25 @ 1.

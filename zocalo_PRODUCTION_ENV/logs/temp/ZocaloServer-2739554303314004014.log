@@ -1,0 +1,24 @@
+04/07 10:34:02.392/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 10:34:02.394/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 10:34:02.452/IST   INFO -        trace -    creating AllMarkets
+04/07 10:34:04.056/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 10:34:04.057/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/07 10:34:19.323/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/07 10:39:18.243/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+04/07 10:39:26.016/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+04/07 10:39:37.081/IST   WARN -    UserError - 38# told User(logging in) "unknown account or password".
+04/07 10:46:02.548/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 02:40:35.634/IST  DEBUG -      Trading - test1 wants to buy 2 with limit of 100 @ 9.
+04/07 02:40:35.689/IST   INFO -  PriceAction - 552# test1 traded with the market maker for 0 of IPL11:1 changing the price from 21.3516 to 21.3315
+04/07 02:40:35.696/IST   INFO -  PriceAction - 553# test1 traded with the market maker for 0 of IPL11:7 changing the price from 7.8306 to 7.8232
+04/07 02:40:35.697/IST   INFO -  PriceAction - 554# test1 traded with the market maker for 0 of IPL11:3 changing the price from 16.9754 to 16.9594
+04/07 02:40:35.697/IST   INFO -  PriceAction - 555# test1 traded with the market maker for -0.406 of IPL11:2 changing the price from 8.9144 to 9
+04/07 02:40:35.697/IST   INFO -  PriceAction - 556# test1 traded with the market maker for 0 of IPL11:8 changing the price from 8 to 7.9925
+04/07 02:40:35.698/IST   INFO -  PriceAction - 557# test1 traded with the market maker for 0 of IPL11:9 changing the price from 7.8823 to 7.8749
+04/07 02:40:35.698/IST   INFO -  PriceAction - 558# test1 traded with the market maker for 0 of IPL11:6 changing the price from 7.8077 to 7.8004
+04/07 02:40:35.698/IST   INFO -  PriceAction - 559# test1 traded with the market maker for 0 of IPL11:4 changing the price from 8.7601 to 8.7519
+04/07 02:40:35.699/IST   INFO -  PriceAction - 560# test1 traded with the market maker for 0 of IPL11:5 changing the price from 12.4779 to 12.4662
+04/07 02:40:35.830/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 02:40:35.830/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:1: 21, IPL11:7: 8, IPL11:3: 17, IPL11:2: 9, IPL11:8: 8, IPL11:9: 8, IPL11:6: 8, IPL11:4: 9, IPL11:5: 12
+04/07 02:40:35.831/IST   WARN -    UserError - 822# told test1 "Bought -0.406 from MarketMaker.".
+04/07 02:40:35.949/IST   INFO -     NewChart - The chart for IPL11 has been updated.

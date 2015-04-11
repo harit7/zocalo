@@ -1,0 +1,27 @@
+This is a source release of Zocalo.  You probably want a binary
+release if you want to install Zocalo.  This release is primarily of
+use to developers.
+
+There are two versions of zocalo, and it is important to download the
+correct version.  The PREDICTION MARKET version supports general
+prediction markets, and is probably what you want if you aren't an
+experimental economist.  The EXPERIMENT version is designed for
+economics experiments, and can be configured in a variety of ways
+according to the experiment being performed.
+
+
+If you are a developer, or are considering making changes to Zocalo's
+source code, you should start by getting a subversion client
+
+http://subversion.tigris.org/
+
+and synchronizing with the sourceforge repository.
+
+https://zocalo.svn.sourceforge.net/svnroot/zocalo/
+
+This will allow you to track changes to the source code and will make
+it simpler to coordinate the submission of your edits to the project.
+
+The project is built with ant, (http://ant.apache.org) in the build
+directory.  That's where you can compile the code, or generate source
+or binary release packages.

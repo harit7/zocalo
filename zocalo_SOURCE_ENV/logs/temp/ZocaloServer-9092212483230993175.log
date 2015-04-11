@@ -1,0 +1,34 @@
+04/07 01:34:40.320/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 01:34:40.322/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 01:34:40.380/IST   INFO -        trace -    creating AllMarkets
+04/07 01:34:42.180/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 01:34:42.181/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/07 01:34:51.158/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/07 01:35:02.441/IST  DEBUG -      Trading - test1 wants to buy 1 with limit of 100 @ 12.
+04/07 01:35:02.466/IST   INFO -  PriceAction - 36# test1 traded with the market maker for 0 of IPL11:6 changing the price from 11.1111 to 11
+04/07 01:35:02.467/IST   INFO -  PriceAction - 37# test1 traded with the market maker for 0 of IPL11:8 changing the price from 11.1111 to 11
+04/07 01:35:02.467/IST   INFO -  PriceAction - 38# test1 traded with the market maker for 0 of IPL11:5 changing the price from 11.1111 to 11
+04/07 01:35:02.468/IST   INFO -  PriceAction - 39# test1 traded with the market maker for 0 of IPL11:9 changing the price from 11.1111 to 11
+04/07 01:35:02.468/IST   INFO -  PriceAction - 40# test1 traded with the market maker for 0 of IPL11:2 changing the price from 11.1111 to 11
+04/07 01:35:02.468/IST   INFO -  PriceAction - 41# test1 traded with the market maker for 0 of IPL11:4 changing the price from 11.1111 to 11
+04/07 01:35:02.469/IST   INFO -  PriceAction - 42# test1 traded with the market maker for 0 of IPL11:3 changing the price from 11.1111 to 11
+04/07 01:35:02.469/IST   INFO -  PriceAction - 43# test1 traded with the market maker for 4.498 of IPL11:1 changing the price from 11.1111 to 12
+04/07 01:35:02.469/IST   INFO -  PriceAction - 44# test1 traded with the market maker for 0 of IPL11:7 changing the price from 11.1111 to 11
+04/07 01:35:02.470/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:6: 11, IPL11:8: 11, IPL11:5: 11, IPL11:9: 11, IPL11:2: 11, IPL11:4: 11, IPL11:3: 11, IPL11:1: 12, IPL11:7: 11
+04/07 01:35:02.471/IST   WARN -    UserError - 45# told test1 "Bought 4.498 from MarketMaker.".
+04/07 01:35:02.722/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 01:35:26.675/IST  DEBUG -      Trading - test1 wants to buy 3 with limit of 100 @ 20.
+04/07 01:35:26.699/IST   INFO -  PriceAction - 64# test1 traded with the market maker for 0 of IPL11:8 changing the price from 11 to 9.8876
+04/07 01:35:26.700/IST   INFO -  PriceAction - 65# test1 traded with the market maker for 0 of IPL11:9 changing the price from 11 to 9.8876
+04/07 01:35:26.700/IST   INFO -  PriceAction - 66# test1 traded with the market maker for 0 of IPL11:6 changing the price from 11 to 9.8876
+04/07 01:35:26.701/IST   INFO -  PriceAction - 67# test1 traded with the market maker for 0 of IPL11:7 changing the price from 11 to 9.8876
+04/07 01:35:26.701/IST   INFO -  PriceAction - 68# test1 traded with the market maker for 0 of IPL11:4 changing the price from 11 to 9.8876
+04/07 01:35:26.702/IST   INFO -  PriceAction - 69# test1 traded with the market maker for 0 of IPL11:2 changing the price from 11 to 9.8876
+04/07 01:35:26.702/IST   INFO -  PriceAction - 70# test1 traded with the market maker for 0 of IPL11:5 changing the price from 11 to 9.8876
+04/07 01:35:26.702/IST   INFO -  PriceAction - 71# test1 traded with the market maker for 42.671 of IPL11:3 changing the price from 11 to 20
+04/07 01:35:26.703/IST   INFO -  PriceAction - 72# test1 traded with the market maker for 0 of IPL11:1 changing the price from 12 to 10.7865
+04/07 01:35:26.759/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 01:35:26.759/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:8: 10, IPL11:9: 10, IPL11:6: 10, IPL11:7: 10, IPL11:4: 10, IPL11:2: 10, IPL11:5: 10, IPL11:3: 20, IPL11:1: 11
+04/07 01:35:26.760/IST   WARN -    UserError - 73# told test1 "Bought 42.671 from MarketMaker.".
+04/07 01:35:26.867/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 01:37:17.279/IST  DEBUG -      Trading - test1 wants to buy 2 with limit of 100 @ 99.

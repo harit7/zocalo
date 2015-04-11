@@ -1,0 +1,19 @@
+04/10 06:51:47.797/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/10 06:51:47.800/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/10 06:51:47.857/IST   INFO -        trace -    creating AllMarkets
+04/10 06:51:49.570/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+04/10 06:51:49.570/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/10 06:52:20.270/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/10 06:53:56.055/IST   WARN -    UserError - 72# told User(logging in) "Please type an account name and password".
+04/10 06:54:08.445/IST   WARN -    UserError - 73# told User(logging in) "Please type an account name and password".
+04/10 06:54:13.987/IST   WARN -    UserError - 74# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/10 06:54:23.939/IST   WARN -    UserError - 75# told testadmin "Please specify a name for the market.".
+04/10 06:57:00.045/IST   WARN -    UserError - 76# told User(logging in) "Please type an account name and password".
+04/10 06:57:13.970/IST   WARN -    UserError - 77# told User(logging in) "Please type an account name and password".
+04/10 06:57:22.788/IST   WARN -    UserError - 78# told User(logging in) "Please type an account name and password".
+04/10 06:57:35.644/IST   WARN -    UserError - 79# told User(logging in) "Please type an account name and password".
+04/10 06:57:46.078/IST   WARN -    UserError - 80# told User(logging in) "Please type an account name and password".
+04/10 06:57:58.877/IST   WARN -    UserError - 81# told User(logging in) "Please type an account name and password".
+04/10 06:58:05.148/IST   WARN -    UserError - 82# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/10 06:58:14.001/IST   WARN -    UserError - 83# told testadmin "Please specify a name for the market.".
+04/10 06:58:57.322/IST   WARN -    UserError - 84# told User(logging in) "Please type an account name and password".

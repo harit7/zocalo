@@ -1,0 +1,32 @@
+03/15 02:27:25.339/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/15 02:27:25.344/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/15 02:27:25.344/IST   INFO -   AllMarkets - version = 2
+03/15 02:27:25.425/IST   INFO -        trace -    creating AllMarkets
+03/15 02:27:26.261/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/15 02:27:27.192/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/15 02:27:27.192/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/15 02:27:41.375/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/15 02:28:06.816/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/15 02:28:13.505/IST   WARN -    UserError - 37# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/15 02:28:21.989/IST   WARN -    UserError - 38# told mauka "Please specify a name for the market.".
+03/15 02:28:46.671/IST   INFO -   Transition - 39# State transition: new Multi Market, round: 0.
+03/15 02:28:46.673/IST   INFO -  PriceAction - 40# mauka traded with the market maker for 0 of India vs Bangladesh Quarter Final:India at 50
+03/15 02:28:46.674/IST   INFO -  PriceAction - 41# mauka traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh at 50
+03/15 02:28:52.929/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/15 02:29:25.554/IST   WARN -    UserError - 48# told User(logging in) "Please type an account name and password".
+03/15 02:29:49.662/IST  DEBUG -      Trading - test2 wants to sell Bangladesh @ true.
+03/15 02:29:49.674/IST   INFO -  PriceAction - 49# test2 traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 50 to 70
+03/15 02:29:49.675/IST   INFO -  PriceAction - 50# test2 traded with the market maker for -12.224 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 30
+03/15 02:29:49.722/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/15 02:29:49.723/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 70, India vs Bangladesh Quarter Final:Bangladesh: 30
+03/15 02:29:49.724/IST   WARN -    UserError - 51# told test2 "Sold 12.224 shares of the team.".
+03/15 02:29:49.789/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/15 02:29:54.797/IST  DEBUG -      Trading - test2 wants to liquidate India
+03/15 02:29:54.811/IST   INFO -  PriceAction - 52# test2 traded with the market maker for -12.224 of India vs Bangladesh Quarter Final:India changing the price from 70 to 50
+03/15 02:29:54.812/IST   INFO -  PriceAction - 53# test2 traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 30 to 50
+03/15 02:29:54.853/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/15 02:29:54.854/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 50, India vs Bangladesh Quarter Final:Bangladesh: 50
+03/15 02:29:54.896/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/15 02:29:54.897/IST   WARN -    UserError - 54# told test2 "Sold 12.224".
+03/15 02:30:01.304/IST   WARN -    UserError - 57# told User(logging in) "Please type an account name and password".
+03/15 02:30:06.686/IST   WARN -    UserError - 58# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".

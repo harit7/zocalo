@@ -1,0 +1,36 @@
+03/13 03:25:30.089/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 03:25:30.094/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 03:25:30.094/IST   INFO -   AllMarkets - version = 1
+03/13 03:25:30.173/IST   INFO -        trace -    creating AllMarkets
+03/13 03:25:31.005/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 03:25:31.918/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 03:25:31.919/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 03:25:39.887/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/13 03:26:04.287/IST  DEBUG -      Trading - haritcsa wants to buy Zimbabwe with limit of 25 @ 90.
+03/13 03:26:04.306/IST   INFO -  PriceAction - 40# haritcsa traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 57 to 13.361
+03/13 03:26:04.310/IST   INFO -  PriceAction - 41# haritcsa traded with the market maker for 31.043 of India vs Zimbabwe:Zimbabwe changing the price from 43 to 86.639
+03/13 03:26:04.311/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 13, India vs Zimbabwe:Zimbabwe: 87
+03/13 03:26:04.312/IST   WARN -    UserError - 42# told haritcsa "Bought 31.043 shares of the team.".
+03/13 03:26:04.541/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 03:26:09.758/IST  DEBUG -      Trading - haritcsa wants to buy Zimbabwe with limit of 25 @ 90.
+03/13 03:26:09.844/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 03:26:13.311/IST  DEBUG -      Trading - haritcsa wants to buy Zimbabwe with limit of 25 @ 90.
+03/13 03:26:20.449/IST  DEBUG -      Trading - haritcsa wants to liquidate Zimbabwe
+03/13 03:26:20.465/IST   INFO -  PriceAction - 139# haritcsa traded with the market maker for -31.04 of India vs Zimbabwe:Zimbabwe changing the price from 87 to 43.7795
+03/13 03:26:20.466/IST   INFO -  PriceAction - 140# haritcsa traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 13 to 56.2205
+03/13 03:26:20.519/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 03:26:20.520/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 44, India vs Zimbabwe:India: 56
+03/13 03:26:20.569/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 03:26:20.570/IST   WARN -    UserError - 141# told haritcsa "Sold 31.040".
+03/13 03:26:30.357/IST  DEBUG -      Trading - haritcsa wants to buy Zimbabwe with limit of 25 @ 90.
+03/13 03:26:30.372/IST   INFO -  PriceAction - 148# haritcsa traded with the market maker for 30.976 of India vs Zimbabwe:Zimbabwe changing the price from 44 to 87.051
+03/13 03:26:30.372/IST   INFO -  PriceAction - 149# haritcsa traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 56 to 12.949
+03/13 03:26:30.423/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 03:26:30.423/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:Zimbabwe: 87, India vs Zimbabwe:India: 13
+03/13 03:26:30.424/IST   WARN -    UserError - 150# told haritcsa "Bought 30.976 shares of the team.".
+03/13 03:26:30.490/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 03:26:44.632/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 03:27:03.710/IST   WARN -    UserError - 384# told User(logging in) "Please type an account name and password".
+03/13 03:27:22.537/IST   WARN -    UserError - 385# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/13 03:27:47.588/IST   WARN -    UserError - 386# told User(logging in) "Congratulations harit2! You're now done. Now Jump in!".
+03/13 03:27:52.071/IST   WARN -    UserError - 387# told User(logging in) "Please type an account name and password".

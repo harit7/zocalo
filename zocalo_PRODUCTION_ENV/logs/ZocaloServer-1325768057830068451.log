@@ -1,0 +1,35 @@
+03/09 11:59:35.601/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 11:59:35.604/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 11:59:35.678/IST   INFO -        trace -    creating AllMarkets
+03/09 11:59:37.323/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 11:59:37.323/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 11:59:50.658/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/09 11:59:54.240/IST   WARN -    UserError - 36# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/10 12:00:00.532/IST   WARN -    UserError - 37# told harit "Please specify a name for the market.".
+03/10 12:01:29.493/IST   INFO -   Transition - 38# State transition: new Multi Market, round: 0.
+03/10 12:01:29.494/IST   INFO -  PriceAction - 39# harit traded with the market maker for 0 of Final:Mumbai Indians at 33.3333
+03/10 12:01:29.496/IST   INFO -  PriceAction - 40# harit traded with the market maker for 0 of Final:Royal Challengers Bangalore at 33.3333
+03/10 12:01:29.496/IST   INFO -  PriceAction - 41# harit traded with the market maker for 0 of Final:Chennai Super Kings at 33.3333
+03/10 12:01:33.039/IST   INFO -     NewChart - The chart for Final has been updated.
+03/10 12:01:36.872/IST   WARN -    UserError - 48# told User(logging in) "Please type an account name and password".
+03/10 12:04:30.679/IST  DEBUG -      Trading - haritcsa wants to sell Royal Challengers Bangalore with limit of 25 @ 5.
+03/10 12:04:30.688/IST   INFO -  PriceAction - 49# haritcsa traded with the market maker for -20.492 of Final:Royal Challengers Bangalore changing the price from 33.3333 to 5
+03/10 12:04:30.688/IST   INFO -  PriceAction - 50# haritcsa traded with the market maker for 0 of Final:Mumbai Indians changing the price from 33.3333 to 47.5
+03/10 12:04:30.689/IST   INFO -  PriceAction - 51# haritcsa traded with the market maker for 0 of Final:Chennai Super Kings changing the price from 33.3333 to 47.5
+03/10 12:04:30.743/IST   INFO -     NewChart - The chart for Final has been updated.
+03/10 12:04:30.743/IST   INFO -  PriceChange - prices in market 'Final' changed.  Final:Royal Challengers Bangalore: 5, Final:Mumbai Indians: 48, Final:Chennai Super Kings: 48
+03/10 12:04:30.745/IST   WARN -    UserError - 55# told haritcsa "Sold 20.492 shares of the team.".
+03/10 12:04:30.826/IST   INFO -     NewChart - The chart for Final has been updated.
+03/10 12:04:48.503/IST  DEBUG -      Trading - haritcsa wants to buy Royal Challengers Bangalore with limit of 25 @ 50.
+03/10 12:04:48.510/IST   INFO -  PriceAction - 59# haritcsa traded with the market maker for 20.492 of Final:Royal Challengers Bangalore changing the price from 5 to 33.3333
+03/10 12:04:48.511/IST   INFO -  PriceAction - 60# haritcsa traded with the market maker for 0 of Final:Chennai Super Kings changing the price from 47.5 to 33.3333
+03/10 12:04:48.512/IST   INFO -  PriceAction - 61# haritcsa traded with the market maker for 0 of Final:Mumbai Indians changing the price from 47.5 to 33.3333
+03/10 12:04:48.564/IST   INFO -     NewChart - The chart for Final has been updated.
+03/10 12:04:48.564/IST   INFO -  PriceChange - prices in market 'Final' changed.  Final:Royal Challengers Bangalore: 33, Final:Chennai Super Kings: 33, Final:Mumbai Indians: 33
+03/10 12:04:48.567/IST   INFO -  PriceAction - 62# haritcsa traded with the market maker for 6.309 of Final:Royal Challengers Bangalore changing the price from 33.3333 to 50
+03/10 12:04:48.567/IST   INFO -  PriceAction - 63# haritcsa traded with the market maker for 0 of Final:Chennai Super Kings changing the price from 33.3333 to 25
+03/10 12:04:48.568/IST   INFO -  PriceAction - 64# haritcsa traded with the market maker for 0 of Final:Mumbai Indians changing the price from 33.3333 to 25
+03/10 12:04:48.621/IST   INFO -     NewChart - The chart for Final has been updated.
+03/10 12:04:48.621/IST   INFO -  PriceChange - prices in market 'Final' changed.  Final:Royal Challengers Bangalore: 50, Final:Chennai Super Kings: 25, Final:Mumbai Indians: 25
+03/10 12:04:48.622/IST   WARN -    UserError - 65# told haritcsa "Bought 26.801 shares of the team.".
+03/10 12:04:48.701/IST   INFO -     NewChart - The chart for Final has been updated.

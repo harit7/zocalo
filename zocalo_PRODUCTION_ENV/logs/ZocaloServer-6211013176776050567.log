@@ -1,0 +1,62 @@
+03/11 11:43:48.384/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 11:43:48.389/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 11:43:48.389/IST   INFO -   AllMarkets - version = 1
+03/11 11:43:48.469/IST   INFO -        trace -    creating AllMarkets
+03/11 11:43:49.305/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 11:43:50.229/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 11:43:50.229/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/11 11:44:43.681/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/11 11:45:18.270/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/11 11:45:44.262/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+03/11 11:45:44.510/IST   WARN -    UserError - 38# told User(logging in) "Please type an account name and password".
+03/11 11:46:56.470/IST  DEBUG -      Trading - vishal wants to sell West Indies with limit of 25 @ 1.
+03/11 11:46:56.488/IST   INFO -  PriceAction - 99# vishal traded with the market maker for 0 of World Cup Final:Ireland changing the price from 12 to 13.5
+03/11 11:46:56.489/IST   INFO -  PriceAction - 100# vishal traded with the market maker for 0 of World Cup Final:South Africa changing the price from 12 to 13.5
+03/11 11:46:56.490/IST   INFO -  PriceAction - 101# vishal traded with the market maker for 0 of World Cup Final:New Zealand changing the price from 12 to 13.5
+03/11 11:46:56.491/IST   INFO -  PriceAction - 102# vishal traded with the market maker for 0 of World Cup Final:Pakistan changing the price from 12 to 13.5
+03/11 11:46:56.491/IST   INFO -  PriceAction - 103# vishal traded with the market maker for 0 of World Cup Final:India changing the price from 3 to 3.375
+03/11 11:46:56.492/IST   INFO -  PriceAction - 104# vishal traded with the market maker for 0 of World Cup Final:Bangladesh changing the price from 12 to 13.5
+03/11 11:46:56.493/IST   INFO -  PriceAction - 105# vishal traded with the market maker for -11.842 of World Cup Final:West Indies changing the price from 12 to 2.125
+03/11 11:46:56.494/IST   INFO -  PriceAction - 106# vishal traded with the market maker for 0 of World Cup Final:Sri Lanka changing the price from 12 to 13.5
+03/11 11:46:56.494/IST   INFO -  PriceAction - 107# vishal traded with the market maker for 0 of World Cup Final:Austrailia changing the price from 12 to 13.5
+03/11 11:46:56.496/IST   INFO -  PriceChange - prices in market 'World Cup Final' changed.  World Cup Final:Ireland: 14, World Cup Final:South Africa: 14, World Cup Final:New Zealand: 14, World Cup Final:Pakistan: 14, World Cup Final:India: 3, World Cup Final:Bangladesh: 14, World Cup Final:West Indies: 2, World Cup Final:Sri Lanka: 14, World Cup Final:Austrailia: 14
+03/11 11:46:56.497/IST   WARN -    UserError - 108# told vishal "Sold 11.842 shares of the team.".
+03/11 11:46:56.736/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/11 11:47:21.013/IST   INFO -     NewChart - The chart for World Cup Final has been updated.
+03/11 11:47:23.877/IST  DEBUG -      Trading - vishal wants to sell India with limit of 25 @ 1.
+03/11 11:47:48.947/IST  DEBUG -      Trading - vishal wants to sell India with limit of 25 @ 1.
+03/11 11:50:43.953/IST   WARN -    UserError - 232# told User(logging in) "Please type an account name and password".
+03/11 11:50:47.671/IST   WARN -    UserError - 233# told User(logging in) "Please type an account name and password".
+03/11 11:51:10.200/IST   INFO -  PriceAction - 236# vishal redeemed 35.81 coupons  for test:India at 100
+03/11 11:51:10.201/IST   INFO -  PriceAction - 237# vishal redeemed 0 coupons  for test:Bangladesh at 0
+03/11 11:51:10.203/IST   INFO -  PriceAction - 238# haritcsa redeemed 0 coupons  for test:India at 100
+03/11 11:51:10.203/IST   INFO -  PriceAction - 239# haritcsa redeemed 0 coupons  for test:Bangladesh at 0
+03/11 11:51:10.206/IST   INFO -  PriceAction - 240# Market Maker redeemed 35.81 coupons  for test:Bangladesh at 0
+03/11 11:51:10.206/IST   INFO -  PriceAction - 241# Market Maker redeemed 0 coupons  for test:India at 100
+03/11 11:51:10.207/IST   INFO -   CouponBank - 242# Redeemed 35.81 'India' Coupons for test
+03/11 11:51:10.208/IST   WARN -    UserError - 243# told harit "13.45 was refunded at Market close.".
+03/11 11:51:10.209/IST   WARN -    UserError - 244# told harit "Redeemed 381.5 pairs.".
+03/11 11:51:12.908/IST   WARN -    UserError - 247# told User(logging in) "Please type an account name and password".
+03/11 11:51:40.260/IST   WARN -    UserError - 248# told vishal "market is closed.".
+03/11 11:51:55.133/IST   WARN -    UserError - 326# told User(logging in) "Please type an account name and password".
+03/11 11:52:37.625/IST   WARN -    UserError - 327# told User(logging in) "Please type an account name and password".
+03/11 11:52:49.578/IST   WARN -    UserError - 328# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/11 11:52:58.647/IST   WARN -    UserError - 329# told mauka "Please specify a name for the market.".
+03/11 11:53:38.209/IST   INFO -   Transition - 330# State transition: new Multi Market, round: 0.
+03/11 11:53:38.210/IST   INFO -  PriceAction - 331# mauka traded with the market maker for 0 of India vs Bangladesh Quarter Final:India at 50
+03/11 11:53:38.210/IST   INFO -  PriceAction - 332# mauka traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh at 50
+03/11 11:53:43.775/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/11 11:55:28.170/IST   WARN -    UserError - 341# told User(logging in) "Please type an account name and password".
+03/11 11:55:51.632/IST  DEBUG -      Trading - vishal wants to sell Bangladesh with limit of 25 @ 20.
+03/11 11:55:51.643/IST   INFO -  PriceAction - 342# vishal traded with the market maker for -20.004 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 20
+03/11 11:55:51.644/IST   INFO -  PriceAction - 343# vishal traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 50 to 80
+03/11 11:55:51.696/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/11 11:55:51.697/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/11 11:55:51.697/IST   WARN -    UserError - 346# told vishal "Sold 20.004 shares of the team.".
+03/11 11:55:51.756/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/11 11:56:35.287/IST   WARN -    UserError - 393# told User(logging in) "Please type an account name and password".
+03/11 11:56:42.770/IST   WARN -    UserError - 394# told mauka "A market with the name 'India vs Bangladesh Quarter Final' already exists.".
+03/11 11:56:42.858/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/11 11:56:53.619/IST   WARN -    UserError - 397# told User(logging in) "Please type an account name and password".
+03/11 11:56:56.992/IST   WARN -    UserError - 398# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".
+03/11 11:57:01.126/IST   WARN -    UserError - 399# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".

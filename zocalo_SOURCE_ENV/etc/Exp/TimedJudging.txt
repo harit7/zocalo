@@ -1,0 +1,102 @@
+sessionTitle: May26
+rounds: 3
+players: traderA, traderB, manipulatorC, manipulatorD, judgeE, judgeF
+
+# in minutes
+timeLimit: 5
+
+traderA.role: trader
+traderB.role: trader
+manipulatorC.role: manipulator
+manipulatorD.role: manipulator
+judgeE.role: judge
+judgeF.role: judge
+initialHint: Trading has not started yet.
+
+endowment.trader: 200
+endowment.manipulator: 100
+tickets.trader: 5
+tickets.manipulator: 3
+
+# should the market require that new orders be at better prices than
+# previous ones?  "true" says yes.  "false" indicates that new orders
+# can be limit orders away from the market frontier.
+
+betterPriceRequired: false
+
+# should binary assets be supported in addition to unary?  "true" says
+# that participants can only sell assets if they have some on hand,
+# and all ticket holdings will be positive.  "false" supports binary
+# assets.  In this case, coupons can be positive or negative, and when
+# a buyer and seller agree on price, a new pair can be created.
+
+useUnaryAssets: false
+
+manipulatorRewards: difference
+judgeRewards:     0,5,10,15,20,25,30,35,40,45,50,54.5,58.5,62,65,67.5,69.5,71,72,72.5,72.7
+judgeInputChoices: slider
+earliestJudgeCutoff: 2
+latestJudgeCutoff: 8
+simultaneousJudgeCutoff: false
+judgeSliderLabel: Amount to be invested in Black
+judgeSliderFeedbackLabel: Black
+
+# These values are specified by round.
+
+commonMessage:        raisePrice, changePrice, noMessage
+actualValue:          0,          100,         40
+
+# These values are specified by Player and Round.
+
+traderA.hint:         not100,     not40,       not100
+traderB.hint:         not40,      notZero,     notZero
+manipulatorC.hint:    not100,     notZero,     notZero
+manipulatorC.earningsHint: worth40, worth40,   worth100
+manipulatorC.target:  40,         40,          100
+manipulatorD.hint:    not40,     not40,     notZero
+manipulatorD.earningsHint: worth40, worth40,   worth100
+manipulatorD.target:  40,         40,          100
+
+# text labels can be used in hints or commonMessage
+
+not100: The ticket value is not 100.
+not40: The ticket value is not 40.
+notZero: The ticket value is not 0.
+raisePrice: Some players are trying to raise the apparent price
+changePrice: Some players are trying to change the apparent price
+noMessage:
+worth40: Your score will improve if the judge thinks the tickets are worth 40
+worth100: Your score will improve if the judge thinks the ticket are worth 100
+
+------------------------------
+
+# The following strings override default value labels used in the interface to
+#describe score computations.  If no value or an illegal value is provided the
+#default will be used.
+
+# Provide a value to replace "Your clue", which describes hints given to a
+#particular trader in an experiment.
+
+messageLabel: Your clue
+
+#Provide a value to replace "Shared Message", which describes a hint given to
+#all traders in an experiment.
+
+commonMessageLabel: Shared Message
+
+#Provide a value to replace "Actual Ticket Value", which describes the value
+#of each coupon a trader might hold in an experiment
+
+actualValueLabel: Actual Ticket Value
+
+#Provide a value to replace the description of the Total Asset Value.  If the
+#string doesn't follow the format of the default, the HTML display may not work
+
+totalAssetsLabel: Total Asset Value<br><font size='-2'>(cash + tickets)</font>
+
+# if this value is set to false, then the carryForward scores won't be
+# displayed to traders and manipulators
+
+displayCarryForwardScores: true
+maxDividend: 100
+requireReserves: true

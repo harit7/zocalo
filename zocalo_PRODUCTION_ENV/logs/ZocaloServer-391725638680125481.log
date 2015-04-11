@@ -1,0 +1,139 @@
+03/11 10:34:48.301/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 10:34:48.306/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 10:34:48.306/IST   INFO -   AllMarkets - version = 1
+03/11 10:34:48.386/IST   INFO -        trace -    creating AllMarkets
+03/11 10:34:49.220/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/11 10:34:50.134/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/11 10:34:50.134/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/11 10:35:05.438/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/11 10:35:19.598/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:35:31.120/IST  DEBUG -      Trading - haritcsa wants to buy Bangladesh with limit of 25 @ 50.
+03/11 10:35:31.133/IST   INFO -  PriceAction - 70# haritcsa traded with the market maker for 0 of test:India changing the price from 80 to 50
+03/11 10:35:31.134/IST   INFO -  PriceAction - 71# haritcsa traded with the market maker for 20.004 of test:Bangladesh changing the price from 20 to 50
+03/11 10:35:31.187/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:35:31.188/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 50, test:Bangladesh: 50
+03/11 10:35:31.190/IST   WARN -    UserError - 72# told haritcsa "Bought 20.004 shares of the team.".
+03/11 10:35:31.265/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:35:47.623/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 30.
+03/11 10:35:47.632/IST   INFO -  PriceAction - 89# haritcsa traded with the market maker for -12.227 of test:Bangladesh changing the price from 50 to 30
+03/11 10:35:47.633/IST   INFO -  PriceAction - 90# haritcsa traded with the market maker for 0 of test:India changing the price from 50 to 70
+03/11 10:35:47.682/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:35:47.682/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 30, test:India: 70
+03/11 10:35:47.683/IST   WARN -    UserError - 91# told haritcsa "Sold 12.227 shares of the team.".
+03/11 10:35:47.751/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:36:11.251/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 20.
+03/11 10:36:11.261/IST   INFO -  PriceAction - 110# haritcsa traded with the market maker for -7.778 of test:Bangladesh changing the price from 30 to 20
+03/11 10:36:11.262/IST   INFO -  PriceAction - 111# haritcsa traded with the market maker for 0 of test:India changing the price from 70 to 80
+03/11 10:36:11.312/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:36:11.312/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 20, test:India: 80
+03/11 10:36:11.313/IST   WARN -    UserError - 112# told haritcsa "Sold 7.778 shares of the team.".
+03/11 10:36:11.379/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:36:19.237/IST   WARN -    UserError - 133# told haritcsa "price must be greater than 0 and less than 100.".
+03/11 10:36:19.295/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:36:28.001/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 1.
+03/11 10:36:28.009/IST   WARN -   CouponBank - CouponBank received 0 instead of 27.7003531 in printNewCouponSets().
+03/11 10:36:28.010/IST   INFO -  PriceAction - 156# haritcsa traded with the market maker for 0 of test:India changing the price from 80 to 96.4632
+03/11 10:36:28.012/IST   INFO -  PriceAction - 157# haritcsa traded with the market maker for -27.7 of test:Bangladesh changing the price from 20 to 3.5368
+03/11 10:36:28.064/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:36:28.064/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 96, test:Bangladesh: 4
+03/11 10:36:28.065/IST   WARN -    UserError - 158# told haritcsa "Sold 27.7 shares of the team.".
+03/11 10:36:28.128/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:36:36.787/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 1.
+03/11 10:36:36.795/IST   INFO -  PriceAction - 181# haritcsa traded with the market maker for -20.448 of test:Bangladesh changing the price from 4 to 1
+03/11 10:36:36.796/IST   INFO -  PriceAction - 182# haritcsa traded with the market maker for 0 of test:India changing the price from 96 to 99
+03/11 10:36:36.842/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:36:36.842/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 1, test:India: 99
+03/11 10:36:36.843/IST   WARN -    UserError - 183# told haritcsa "Sold 20.448 shares of the team.".
+03/11 10:36:36.902/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:37:00.981/IST  DEBUG -      Trading - haritcsa wants to liquidate India
+03/11 10:37:00.989/IST   INFO -  PriceAction - 208# haritcsa traded with the market maker for 0 of test:Bangladesh changing the price from 1 to 63.0525
+03/11 10:37:00.990/IST   INFO -  PriceAction - 209# haritcsa traded with the market maker for -74.02 of test:India changing the price from 99 to 36.9475
+03/11 10:37:01.052/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:37:01.052/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 63, test:India: 37
+03/11 10:37:01.100/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:37:01.101/IST   WARN -    UserError - 210# told haritcsa "Sold 74.020".
+03/11 10:38:25.189/IST  DEBUG -      Trading - haritcsa wants to sell India with limit of 25 @ 1.
+03/11 10:38:25.197/IST   INFO -  PriceAction - 293# haritcsa traded with the market maker for 0 of test:Bangladesh changing the price from 63 to 93.4569
+03/11 10:38:25.197/IST   INFO -  PriceAction - 294# haritcsa traded with the market maker for -30.691 of test:India changing the price from 37 to 6.5431
+03/11 10:38:25.253/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:38:25.253/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 93, test:India: 7
+03/11 10:38:25.254/IST   WARN -    UserError - 325# told haritcsa "Sold 30.691 shares of the team.".
+03/11 10:38:25.313/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:38:38.789/IST  DEBUG -      Trading - haritcsa wants to liquidate Bangladesh
+03/11 10:38:38.797/IST   INFO -  PriceAction - 354# haritcsa traded with the market maker for 0 of test:India changing the price from 7 to 38.7017
+03/11 10:38:38.798/IST   INFO -  PriceAction - 355# haritcsa traded with the market maker for -30.69 of test:Bangladesh changing the price from 93 to 61.2983
+03/11 10:38:38.842/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:38:38.843/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 39, test:Bangladesh: 61
+03/11 10:38:38.887/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:38:38.887/IST   WARN -    UserError - 356# told haritcsa "Sold 30.690".
+03/11 10:39:02.054/IST  DEBUG -      Trading - haritcsa wants to sell Bangladesh with limit of 25 @ 1.
+03/11 10:39:02.061/IST   INFO -  PriceAction - 387# haritcsa traded with the market maker for -36.94 of test:Bangladesh changing the price from 61 to 10.7873
+03/11 10:39:02.062/IST   INFO -  PriceAction - 388# haritcsa traded with the market maker for 0 of test:India changing the price from 39 to 89.2127
+03/11 10:39:02.106/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:39:02.107/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 11, test:India: 89
+03/11 10:39:02.107/IST   WARN -    UserError - 389# told haritcsa "Sold 36.94 shares of the team.".
+03/11 10:39:02.164/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:39:13.011/IST   WARN -    UserError - 422# told haritcsa "price must be greater than 0 and less than 100.".
+03/11 10:39:13.063/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:39:24.751/IST  DEBUG -      Trading - haritcsa wants to sell India with limit of 25 @ 50.
+03/11 10:39:24.757/IST   INFO -  PriceAction - 457# haritcsa traded with the market maker for -30.169 of test:India changing the price from 89 to 50
+03/11 10:39:24.758/IST   INFO -  PriceAction - 458# haritcsa traded with the market maker for 0 of test:Bangladesh changing the price from 11 to 50
+03/11 10:39:24.800/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:39:24.801/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 50, test:Bangladesh: 50
+03/11 10:39:24.801/IST   WARN -    UserError - 459# told haritcsa "Sold 30.169 shares of the team.".
+03/11 10:39:24.858/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:39:34.922/IST  DEBUG -      Trading - haritcsa wants to liquidate India
+03/11 10:39:34.930/IST   INFO -  PriceAction - 494# haritcsa traded with the market maker for 0 of test:Bangladesh changing the price from 50 to 61.5185
+03/11 10:39:34.931/IST   INFO -  PriceAction - 495# haritcsa traded with the market maker for -6.77 of test:India changing the price from 50 to 38.4815
+03/11 10:39:34.975/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:39:34.975/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 62, test:India: 38
+03/11 10:39:35.017/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:39:35.017/IST   WARN -    UserError - 496# told haritcsa "Sold 6.770".
+03/11 10:39:54.998/IST   WARN -    UserError - 533# told User(logging in) "Please type an account name and password".
+03/11 10:40:05.215/IST   WARN -    UserError - 534# told User(logging in) "unknown account or password".
+03/11 10:40:18.019/IST   WARN -    UserError - 535# told User(logging in) "Please type an account name and password".
+03/11 10:40:36.468/IST   WARN -    UserError - 536# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/11 10:40:52.316/IST   WARN -    UserError - 537# told User(logging in) "Congratulations vishal! You're now done. Now Jump in!".
+03/11 10:40:52.357/IST   WARN -    UserError - 538# told User(logging in) "Please type an account name and password".
+03/11 10:48:49.041/IST  DEBUG -      Trading - vishal wants to buy Bangladesh with limit of 25 @ 65.
+03/11 10:48:49.047/IST   INFO -  PriceAction - 539# vishal traded with the market maker for 0 of test:India changing the price from 38 to 35
+03/11 10:48:49.048/IST   INFO -  PriceAction - 540# vishal traded with the market maker for 1.869 of test:Bangladesh changing the price from 62 to 65
+03/11 10:48:49.109/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:48:49.109/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 35, test:Bangladesh: 65
+03/11 10:48:49.110/IST   WARN -    UserError - 581# told vishal "Bought 1.869 shares of the team.".
+03/11 10:48:49.170/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:48:57.759/IST  DEBUG -      Trading - vishal wants to liquidate Bangladesh
+03/11 10:48:57.767/IST   INFO -  PriceAction - 582# vishal traded with the market maker for 0 of test:India changing the price from 35 to 38.0024
+03/11 10:48:57.767/IST   INFO -  PriceAction - 583# vishal traded with the market maker for -1.87 of test:Bangladesh changing the price from 65 to 61.9976
+03/11 10:48:57.815/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:48:57.815/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 38, test:Bangladesh: 62
+03/11 10:48:57.862/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:48:57.862/IST   WARN -    UserError - 584# told vishal "Sold 1.870".
+03/11 10:53:36.555/IST  DEBUG -      Trading - vishal wants to buy India with limit of 25 @ 40.
+03/11 10:53:36.561/IST   INFO -  PriceAction - 587# vishal traded with the market maker for 0 of test:Bangladesh changing the price from 62 to 60
+03/11 10:53:36.562/IST   INFO -  PriceAction - 588# vishal traded with the market maker for 1.213 of test:India changing the price from 38 to 40
+03/11 10:53:36.616/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:53:36.616/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 60, test:India: 40
+03/11 10:53:36.617/IST   WARN -    UserError - 633# told vishal "Bought 1.213 shares of the team.".
+03/11 10:53:36.669/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:53:49.149/IST  DEBUG -      Trading - vishal wants to liquidate India
+03/11 10:53:49.157/IST   INFO -  PriceAction - 638# vishal traded with the market maker for 0 of test:Bangladesh changing the price from 60 to 61.9946
+03/11 10:53:49.158/IST   INFO -  PriceAction - 639# vishal traded with the market maker for -1.21 of test:India changing the price from 40 to 38.0054
+03/11 10:53:49.198/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:53:49.198/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 62, test:India: 38
+03/11 10:53:49.240/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:53:49.240/IST   WARN -    UserError - 640# told vishal "Sold 1.210".
+03/11 10:54:14.968/IST  DEBUG -      Trading - vishal wants to buy India with limit of 25 @ 40.
+03/11 10:54:14.976/IST   INFO -  PriceAction - 647# vishal traded with the market maker for 1.213 of test:India changing the price from 38 to 40
+03/11 10:54:14.977/IST   INFO -  PriceAction - 648# vishal traded with the market maker for 0 of test:Bangladesh changing the price from 62 to 60
+03/11 10:54:15.021/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:54:15.022/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 40, test:Bangladesh: 60
+03/11 10:54:15.023/IST   WARN -    UserError - 649# told vishal "Bought 1.213 shares of the team.".
+03/11 10:54:15.087/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:54:22.690/IST  DEBUG -      Trading - vishal wants to buy India with limit of 25 @ 45.
+03/11 10:54:22.696/IST   INFO -  PriceAction - 658# vishal traded with the market maker for 0 of test:Bangladesh changing the price from 60 to 55
+03/11 10:54:22.697/IST   INFO -  PriceAction - 659# vishal traded with the market maker for 2.955 of test:India changing the price from 40 to 45
+03/11 10:54:22.737/IST   INFO -     NewChart - The chart for test has been updated.
+03/11 10:54:22.737/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 55, test:India: 45
+03/11 10:54:22.738/IST   WARN -    UserError - 660# told vishal "Bought 2.955 shares of the team.".
+03/11 10:54:22.788/IST   INFO -     NewChart - The chart for test has been updated.

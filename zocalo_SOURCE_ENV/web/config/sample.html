@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Chris' test page</title>
+    <link rel="stylesheet" type="text/css" href="../../web/db/trading.css">
+    <script type="text/javascript" src="../../web/db/display.js"></script>
+    <script type="text/javascript" src="../../web/db/tradingUI.js"></script>
+
+<link id="themeStyles" rel="stylesheet" href="file://svn/trunk/devel/web/dojo/dijit/themes/tundra/tundra.css">
+
+<script type="text/javascript" src="../../web/dojo/dojo/dojo.js"
+				djConfig="parseOnLoad: true">
+</script>
+<script type="text/javascript">
+				dojo.require("dojo.parser"); // scan page for widgets
+			  dojo.require("dijit.Dialog");
+  dojo.require("dijit.form.TextBox");  
+  dojo.require("dijit.form.FilteringSelect");
+</script>
+
+</head>
+<body>
+
+<center><img src="../../web/images/logo.zocalo.jpg" height=57 width=150></center>
+<H1>Chris' test page</H1>
+
+
+<p>
+<FORM name="selectANumber" class="tundra" id="form1" action="" method="post">
+		<div dojoType="dijit.form.HorizontalSlider" name="horizontal1" 
+			onChange="dojo.byId('slider1input').value=arguments[0];"
+			value="10" maximum="100" minimum="0" discreteValues="21"
+			style="width:50%;" id="slider1">
+
+				<ol dojoType="dijit.form.HorizontalRuleLabels" container="topDecoration" style="height:1.2em;font-size:75%;" count="6" maximum="100" minimum="0" constraints="{pattern:'#'}"></ol>
+				<div dojoType="dijit.form.HorizontalRule" container="topDecoration" count=6 style="height:5px;"></div>
+				</ol>
+<input readonly id="slider1input" size="2" value="10 ">
+		</div>
+</FORM>
+<p><hr>
+
+<table align=center>
+  <tbody>
+	<tr><th><th>round 1<th>round 2<th>round 3</tr>
+	<tr><th>Player1
+	  <td><input type=text value='100' size=6 name='player1-r1'>
+	  <td><input type=text value='0' size=6 name='player1-r2'>
+	  <td><input type=text value='0' size=6 name='player1-r3'>
+	<tr><th>Player2
+	  <td><input type=text value='0' size=6 name='player2-r1'>
+	  <td><input type=text value='40' size=6 name='player2-r2'>
+	  <td><input type=text value='40' size=6 name='player2-r3'>
+	<tr><th>Player3
+	  <td><input type=text value='100' size=6 name='player3-r1'>
+	  <td><input type=text value='100' size=6 name='player3-r2'>
+	  <td><input type=text value='100' size=6 name='player3-r3'>
+	<tr><td><td><td></tr>
+  </tbody>
+</table>
+
+<table align=center  class="tundra" >
+  <tbody>
+	<tr><th><th>round 1<th>round 2<th>round 3</tr>
+	<tr><th>Player1
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                name="p1-r1"  STYLE="width: 100px" />
+	<option>not100</option>
+	<option>not40</option>
+	<option>notZero</option>
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                name="p1-r2"  STYLE="width: 100px" />
+	<option>not100</option>
+	<option>not40</option>
+	<option>notZero</option>
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                value="noMessage"
+                name="p1-r3"  STYLE="width: 100px" />
+	<option>not100</option>
+	<option>not40</option>
+	<option>notZero</option>
+	<tr><th>Player2
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                value="noMessage"
+                name="p2-r1"  STYLE="width: 100px" />
+	<option>not100</option>
+	<option>not40</option>
+	<option>notZero</option>
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                value="noMessage"
+                name="p2-r2" STYLE="width: 100px" />
+	<option value= "not100">not100</option>
+	<option value="not40">not40</option>
+	<option value ="notZero">notZero</option>
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                value="noMessage"
+                name="p3-r3"  STYLE="width: 100px" />
+	<option value= "not100">not100</option>
+	<option value="not40">not40</option>
+	<option value ="notZero">notZero</option>
+	<tr><th>Player3
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                value="noMessage"
+                name="p3-r1" STYLE="width: 100px" />
+	<option value= "not100">not100</option>
+	<option value="not40">not40</option>
+	<option value ="notZero">notZero</option>
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                value="noMessage"
+                name="3-r2"  STYLE="width: 100px" />
+	<option value= "not100">not100</option>
+	<option value="not40">not40</option>
+	<option value ="notZero">notZero</option>
+	  <td>     <select dojoType="dijit.form.FilteringSelect"
+                value="noMessage"
+                name="p3-r3"  STYLE="width: 100px" />
+	<option value= "not100">not100</option>
+	<option value="not40">not40</option>
+	<option value ="notZero">notZero</option>
+	<tr><td><td><td></tr>
+  </tbody>
+</table>
+
+
+</body>
+</html>

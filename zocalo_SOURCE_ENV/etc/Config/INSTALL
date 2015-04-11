@@ -1,0 +1,188 @@
+     Copyright 2006, 2007, Chris Hibbert.  Copyright 2005, 2006
+     CommerceNet Consortium, LLC.  All rights reserved.  This file is
+     published under the terms of the MIT license, a copy of which has
+     been included with this distribution in the LICENSE file.
+
+The installation process is intended to be short and painless.  Please let us
+know if it doesn't seem straightforward, and we'll work to make it better.
+http://sourceforge.net/tracker/?func=add&group_id=140256&atid=745978
+
+
+                INSTALLATION STEPS
+
+  * Configure the Zocalo server
+  * Start the database server
+  * Start the Zocalo server
+  * How to Configure and Run Markets
+  * How to Create New Accounts
+  * Navigation
+
+**************************************************
+
+* Configure the Zocalo server
+
+	 * SET THE ADMIN PASSWORD
+	 * SET THE USERS' CURRENCY ALLOCATION
+	 * SPECIFY THE PORT
+	 * CONFIGURE THE LOCATION OF THE DATABASE.
+	 * CONFIGURE THE MAIL SYSTEM
+	 * SET FLAG FOR COST LIMITS IF DESIRED
+
+The following parameters can be modified by editing the file
+etc/zocalo.conf.
+
+* SET THE ADMIN PASSWORD
+
+The admin password controls claim creation.  It is defined in the
+configuration file.  The default value (the word "unsafe") is published on
+sourceforge!  YOU MUST CHANGE IT TO HAVE ANY SECURITY!  Pick something
+people won't guess.  You can remind yourself of what it is whenever you
+need to by looking in the config file (etc/zocalo.conf).
+
+  admin.password: unsafe
+
+You authenticate as admin by logging in with any name (whether known to the
+system or not) and the password from the config file.  After you have
+authenticated as admin, you will be able to create new markets.  You drop
+admin authentication by logging in without a password.
+
+
+* SET THE USERS' CURRENCY ALLOCATION
+
+You can modify the initial amount of currency that users get in their
+accounts by changing initial.user.funds.  It's $1000 to start with.
+
+  initial.user.funds: 1000
+
+
+* SPECIFY THE PORT
+
+The Zocalo Server needs to know what port to use.  80 is the standard
+port number for web pages, so the web addresses are much simpler if
+that port is available on the machine that runs Zocalo.  Many
+Operating Systems are configured to ensure that user processes don't
+run on low-numbered ports, so we have a default of 30000.  If you want
+to use another port in order to get past a firewall or because port 80 is
+available, you can change this parameter.
+
+  server.port: 30000
+
+
+* CONFIGURE THE LOCATION OF THE DATABASE.
+
+If you intend to run a server long term, you should expect to upgrade
+the software, which means you need to save the database.  The database
+location is controlled by the parameters database.url.file,
+database.url.base, and database.file.base.  You shouldn't need to
+change url.base unless you want to use a different database than hsql,
+which is currently shipped and configured with Zocalo.  file.base
+controls where the database stores its files.  If you are changing it,
+it would be best to make it an absolute path.  url.file is ensures
+coordination between the hsql server we start and Zocalo's server.
+
+* CONFIGURE THE MAIL SYSTEM
+
+When new users register, Zocalo will send them a message asking them
+to confirm their email address.  In order to deliver the message,
+Zocalo needs to be able to login to a mail server.  Use these parameters to
+configure a mail server and account that will allow sending outgoing
+messages.
+
+mail.host: mail.example.com
+mail.user: emailaccount
+mail.password: emailPassword
+mail.secure: false
+mail.auth: true
+
+If you use a mail server (like gmail) that supports TLS for security,
+you should change mail.secure: to true, and add  "mail.port: 465".
+
+When new users register with the server, it autmatically sends them
+email with a secret url for them to visit to confirm their
+registration.  You can change the text and format of the message by
+editing the files in the templates directory.  In particular,
+templates/siteConstants.st includes the return address that will be
+provided on these outgoing messages.
+
+* SET FLAG FOR COST LIMITS IF DESIRED
+
+A new feature allows user's screens to accept input in terms of a cost
+limit rather than a quantity limit.  (Users specify a maximum cost of
+an order rather than a maximum quantity.)  This is currently
+configurable at install time, and aplies to all multi-market
+purchasing.  If you want this functionality, specify 
+
+useCostLimit: true
+
+in the configuration file.
+
+**************************************************
+
+* Start the Database server
+
+Run the script bin/startDB.  This will start the database server in the
+background.  If the database doesn't exist, it will be initialized.
+
+**************************************************
+
+* Start the Zocalo server
+
+Run the script bin/zocalo.csh, which will invoke Java to run the
+server.  This will print a running log of the server's actions on a
+fresh console.  A copy will also be written to
+logs/ZocaloServer***.log.  ('***' will be replaced by a sequence
+number.)  You can change the logfile name in zocalo.conf.
+
+**************************************************
+
+* How to Configure and Run Markets
+
+The login page for the Zocalo markets is Welcome.jsp.  There are no
+accounts or markets configured when the system is first installed.  Users
+who have authenticated with the admin password can create new markets.
+So you first want to create an account (and confirm it) and then
+authenticate as admin and login in order to create accounts.
+
+* How to Create New Accounts
+
+You can create a new account by visiting the Account Creation page
+from the login page.  Don't lose the password; there's currently no
+way to recover or change it.  New accounts start out with the funding
+that was configured when Zocalo was installed.  (This parameter can
+also be changed or viewed by opening etc/zocalo.conf.)
+
+In order to authenticate as admin, login with any user name and the
+admin password.  You can drop the admin authority by logging in with
+any account name and a blank password.  Admin is not a separate
+account; instead it's a role that you can have while logged in that
+allows you to create new markets.  Once you see the message "Added
+Admin credentials. .... ", you login again with an account that you
+have confirmed.
+
+While you have admin authority, an extra button ("Create Markets") will be
+added to the row of navigation buttons at the top of each page.  Visiting
+that page allows you to create new markets.  Binary Markets (2 outcomes
+labelled "yes" and "no") and multi-outcome markets (enter a set of labels
+separated by commas) can be created.  Binary markets can be created with or
+without a market maker.  When you include a market maker, users will be
+able to trade directly with the market maker in addition to adding or
+accepting book orders.  When there's no market maker, the market is a
+simple double auction: people can post offers to buy or sell and can accept
+existing offers.  Multi-outcome markets currently operate only with the
+market maker.  Integrating book orders is a future project.
+
+
+* Navigation
+
+The server offers non-admin users a choice of 4 pages:
+
+* The Markets page ("all markets") lists all the open markets and their
+   price levels and lets you go to the trading pages for each market.
+
+* The Trading page shows a price history, the best bids and asks, your
+   holdings and orders, and lets you enter new orders.  
+
+* The Account page shows outstanding orders and holdings in all
+   markets as well as current cash.  
+
+* The History page shows all the trades you've made.

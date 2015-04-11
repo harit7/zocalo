@@ -1,0 +1,28 @@
+03/13 04:00:43.707/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/13 04:00:43.712/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/13 04:00:43.712/IST   INFO -   AllMarkets - version = 1
+03/13 04:00:43.792/IST   INFO -        trace -    creating AllMarkets
+03/13 04:00:44.618/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/13 04:00:45.530/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/13 04:00:45.531/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/13 04:01:09.566/IST   WARN -    UserError - 35# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/13 04:01:17.173/IST   WARN -    UserError - 36# told User(logging in) "<font color=red size=5><b>Account already confirmed!</b></font>".
+03/13 04:01:29.601/IST   WARN -    UserError - 37# told User(logging in) "<font color=red size=5><b>Account already confirmed!</b></font>".
+03/13 04:01:40.897/IST   WARN -    UserError - 38# told User(logging in) "Congratulations test2! You're now done. Now Jump in!".
+03/13 04:01:40.947/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+03/13 04:02:17.564/IST  DEBUG -      Trading - test2 wants to sell Zimbabwe with limit of 25 @ 50.
+03/13 04:02:17.573/IST   INFO -  PriceAction - 40# test2 traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 13 to 50
+03/13 04:02:17.574/IST   INFO -  PriceAction - 41# test2 traded with the market maker for -27.431 of India vs Zimbabwe:Zimbabwe changing the price from 87 to 50
+03/13 04:02:17.576/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 50, India vs Zimbabwe:Zimbabwe: 50
+03/13 04:02:17.576/IST   WARN -    UserError - 42# told test2 "Sold 27.431 shares of the team.".
+03/13 04:02:17.816/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 04:02:26.070/IST  DEBUG -      Trading - test2 wants to sell Zimbabwe with limit of 25 @ 30.
+03/13 04:02:26.080/IST   INFO -  PriceAction - 129# test2 traded with the market maker for 0 of India vs Zimbabwe:India changing the price from 50 to 70
+03/13 04:02:26.080/IST   INFO -  PriceAction - 130# test2 traded with the market maker for -12.227 of India vs Zimbabwe:Zimbabwe changing the price from 50 to 30
+03/13 04:02:26.154/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 04:02:26.154/IST   INFO -  PriceChange - prices in market 'India vs Zimbabwe' changed.  India vs Zimbabwe:India: 70, India vs Zimbabwe:Zimbabwe: 30
+03/13 04:02:26.155/IST   WARN -    UserError - 131# told test2 "Sold 12.227 shares of the team.".
+03/13 04:02:26.242/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 04:02:33.521/IST   WARN -    UserError - 134# told User(logging in) "Please type an account name and password".
+03/13 04:02:46.314/IST   INFO -     NewChart - The chart for India vs Zimbabwe has been updated.
+03/13 04:03:36.678/IST   WARN -    UserError - 147# told User(logging in) "Please type an account name and password".

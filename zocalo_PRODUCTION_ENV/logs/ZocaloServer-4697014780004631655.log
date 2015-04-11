@@ -1,0 +1,17 @@
+03/10 03:50:42.444/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 03:50:42.447/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 03:50:42.521/IST   INFO -        trace -    creating AllMarkets
+03/10 03:50:44.154/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 03:50:44.154/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 03:50:47.488/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 04:04:19.106/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/10 04:05:13.516/IST   INFO -     NewChart - The chart for Final has been updated.
+03/10 04:05:17.371/IST   WARN -    UserError - 56# told User(logging in) "Please type an account name and password".
+03/10 04:05:23.356/IST   WARN -    UserError - 66# told User(logging in) "Please type an account name and password".
+03/10 04:06:36.261/IST   WARN -    UserError - 110# told haritcsa "market is closed.".
+03/10 04:07:38.522/IST  DEBUG -      Trading - haritcsa wants to sell Royal Challengers Bangalore with limit of 25 @ 30.
+03/10 04:07:38.534/IST   INFO -  PriceAction - 138# haritcsa traded with the market maker for -43.53 of Q2:Royal Challengers Bangalore changing the price from 50 to 35.3553
+03/10 04:07:38.535/IST   INFO -  PriceAction - 139# haritcsa traded with the market maker for 0 of Q2:Mumbai Indians changing the price from 50 to 64.6447
+03/10 04:07:38.535/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Royal Challengers Bangalore: 35, Q2:Mumbai Indians: 65
+03/10 04:07:38.536/IST   WARN -    UserError - 140# told haritcsa "Sold 43.53 shares of the team.".
+03/10 04:07:38.612/IST   INFO -     NewChart - The chart for Q2 has been updated.

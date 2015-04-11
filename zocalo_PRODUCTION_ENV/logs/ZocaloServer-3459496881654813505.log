@@ -1,0 +1,43 @@
+03/15 12:50:13.955/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/15 12:50:13.959/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/15 12:50:13.960/IST   INFO -   AllMarkets - version = 2
+03/15 12:50:14.040/IST   INFO -        trace -    creating AllMarkets
+03/15 12:50:14.867/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/15 12:50:15.762/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/15 12:50:15.763/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/15 12:50:29.318/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/15 12:50:31.487/IST   WARN -    UserError - 36# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/15 12:50:45.805/IST   WARN -    UserError - 37# told mauka "Please specify a name for the market.".
+03/15 12:51:30.169/IST   INFO -   Transition - 38# State transition: new Multi Market, round: 0.
+03/15 12:51:30.171/IST   INFO -  PriceAction - 39# mauka traded with the market maker for 0 of test:India at 50
+03/15 12:51:30.172/IST   INFO -  PriceAction - 40# mauka traded with the market maker for 0 of test:Bangladesh at 50
+03/15 12:51:36.112/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+03/15 12:51:56.683/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:52:10.570/IST  DEBUG -      Trading - iota wants to buy India @ true.
+03/15 12:52:10.580/IST   INFO -  PriceAction - 44# iota traded with the market maker for 0 of test:Bangladesh changing the price from 50 to 40
+03/15 12:52:10.581/IST   INFO -  PriceAction - 45# iota traded with the market maker for 5.85 of test:India changing the price from 50 to 60
+03/15 12:52:10.628/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:52:10.629/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 40, test:India: 60
+03/15 12:52:10.630/IST   WARN -    UserError - 46# told iota "Bought 5.85 shares of the team.".
+03/15 12:52:10.694/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:53:33.533/IST  DEBUG -      Trading - iota wants to sell India @ true.
+03/15 12:53:33.540/IST   INFO -  PriceAction - 47# iota traded with the market maker for -5.85 of test:India changing the price from 60 to 50
+03/15 12:53:33.541/IST   INFO -  PriceAction - 48# iota traded with the market maker for 0 of test:Bangladesh changing the price from 40 to 50
+03/15 12:53:33.599/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:53:33.600/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 50, test:Bangladesh: 50
+03/15 12:53:33.605/IST   INFO -  PriceAction - 53# iota traded with the market maker for -20 of test:India changing the price from 50 to 20
+03/15 12:53:33.605/IST   INFO -  PriceAction - 54# iota traded with the market maker for 0 of test:Bangladesh changing the price from 50 to 80
+03/15 12:53:33.649/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:53:33.650/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 20, test:Bangladesh: 80
+03/15 12:53:33.650/IST   WARN -    UserError - 55# told iota "Sold 25.85 shares of the team.".
+03/15 12:53:33.715/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:54:22.740/IST  DEBUG -      Trading - iota wants to liquidate Bangladesh
+03/15 12:54:22.752/IST   INFO -  PriceAction - 58# iota traded with the market maker for -14.15 of test:Bangladesh changing the price from 80 to 60
+03/15 12:54:22.752/IST   INFO -  PriceAction - 59# iota traded with the market maker for 0 of test:India changing the price from 20 to 40
+03/15 12:54:22.796/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:54:22.797/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 60, test:India: 40
+03/15 12:54:22.839/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:54:22.840/IST   WARN -    UserError - 60# told iota "Sold 14.150".
+03/15 12:54:50.074/IST   WARN -    UserError - 67# told User(logging in) "Please type an account name and password".
+03/15 12:54:54.828/IST   WARN -    UserError - 68# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/15 12:55:02.335/IST   WARN -    UserError - 69# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".

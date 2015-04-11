@@ -1,0 +1,19 @@
+04/07 03:12:05.779/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 03:12:05.781/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 03:12:05.839/IST   INFO -        trace -    creating AllMarkets
+04/07 03:12:07.594/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 03:12:07.594/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/07 03:13:04.746/IST  DEBUG -      Trading - laha1 wants to buy 2 with limit of 100 @ 12.
+04/07 03:13:04.814/IST   INFO -  PriceAction - 35# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 8.7519 to 8.4633
+04/07 03:13:04.817/IST   INFO -  PriceAction - 36# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 7.8232 to 7.5653
+04/07 03:13:04.818/IST   INFO -  PriceAction - 37# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 7.9925 to 7.729
+04/07 03:13:04.819/IST   INFO -  PriceAction - 38# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 12.4662 to 12.0552
+04/07 03:13:04.820/IST   INFO -  PriceAction - 39# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 21.3315 to 20.6283
+04/07 03:13:04.821/IST   INFO -  PriceAction - 40# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 16.9594 to 16.4003
+04/07 03:13:04.822/IST   INFO -  PriceAction - 41# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 7.8749 to 7.6153
+04/07 03:13:04.822/IST   INFO -  PriceAction - 42# laha1 traded with the market maker for -5.82 of IPL11:2 changing the price from 9 to 12
+04/07 03:13:04.823/IST   INFO -  PriceAction - 43# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 7.8004 to 7.5432
+04/07 03:13:04.825/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:4: 8, IPL11:7: 8, IPL11:8: 8, IPL11:5: 12, IPL11:1: 21, IPL11:3: 16, IPL11:9: 8, IPL11:2: 12, IPL11:6: 8
+04/07 03:13:04.826/IST   WARN -    UserError - 44# told laha1 "Bought -5.82 from MarketMaker.".
+04/07 03:13:05.123/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 03:13:18.147/IST  DEBUG -      Trading - laha1 wants to buy 1 with limit of 100 @ 25.

@@ -1,0 +1,25 @@
+04/06 03:47:36.796/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/06 03:47:36.798/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/06 03:47:36.857/IST   INFO -        trace -    creating AllMarkets
+04/06 03:47:38.561/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/06 03:47:38.561/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/06 03:47:50.418/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/06 03:47:52.649/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+04/06 03:48:28.267/IST   WARN -    UserError - 37# told User(logging in) "unknown account or password".
+04/06 03:48:35.645/IST   WARN -    UserError - 38# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/06 03:48:54.353/IST   WARN -    UserError - 39# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/06 03:50:38.675/IST   WARN -    UserError - 40# told User(logging in) "unknown account or password".
+04/06 03:51:36.072/IST   WARN -    UserError - 41# told User(logging in) "unknown account or password".
+04/06 03:52:05.511/IST   WARN -    UserError - 42# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/06 03:52:17.269/IST   WARN -    UserError - 43# told laha1 "Please specify a name for the market.".
+04/06 03:53:03.845/IST   WARN -    UserError - 44# told laha1 "Please specify a name for the market.".
+04/06 03:53:09.637/IST   WARN -    UserError - 45# told laha1 "Please specify a name for the market.".
+04/06 03:53:38.363/IST   INFO -   Transition - 46# State transition: new Multi Market, round: 0.
+04/06 03:53:38.366/IST   INFO -  PriceAction - 47# laha1 traded with the market maker for 0 of Trial:rohith at 20
+04/06 03:53:38.368/IST   INFO -  PriceAction - 48# laha1 traded with the market maker for 0 of Trial:anirban at 20
+04/06 03:53:38.368/IST   INFO -  PriceAction - 49# laha1 traded with the market maker for 0 of Trial:palash at 20
+04/06 03:53:38.369/IST   INFO -  PriceAction - 50# laha1 traded with the market maker for 0 of Trial:suvam at 20
+04/06 03:53:38.370/IST   INFO -  PriceAction - 51# laha1 traded with the market maker for 0 of Trial:sambaran at 20
+04/06 03:53:43.859/IST   INFO -     NewChart - The chart for Trial has been updated.
+04/06 03:54:13.924/IST   WARN -    UserError - 62# told User(logging in) "Please type an account name and password".
+04/06 03:54:33.559/IST   WARN -    UserError - 63# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".

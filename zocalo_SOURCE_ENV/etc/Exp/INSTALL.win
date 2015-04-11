@@ -1,0 +1,66 @@
+      Copyright 2007-2011 Chris Hibbert.  Portions Copyright 2005,
+      2006 CommerceNet Consortium, LLC.  All rights reserved.  This
+      file is published under the terms of the MIT license, a copy of
+      which has been included with this distribution in the LICENSE
+      file.
+
+
+This file contains a quick overview of installing and running the
+experiment server, followed by more details and the individual steps.
+
+  * Configure the Zocalo server
+  * Start the Zocalo server
+  * How to Configure and run an experiment
+  * examining the data produced by Zocalo
+
+**************************************************
+
+                INSTALLATION NOTES
+
+* Configure the Zocalo server
+
+By default, Zocalo acts as the main web server on the host it's run
+on.  If there's another web server already running there, you'll have
+to change the port number in the file etc/zocalo.conf.
+
+**************************************************
+
+* Start the Zocalo server
+
+Run the batch file zocalo.bat, which will invoke Java to run the
+server.  This will print a running log of the experiment.  (The log
+can also be downloaded from the experimenter's screen.)
+
+**************************************************
+
+* How to Configure and run an experiment
+
+Use Firefox to connect to the server at 
+
+   http://example.com/Experimenter.jsp
+
+where "example.com" is replaced with the hostname on which you
+installed the Zocalo Server.  You then need to upload an experimental
+configuration.  There are samples in the etc directory (generally .txt
+files), and documentation in the CONFIGURATION file.  Users connect to
+http://example.com/Login.jsp and choose a login name.  The login names
+are specified in the configuration file, so they won't be accepted at
+the Login page until the experiment has been configured.
+
+
+**************************************************
+
+* Examining the data produced by Zocalo
+
+Zocalo keeps a log of the subject's actions during the experiment.
+The log file can be downloaded from the Experimenter's screen at the
+end of a session.  You can also go directly to the directory
+containing the log and look at the other logs.  These files are also
+accessible on the computer running the Zocalo server, by looking in
+the logs directory.
+
+We have provided a perl script (etc\logToColumns.pl) that will convert
+the output of the log file into a .csv file that Excel and many other
+programs will happily read.  You can also look at the results as a
+table in a browser window by clicking the appropriate link at the
+bottom of the experimenter's screen.

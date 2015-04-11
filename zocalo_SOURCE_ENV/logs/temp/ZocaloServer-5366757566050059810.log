@@ -1,0 +1,17 @@
+04/06 05:02:19.797/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/06 05:02:19.799/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/06 05:02:19.858/IST   INFO -        trace -    creating AllMarkets
+04/06 05:02:21.612/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/06 05:02:21.612/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/06 05:02:29.415/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/06 05:02:35.395/IST   WARN -    UserError - 36# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/06 05:02:46.551/IST   WARN -    UserError - 37# told rohithdv "Please specify a name for the market.".
+04/06 05:02:59.470/IST   INFO -   Transition - 38# State transition: new Multi Market, round: 0.
+04/06 05:02:59.472/IST   INFO -  PriceAction - 39# rohithdv traded with the market maker for 0 of test1:1 at 25
+04/06 05:02:59.475/IST   INFO -  PriceAction - 40# rohithdv traded with the market maker for 0 of test1:2 at 25
+04/06 05:02:59.476/IST   INFO -  PriceAction - 41# rohithdv traded with the market maker for 0 of test1:3 at 25
+04/06 05:02:59.477/IST   INFO -  PriceAction - 42# rohithdv traded with the market maker for 0 of test1:4 at 25
+04/06 05:03:23.160/IST   INFO -     NewChart - The chart for test1 has been updated.
+04/06 05:03:31.275/IST   WARN -    UserError - 51# told User(logging in) "Please type an account name and password".
+04/06 05:03:45.966/IST  DEBUG -      Trading - laha2 wants to buy 1 with limit of 100 @ 30.
+04/06 05:15:53.643/IST  DEBUG -      Trading - laha2 wants to buy 1 with limit of 100 @ 30.

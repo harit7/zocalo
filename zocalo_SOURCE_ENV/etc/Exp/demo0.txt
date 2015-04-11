@@ -1,0 +1,70 @@
+sessionTitle: Demo0-June9
+rounds: 3
+players: t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, judge
+
+# in minutes
+timeLimit: 3
+
+t1.role: trader
+t2.role: trader
+t3.role: trader
+t4.role: trader
+t5.role: trader
+t6.role: trader
+t7.role: trader
+t8.role: trader
+t9.role: trader
+t10.role: trader
+judge.role: judge
+initialHint: Trading has not started yet.
+
+endowment.trader: 200
+endowment.manipulator: 200
+tickets.trader: 5
+tickets.manipulator: 3
+
+# Traders are rewarded for the value of their assets.
+
+# Manipulators are rewarded for their assets plus a bonus based on the
+# difference between their target and the average of the judges' guesses
+#
+# The manipulator bonus:     constant - (difference * factor)
+scoringFactor.manipulator: 2
+scoringConstant.manipulator: 200
+
+# Judges are rewarded with a bonus based on the square of the difference
+# between their guess and the actual value of the tickets
+#
+# The  Judge's bonus:      constant - (difference * difference * factor)
+scoringFactor.judge: .02
+scoringConstant.judge: 250
+
+# These values are specified by round.
+
+commonMessage:        noMessage, noMessage, noMessage
+actualValue:          0,          0,         100
+
+# These values are specified by Player and Round.
+
+t1.hint:    not100,       noMessage,   notZero
+t2.hint:    noMessage,       not100,   noMessage
+t3.hint:    not100,       noMessage,   noMessage
+t4.hint:    noMessage,       not100,   noMessage
+t5.hint:    not100,       noMessage,   notZero
+t6.hint:    noMessage,       not100,   notZero
+t7.hint:    not100,       noMessage,   notZero
+t8.hint:    noMessage,       not100,   noMessage
+t9.hint:    not100,       noMessage,   noMessage
+t10.hint:   noMessage,       not100,   noMessage
+
+# text labels can be used in hints or commonMessage
+
+not100: The ticket value is not 100.
+not40: The ticket value is not 40.
+notZero: The ticket value is not 0.
+raisePrice: Some players are trying to raise the apparent price
+changePrice: Some players are trying to change the apparent price
+noMessage:
+worth40: Your score will improve if the judge thinks the tickets are worth 40
+worth100: Your score will improve if the judge thinks the ticket are worth 100
+

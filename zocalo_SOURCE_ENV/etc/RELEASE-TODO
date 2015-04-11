@@ -1,0 +1,16 @@
+     ToDo
+
+This release of Zocalo contains the prediction market engine.  The
+engine currently supports economics experiments designed by
+researchers at George Mason University and Chapman University, others
+in use at MIT's Center for Collective Intelligence, and general
+persistent prediction markets.  Here's a short list of incomplete
+functionality:
+
+* Conditional claims.
+
+* Email notification to traders when book orders are accepted.
+
+* Configure chart sizes.
+
+* Time limits on orders

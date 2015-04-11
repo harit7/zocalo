@@ -1,0 +1,25 @@
+03/09 02:39:28.736/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/09 02:39:28.740/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/09 02:39:28.852/IST   INFO -        trace -    creating AllMarkets
+03/09 02:39:30.783/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/09 02:39:30.783/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/09 02:39:38.148/IST   WARN -    UserError - 35# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:39:38.161/IST   WARN -    UserError - 36# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:39:46.615/IST   WARN -    UserError - 37# told harit "Please specify a name for the market.".
+03/09 02:40:04.126/IST   INFO -   Transition - 38# State transition: new Multi Market, round: 0.
+03/09 02:40:04.127/IST   INFO -  PriceAction - 39# harit traded with the market maker for 0 of IPL:yes at 50
+03/09 02:40:04.129/IST   INFO -  PriceAction - 40# harit traded with the market maker for 0 of IPL:no at 50
+03/09 02:40:12.188/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+03/09 02:40:18.103/IST   WARN -    UserError - 42# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:40:29.156/IST   INFO -     NewChart - The chart for IPL has been updated.
+03/09 02:40:52.518/IST   WARN -    UserError - 47# told harit "A market with the name 'IPL' already exists.".
+03/09 02:40:56.189/IST   WARN -    UserError - 50# told User(logging in) "Please type an account name and password".
+03/09 02:41:00.143/IST   WARN -    UserError - 51# told User(logging in) "removed Admin Authorization.  Login as Admin again when needed.".
+03/09 02:41:18.818/IST   INFO -   CouponBank - 54# Redeemed 0 'yes' Coupons for IPL
+03/09 02:41:18.821/IST   WARN -    UserError - 55# told harit "50.00 was refunded at Market close.".
+03/09 02:41:18.821/IST   WARN -    UserError - 56# told harit "Redeemed 0 pairs.".
+03/09 02:41:50.229/IST   WARN -    UserError - 59# told harit "market is closed.".
+03/09 02:42:01.612/IST   WARN -    UserError - 66# told User(logging in) "Please type an account name and password".
+03/09 02:42:08.332/IST   WARN -    UserError - 67# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/09 02:42:20.005/IST   WARN -    UserError - 68# told harit "A market with the name 'IPL' already exists.".
+03/09 02:42:20.013/IST   WARN -    UserError - 69# told harit "market is closed.".

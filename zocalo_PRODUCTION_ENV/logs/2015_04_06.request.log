@@ -1,0 +1,7 @@
+10.192.16.67 -  -  [06/Apr/2015:03:24:00 +0000] "GET /images/Logo/Bangla.png HTTP/1.1" 200 306771 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+10.192.16.67 -  -  [06/Apr/2015:03:28:07 +0000] "GET /images/Logo/csa_logo.png HTTP/1.1" 200 19302 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+10.192.16.67 -  -  [06/Apr/2015:09:01:03 +0000] "GET /pages/Credits.html HTTP/1.1" 200 1552 "-" "Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon"
+10.192.16.67 -  -  [06/Apr/2015:09:24:19 +0000] "GET /images/Logo/csa_logo.png HTTP/1.1" 200 19302 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+10.192.16.67 -  -  [06/Apr/2015:12:20:00 +0000] "GET /images/Logo/csa_logo.png HTTP/1.1" 200 19302 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+10.192.16.67 -  -  [06/Apr/2015:16:27:08 +0000] "GET /images/Logo/Bangla.png HTTP/1.1" 200 306771 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+10.192.16.67 -  -  [06/Apr/2015:18:46:48 +0000] "GET /pages/Credits.html HTTP/1.1" 200 1552 "-" "Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon"

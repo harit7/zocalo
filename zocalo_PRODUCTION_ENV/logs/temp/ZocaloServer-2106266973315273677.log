@@ -1,0 +1,5 @@
+04/07 07:31:24.948/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 07:31:24.950/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 07:31:25.007/IST   INFO -        trace -    creating AllMarkets
+04/07 07:31:26.589/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 07:31:26.589/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false

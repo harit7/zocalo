@@ -1,0 +1,10 @@
+Prediction Market Notification
+Hi $user,
+
+This is  test Email
+You feel that chances of India winning the game are 80% so you increase the current shares price to 80. i.e. your bid is 80.
+That means you have bought S no. of shares of India at the current price i.e. 50. 
+now suppose if at the end of the game India wins then you will get S*1 Rupee = S*100 paise Rupee in you account.
+
+Cheers,
+IWP Team

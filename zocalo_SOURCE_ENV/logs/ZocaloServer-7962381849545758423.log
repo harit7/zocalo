@@ -1,0 +1,20 @@
+04/10 06:25:42.775/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/10 06:25:42.778/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/10 06:25:42.835/IST   INFO -        trace -    creating AllMarkets
+04/10 06:25:46.614/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+04/10 06:25:46.614/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/10 06:25:55.779/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/10 06:26:01.328/IST   WARN -    UserError - 36# told User(logging in) "unknown account or password".
+04/10 06:26:36.513/IST  DEBUG -      Trading - test1 wants to buy 9 with limit of 25 @ 12.
+04/10 06:26:36.545/IST   INFO -  PriceAction - 46# test1 traded with the market maker for 0 of testmarket:7 changing the price from 11 to 10.8764
+04/10 06:26:36.547/IST   INFO -  PriceAction - 47# test1 traded with the market maker for 0 of testmarket:4 changing the price from 11 to 10.8764
+04/10 06:26:36.547/IST   INFO -  PriceAction - 48# test1 traded with the market maker for 0 of testmarket:3 changing the price from 11 to 10.8764
+04/10 06:26:36.547/IST   INFO -  PriceAction - 49# test1 traded with the market maker for 0 of testmarket:6 changing the price from 11 to 10.8764
+04/10 06:26:36.548/IST   INFO -  PriceAction - 50# test1 traded with the market maker for 0 of testmarket:8 changing the price from 11 to 10.8764
+04/10 06:26:36.548/IST   INFO -  PriceAction - 51# test1 traded with the market maker for 0 of testmarket:1 changing the price from 12 to 11.8652
+04/10 06:26:36.548/IST   INFO -  PriceAction - 52# test1 traded with the market maker for 0 of testmarket:2 changing the price from 11 to 10.8764
+04/10 06:26:36.549/IST   INFO -  PriceAction - 53# test1 traded with the market maker for 0 of testmarket:5 changing the price from 11 to 10.8764
+04/10 06:26:36.549/IST   INFO -  PriceAction - 54# test1 traded with the market maker for 0.447 of testmarket:9 changing the price from 11 to 12
+04/10 06:26:36.550/IST   INFO -  PriceChange - prices in market 'testmarket' changed.  testmarket:7: 11, testmarket:4: 11, testmarket:3: 11, testmarket:6: 11, testmarket:8: 11, testmarket:1: 12, testmarket:2: 11, testmarket:5: 11, testmarket:9: 12
+04/10 06:26:36.551/IST   WARN -    UserError - 55# told test1 "Bought 0.447 shares of the team.".
+04/10 06:26:37.023/IST   INFO -     NewChart - The chart for testmarket has been updated.

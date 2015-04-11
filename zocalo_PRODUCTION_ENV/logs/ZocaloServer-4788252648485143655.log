@@ -1,0 +1,101 @@
+03/10 04:50:50.877/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 04:50:50.880/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 04:50:50.954/IST   INFO -        trace -    creating AllMarkets
+03/10 04:50:52.585/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 04:50:52.585/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 04:51:18.845/IST   WARN -    UserError - 35# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 04:51:24.419/IST   WARN -    UserError - 36# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 04:52:16.113/IST   WARN -    UserError - 37# told User(logging in) "Congratulations pradeep! You're now done. Now Jump in!".
+03/10 04:52:16.130/IST   WARN -    UserError - 38# told User(logging in) "Please type an account name and password".
+03/10 04:52:38.824/IST   WARN -    UserError - 39# told User(logging in) "Congratulations rohit! You're now done. Now Jump in!".
+03/10 04:52:38.836/IST   WARN -    UserError - 40# told User(logging in) "Please type an account name and password".
+03/10 04:53:03.323/IST  DEBUG -      Trading - pradeep wants to buy Mumbai Indians with limit of 25 @ 70.
+03/10 04:53:03.331/IST   INFO -  PriceAction - 41# pradeep traded with the market maker for 0 of Q2:Royal Challengers Bangalore changing the price from 35.3553 to 30
+03/10 04:53:03.332/IST   INFO -  PriceAction - 42# pradeep traded with the market maker for 17.589 of Q2:Mumbai Indians changing the price from 64.6447 to 70
+03/10 04:53:03.333/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Royal Challengers Bangalore: 30, Q2:Mumbai Indians: 70
+03/10 04:53:03.335/IST   WARN -    UserError - 43# told pradeep "Bought 17.589 shares of the team.".
+03/10 04:53:03.535/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:53:17.205/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:53:27.378/IST  DEBUG -      Trading - pradeep wants to buy Mumbai Indians with limit of 25 @ 80.
+03/10 04:53:27.398/IST   INFO -  PriceAction - 50# pradeep traded with the market maker for 0 of Q2:Royal Challengers Bangalore changing the price from 30 to 21.2132
+03/10 04:53:27.398/IST   INFO -  PriceAction - 51# pradeep traded with the market maker for 33.53 of Q2:Mumbai Indians changing the price from 70 to 78.7868
+03/10 04:53:27.443/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:53:27.444/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Royal Challengers Bangalore: 21, Q2:Mumbai Indians: 79
+03/10 04:53:27.445/IST   WARN -    UserError - 52# told pradeep "Bought 33.53 shares of the team.".
+03/10 04:53:27.515/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:53:36.216/IST  DEBUG -      Trading - pradeep wants to buy Mumbai Indians with limit of 25 @ 90.
+03/10 04:53:36.225/IST   INFO -  PriceAction - 57# pradeep traded with the market maker for 0 of Q2:Royal Challengers Bangalore changing the price from 21.2132 to 15
+03/10 04:53:36.226/IST   INFO -  PriceAction - 58# pradeep traded with the market maker for 30.475 of Q2:Mumbai Indians changing the price from 78.7868 to 85
+03/10 04:53:36.278/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:53:36.279/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Royal Challengers Bangalore: 15, Q2:Mumbai Indians: 85
+03/10 04:53:36.280/IST   WARN -    UserError - 59# told pradeep "Bought 30.475 shares of the team.".
+03/10 04:53:36.349/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:54:16.697/IST  DEBUG -      Trading - rohit wants to buy Royal Challengers Bangalore with limit of 25 @ 40.
+03/10 04:54:16.702/IST   INFO -  PriceAction - 66# rohit traded with the market maker for 95.564 of Q2:Royal Challengers Bangalore changing the price from 15 to 39.8959
+03/10 04:54:16.703/IST   INFO -  PriceAction - 67# rohit traded with the market maker for 0 of Q2:Mumbai Indians changing the price from 85 to 60.1041
+03/10 04:54:16.755/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:54:16.756/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Royal Challengers Bangalore: 40, Q2:Mumbai Indians: 60
+03/10 04:54:16.757/IST   WARN -    UserError - 68# told rohit "Bought 95.564 shares of the team.".
+03/10 04:54:16.823/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:54:43.111/IST  DEBUG -      Trading - pradeep wants to buy Royal Challengers Bangalore with limit of 25 @ 40.
+03/10 04:54:43.117/IST   INFO -  PriceAction - 71# pradeep traded with the market maker for 0.313 of Q2:Royal Challengers Bangalore changing the price from 39.8959 to 40
+03/10 04:54:43.118/IST   INFO -  PriceAction - 72# pradeep traded with the market maker for 0 of Q2:Mumbai Indians changing the price from 60.1041 to 60
+03/10 04:54:43.168/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:54:43.169/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Royal Challengers Bangalore: 40, Q2:Mumbai Indians: 60
+03/10 04:54:43.170/IST   WARN -    UserError - 73# told pradeep "Bought 0.313 shares of the team.".
+03/10 04:54:43.237/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:54:53.962/IST  DEBUG -      Trading - rohit wants to buy Royal Challengers Bangalore with limit of 25 @ 50.
+03/10 04:54:53.968/IST   INFO -  PriceAction - 82# rohit traded with the market maker for 0 of Q2:Mumbai Indians changing the price from 60 to 50
+03/10 04:54:53.969/IST   INFO -  PriceAction - 83# rohit traded with the market maker for 29.248 of Q2:Royal Challengers Bangalore changing the price from 40 to 50
+03/10 04:54:54.020/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:54:54.021/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Mumbai Indians: 50, Q2:Royal Challengers Bangalore: 50
+03/10 04:54:54.022/IST   WARN -    UserError - 84# told rohit "Bought 29.248 shares of the team.".
+03/10 04:54:54.078/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:58:03.025/IST  DEBUG -      Trading - rohit wants to buy Mumbai Indians with limit of 25 @ 60.
+03/10 04:58:03.030/IST   INFO -  PriceAction - 89# rohit traded with the market maker for 29.248 of Q2:Mumbai Indians changing the price from 50 to 60
+03/10 04:58:03.031/IST   INFO -  PriceAction - 90# rohit traded with the market maker for 0 of Q2:Royal Challengers Bangalore changing the price from 50 to 40
+03/10 04:58:03.092/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:58:03.093/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Mumbai Indians: 60, Q2:Royal Challengers Bangalore: 40
+03/10 04:58:03.094/IST   WARN -    UserError - 107# told rohit "Bought 29.248 shares of the team.".
+03/10 04:58:03.156/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:58:16.641/IST  DEBUG -      Trading - rohit wants to buy Mumbai Indians with limit of 25 @ 90.
+03/10 04:58:16.647/IST   INFO -  PriceAction - 114# rohit traded with the market maker for 37.866 of Q2:Mumbai Indians changing the price from 60 to 71.7157
+03/10 04:58:16.647/IST   INFO -  PriceAction - 115# rohit traded with the market maker for 0 of Q2:Royal Challengers Bangalore changing the price from 40 to 28.2843
+03/10 04:58:16.696/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:58:16.696/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Mumbai Indians: 72, Q2:Royal Challengers Bangalore: 28
+03/10 04:58:16.697/IST   WARN -    UserError - 116# told rohit "Bought 37.866 shares of the team.".
+03/10 04:58:16.760/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 04:59:39.831/IST   WARN -    UserError - 125# told User(logging in) "Please type an account name and password".
+03/10 05:01:05.970/IST   WARN -    UserError - 126# told User(logging in) "<font color=red size=5><b>Sorry! This account name is unavailable. Please try another one. </b></font>rohit".
+03/10 05:11:25.194/IST   WARN -    UserError - 127# told User(logging in) "Please type an account name and password".
+03/10 05:11:29.026/IST   WARN -    UserError - 128# told User(logging in) "Please type an account name and password".
+03/10 05:11:37.780/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 05:11:42.211/IST   WARN -    UserError - 157# told rohit "the price is already higher than you requested.".
+03/10 05:11:56.053/IST   WARN -    UserError - 174# told pradeep "the price is already higher than you requested.".
+03/10 05:11:57.517/IST  DEBUG -      Trading - rohit wants to buy Mumbai Indians with limit of 25 @ 72.
+03/10 05:11:57.522/IST   INFO -  PriceAction - 183# rohit traded with the market maker for 1.014 of Q2:Mumbai Indians changing the price from 71.7157 to 72
+03/10 05:11:57.522/IST   INFO -  PriceAction - 184# rohit traded with the market maker for 0 of Q2:Royal Challengers Bangalore changing the price from 28.2843 to 28
+03/10 05:11:57.569/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 05:11:57.569/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Mumbai Indians: 72, Q2:Royal Challengers Bangalore: 28
+03/10 05:11:57.571/IST   WARN -    UserError - 185# told rohit "Bought 1.014 shares of the team.".
+03/10 05:11:57.625/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 05:12:07.299/IST  DEBUG -      Trading - rohit wants to sell Mumbai Indians with limit of 25 @ 32.
+03/10 05:12:07.304/IST   INFO -  PriceAction - 196# rohit traded with the market maker for -65.498 of Q2:Mumbai Indians changing the price from 72 to 50.9117
+03/10 05:12:07.305/IST   INFO -  PriceAction - 197# rohit traded with the market maker for 0 of Q2:Royal Challengers Bangalore changing the price from 28 to 49.0883
+03/10 05:12:07.346/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 05:12:07.346/IST   INFO -  PriceChange - prices in market 'Q2' changed.  Q2:Mumbai Indians: 51, Q2:Royal Challengers Bangalore: 49
+03/10 05:12:07.347/IST   WARN -    UserError - 198# told rohit "Sold 65.498 shares of the team.".
+03/10 05:12:07.399/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 05:12:21.421/IST   WARN -    UserError - 211# told pradeep "the price is already lower than you requested.".
+03/10 05:12:21.467/IST   INFO -     NewChart - The chart for Q2 has been updated.
+03/10 05:14:51.990/IST   WARN -    UserError - 228# told User(logging in) "Please type an account name and password".
+03/10 05:15:59.357/IST   WARN -    UserError - 229# told User(logging in) "Please type an account name and password".
+03/10 05:15:59.781/IST   WARN -    UserError - 230# told User(logging in) "Please type an account name and password".
+03/10 05:16:21.090/IST   INFO -  PriceAction - 233# pradeep redeemed 81.282 coupons  for Q2:Mumbai Indians at 100
+03/10 05:16:21.091/IST   INFO -  PriceAction - 234# rohit redeemed 122.181 coupons  for Q2:Royal Challengers Bangalore at 0
+03/10 05:16:21.095/IST   INFO -  PriceAction - 235# haritcsa redeemed 43.53 coupons  for Q2:Mumbai Indians at 100
+03/10 05:16:21.096/IST   INFO -  PriceAction - 236# Market Maker redeemed 0 coupons  for Q2:Mumbai Indians at 100
+03/10 05:16:21.097/IST   INFO -  PriceAction - 237# Market Maker redeemed 2.631 coupons  for Q2:Royal Challengers Bangalore at 0
+03/10 05:16:21.097/IST   INFO -   CouponBank - 238# Redeemed 124.8120664 'Mumbai Indians' Coupons for Q2
+03/10 05:16:21.098/IST   WARN -    UserError - 239# told harit "48.70 was refunded at Market close.".
+03/10 05:16:21.099/IST   WARN -    UserError - 240# told harit "Redeemed 125.125 pairs.".

@@ -1,0 +1,118 @@
+/*
+Copyright 2008, 2009 Chris Hibbert.  All rights reserved.
+Copyright 2006 CommerceNet Consortium, LLC.  All rights reserved.
+
+This software is published under the terms of the MIT license, a copy
+of which has been included with this distribution in the LICENSE file.
+*/
+
+/* Based on:
+   v2.1, by Faruk Ates - www.kurafire.net
+   Addendum by Robert Nyman - www.robertnyman.com */
+
+/* Neutralize styling:
+   Elements we want to clean out entirely: */
+html, form, fieldset {
+	margin: 0;
+	padding: 0;
+	/*font: 100%/120% Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+/* Neutralize styling:
+   Elements with a vertical margin: */
+h1, h2, h3, h4, h5, h6, p, pre,
+blockquote, ul, ol, dl, address {
+	margin: 1em 0;
+	padding: 0;
+}
+
+/* Apply left margin:
+   Only to the few elements that need it: */
+li, dd, blockquote {
+	margin-left: 1em;
+}
+
+/* Miscellaneous conveniences: */
+form label {
+	cursor: pointer;
+}
+
+fieldset {
+	border: none;
+}
+
+/* Form field text-scaling */
+input, select, textarea {
+	font-size: 100%;
+}
+
+/* Beginning of Zocalo's particular choices. */
+
+body {
+	margin-left: 3%; margin-right: 5%;
+	padding: 0;
+}
+
+.bestOffer {
+    font-size: smaller;
+}
+
+.holdings {
+    background-color: palegoldenrod; ;
+}
+
+.claimDescription {
+    background:#EEEEEE;
+    border-style: solid;
+    border-color:#DDEEEE;
+    margin-left:25%;
+    margin-right:20%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.claimDescription-wide {
+    background:#EEEEEE;
+    border-style: solid;
+    border-color:#DDEEEE;
+    text-align: center;
+    vertical-align: middle;
+    font-size: larger;
+  }
+
+.smallFontButton {
+    margin-bottom: 0pt;
+    font-size: smaller;
+}
+
+.userMessage {
+    border-style: solid;
+    text-align: center;
+    border-color:#DDDDEE;
+    background:#EEEEFF;
+}
+
+.chosen {
+    background:#EEEEFF;
+}
+
+.chosen-buy {
+    background:#EEFFEE;
+}
+
+.chosen-sell {
+    background:#FFEEEE;
+}
+
+.glow {
+     text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F
+}
+
+.strike {
+     text-decoration: line-through;
+}
+
+.ghost {
+	/*      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */
+	color: white; text-shadow: black 0.1em 0.1em 0.1em
+}

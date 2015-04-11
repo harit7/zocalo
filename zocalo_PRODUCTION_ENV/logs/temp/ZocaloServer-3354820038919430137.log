@@ -1,0 +1,29 @@
+04/06 03:55:04.160/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/06 03:55:04.162/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/06 03:55:04.220/IST   INFO -        trace -    creating AllMarkets
+04/06 03:55:06.023/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/06 03:55:06.024/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/06 03:55:15.366/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/06 03:55:28.486/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+04/06 03:55:47.098/IST   WARN -    UserError - 37# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 03:56:20.534/IST   WARN -    UserError - 38# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 03:56:50.134/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+04/06 03:57:39.411/IST   WARN -    UserError - 40# told User(logging in) "Congratulations laha2! You're now done. Now Jump in!".
+04/06 03:57:39.455/IST   WARN -    UserError - 41# told User(logging in) "Please type an account name and password".
+04/06 03:57:44.092/IST   WARN -    UserError - 42# told User(logging in) "Please type an account name and password".
+04/06 03:57:53.242/IST   WARN -    UserError - 43# told User(logging in) "Please type an account name and password".
+04/06 03:58:02.740/IST   WARN -    UserError - 44# told User(logging in) "Congratulations laha3! You're now done. Now Jump in!".
+04/06 03:58:02.799/IST   WARN -    UserError - 45# told User(logging in) "Please type an account name and password".
+04/06 03:58:07.394/IST   WARN -    UserError - 46# told User(logging in) "Congratulations laha4! You're now done. Now Jump in!".
+04/06 03:58:07.456/IST   WARN -    UserError - 47# told User(logging in) "Please type an account name and password".
+04/06 03:58:43.288/IST   WARN -    UserError - 48# told User(logging in) "Sorry! This account name is unavailable. Please try another one. laha4".
+04/06 03:59:01.528/IST   WARN -    UserError - 49# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 03:59:31.173/IST   WARN -    UserError - 50# told User(logging in) "Congratulations laha5! You're now done. Now Jump in!".
+04/06 03:59:31.217/IST   WARN -    UserError - 51# told User(logging in) "Please type an account name and password".
+04/06 04:00:00.926/IST   WARN -    UserError - 52# told User(logging in) "Please type an account name and password".
+04/06 04:01:09.890/IST   WARN -    UserError - 68# told User(logging in) "Please type an account name and password".
+04/06 04:01:14.825/IST   WARN -    UserError - 69# told User(logging in) "Please type an account name and password".
+04/06 04:01:18.533/IST   WARN -    UserError - 70# told User(logging in) "Please type an account name and password".
+04/06 04:01:21.174/IST   WARN -    UserError - 71# told User(logging in) "Please type an account name and password".
+04/06 04:01:25.533/IST   WARN -    UserError - 72# told User(logging in) "Please type an account name and password".
+04/06 04:01:51.544/IST  DEBUG -      Trading - laha2 wants to buy rohith with limit of 100 @ 40.

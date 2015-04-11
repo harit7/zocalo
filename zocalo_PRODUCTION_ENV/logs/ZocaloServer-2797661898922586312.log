@@ -1,0 +1,38 @@
+03/10 06:16:12.824/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 06:16:12.827/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 06:16:12.901/IST   INFO -        trace -    creating AllMarkets
+03/10 06:16:14.372/IST  ERROR - SchemaUpdate - could not get database metadata
+java.sql.SQLException: socket creation error
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:190)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:118)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:265)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1005)
+	at net.commerce.zocalo.hibernate.HibernateUtil.initializeSessionFactory(HibernateUtil.java:51)
+	at net.commerce.zocalo.service.AllMarkets.initializeDB(AllMarkets.java:116)
+	at net.commerce.zocalo.service.AllMarkets.configure(AllMarkets.java:95)
+	at net.commerce.zocalo.service.AllMarkets.<init>(AllMarkets.java:87)
+	at net.commerce.zocalo.service.AllMarkets.main(AllMarkets.java:43)
+03/10 06:16:14.373/IST  ERROR - SchemaUpdate - could not complete schema update
+java.sql.SQLException: socket creation error
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:190)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:118)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:265)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1005)
+	at net.commerce.zocalo.hibernate.HibernateUtil.initializeSessionFactory(HibernateUtil.java:51)
+	at net.commerce.zocalo.service.AllMarkets.initializeDB(AllMarkets.java:116)
+	at net.commerce.zocalo.service.AllMarkets.configure(AllMarkets.java:95)
+	at net.commerce.zocalo.service.AllMarkets.<init>(AllMarkets.java:87)
+	at net.commerce.zocalo.service.AllMarkets.main(AllMarkets.java:43)
+03/10 06:16:14.450/IST  ERROR - JDBCExceptionReporter - socket creation error

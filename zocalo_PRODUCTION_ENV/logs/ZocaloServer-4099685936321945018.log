@@ -1,0 +1,8 @@
+04/10 07:31:06.761/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/10 07:31:06.764/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/10 07:31:06.821/IST   INFO -        trace -    creating AllMarkets
+04/10 07:31:08.831/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+04/10 07:31:08.831/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/10 07:31:15.753/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/10 07:31:27.590/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+04/10 07:31:35.060/IST   INFO -     NewChart - The chart for IPL2012 has been updated.

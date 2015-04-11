@@ -1,0 +1,131 @@
+sessionTitle: Aug.6-GMU
+rounds: 15
+players: traderAA, traderAB, traderAC,traderAD, traderAE, traderBA,traderBB,traderBC,traderBD
+roles: trader1, trader2
+
+# in minutes
+timeLimit: 3
+
+showEarnings: true
+
+carryForward: true
+
+logoPath:none
+
+thresholdValue: remainingDividend
+aboveThresholdMessage: The price is %$percent$ too high
+belowThresholdMessage: The price is $difference$ cents too low
+
+maxPrice: 900
+
+traderAA.role: trader1
+traderAB.role: trader1
+traderAC.role: trader1
+traderAD.role: trader1
+traderAE.role: trader1
+traderBA.role: trader2
+traderBB.role: trader2
+traderBC.role: trader2
+traderBD.role: trader2
+
+initialHint: Trading has not started yet.
+
+endowment.trader1: 550
+tickets.trader1: 2
+endowment.trader2: 180
+tickets.trader2: 3
+
+
+# should the market require that new orders be at better prices than
+# previous ones?  "true" says yes.  "false" indicates that new orders
+# can be limit orders away from the market frontier.
+
+betterPriceRequired: true
+
+# should binary assets be supported in addition to unary?  "true" says
+# that participants can only sell assets if they have some on hand,
+# and all ticket holdings will be positive.  "false" supports binary
+# assets.  In this case, coupons can be positive or negative, and when
+# a buyer and seller agree on price, a new pair can be created.
+
+useUnaryAssets: true
+
+# These values are specified by round.
+
+commonMessage:  dividend1,dividend2,dividend3, dividend4,dividend5,dividend6, dividend7,dividend8,dividend9, dividend10,dividend11,dividend12, dividend13,dividend14,dividend15
+
+actualValue:      8,8,28,8,60,8,0,28,0,60,28,60,0,8,60
+
+# These values are specified by Player and Round.
+
+traderAA.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderAB.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderAC.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderAD.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderAE.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderBA.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderBB.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderBC.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+traderBD.hint:  blank, blank, blank, blank, blank, blank, blank, blank, blank,blank,blank,blank,blank,blank, blank
+
+# text labels can be used in hints or commonMessage
+
+dividend1:<font size=4><b> 15 periods remain. The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 360 cents per share.</b></font>
+
+dividend2:<font size=4><b>14 periods remain.The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 336 cents per share.</b></font>
+
+dividend3:<font size=4><b>13 periods remain.The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 312 cents per share.</b></font>
+
+dividend4:<font size=4><b>12 periods remain.The dividend has an equal chance of being either  0, 8, 28, or 60 cents in every period. The average dividend value is 288 cents per share.</b></font>
+
+dividend5:<font size=4><b>11 periods remain.The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 264 cents per share.</b></font>
+
+dividend6:<font size=4><b>10 periods remain.The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 240 cents per share.</b></font>
+
+dividend7:<font size=4><b>9 periods remain.The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 216 cents per share.</b></font>
+
+dividend8:<font size=4><b>8 periods remain.The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 192 cents per share.</b></font>
+
+dividend9:<font size=4><b>7 periods remain.The dividend has an equal chance of  being either 0, 8, 28, or 60 cents in every period. The average dividend value is 168 cents per share.</b></font>
+
+dividend10:<font size=4><b>6 periods remain.The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 144 cents per share.</b></font>
+
+dividend11:<font size=4><b><p style='color:red'>5 periods remain.</p> The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 120 cents per share.</b></font>
+
+dividend12:<font size=4><b><p style='color:red'>4 periods remain.</p>The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 96 cents per share.</b></font>
+
+dividend13:<font size=4><b><p style='color:red'>3 periods  remain.</p>The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 72 cents per share.</b></font>
+
+dividend14:<font size=4><b><p style='color:red'>2 periods remain.</p>The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 48 cents per share.</b></font>
+
+dividend15:<font size=4><b><p style='color:red'>This is THE LAST period.</p>The dividend has an equal chance of being either 0, 8, 28, or 60 cents in every period. The average dividend value is 24 cents per share.</b></font>
+
+
+low: <b><font size=5><p style='color:blue'>THE PRICE IS TOO LOW.</b></font></p>
+high: <b><font size=5><p style='color:blue'>THE PRICE IS TOO HIGH.</b></font></p>
+blank:
+
+# The following strings override default value labels used in the interface to
+#describe score computations.  If no value or an illegal value is provided the
+#default will be used.
+
+# Provide a value to replace "Your clue", which describes hints given to a
+#particular trader in an experiment.
+
+messageLabel: .
+
+#Provide a value to replace "Shared Message", which describes a hint given to
+#all traders in an experiment.
+
+commonMessageLabel: --------------------------------
+
+
+#Provide a value to replace "Actual Ticket Value", which describes the value
+#of each coupon a trader might hold in an experiment
+
+actualValueLabel: <b>Actual Share Dividend</b>
+
+#Provide a value to replace the description of the Total Asset Value.  If the
+#string doesn't follow the format of the default, the HTML display may not work
+
+totalAssetsLabel: <b>Total Cash Balance</b><br><font size='-2'>(cash + dividends)</font>

@@ -1,0 +1,107 @@
+03/10 05:28:22.997/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 05:28:23.000/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 05:28:23.074/IST   INFO -        trace -    creating AllMarkets
+03/10 05:28:24.760/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 05:28:24.760/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 05:29:44.085/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 80.
+03/10 05:29:44.099/IST   INFO -  PriceAction - 35# haritcsa traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 11.1111 to 2.5
+03/10 05:29:44.101/IST   INFO -  PriceAction - 36# haritcsa traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 11.1111 to 2.5
+03/10 05:29:44.101/IST   INFO -  PriceAction - 37# haritcsa traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 11.1111 to 2.5
+03/10 05:29:44.102/IST   INFO -  PriceAction - 38# haritcsa traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 11.1111 to 2.5
+03/10 05:29:44.102/IST   INFO -  PriceAction - 39# haritcsa traded with the market maker for 15.773 of Who is the Champion:India changing the price from 11.1111 to 80
+03/10 05:29:44.103/IST   INFO -  PriceAction - 40# haritcsa traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 11.1111 to 2.5
+03/10 05:29:44.103/IST   INFO -  PriceAction - 41# haritcsa traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 11.1111 to 2.5
+03/10 05:29:44.104/IST   INFO -  PriceAction - 42# haritcsa traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 11.1111 to 2.5
+03/10 05:29:44.105/IST   INFO -  PriceAction - 43# haritcsa traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 11.1111 to 2.5
+03/10 05:29:44.105/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:South Africa: 2, Who is the Champion:West Indies: 2, Who is the Champion:Bangladesh: 2, Who is the Champion:Pakistan: 2, Who is the Champion:India: 80, Who is the Champion:Ireland: 2, Who is the Champion:Austrailia: 2, Who is the Champion:Sri Lanka: 2, Who is the Champion:New Zealand: 2
+03/10 05:29:44.107/IST   WARN -    UserError - 44# told haritcsa "Bought 15.773 shares of the team.".
+03/10 05:29:44.340/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:30:05.087/IST  DEBUG -      Trading - haritcsa wants to buy New Zealand with limit of 25 @ 50.
+03/10 05:30:05.099/IST   INFO -  PriceAction - 63# haritcsa traded with the market maker for 16.674 of Who is the Champion:New Zealand changing the price from 2.5 to 50
+03/10 05:30:05.099/IST   INFO -  PriceAction - 64# haritcsa traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 2.5 to 1.2821
+03/10 05:30:05.100/IST   INFO -  PriceAction - 65# haritcsa traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 2.5 to 1.2821
+03/10 05:30:05.101/IST   INFO -  PriceAction - 66# haritcsa traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 2.5 to 1.2821
+03/10 05:30:05.101/IST   INFO -  PriceAction - 67# haritcsa traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 2.5 to 1.2821
+03/10 05:30:05.102/IST   INFO -  PriceAction - 68# haritcsa traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 2.5 to 1.2821
+03/10 05:30:05.102/IST   INFO -  PriceAction - 69# haritcsa traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 2.5 to 1.2821
+03/10 05:30:05.103/IST   INFO -  PriceAction - 70# haritcsa traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 2.5 to 1.2821
+03/10 05:30:05.103/IST   INFO -  PriceAction - 71# haritcsa traded with the market maker for 0 of Who is the Champion:India changing the price from 80 to 41.0256
+03/10 05:30:05.164/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:30:05.165/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:New Zealand: 50, Who is the Champion:West Indies: 1, Who is the Champion:South Africa: 1, Who is the Champion:Ireland: 1, Who is the Champion:Bangladesh: 1, Who is the Champion:Pakistan: 1, Who is the Champion:Austrailia: 1, Who is the Champion:Sri Lanka: 1, Who is the Champion:India: 41
+03/10 05:30:05.166/IST   WARN -    UserError - 72# told haritcsa "Bought 16.674 shares of the team.".
+03/10 05:30:05.262/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:30:26.943/IST   WARN -    UserError - 91# told User(logging in) "Please type an account name and password".
+03/10 05:30:34.327/IST   WARN -    UserError - 92# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/10 05:30:54.940/IST   WARN -    UserError - 93# told mauka "Please specify a name for the market.".
+03/10 05:31:52.859/IST   INFO -   Transition - 94# State transition: new Multi Market, round: 0.
+03/10 05:31:52.859/IST   INFO -  PriceAction - 95# mauka traded with the market maker for 0 of India vs Bangladesh Quarter Final:India at 50
+03/10 05:31:52.860/IST   INFO -  PriceAction - 96# mauka traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh at 50
+03/10 05:31:58.393/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:33:27.977/IST   WARN -    UserError - 101# told mauka "HTML special characters are not allowed in claim Descriptions.".
+03/10 05:33:56.486/IST   WARN -    UserError - 104# told mauka "HTML special characters are not allowed in claim Descriptions.".
+03/10 05:35:10.297/IST   WARN -    UserError - 109# told User(logging in) "Please type an account name and password".
+03/10 05:35:46.898/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 99.
+03/10 05:35:46.908/IST   INFO -  PriceAction - 110# haritcsa traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 50 to 8.8388
+03/10 05:35:46.909/IST   INFO -  PriceAction - 111# haritcsa traded with the market maker for 33.665 of India vs Bangladesh Quarter Final:India changing the price from 50 to 91.1612
+03/10 05:35:46.955/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:35:46.955/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 9, India vs Bangladesh Quarter Final:India: 91
+03/10 05:35:46.957/IST   WARN -    UserError - 114# told haritcsa "Bought 33.665 shares of the team.".
+03/10 05:35:47.014/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:35:55.014/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 99.
+03/10 05:35:55.024/IST   INFO -  PriceAction - 117# haritcsa traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 8.8388 to 1.5625
+03/10 05:35:55.025/IST   INFO -  PriceAction - 118# haritcsa traded with the market maker for 26.108 of India vs Bangladesh Quarter Final:India changing the price from 91.1612 to 98.4375
+03/10 05:35:55.066/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:35:55.067/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 2, India vs Bangladesh Quarter Final:India: 98
+03/10 05:35:55.068/IST   WARN -    UserError - 119# told haritcsa "Bought 26.108 shares of the team.".
+03/10 05:35:55.130/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:35:59.830/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 99.
+03/10 05:35:59.840/IST   INFO -  PriceAction - 124# haritcsa traded with the market maker for 6.521 of India vs Bangladesh Quarter Final:India changing the price from 98.4375 to 99
+03/10 05:35:59.840/IST   INFO -  PriceAction - 125# haritcsa traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 1.5625 to 1
+03/10 05:35:59.884/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:35:59.885/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:India: 99, India vs Bangladesh Quarter Final:Bangladesh: 1
+03/10 05:35:59.886/IST   WARN -    UserError - 126# told haritcsa "Bought 6.521 shares of the team.".
+03/10 05:35:59.948/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:36:06.421/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 99.
+03/10 05:36:06.477/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:36:14.701/IST  DEBUG -      Trading - haritcsa wants to buy India with limit of 25 @ 99.
+03/10 05:36:25.458/IST  DEBUG -      Trading - haritcsa wants to buy Bangladesh with limit of 25 @ 20.
+03/10 05:36:25.465/IST   INFO -  PriceAction - 145# haritcsa traded with the market maker for 46.294 of India vs Bangladesh Quarter Final:Bangladesh changing the price from 1 to 20
+03/10 05:36:25.466/IST   INFO -  PriceAction - 146# haritcsa traded with the market maker for 0 of India vs Bangladesh Quarter Final:India changing the price from 99 to 80
+03/10 05:36:25.511/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:36:25.512/IST   INFO -  PriceChange - prices in market 'India vs Bangladesh Quarter Final' changed.  India vs Bangladesh Quarter Final:Bangladesh: 20, India vs Bangladesh Quarter Final:India: 80
+03/10 05:36:25.513/IST   WARN -    UserError - 147# told haritcsa "Bought 46.294 shares of the team.".
+03/10 05:36:25.589/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 05:38:14.741/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:38:26.101/IST  DEBUG -      Trading - haritcsa wants to liquidate New Zealand
+03/10 05:38:26.113/IST   INFO -  PriceAction - 201# haritcsa traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 1.2821 to 2.5
+03/10 05:38:26.113/IST   INFO -  PriceAction - 202# haritcsa traded with the market maker for -16.674 of Who is the Champion:New Zealand changing the price from 50 to 2.5
+03/10 05:38:26.114/IST   INFO -  PriceAction - 203# haritcsa traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 1.2821 to 2.5
+03/10 05:38:26.114/IST   INFO -  PriceAction - 204# haritcsa traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 1.2821 to 2.5
+03/10 05:38:26.115/IST   INFO -  PriceAction - 205# haritcsa traded with the market maker for 0 of Who is the Champion:India changing the price from 41.0256 to 80
+03/10 05:38:26.115/IST   INFO -  PriceAction - 206# haritcsa traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 1.2821 to 2.5
+03/10 05:38:26.116/IST   INFO -  PriceAction - 207# haritcsa traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 1.2821 to 2.5
+03/10 05:38:26.116/IST   INFO -  PriceAction - 208# haritcsa traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 1.2821 to 2.5
+03/10 05:38:26.116/IST   INFO -  PriceAction - 209# haritcsa traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 1.2821 to 2.5
+03/10 05:38:26.165/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:38:26.166/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:Bangladesh: 2, Who is the Champion:New Zealand: 2, Who is the Champion:Ireland: 2, Who is the Champion:Sri Lanka: 2, Who is the Champion:India: 80, Who is the Champion:Pakistan: 2, Who is the Champion:South Africa: 2, Who is the Champion:Austrailia: 2, Who is the Champion:West Indies: 2
+03/10 05:38:26.215/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:38:26.216/IST   WARN -    UserError - 210# told haritcsa "Sold 16.674".
+03/10 05:38:37.122/IST  DEBUG -      Trading - haritcsa wants to liquidate India
+03/10 05:38:37.133/IST   INFO -  PriceAction - 229# haritcsa traded with the market maker for 0 of Who is the Champion:Ireland changing the price from 2.5 to 11.1111
+03/10 05:38:37.134/IST   INFO -  PriceAction - 230# haritcsa traded with the market maker for 0 of Who is the Champion:New Zealand changing the price from 2.5 to 11.1111
+03/10 05:38:37.135/IST   INFO -  PriceAction - 231# haritcsa traded with the market maker for 0 of Who is the Champion:West Indies changing the price from 2.5 to 11.1111
+03/10 05:38:37.135/IST   INFO -  PriceAction - 232# haritcsa traded with the market maker for 0 of Who is the Champion:Pakistan changing the price from 2.5 to 11.1111
+03/10 05:38:37.135/IST   INFO -  PriceAction - 233# haritcsa traded with the market maker for 0 of Who is the Champion:Austrailia changing the price from 2.5 to 11.1111
+03/10 05:38:37.136/IST   INFO -  PriceAction - 234# haritcsa traded with the market maker for 0 of Who is the Champion:Bangladesh changing the price from 2.5 to 11.1111
+03/10 05:38:37.136/IST   INFO -  PriceAction - 235# haritcsa traded with the market maker for 0 of Who is the Champion:South Africa changing the price from 2.5 to 11.1111
+03/10 05:38:37.137/IST   INFO -  PriceAction - 236# haritcsa traded with the market maker for -15.773 of Who is the Champion:India changing the price from 80 to 11.1111
+03/10 05:38:37.137/IST   INFO -  PriceAction - 237# haritcsa traded with the market maker for 0 of Who is the Champion:Sri Lanka changing the price from 2.5 to 11.1111
+03/10 05:38:37.195/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:38:37.195/IST   INFO -  PriceChange - prices in market 'Who is the Champion' changed.  Who is the Champion:Ireland: 11, Who is the Champion:New Zealand: 11, Who is the Champion:West Indies: 11, Who is the Champion:Pakistan: 11, Who is the Champion:Austrailia: 11, Who is the Champion:Bangladesh: 11, Who is the Champion:South Africa: 11, Who is the Champion:India: 11, Who is the Champion:Sri Lanka: 11
+03/10 05:38:37.251/IST   INFO -     NewChart - The chart for Who is the Champion has been updated.
+03/10 05:38:37.252/IST   WARN -    UserError - 247# told haritcsa "Sold 15.773".
+03/10 05:44:33.847/IST   WARN -    UserError - 275# told User(logging in) "Please type an account name and password".
+03/10 05:45:13.412/IST   WARN -    UserError - 276# told User(logging in) "<font color=red size=5><b>We've sent you a confirmation email. To activate your account, please follow the instructions in the email.</b></font>".
+03/10 05:45:32.601/IST   WARN -    UserError - 277# told User(logging in) "Congratulations rohithdv! You're now done. Now Jump in!".
+03/10 05:45:32.643/IST   WARN -    UserError - 278# told User(logging in) "Please type an account name and password".
+03/10 05:46:15.258/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.

@@ -1,0 +1,1750 @@
+03/28 02:17:54.430/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/28 02:17:54.435/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/28 02:17:54.435/IST   INFO -   AllMarkets - version = 2
+03/28 02:17:54.514/IST   INFO -        trace -    creating AllMarkets
+03/28 02:17:55.346/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/28 02:17:56.263/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/28 02:17:56.263/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/28 02:18:27.143/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/28 02:19:11.465/IST  DEBUG -      Trading - iota wants to buy New Zealand @ true.
+03/28 02:19:11.487/IST   INFO -  PriceAction - 42# iota traded with the market maker for 0 of The Final:Austrailia changing the price from 99 to 1
+03/28 02:19:11.491/IST   INFO -  PriceAction - 43# iota traded with the market maker for 132.588 of The Final:New Zealand changing the price from 1 to 99
+03/28 02:19:11.492/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 1, The Final:New Zealand: 99
+03/28 02:19:11.493/IST   WARN -    UserError - 44# told iota "Bought 132.588 shares of the team.".
+03/28 02:19:11.713/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 02:22:44.246/IST   WARN -    UserError - 89# told User(logging in) "Please type an account name and password".
+03/28 02:23:01.853/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 02:23:11.291/IST  DEBUG -      Trading - arabinda wants to buy Austrailia @ true.
+03/28 02:23:11.302/IST   INFO -  PriceAction - 130# arabinda traded with the market maker for 0 of The Final:New Zealand changing the price from 99 to 1
+03/28 02:23:11.303/IST   INFO -  PriceAction - 131# arabinda traded with the market maker for 132.588 of The Final:Austrailia changing the price from 1 to 99
+03/28 02:23:11.371/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 02:23:11.371/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 1, The Final:Austrailia: 99
+03/28 02:23:11.372/IST   WARN -    UserError - 132# told arabinda "Bought 132.588 shares of the team.".
+03/28 02:23:11.458/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 02:23:21.640/IST  DEBUG -      Trading - arabinda wants to buy Austrailia @ true.
+03/28 02:23:21.725/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 02:27:42.183/IST   WARN -    UserError - 135# told User(logging in) "Please type an account name and password".
+03/28 02:42:39.411/IST   WARN -    UserError - 136# told User(logging in) "Please type an account name and password".
+03/28 02:50:00.600/IST   WARN -    UserError - 137# told User(logging in) "Please type an account name and password".
+03/28 02:50:20.051/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/28 02:50:59.856/IST   WARN -    UserError - 1786# told iota "market is closed.".
+03/28 02:53:08.211/IST  DEBUG -      Trading - iota wants to buy New Zealand @ true.
+03/28 02:53:08.223/IST   INFO -  PriceAction - 1877# iota traded with the market maker for 132.588 of The Final:New Zealand changing the price from 1 to 99
+03/28 02:53:08.224/IST   INFO -  PriceAction - 1878# iota traded with the market maker for 0 of The Final:Austrailia changing the price from 99 to 1
+03/28 02:53:08.297/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 02:53:08.298/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 99, The Final:Austrailia: 1
+03/28 02:53:08.298/IST   WARN -    UserError - 1921# told iota "Bought 132.588 shares of the team.".
+03/28 02:53:08.377/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 02:57:28.088/IST   WARN -    UserError - 2420# told User(logging in) "Please type an account name and password".
+03/28 03:18:08.491/IST   WARN -    UserError - 2421# told User(logging in) "Please type an account name and password".
+03/28 04:18:55.734/IST   WARN -    UserError - 2422# told User(logging in) "Please type an account name and password".
+03/28 04:19:07.664/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 04:19:19.753/IST  DEBUG -      Trading - iota wants to liquidate New Zealand
+03/28 04:19:19.766/IST   INFO -  PriceAction - 2477# iota traded with the market maker for -199.17 of The Final:New Zealand changing the price from 99 to 0.01
+03/28 04:19:19.766/IST   INFO -  PriceAction - 2478# iota traded with the market maker for 0 of The Final:Austrailia changing the price from 1 to 99.99
+03/28 04:19:19.830/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 04:19:19.830/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 0, The Final:Austrailia: 100
+03/28 04:19:19.892/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 04:19:19.893/IST   WARN -    UserError - 2479# told iota "Sold 199.170".
+03/28 04:20:29.760/IST   WARN -    UserError - 3486# told User(logging in) "Please type an account name and password".
+03/28 05:20:56.601/IST   WARN -    UserError - 3487# told User(logging in) "Please type an account name and password".
+03/28 07:53:32.734/IST   WARN -    UserError - 3500# told User(logging in) "Please type an account name and password".
+03/28 07:53:33.080/IST   WARN -    UserError - 3501# told User(logging in) "Please type an account name and password".
+03/28 07:54:22.528/IST  DEBUG -      Trading - Cric_fan wants to buy New Zealand @ true.
+03/28 07:54:22.540/IST   INFO -  PriceAction - 3502# Cric_fan traded with the market maker for 0 of The Final:Austrailia changing the price from 99.99 to 1
+03/28 07:54:22.541/IST   INFO -  PriceAction - 3503# Cric_fan traded with the market maker for 199.17 of The Final:New Zealand changing the price from 0.01 to 99
+03/28 07:54:22.610/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 07:54:22.611/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 1, The Final:New Zealand: 99
+03/28 07:54:22.612/IST   WARN -    UserError - 3550# told Cric_fan "Bought 199.17 shares of the team.".
+03/28 07:54:22.684/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 07:54:37.739/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:52:57.162/IST  DEBUG -      Trading - iota wants to buy Austrailia @ true.
+03/28 09:52:57.172/IST   INFO -  PriceAction - 3565# iota traded with the market maker for 132.299 of The Final:Austrailia changing the price from 1 to 98.98
+03/28 09:52:57.173/IST   INFO -  PriceAction - 3566# iota traded with the market maker for 0 of The Final:New Zealand changing the price from 99 to 1.02
+03/28 09:52:57.237/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:52:57.238/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 99, The Final:New Zealand: 1
+03/28 09:52:57.241/IST   INFO -  PriceAction - 3615# iota traded with the market maker for 0.289 of The Final:Austrailia changing the price from 98.98 to 99
+03/28 09:52:57.241/IST   INFO -  PriceAction - 3616# iota traded with the market maker for 0 of The Final:New Zealand changing the price from 1.02 to 1
+03/28 09:52:57.297/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:52:57.298/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 99, The Final:New Zealand: 1
+03/28 09:52:57.298/IST   WARN -    UserError - 3617# told iota "Bought 132.588 shares of the team.".
+03/28 09:52:57.368/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:53:08.062/IST  DEBUG -      Trading - iota wants to liquidate Austrailia
+03/28 09:53:08.072/IST   INFO -  PriceAction - 3630# iota traded with the market maker for 0 of The Final:New Zealand changing the price from 1 to 1.02
+03/28 09:53:08.073/IST   INFO -  PriceAction - 3631# iota traded with the market maker for -0.289 of The Final:Austrailia changing the price from 99 to 98.98
+03/28 09:53:08.129/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:53:08.130/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 1, The Final:Austrailia: 99
+03/28 09:53:08.186/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:53:08.186/IST   WARN -    UserError - 3632# told iota "Sold 0.289".
+03/28 09:53:14.495/IST  DEBUG -      Trading - iota wants to liquidate Austrailia
+03/28 09:53:14.506/IST   INFO -  PriceAction - 3649# iota traded with the market maker for -0.283 of The Final:Austrailia changing the price from 98.98 to 98.96
+03/28 09:53:14.507/IST   INFO -  PriceAction - 3650# iota traded with the market maker for 0 of The Final:New Zealand changing the price from 1.02 to 1.04
+03/28 09:53:14.563/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:53:14.564/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 99, The Final:New Zealand: 1
+03/28 09:53:14.619/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 09:53:14.620/IST   WARN -    UserError - 3651# told iota "Sold 0.283".
+03/28 10:03:37.629/IST   WARN -    UserError - 3670# told User(logging in) "Please type an account name and password".
+03/28 10:03:48.210/IST  DEBUG -      Trading - Cric_fan wants to buy New Zealand @ true.
+03/28 10:03:48.223/IST   INFO -  PriceAction - 3673# Cric_fan traded with the market maker for 132.016 of The Final:New Zealand changing the price from 1.04 to 99
+03/28 10:03:48.223/IST   INFO -  PriceAction - 3674# Cric_fan traded with the market maker for 0 of The Final:Austrailia changing the price from 98.96 to 1
+03/28 10:03:48.305/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 10:03:48.306/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 99, The Final:Austrailia: 1
+03/28 10:03:48.307/IST   WARN -    UserError - 3731# told Cric_fan "Bought 132.016 shares of the team.".
+03/28 10:03:48.375/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/28 10:04:10.373/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 12:15:26.720/IST   WARN -    UserError - 3774# told User(logging in) "Please type an account name and password".
+03/29 12:16:49.671/IST   WARN -    UserError - 3795# told User(logging in) "Please type an account name and password".
+03/29 12:23:49.746/IST   WARN -    UserError - 3820# told User(logging in) "Please type an account name and password".
+03/29 12:27:53.109/IST  DEBUG -      Trading - sandeep wants to sell New Zealand @ true.
+03/29 12:27:53.115/IST   INFO -  PriceAction - 3823# sandeep traded with the market maker for -132.588 of The Final:New Zealand changing the price from 99 to 1
+03/29 12:27:53.116/IST   INFO -  PriceAction - 3824# sandeep traded with the market maker for 0 of The Final:Austrailia changing the price from 1 to 99
+03/29 12:27:53.179/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 12:27:53.180/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 1, The Final:Austrailia: 99
+03/29 12:27:53.180/IST   WARN -    UserError - 3883# told sandeep "Sold 132.588 shares of the team.".
+03/29 12:27:53.247/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 12:29:16.064/IST   WARN -    UserError - 3886# told sandeep "price must be greater than 0 and less than 100.".
+03/29 12:30:34.487/IST   WARN -    UserError - 3887# told sandeep "price must be greater than 0 and less than 100.".
+03/29 12:31:13.254/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 12:31:26.667/IST  DEBUG -      Trading - sandeep wants to buy Austrailia @ true.
+03/29 12:31:26.673/IST   INFO -  PriceAction - 3968# sandeep traded with the market maker for 0 of Final_4_Teams:South Africa changing the price from 0.1 to 0.03
+03/29 12:31:26.674/IST   INFO -  PriceAction - 3969# sandeep traded with the market maker for 0 of Final_4_Teams:New Zealand changing the price from 9.8 to 2.94
+03/29 12:31:26.675/IST   INFO -  PriceAction - 3970# sandeep traded with the market maker for 9.225 of Final_4_Teams:Austrailia changing the price from 90 to 97
+03/29 12:31:26.675/IST   INFO -  PriceAction - 3971# sandeep traded with the market maker for 0 of Final_4_Teams:India changing the price from 0.1 to 0.03
+03/29 12:31:26.676/IST   INFO -  PriceChange - prices in market 'Final_4_Teams' changed.  Final_4_Teams:South Africa: 0, Final_4_Teams:New Zealand: 3, Final_4_Teams:Austrailia: 97, Final_4_Teams:India: 0
+03/29 12:31:26.676/IST   WARN -    UserError - 3972# told sandeep "Bought 9.225 shares of the team.".
+03/29 12:31:26.769/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 12:46:33.362/IST   WARN -    UserError - 4077# told User(logging in) "Please type an account name and password".
+03/29 12:51:30.026/IST  DEBUG -      Trading - sandeep wants to buy Sri Lanka @ true.
+03/29 12:51:30.033/IST   INFO -  PriceAction - 4082# sandeep traded with the market maker for 0 of Final_8_teams:West Indies changing the price from 0.02 to 0.0198
+03/29 12:51:30.033/IST   INFO -  PriceAction - 4083# sandeep traded with the market maker for 18.86 of Final_8_teams:Sri Lanka changing the price from 0.02 to 1
+03/29 12:51:30.034/IST   INFO -  PriceAction - 4084# sandeep traded with the market maker for 0 of Final_8_teams:India changing the price from 0.02 to 0.0198
+03/29 12:51:30.034/IST   INFO -  PriceAction - 4085# sandeep traded with the market maker for 0 of Final_8_teams:Austrailia changing the price from 98 to 97.04
+03/29 12:51:30.035/IST   INFO -  PriceAction - 4086# sandeep traded with the market maker for 0 of Final_8_teams:Bangladesh changing the price from 0.02 to 0.0198
+03/29 12:51:30.035/IST   INFO -  PriceAction - 4087# sandeep traded with the market maker for 0 of Final_8_teams:South Africa changing the price from 0.02 to 0.0198
+03/29 12:51:30.036/IST   INFO -  PriceAction - 4088# sandeep traded with the market maker for 0 of Final_8_teams:New Zealand changing the price from 1.88 to 1.862
+03/29 12:51:30.036/IST   INFO -  PriceAction - 4089# sandeep traded with the market maker for 0 of Final_8_teams:Pakistan changing the price from 0.02 to 0.0198
+03/29 12:51:30.202/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 12:51:30.203/IST   INFO -  PriceChange - prices in market 'Final_8_teams' changed.  Final_8_teams:West Indies: 0, Final_8_teams:Sri Lanka: 1, Final_8_teams:India: 0, Final_8_teams:Austrailia: 97, Final_8_teams:Bangladesh: 0, Final_8_teams:South Africa: 0, Final_8_teams:New Zealand: 2, Final_8_teams:Pakistan: 0
+03/29 12:51:30.203/IST   WARN -    UserError - 5378# told sandeep "Bought 18.86 shares of the team.".
+03/29 12:51:30.318/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 01:22:27.121/IST   WARN -    UserError - 5379# told User(logging in) "Please type an account name and password".
+03/29 01:38:07.174/IST   WARN -    UserError - 5380# told User(logging in) "Please type an account name and password".
+03/29 09:52:02.147/IST  ERROR - JDBCExceptionReporter - Communications link failure
+
+The last packet successfully received from the server was 29,605,072 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+03/29 09:52:02.149/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:73)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 29,605,072 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3102)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2991)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3532)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3002)
+	... 38 more
+03/29 09:52:02.151/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/29 09:52:03.090/IST   WARN -    UserError - 5385# told User(logging in) "Please type an account name and password".
+03/29 09:52:03.091/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 29,605,072 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3102)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2991)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3532)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3002)
+	... 38 more
+03/29 09:52:03.093/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/29 09:52:03.093/IST   WARN -    UserError - 5386# told User(logging in) "Problems processing request; please try again.".
+03/29 09:52:08.389/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:52:08.389/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:52:18.109/IST   WARN -    UserError - 5387# told User(logging in) "Please type an account name and password".
+03/29 09:52:41.170/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:52:41.170/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:59:19.338/IST   WARN -    UserError - 5388# told User(logging in) "Please type an account name and password".
+03/29 09:59:19.338/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 29,605,072 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3102)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2991)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3532)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3002)
+	... 38 more
+03/29 09:59:19.339/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/29 09:59:19.340/IST   WARN -    UserError - 5389# told User(logging in) "Problems processing request; please try again.".
+03/29 09:59:23.606/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:59:23.606/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:59:40.526/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:59:40.527/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 09:59:50.064/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.createAccount_jsp._jspService(createAccount_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 29,605,072 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3102)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2991)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3532)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3002)
+	... 38 more
+03/29 09:59:50.066/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/29 09:59:50.066/IST   WARN -    UserError - 5390# told User(logging in) "Problems processing request; please try again.".
+03/29 10:00:16.151/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 10:00:16.151/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 10:03:04.120/IST   WARN -    UserError - 5391# told User(logging in) "Please type an account name and password".
+03/29 10:03:04.120/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 29,605,072 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3102)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2991)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3532)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3002)
+	... 38 more
+03/29 10:03:04.122/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/29 10:03:04.122/IST   WARN -    UserError - 5392# told User(logging in) "Problems processing request; please try again.".
+03/29 10:03:07.396/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 10:03:07.396/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 10:04:01.359/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 10:04:01.359/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/29 10:06:21.582/IST   WARN -    UserError - 5393# told User(logging in) "Please type an account name and password".
+03/29 10:06:28.944/IST   WARN -    UserError - 5394# told User(logging in) "Please type an account name and password".
+03/29 10:06:39.431/IST   WARN -    UserError - 5395# told User(logging in) "unknown account or password".
+03/29 10:07:08.427/IST   WARN -    UserError - 5396# told User(logging in) "unknown account or password".
+03/29 10:17:35.038/IST   WARN -    UserError - 5397# told User(logging in) "Please type an account name and password".
+03/29 10:18:01.948/IST   WARN -    UserError - 5398# told User(logging in) "unknown account or password".
+03/29 10:20:41.276/IST   WARN -    UserError - 5399# told User(logging in) "Please type an account name and password".
+03/29 10:21:21.550/IST  DEBUG -      Trading - vishal wants to liquidate New Zealand
+03/29 10:21:21.576/IST   INFO -  PriceAction - 5402# vishal traded with the market maker for 0 of The Final:Austrailia changing the price from 99 to 99.99
+03/29 10:21:21.578/IST   INFO -  PriceAction - 5403# vishal traded with the market maker for -66.582 of The Final:New Zealand changing the price from 1 to 0.01
+03/29 10:21:21.648/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:21:21.648/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 100, The Final:New Zealand: 0
+03/29 10:21:21.704/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:21:21.705/IST   WARN -    UserError - 5464# told vishal "Sold 66.582".
+03/29 10:21:31.935/IST  DEBUG -      Trading - vishal wants to liquidate New Zealand
+03/29 10:21:31.998/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:21:31.999/IST   WARN -    UserError - 5467# told vishal "Sold 0.000".
+03/29 10:21:35.595/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:21:41.713/IST  DEBUG -      Trading - vishal wants to liquidate New Zealand
+03/29 10:21:41.776/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:21:41.777/IST   WARN -    UserError - 5616# told vishal "Sold 0.000".
+03/29 10:21:46.668/IST  DEBUG -      Trading - iota wants to liquidate India
+03/29 10:21:46.677/IST   INFO -  PriceAction - 5621# iota traded with the market maker for 0 of Final_4_Teams:New Zealand changing the price from 2.94 to 2.941
+03/29 10:21:46.678/IST   INFO -  PriceAction - 5622# iota traded with the market maker for -7.926 of Final_4_Teams:India changing the price from 0.03 to 0.01
+03/29 10:21:46.678/IST   INFO -  PriceAction - 5623# iota traded with the market maker for 0 of Final_4_Teams:South Africa changing the price from 0.03 to 0.03
+03/29 10:21:46.679/IST   INFO -  PriceAction - 5624# iota traded with the market maker for 0 of Final_4_Teams:Austrailia changing the price from 97 to 97.02
+03/29 10:21:46.745/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:21:46.746/IST   INFO -  PriceChange - prices in market 'Final_4_Teams' changed.  Final_4_Teams:New Zealand: 3, Final_4_Teams:India: 0, Final_4_Teams:South Africa: 0, Final_4_Teams:Austrailia: 97
+03/29 10:21:46.809/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:21:46.810/IST   WARN -    UserError - 5625# told iota "Sold 7.926".
+03/29 10:21:56.262/IST  DEBUG -      Trading - iota wants to liquidate New Zealand
+03/29 10:21:56.274/IST   INFO -  PriceAction - 5662# iota traded with the market maker for 0 of Final_4_Teams:Austrailia changing the price from 97.02 to 99.95
+03/29 10:21:56.274/IST   INFO -  PriceAction - 5663# iota traded with the market maker for 0 of Final_4_Teams:South Africa changing the price from 0.03 to 0.0309
+03/29 10:21:56.275/IST   INFO -  PriceAction - 5664# iota traded with the market maker for 0 of Final_4_Teams:India changing the price from 0.01 to 0.0103
+03/29 10:21:56.275/IST   INFO -  PriceAction - 5665# iota traded with the market maker for -41.213 of Final_4_Teams:New Zealand changing the price from 2.94 to 0.01
+03/29 10:21:56.340/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:21:56.340/IST   INFO -  PriceChange - prices in market 'Final_4_Teams' changed.  Final_4_Teams:Austrailia: 100, Final_4_Teams:South Africa: 0, Final_4_Teams:India: 0, Final_4_Teams:New Zealand: 0
+03/29 10:21:56.404/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:21:56.404/IST   WARN -    UserError - 5666# told iota "Sold 41.213".
+03/29 10:21:57.618/IST  DEBUG -      Trading - iota wants to liquidate New Zealand
+03/29 10:21:57.690/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:21:57.691/IST   WARN -    UserError - 5707# told iota "Sold 0.000".
+03/29 10:22:01.447/IST  DEBUG -      Trading - iota wants to liquidate India
+03/29 10:22:01.518/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:22:01.519/IST   WARN -    UserError - 5752# told iota "Sold 0.000".
+03/29 10:22:03.574/IST  DEBUG -      Trading - iota wants to liquidate New Zealand
+03/29 10:22:03.644/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 10:22:03.645/IST   WARN -    UserError - 5797# told iota "Sold 0.000".
+03/29 10:22:18.116/IST  DEBUG -      Trading - vishal wants to buy New Zealand @ true.
+03/29 10:22:18.123/IST   INFO -  PriceAction - 5910# vishal traded with the market maker for 127.026 of The Final:New Zealand changing the price from 0.01 to 40
+03/29 10:22:18.123/IST   INFO -  PriceAction - 5911# vishal traded with the market maker for 0 of The Final:Austrailia changing the price from 99.99 to 60
+03/29 10:22:18.181/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:22:18.181/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 40, The Final:Austrailia: 60
+03/29 10:22:18.182/IST   WARN -    UserError - 5912# told vishal "Bought 127.026 shares of the team.".
+03/29 10:22:18.247/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:22:19.765/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 10:22:25.906/IST  DEBUG -      Trading - vishal wants to buy Austrailia @ true.
+03/29 10:22:25.914/IST   INFO -  PriceAction - 7573# vishal traded with the market maker for 60.444 of The Final:Austrailia changing the price from 60 to 99
+03/29 10:22:25.914/IST   INFO -  PriceAction - 7574# vishal traded with the market maker for 0 of The Final:New Zealand changing the price from 40 to 1
+03/29 10:22:25.971/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:22:25.971/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 99, The Final:New Zealand: 1
+03/29 10:22:25.972/IST   WARN -    UserError - 7575# told vishal "Bought 60.444 shares of the team.".
+03/29 10:22:26.036/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:22:27.499/IST  DEBUG -      Trading - iota wants to liquidate India
+03/29 10:22:27.510/IST   INFO -  PriceAction - 7582# iota traded with the market maker for 0 of Final_8_teams:Bangladesh at 0.0144
+03/29 10:22:27.511/IST   INFO -  PriceAction - 7583# iota traded with the market maker for 0 of Final_8_teams:Sri Lanka changing the price from 1 to 1
+03/29 10:22:27.511/IST   INFO -  PriceAction - 7584# iota traded with the market maker for 0 of Final_8_teams:Pakistan at 0.0144
+03/29 10:22:27.512/IST   INFO -  PriceAction - 7585# iota traded with the market maker for -3.334 of Final_8_teams:India changing the price from 0.02 to 0.01
+03/29 10:22:27.512/IST   INFO -  PriceAction - 7586# iota traded with the market maker for 0 of Final_8_teams:West Indies at 0.0144
+03/29 10:22:27.513/IST   INFO -  PriceAction - 7587# iota traded with the market maker for 0 of Final_8_teams:New Zealand at 0.0144
+03/29 10:22:27.513/IST   INFO -  PriceAction - 7588# iota traded with the market maker for 0 of Final_8_teams:Austrailia changing the price from 97.04 to 97.05
+03/29 10:22:27.514/IST   INFO -  PriceAction - 7589# iota traded with the market maker for 0 of Final_8_teams:South Africa at 0.0144
+03/29 10:22:27.602/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 10:22:27.603/IST   INFO -  PriceChange - prices in market 'Final_8_teams' changed.  Final_8_teams:Bangladesh: 0, Final_8_teams:Sri Lanka: 1, Final_8_teams:Pakistan: 0, Final_8_teams:India: 0, Final_8_teams:West Indies: 0, Final_8_teams:New Zealand: 2, Final_8_teams:Austrailia: 97, Final_8_teams:South Africa: 0
+03/29 10:22:27.683/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 10:22:27.683/IST   WARN -    UserError - 7590# told iota "Sold 3.334".
+03/29 10:22:39.594/IST  DEBUG -      Trading - iota wants to liquidate New Zealand
+03/29 10:22:39.604/IST   INFO -  PriceAction - 7951# iota traded with the market maker for 0 of Final_8_teams:Bangladesh changing the price from 0.02 to 0.0204
+03/29 10:22:39.605/IST   INFO -  PriceAction - 7952# iota traded with the market maker for -25.22 of Final_8_teams:New Zealand changing the price from 1.86 to 0.01
+03/29 10:22:39.605/IST   INFO -  PriceAction - 7953# iota traded with the market maker for 0 of Final_8_teams:South Africa changing the price from 0.02 to 0.0204
+03/29 10:22:39.606/IST   INFO -  PriceAction - 7954# iota traded with the market maker for 0 of Final_8_teams:India changing the price from 0.01 to 0.0102
+03/29 10:22:39.606/IST   INFO -  PriceAction - 7955# iota traded with the market maker for 0 of Final_8_teams:West Indies changing the price from 0.02 to 0.0204
+03/29 10:22:39.606/IST   INFO -  PriceAction - 7956# iota traded with the market maker for 0 of Final_8_teams:Sri Lanka changing the price from 1 to 1.019
+03/29 10:22:39.607/IST   INFO -  PriceAction - 7957# iota traded with the market maker for 0 of Final_8_teams:Pakistan changing the price from 0.02 to 0.0204
+03/29 10:22:39.608/IST   INFO -  PriceAction - 7958# iota traded with the market maker for 0 of Final_8_teams:Austrailia changing the price from 97.05 to 98.88
+03/29 10:22:39.693/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 10:22:39.694/IST   INFO -  PriceChange - prices in market 'Final_8_teams' changed.  Final_8_teams:Bangladesh: 0, Final_8_teams:New Zealand: 0, Final_8_teams:South Africa: 0, Final_8_teams:India: 0, Final_8_teams:West Indies: 0, Final_8_teams:Sri Lanka: 1, Final_8_teams:Pakistan: 0, Final_8_teams:Austrailia: 99
+03/29 10:22:39.768/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 10:22:39.769/IST   WARN -    UserError - 7959# told iota "Sold 25.220".
+03/29 10:22:39.935/IST  DEBUG -      Trading - vishal wants to liquidate New Zealand
+03/29 10:22:39.943/IST   INFO -  PriceAction - 8328# vishal traded with the market maker for -66.582 of The Final:New Zealand changing the price from 1 to 0.01
+03/29 10:22:39.944/IST   INFO -  PriceAction - 8329# vishal traded with the market maker for 0 of The Final:Austrailia changing the price from 99 to 99.99
+03/29 10:22:39.998/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:22:39.998/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 0, The Final:Austrailia: 100
+03/29 10:22:40.052/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 10:22:40.052/IST   WARN -    UserError - 8330# told vishal "Sold 66.582".
+03/29 10:23:03.392/IST   WARN -    UserError - 8339# told User(logging in) "Please type an account name and password".
+03/29 10:45:32.232/IST   WARN -    UserError - 8340# told User(logging in) "Please type an account name and password".
+03/29 11:06:29.977/IST  DEBUG -      Trading - iota wants to buy New Zealand @ true.
+03/29 11:06:29.986/IST   INFO -  PriceAction - 8361# iota traded with the market maker for 0 of The Final:Austrailia changing the price from 99.99 to 1
+03/29 11:06:29.987/IST   INFO -  PriceAction - 8362# iota traded with the market maker for 199.17 of The Final:New Zealand changing the price from 0.01 to 99
+03/29 11:06:30.048/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:06:30.049/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 1, The Final:New Zealand: 99
+03/29 11:06:30.049/IST   WARN -    UserError - 8431# told iota "Bought 199.17 shares of the team.".
+03/29 11:06:30.114/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:07:38.744/IST   WARN -    UserError - 8452# told User(logging in) "Please type an account name and password".
+03/29 11:08:09.537/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:08:13.048/IST   WARN -    UserError - 8589# told User(logging in) "Please type an account name and password".
+03/29 11:08:23.584/IST  DEBUG -      Trading - vishal wants to buy Austrailia @ true.
+03/29 11:08:23.592/IST   INFO -  PriceAction - 8590# vishal traded with the market maker for 0 of The Final:New Zealand changing the price from 99 to 98.54
+03/29 11:08:23.593/IST   INFO -  PriceAction - 8591# vishal traded with the market maker for 5.557 of The Final:Austrailia changing the price from 1 to 1.46
+03/29 11:08:23.647/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:08:23.648/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 99, The Final:Austrailia: 1
+03/29 11:08:23.650/IST   INFO -  PriceAction - 8592# vishal traded with the market maker for 0 of The Final:New Zealand changing the price from 98.54 to 1
+03/29 11:08:23.650/IST   INFO -  PriceAction - 8593# vishal traded with the market maker for 127.061 of The Final:Austrailia changing the price from 1.46 to 99
+03/29 11:08:23.704/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:08:23.705/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 1, The Final:Austrailia: 99
+03/29 11:08:23.705/IST   WARN -    UserError - 8594# told vishal "Bought 132.618 shares of the team.".
+03/29 11:08:23.775/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:40:39.870/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:40:50.586/IST  DEBUG -      Trading - iota wants to buy New Zealand @ true.
+03/29 11:40:50.596/IST   INFO -  PriceAction - 8829# iota traded with the market maker for 0 of The Final:Austrailia changing the price from 99 to 1
+03/29 11:40:50.596/IST   INFO -  PriceAction - 8830# iota traded with the market maker for 132.588 of The Final:New Zealand changing the price from 1 to 99
+03/29 11:40:50.651/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:40:50.651/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 1, The Final:New Zealand: 99
+03/29 11:40:50.652/IST   WARN -    UserError - 8831# told iota "Bought 132.588 shares of the team.".
+03/29 11:40:50.716/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:41:08.935/IST  DEBUG -      Trading - iota wants to buy New Zealand @ true.
+03/29 11:41:08.944/IST   INFO -  PriceAction - 8898# iota traded with the market maker for 0 of Final_4_Teams:South Africa changing the price from 0.03 to 0.01
+03/29 11:41:08.944/IST   INFO -  PriceAction - 8899# iota traded with the market maker for 0 of Final_4_Teams:Austrailia changing the price from 99.95 to 0.9996
+03/29 11:41:08.945/IST   INFO -  PriceAction - 8900# iota traded with the market maker for 99.585 of Final_4_Teams:New Zealand changing the price from 0.01 to 98.98
+03/29 11:41:08.945/IST   INFO -  PriceAction - 8901# iota traded with the market maker for 0 of Final_4_Teams:India at 33.3571
+03/29 11:41:09.026/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 11:41:09.026/IST   INFO -  PriceChange - prices in market 'Final_4_Teams' changed.  Final_4_Teams:South Africa: 0, Final_4_Teams:Austrailia: 1, Final_4_Teams:New Zealand: 99, Final_4_Teams:India: 0
+03/29 11:41:09.027/IST   WARN -    UserError - 9018# told iota "Bought 99.585 shares of the team.".
+03/29 11:41:09.109/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 11:41:19.718/IST  DEBUG -      Trading - iota wants to liquidate India
+03/29 11:41:19.794/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 11:41:19.794/IST   WARN -    UserError - 9063# told iota "Sold 0.000".
+03/29 11:41:50.153/IST  DEBUG -      Trading - iota wants to buy New Zealand @ true.
+03/29 11:41:50.162/IST   INFO -  PriceAction - 9488# iota traded with the market maker for 0 of Final_8_teams:West Indies changing the price from 0.02 to 0.01
+03/29 11:41:50.162/IST   INFO -  PriceAction - 9489# iota traded with the market maker for 0 of Final_8_teams:Bangladesh changing the price from 0.02 to 0.01
+03/29 11:41:50.163/IST   INFO -  PriceAction - 9490# iota traded with the market maker for 0 of Final_8_teams:India at 33.3571
+03/29 11:41:50.163/IST   INFO -  PriceAction - 9491# iota traded with the market maker for 0 of Final_8_teams:Austrailia changing the price from 98.88 to 0.9889
+03/29 11:41:50.163/IST   INFO -  PriceAction - 9492# iota traded with the market maker for 66.39 of Final_8_teams:New Zealand changing the price from 0.01 to 98.951
+03/29 11:41:50.164/IST   INFO -  PriceAction - 9493# iota traded with the market maker for 0 of Final_8_teams:Sri Lanka changing the price from 1.02 to 0.0102
+03/29 11:41:50.164/IST   INFO -  PriceAction - 9494# iota traded with the market maker for 0 of Final_8_teams:Pakistan changing the price from 0.02 to 0.01
+03/29 11:41:50.165/IST   INFO -  PriceAction - 9495# iota traded with the market maker for 0 of Final_8_teams:South Africa changing the price from 0.02 to 0.01
+03/29 11:41:50.299/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 11:41:50.299/IST   INFO -  PriceChange - prices in market 'Final_8_teams' changed.  Final_8_teams:West Indies: 0, Final_8_teams:Bangladesh: 0, Final_8_teams:India: 0, Final_8_teams:Austrailia: 1, Final_8_teams:New Zealand: 99, Final_8_teams:Sri Lanka: 0, Final_8_teams:Pakistan: 0, Final_8_teams:South Africa: 0
+03/29 11:41:50.300/IST   WARN -    UserError - 10808# told iota "Bought 66.39 shares of the team.".
+03/29 11:41:50.411/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 11:42:28.133/IST  DEBUG -      Trading - iota wants to buy New Zealand @ true.
+03/29 11:42:28.142/IST   INFO -  PriceAction - 11185# iota traded with the market maker for 0 of Final_8_teams:South Africa at 98.9752
+03/29 11:42:28.142/IST   INFO -  PriceAction - 11186# iota traded with the market maker for 0.237 of Final_8_teams:New Zealand changing the price from 98.95 to 98.997
+03/29 11:42:28.142/IST   INFO -  PriceAction - 11187# iota traded with the market maker for 0 of Final_8_teams:Bangladesh at 98.9752
+03/29 11:42:28.143/IST   INFO -  PriceAction - 11188# iota traded with the market maker for 0 of Final_8_teams:West Indies at 98.9752
+03/29 11:42:28.143/IST   INFO -  PriceAction - 11189# iota traded with the market maker for 0 of Final_8_teams:Austrailia changing the price from 0.99 to 0.9429
+03/29 11:42:28.144/IST   INFO -  PriceAction - 11190# iota traded with the market maker for 0 of Final_8_teams:Pakistan at 98.9752
+03/29 11:42:28.144/IST   INFO -  PriceAction - 11191# iota traded with the market maker for 0 of Final_8_teams:Sri Lanka at 98.9752
+03/29 11:42:28.144/IST   INFO -  PriceAction - 11192# iota traded with the market maker for 0 of Final_8_teams:India at 98.9752
+03/29 11:42:28.218/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 11:42:28.218/IST   INFO -  PriceChange - prices in market 'Final_8_teams' changed.  Final_8_teams:South Africa: 0, Final_8_teams:New Zealand: 99, Final_8_teams:Bangladesh: 0, Final_8_teams:West Indies: 0, Final_8_teams:Austrailia: 1, Final_8_teams:Pakistan: 0, Final_8_teams:Sri Lanka: 0, Final_8_teams:India: 0
+03/29 11:42:28.219/IST   WARN -    UserError - 11193# told iota "Bought 0.237 shares of the team.".
+03/29 11:42:28.314/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 11:45:48.897/IST   WARN -    UserError - 11578# told User(logging in) "Please type an account name and password".
+03/29 11:46:00.648/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:46:09.694/IST  DEBUG -      Trading - vishal wants to buy Austrailia @ true.
+03/29 11:46:09.702/IST   INFO -  PriceAction - 11669# vishal traded with the market maker for 132.588 of The Final:Austrailia changing the price from 1 to 99
+03/29 11:46:09.702/IST   INFO -  PriceAction - 11670# vishal traded with the market maker for 0 of The Final:New Zealand changing the price from 99 to 1
+03/29 11:46:09.754/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:46:09.754/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:Austrailia: 99, The Final:New Zealand: 1
+03/29 11:46:09.755/IST   WARN -    UserError - 11671# told vishal "Bought 132.588 shares of the team.".
+03/29 11:46:09.816/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 11:47:06.492/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 12:02:12.760/IST   WARN -    UserError - 11702# told User(logging in) "Please type an account name and password".
+03/29 01:17:56.167/IST   WARN -    UserError - 11719# told User(logging in) "Please type an account name and password".
+03/29 01:19:05.295/IST   WARN -    UserError - 11720# told User(logging in) "Please type an account name and password".
+03/29 01:55:28.342/IST   WARN -    UserError - 11721# told User(logging in) "Please type an account name and password".
+03/29 02:26:49.313/IST   WARN -    UserError - 11730# told User(logging in) "Please type an account name and password".
+03/29 02:42:17.345/IST  DEBUG -      Trading - iota wants to liquidate New Zealand
+03/29 02:42:17.352/IST   INFO -  PriceAction - 11771# iota traded with the market maker for -66.582 of The Final:New Zealand changing the price from 1 to 0.01
+03/29 02:42:17.353/IST   INFO -  PriceAction - 11772# iota traded with the market maker for 0 of The Final:Austrailia changing the price from 99 to 99.99
+03/29 02:42:17.415/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 02:42:17.416/IST   INFO -  PriceChange - prices in market 'The Final' changed.  The Final:New Zealand: 0, The Final:Austrailia: 100
+03/29 02:42:17.471/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 02:42:17.472/IST   WARN -    UserError - 11851# told iota "Sold 66.582".
+03/29 02:42:26.553/IST  DEBUG -      Trading - iota wants to liquidate New Zealand
+03/29 02:42:26.614/IST   INFO -     NewChart - The chart for The Final has been updated.
+03/29 02:42:26.615/IST   WARN -    UserError - 11876# told iota "Sold 0.000".
+03/29 02:42:33.917/IST   WARN -    UserError - 11903# told User(logging in) "Please type an account name and password".
+03/29 02:43:03.791/IST   WARN -    UserError - 11904# told rohit "price must be greater than 0 and less than 100.".
+03/29 02:52:02.968/IST   WARN -    UserError - 11905# told User(logging in) "Please type an account name and password".
+03/29 02:52:33.054/IST  DEBUG -      Trading - harshil wants to buy Austrailia @ true.
+03/29 02:52:33.062/IST   INFO -  PriceAction - 11910# harshil traded with the market maker for 0 of Final_4_Teams:India at 50
+03/29 02:52:33.062/IST   INFO -  PriceAction - 11911# harshil traded with the market maker for 0 of Final_4_Teams:New Zealand changing the price from 98.98 to 0.9998
+03/29 02:52:33.063/IST   INFO -  PriceAction - 11912# harshil traded with the market maker for 0 of Final_4_Teams:South Africa at 50
+03/29 02:52:33.063/IST   INFO -  PriceAction - 11913# harshil traded with the market maker for 66.294 of Final_4_Teams:Austrailia changing the price from 1 to 98.98
+03/29 02:52:33.141/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 02:52:33.142/IST   INFO -  PriceChange - prices in market 'Final_4_Teams' changed.  Final_4_Teams:India: 0, Final_4_Teams:New Zealand: 1, Final_4_Teams:South Africa: 0, Final_4_Teams:Austrailia: 99
+03/29 02:52:33.142/IST   WARN -    UserError - 12034# told harshil "Bought 66.294 shares of the team.".
+03/29 02:52:33.221/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 02:52:44.273/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 02:53:01.653/IST  DEBUG -      Trading - harshil wants to buy Austrailia @ true.
+03/29 02:53:01.660/IST   INFO -  PriceAction - 13687# harshil traded with the market maker for 44.496 of Final_8_teams:Austrailia changing the price from 0.94 to 98.941
+03/29 02:53:01.661/IST   INFO -  PriceAction - 13688# harshil traded with the market maker for 0 of Final_8_teams:South Africa at 49.6689
+03/29 02:53:01.661/IST   INFO -  PriceAction - 13689# harshil traded with the market maker for 0 of Final_8_teams:Pakistan at 49.6689
+03/29 02:53:01.662/IST   INFO -  PriceAction - 13690# harshil traded with the market maker for 0 of Final_8_teams:India at 49.6689
+03/29 02:53:01.662/IST   INFO -  PriceAction - 13691# harshil traded with the market maker for 0 of Final_8_teams:Bangladesh at 49.6689
+03/29 02:53:01.662/IST   INFO -  PriceAction - 13692# harshil traded with the market maker for 0 of Final_8_teams:West Indies at 49.6689
+03/29 02:53:01.663/IST   INFO -  PriceAction - 13693# harshil traded with the market maker for 0 of Final_8_teams:Sri Lanka at 49.6689
+03/29 02:53:01.663/IST   INFO -  PriceAction - 13694# harshil traded with the market maker for 0 of Final_8_teams:New Zealand changing the price from 99 to 0.9994
+03/29 02:53:01.734/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 02:53:01.735/IST   INFO -  PriceChange - prices in market 'Final_8_teams' changed.  Final_8_teams:Austrailia: 99, Final_8_teams:South Africa: 0, Final_8_teams:Pakistan: 0, Final_8_teams:India: 0, Final_8_teams:Bangladesh: 0, Final_8_teams:West Indies: 0, Final_8_teams:Sri Lanka: 0, Final_8_teams:New Zealand: 1
+03/29 02:53:01.736/IST   WARN -    UserError - 13695# told harshil "Bought 44.496 shares of the team.".
+03/29 02:53:01.827/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 03:16:27.106/IST   WARN -    UserError - 14442# told User(logging in) "Please type an account name and password".
+03/29 03:23:06.068/IST   WARN -    UserError - 14459# told User(logging in) "Please type an account name and password".
+03/29 03:40:58.239/IST   WARN -    UserError - 14492# told User(logging in) "Please type an account name and password".
+03/29 03:41:12.395/IST   WARN -    UserError - 14519# told User(logging in) "Please type an account name and password".
+03/29 03:42:58.026/IST   INFO -  PriceAction - 14538# harry redeemed 72.143 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.029/IST   INFO -  PriceAction - 14539# abhijat92 redeemed 132.588 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.031/IST   INFO -  PriceAction - 14540# iota redeemed 0 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.031/IST   INFO -  PriceAction - 14541# iota redeemed 265.17 coupons  for The Final:New Zealand at 0
+03/29 03:42:58.033/IST   INFO -  PriceAction - 14542# vishal redeemed 259.644 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.034/IST   INFO -  PriceAction - 14543# vishal redeemed 0 coupons  for The Final:New Zealand at 0
+03/29 03:42:58.034/IST   INFO -  PriceAction - 14544# varun redeemed 54.07 coupons  for The Final:New Zealand at 0
+03/29 03:42:58.036/IST   INFO -  PriceAction - 14545# sandeep redeemed 186.657 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.037/IST   INFO -  PriceAction - 14546# arabinda redeemed 132.588 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.038/IST   INFO -  PriceAction - 14547# Cric_fan redeemed 331.186 coupons  for The Final:New Zealand at 0
+03/29 03:42:58.039/IST   INFO -  PriceAction - 14548# harshil redeemed 0 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.040/IST   INFO -  PriceAction - 14549# harshil redeemed 0 coupons  for The Final:New Zealand at 0
+03/29 03:42:58.041/IST   INFO -  PriceAction - 14550# Market Maker redeemed 133.195 coupons  for The Final:New Zealand at 0
+03/29 03:42:58.041/IST   INFO -  PriceAction - 14551# Market Maker redeemed 0 coupons  for The Final:Austrailia at 100
+03/29 03:42:58.041/IST   INFO -   CouponBank - 14552# Redeemed 783.6200 'Austrailia' Coupons for The Final
+03/29 03:42:58.042/IST   WARN -    UserError - 14553# told mauka "0.11 was refunded at Market close.".
+03/29 03:42:58.042/IST   WARN -    UserError - 14554# told mauka "Redeemed 1209.078 pairs.".
+03/29 03:43:47.012/IST   INFO -     NewChart - The chart for Final_4_Teams has been updated.
+03/29 03:44:24.513/IST   INFO -  PriceAction - 14689# nithin redeemed 0.001 coupons  for Final_4_Teams:South Africa at 0
+03/29 03:44:24.513/IST   INFO -  PriceAction - 14690# nithin redeemed 6.075 coupons  for Final_4_Teams:India at 0
+03/29 03:44:24.514/IST   INFO -  PriceAction - 14691# nithin redeemed 21.037 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.514/IST   INFO -  PriceAction - 14692# nithin redeemed 0 coupons  for Final_4_Teams:Austrailia at 100
+03/29 03:44:24.517/IST   INFO -  PriceAction - 14693# iota redeemed 130.451 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.518/IST   INFO -  PriceAction - 14694# iota redeemed 213.813 coupons  for Final_4_Teams:India at 0
+03/29 03:44:24.519/IST   INFO -  PriceAction - 14695# Manickam redeemed 94.512 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.520/IST   INFO -  PriceAction - 14696# ks.tanwar redeemed 36.084 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.522/IST   INFO -  PriceAction - 14697# sandeep redeemed 9.225 coupons  for Final_4_Teams:Austrailia at 100
+03/29 03:44:24.524/IST   INFO -  PriceAction - 14698# Cric_fan redeemed 0.001 coupons  for Final_4_Teams:India at 0
+03/29 03:44:24.524/IST   INFO -  PriceAction - 14699# Cric_fan redeemed 72.768 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.525/IST   INFO -  PriceAction - 14700# abhijat92 redeemed 66.441 coupons  for Final_4_Teams:Austrailia at 100
+03/29 03:44:24.527/IST   INFO -  PriceAction - 14701# santosh777 redeemed 72.55 coupons  for Final_4_Teams:Austrailia at 100
+03/29 03:44:24.527/IST   INFO -  PriceAction - 14702# santosh777 redeemed 31.882 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.529/IST   INFO -  PriceAction - 14703# DK redeemed 170.493 coupons  for Final_4_Teams:Austrailia at 100
+03/29 03:44:24.530/IST   INFO -  PriceAction - 14704# harshil redeemed 97.654 coupons  for Final_4_Teams:Austrailia at 100
+03/29 03:44:24.531/IST   INFO -  PriceAction - 14705# harry redeemed 17.153 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.531/IST   INFO -  PriceAction - 14706# harry redeemed 17.153 coupons  for Final_4_Teams:South Africa at 0
+03/29 03:44:24.532/IST   INFO -  PriceAction - 14707# harry redeemed 17.153 coupons  for Final_4_Teams:India at 0
+03/29 03:44:24.533/IST   INFO -  PriceAction - 14708# Market Maker redeemed 399.21 coupons  for Final_4_Teams:South Africa at 0
+03/29 03:44:24.533/IST   INFO -  PriceAction - 14709# Market Maker redeemed 0 coupons  for Final_4_Teams:Austrailia at 100
+03/29 03:44:24.533/IST   INFO -  PriceAction - 14710# Market Maker redeemed 179.322 coupons  for Final_4_Teams:India at 0
+03/29 03:44:24.533/IST   INFO -  PriceAction - 14711# Market Maker redeemed 12.476 coupons  for Final_4_Teams:New Zealand at 0
+03/29 03:44:24.534/IST   INFO -   CouponBank - 14712# Redeemed 416.3632 'Austrailia' Coupons for Final_4_Teams
+03/29 03:44:24.535/IST   WARN -    UserError - 14713# told mauka "54.72 was refunded at Market close.".
+03/29 03:44:24.535/IST   WARN -    UserError - 14714# told mauka "Redeemed 461.804 pairs.".
+03/29 03:44:53.290/IST   INFO -     NewChart - The chart for Final_8_teams has been updated.
+03/29 03:45:01.333/IST   INFO -  PriceAction - 16063# therock redeemed 30.74 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.336/IST   INFO -  PriceAction - 16064# DK redeemed 164.313 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.338/IST   INFO -  PriceAction - 16065# test2 redeemed 14.431 coupons  for Final_8_teams:West Indies at 0
+03/29 03:45:01.339/IST   INFO -  PriceAction - 16066# test2 redeemed 0 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.339/IST   INFO -  PriceAction - 16067# test2 redeemed 31.197 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.340/IST   INFO -  PriceAction - 16068# test2 redeemed 14.431 coupons  for Final_8_teams:Pakistan at 0
+03/29 03:45:01.340/IST   INFO -  PriceAction - 16069# test2 redeemed 14.431 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.340/IST   INFO -  PriceAction - 16070# test2 redeemed 14.431 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.340/IST   INFO -  PriceAction - 16071# test2 redeemed 14.431 coupons  for Final_8_teams:Bangladesh at 0
+03/29 03:45:01.343/IST   INFO -  PriceAction - 16072# iota redeemed 231.462 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.343/IST   INFO -  PriceAction - 16073# iota redeemed 107.797 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.343/IST   INFO -  PriceAction - 16074# iota redeemed 0 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.344/IST   INFO -  PriceAction - 16075# iota redeemed 56.275 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.344/IST   INFO -  PriceAction - 16076# iota redeemed 0 coupons  for Final_8_teams:Bangladesh at 0
+03/29 03:45:01.344/IST   INFO -  PriceAction - 16077# iota redeemed 0.001 coupons  for Final_8_teams:Pakistan at 0
+03/29 03:45:01.345/IST   INFO -  PriceAction - 16078# chitrash0501 redeemed 4.902 coupons  for Final_8_teams:West Indies at 0
+03/29 03:45:01.345/IST   INFO -  PriceAction - 16079# chitrash0501 redeemed 4.902 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.346/IST   INFO -  PriceAction - 16080# chitrash0501 redeemed 4.902 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.346/IST   INFO -  PriceAction - 16081# chitrash0501 redeemed 4.902 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.346/IST   INFO -  PriceAction - 16082# chitrash0501 redeemed 4.902 coupons  for Final_8_teams:Bangladesh at 0
+03/29 03:45:01.347/IST   INFO -  PriceAction - 16083# chitrash0501 redeemed 4.902 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.347/IST   INFO -  PriceAction - 16084# chitrash0501 redeemed 4.902 coupons  for Final_8_teams:Pakistan at 0
+03/29 03:45:01.348/IST   INFO -  PriceAction - 16085# myth redeemed 0.005 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.349/IST   INFO -  PriceAction - 16086# myth redeemed 0 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.349/IST   INFO -  PriceAction - 16087# myth redeemed 0.001 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.350/IST   INFO -  PriceAction - 16088# test redeemed 18.272 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.351/IST   INFO -  PriceAction - 16089# arabinda redeemed 44.928 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.351/IST   INFO -  PriceAction - 16090# arabinda redeemed 75.83 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.352/IST   INFO -  PriceAction - 16091# nithin redeemed 10.727 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.353/IST   INFO -  PriceAction - 16092# abhijat92 redeemed 50.959 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.354/IST   INFO -  PriceAction - 16093# abhijat92 redeemed 34.198 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.354/IST   INFO -  PriceAction - 16094# Aakash123 redeemed 4.223 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.355/IST   INFO -  PriceAction - 16095# Aakash123 redeemed 3.572 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.356/IST   INFO -  PriceAction - 16096# ala redeemed 66.395 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.356/IST   INFO -  PriceAction - 16097# mohitbatra redeemed 3.308 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.358/IST   INFO -  PriceAction - 16098# harry redeemed 18.862 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.358/IST   INFO -  PriceAction - 16099# harry redeemed 0 coupons  for Final_8_teams:West Indies at 0
+03/29 03:45:01.358/IST   INFO -  PriceAction - 16100# harry redeemed 21.951 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.358/IST   INFO -  PriceAction - 16101# harry redeemed 0 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.358/IST   INFO -  PriceAction - 16102# harry redeemed 0 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.359/IST   INFO -  PriceAction - 16103# harry redeemed 0 coupons  for Final_8_teams:Bangladesh at 0
+03/29 03:45:01.359/IST   INFO -  PriceAction - 16104# harry redeemed 0 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.359/IST   INFO -  PriceAction - 16105# harry redeemed 0 coupons  for Final_8_teams:Pakistan at 0
+03/29 03:45:01.360/IST   INFO -  PriceAction - 16106# amitvishw redeemed 3.981 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.361/IST   INFO -  PriceAction - 16107# vermapar07 redeemed 6.424 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.361/IST   INFO -  PriceAction - 16108# sandeep redeemed 18.86 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.362/IST   INFO -  PriceAction - 16109# vishal redeemed 0 coupons  for Final_8_teams:Pakistan at 0
+03/29 03:45:01.363/IST   INFO -  PriceAction - 16110# vishal redeemed 5.2 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.363/IST   INFO -  PriceAction - 16111# vishal redeemed 5.2 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.363/IST   INFO -  PriceAction - 16112# vishal redeemed 5.2 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.364/IST   INFO -  PriceAction - 16113# vishal redeemed 5.104 coupons  for Final_8_teams:West Indies at 0
+03/29 03:45:01.364/IST   INFO -  PriceAction - 16114# vishal redeemed 5.2 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.364/IST   INFO -  PriceAction - 16115# vishal redeemed 34.852 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.364/IST   INFO -  PriceAction - 16116# vishal redeemed 0.143 coupons  for Final_8_teams:Bangladesh at 0
+03/29 03:45:01.365/IST   INFO -  PriceAction - 16117# saravanan redeemed 24.392 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.366/IST   INFO -  PriceAction - 16118# harshil redeemed 284.896 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.366/IST   INFO -  PriceAction - 16119# harshil redeemed 0.001 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.367/IST   INFO -  PriceAction - 16120# harshil redeemed 270.884 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.367/IST   INFO -  PriceAction - 16121# harshil redeemed 142.931 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.368/IST   INFO -  PriceAction - 16122# jawad redeemed 0.001 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.368/IST   INFO -  PriceAction - 16123# varun redeemed 2.776 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.369/IST   INFO -  PriceAction - 16124# pundir redeemed 44.445 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.370/IST   INFO -  PriceAction - 16125# Cric_fan redeemed 0.001 coupons  for Final_8_teams:Bangladesh at 0
+03/29 03:45:01.370/IST   INFO -  PriceAction - 16126# Cric_fan redeemed 0.001 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.371/IST   INFO -  PriceAction - 16127# Cric_fan redeemed 0.004 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.371/IST   INFO -  PriceAction - 16128# Cric_fan redeemed 0.001 coupons  for Final_8_teams:West Indies at 0
+03/29 03:45:01.371/IST   INFO -  PriceAction - 16129# Cric_fan redeemed 0 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.371/IST   INFO -  PriceAction - 16130# Cric_fan redeemed 0.001 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.372/IST   INFO -  PriceAction - 16131# Cric_fan redeemed 0.001 coupons  for Final_8_teams:Pakistan at 0
+03/29 03:45:01.373/IST   INFO -  PriceAction - 16132# Market Maker redeemed 249.961 coupons  for Final_8_teams:South Africa at 0
+03/29 03:45:01.373/IST   INFO -  PriceAction - 16133# Market Maker redeemed 228.012 coupons  for Final_8_teams:India at 0
+03/29 03:45:01.373/IST   INFO -  PriceAction - 16134# Market Maker redeemed 609.469 coupons  for Final_8_teams:West Indies at 0
+03/29 03:45:01.373/IST   INFO -  PriceAction - 16135# Market Maker redeemed 614.572 coupons  for Final_8_teams:Pakistan at 0
+03/29 03:45:01.373/IST   INFO -  PriceAction - 16136# Market Maker redeemed 228.399 coupons  for Final_8_teams:New Zealand at 0
+03/29 03:45:01.374/IST   INFO -  PriceAction - 16137# Market Maker redeemed 0 coupons  for Final_8_teams:Austrailia at 100
+03/29 03:45:01.374/IST   INFO -  PriceAction - 16138# Market Maker redeemed 614.43 coupons  for Final_8_teams:Bangladesh at 0
+03/29 03:45:01.374/IST   INFO -  PriceAction - 16139# Market Maker redeemed 584.429 coupons  for Final_8_teams:Sri Lanka at 0
+03/29 03:45:01.374/IST   INFO -   CouponBank - 16140# Redeemed 633.9079 'Austrailia' Coupons for Final_8_teams
+03/29 03:45:01.375/IST   WARN -    UserError - 16141# told mauka "132.22 was refunded at Market close.".
+03/29 03:45:01.375/IST   WARN -    UserError - 16142# told mauka "Redeemed 909.333 pairs.".
+03/29 03:49:28.639/IST   WARN -    UserError - 16151# told User(logging in) "Please type an account name and password".
+03/29 03:57:58.651/IST   WARN -    UserError - 17394# told User(logging in) "Please type an account name and password".
+03/29 03:58:49.076/IST   WARN -    UserError - 17809# told User(logging in) "Please type an account name and password".
+03/29 04:01:49.786/IST   WARN -    UserError - 17810# told User(logging in) "Please type an account name and password".
+03/29 04:05:09.701/IST   WARN -    UserError - 19189# told iota "market is closed.".
+03/29 04:05:22.349/IST   WARN -    UserError - 19218# told iota "market is closed.".
+03/29 04:26:54.779/IST   WARN -    UserError - 19617# told mauka "market is closed.".
+03/29 05:17:29.973/IST   WARN -    UserError - 20170# told User(logging in) "Please type an account name and password".
+03/29 05:19:17.926/IST   WARN -    UserError - 20585# told harshil "market is closed.".
+03/29 05:19:19.403/IST   WARN -    UserError - 20918# told harshil "market is closed.".
+03/29 06:37:38.973/IST   WARN -    UserError - 20928# told User(logging in) "Please type an account name and password".
+03/29 06:41:15.820/IST   WARN -    UserError - 20929# told User(logging in) "Please type an account name and password".
+03/29 06:43:26.406/IST   WARN -    UserError - 21050# told DK "market is closed.".
+03/29 07:02:48.880/IST   WARN -    UserError - 21051# told User(logging in) "Please type an account name and password".
+03/29 07:02:59.974/IST   WARN -    UserError - 21052# told User(logging in) "Please type an account name and password".
+03/29 07:16:30.448/IST   WARN -    UserError - 21053# told User(logging in) "Please type an account name and password".
+03/29 10:01:26.537/IST   WARN -    UserError - 21054# told User(logging in) "Please type an account name and password".
+03/29 11:34:06.446/IST   WARN -    UserError - 21055# told iota "market is closed.".
+03/29 11:35:49.281/IST   WARN -    UserError - 21084# told User(logging in) "Please type an account name and password".
+03/29 11:48:24.850/IST   WARN -    UserError - 21085# told User(logging in) "Please type an account name and password".
+03/29 11:49:04.723/IST   WARN -    UserError - 21086# told DK "market is closed.".
+03/30 10:10:38.963/IST  ERROR - JDBCExceptionReporter - The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+03/30 10:10:38.963/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:73)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:10:38.964/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:10:38.995/IST   WARN -    UserError - 21096# told User(logging in) "Please type an account name and password".
+03/30 10:10:38.996/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:10:38.997/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:10:38.997/IST   WARN -    UserError - 21097# told User(logging in) "Problems processing request; please try again.".
+03/30 10:10:50.512/IST   WARN -    UserError - 21098# told User(logging in) "Please type an account name and password".
+03/30 10:10:50.512/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:10:50.514/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:10:50.514/IST   WARN -    UserError - 21099# told User(logging in) "Problems processing request; please try again.".
+03/30 10:11:01.577/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:11:01.577/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:11:24.458/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:11:24.458/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:11:33.119/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:11:33.120/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:33:29.556/IST   WARN -    UserError - 21100# told User(logging in) "Please type an account name and password".
+03/30 10:33:29.557/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:33:29.558/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:33:29.558/IST   WARN -    UserError - 21101# told User(logging in) "Problems processing request; please try again.".
+03/30 10:33:30.606/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.createAccount_jsp._jspService(createAccount_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:33:30.607/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:33:30.607/IST   WARN -    UserError - 21102# told User(logging in) "Problems processing request; please try again.".
+03/30 10:33:40.116/IST   WARN -    UserError - 21103# told User(logging in) "Please type an account name and password".
+03/30 10:33:40.116/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:33:40.117/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:33:40.117/IST   WARN -    UserError - 21104# told User(logging in) "Problems processing request; please try again.".
+03/30 10:33:44.008/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:33:44.008/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:56:51.173/IST   WARN -    UserError - 21105# told User(logging in) "Please type an account name and password".
+03/30 10:56:51.173/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:56:51.175/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:56:51.175/IST   WARN -    UserError - 21106# told User(logging in) "Problems processing request; please try again.".
+03/30 10:56:54.200/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:56:54.200/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:57:01.200/IST   WARN -    UserError - 21107# told User(logging in) "Please type an account name and password".
+03/30 10:57:01.200/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 36,807,311 milliseconds ago.  The last packet sent successfully to the server was 36,807,311 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:111)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1322)
+	at org.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:300)
+	at net.commerce.zocalo.hibernate.HibernateUtil.marketsExist(HibernateUtil.java:251)
+	at net.commerce.zocalo.JspSupport.MarketDisplay.marketsExist(MarketDisplay.java:294)
+	at org.apache.jsp.Market_jsp._jspService(Market_jsp.java:65)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 36 more
+03/30 10:57:01.201/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/30 10:57:01.202/IST   WARN -    UserError - 21108# told User(logging in) "Problems processing request; please try again.".
+03/30 10:57:02.699/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:57:02.699/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:57:13.923/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 10:57:13.923/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/30 01:26:03.756/IST   WARN -    UserError - 21109# told User(logging in) "Please type an account name and password".
+03/30 04:51:33.028/IST   WARN -    UserError - 21110# told User(logging in) "Please type an account name and password".
+03/30 11:55:09.386/IST   WARN -    UserError - 21111# told User(logging in) "Please type an account name and password".
+03/31 12:33:10.287/IST   WARN -    UserError - 21112# told User(logging in) "Please type an account name and password".
+03/31 05:27:26.430/IST  ERROR - JDBCExceptionReporter - The last packet successfully received from the server was 60,819,381 milliseconds ago.  The last packet sent successfully to the server was 60,819,381 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+03/31 05:27:32.799/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/31 05:27:32.799/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/31 07:44:16.324/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.account_jsp._jspService(account_jsp.java:63)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 60,819,381 milliseconds ago.  The last packet sent successfully to the server was 60,819,381 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:395)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:271)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:844)
+	at org.hibernate.impl.QueryImpl.list(QueryImpl.java:74)
+	at org.hibernate.impl.AbstractQueryImpl.uniqueResult(AbstractQueryImpl.java:603)
+	at net.commerce.zocalo.hibernate.HibernateUtil.getMarketByName(HibernateUtil.java:325)
+	at net.commerce.zocalo.JspSupport.ClaimPurchase.getMarket(ClaimPurchase.java:831)
+	at net.commerce.zocalo.JspSupport.ClaimPurchase.processRequest(ClaimPurchase.java:72)
+	at org.apache.jsp.purchaseCost_jsp._jspService(purchaseCost_jsp.java:58)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 39 more
+03/31 07:44:16.326/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/31 07:44:16.449/IST   WARN -    UserError - 21139# told User(logging in) "Please type an account name and password".
+03/31 07:44:16.449/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 60,819,381 milliseconds ago.  The last packet sent successfully to the server was 60,819,381 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2293)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:120)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1272)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:391)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:218)
+	at org.hibernate.loader.Loader.doList(Loader.java:1593)
+	at org.hibernate.loader.Loader.list(Loader.java:1577)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:395)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:271)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:844)
+	at org.hibernate.impl.QueryImpl.list(QueryImpl.java:74)
+	at org.hibernate.impl.AbstractQueryImpl.uniqueResult(AbstractQueryImpl.java:603)
+	at net.commerce.zocalo.hibernate.HibernateUtil.getMarketByName(HibernateUtil.java:325)
+	at net.commerce.zocalo.JspSupport.ClaimPurchase.getMarket(ClaimPurchase.java:831)
+	at net.commerce.zocalo.JspSupport.ClaimPurchase.processRequest(ClaimPurchase.java:72)
+	at org.apache.jsp.purchaseCost_jsp._jspService(purchaseCost_jsp.java:58)
+	... 19 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 39 more
+03/31 07:44:16.451/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+03/31 07:44:16.451/IST   WARN -    UserError - 21140# told User(logging in) "Problems processing request; please try again.".
+03/31 07:44:19.469/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/31 07:44:19.469/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+03/31 09:33:54.137/IST   WARN -    UserError - 21141# told User(logging in) "Please type an account name and password".
+04/01 02:33:13.222/IST   WARN -    UserError - 21142# told User(logging in) "Please type an account name and password".
+04/01 04:37:52.980/IST   WARN -    UserError - 21143# told User(logging in) "Please type an account name and password".
+04/01 04:37:52.980/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Communications link failure during commit(). Transaction resolution unknown.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1663)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+04/01 04:37:52.981/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+04/01 04:37:52.981/IST   WARN -    UserError - 21144# told User(logging in) "Problems processing request; please try again.".
+04/01 05:54:10.344/IST   WARN -    UserError - 21145# told User(logging in) "Please type an account name and password".
+04/01 05:54:10.345/IST  ERROR - JDBCTransaction - JDBC commit failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1205)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1197)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1624)
+	at org.hibernate.transaction.JDBCTransaction.commitAndResetAutoCommit(JDBCTransaction.java:119)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:95)
+	at net.commerce.zocalo.JspSupport.ReloadablePage.commitTransaction(ReloadablePage.java:108)
+	at org.apache.jsp.Welcome_jsp._jspService(Welcome_jsp.java:61)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at net.commerce.zocalo.service.ServletUtil$1.handle(ServletUtil.java:128)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:513)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 50,679,758 milliseconds ago.  The last packet sent successfully to the server was 50,679,758 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3364)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1983)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2618)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1654)
+	... 23 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3345)
+	... 27 more
+04/01 05:54:10.346/IST  ERROR - HibernateUtil - org.hibernate.TransactionException: JDBC commit failed
+04/01 05:54:10.346/IST   WARN -    UserError - 21146# told User(logging in) "Problems processing request; please try again.".
+04/01 05:54:18.267/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+04/01 05:54:18.267/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+04/01 05:54:22.097/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+04/01 05:54:22.097/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+04/01 05:54:25.681/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.
+04/01 05:54:25.681/IST  ERROR - JDBCExceptionReporter - No operations allowed after connection closed.

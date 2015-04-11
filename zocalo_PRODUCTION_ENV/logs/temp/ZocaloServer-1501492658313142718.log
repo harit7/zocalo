@@ -1,0 +1,14 @@
+04/06 02:48:39.037/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/06 02:48:39.040/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/06 02:48:39.096/IST   INFO -        trace -    creating AllMarkets
+04/06 02:48:40.856/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/06 02:48:40.856/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/06 02:48:56.801/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/06 02:49:17.057/IST   WARN -    UserError - 36# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 02:51:30.117/IST   WARN -    UserError - 37# told User(logging in) "Congratulations rohithdv! You're now done. Now Jump in!".
+04/06 02:51:30.124/IST   WARN -    UserError - 38# told User(logging in) "Please type an account name and password".
+04/06 02:53:12.177/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+04/06 02:54:09.843/IST   WARN -    UserError - 40# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+04/06 02:55:18.089/IST   WARN -    UserError - 41# told User(logging in) "Congratulations laha1! You're now done. Now Jump in!".
+04/06 02:55:18.104/IST   WARN -    UserError - 42# told User(logging in) "Please type an account name and password".
+04/06 03:02:50.152/IST   WARN -    UserError - 43# told User(logging in) "Please type an account name and password".

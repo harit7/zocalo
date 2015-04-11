@@ -1,0 +1,270 @@
+Changes through April, 2011
+
+Bug Fix for the RPC server.  (It's been broken since I converted to Prices and
+Quantities)
+
+Changes through February, 2011
+
+Added description of the lending markets to the CONFIGURATION file. 
+
+Changes through January, 2011 (2011.1 Release)
+
+No changes in functionality.  This is purely a bug fix for a bug that
+has been observed in both Experiment and Prediction Market
+configurations.  The bug can't happen if the code compiles correctly,
+so the fix is a no-op to fool the Java runtime in case the code
+doesn't run correctly.
+
+Changes through November, 2010  (2010.1 Release)
+
+Experiments using lending can base loan values on historical costs
+Config flag allows suppression display of detailed accounting table
+When lender can't repay, give a warning before liquidation
+Refactor stripchart.js
+Improve reporting script
+Ensure defaulters continue to collect dividends while liquidation proceeds
+
+CHANGES THROUGH  December 31   (2009.3a Release)
+
+  repaired some bugs affecting display in the Experiment configuration
+
+CHANGES THROUGH  December 31   (2009.3 Release)
+
+This release features a complete replacement of all float- and
+double-based arithmetic  with BigDecimals.  There are no feature
+changes. 
+
+CHANGES THROUGH  December 28   (2009.2a Release)
+
+  PREDICTION MARKETS
+
+null check in market creation
+
+CHANGES THROUGH  December 9   (2009.2 Release)
+
+   EXPERIMENTS
+
+New configurations for mark-to-market experiments with lending, and
+insider manipulation (short selling with reserves) experiments. 
+Notify Judges when input (esp. slider) is disabled.
+Consistently enforce WholeShareTrading flag.
+Turn off autocompletion on text input fields.
+Allow subjects to be dormant for particular rounds.
+Scores can be multiplied by a constanct factor.
+
+   PREDICTION MARKETS
+
+Improvements to reactivity of all UIs: charts and prices update automatically when others make trades.
+(re-)Generate charts in a separate thread.  Generate only when needed.
+
+   DEVELOPMENT SUPPORT
+
+Document AJAX pathway.
+Follow JSLint recommendations more closely.
+
+CHANGES THROUGH  June 8   (2009.1 Release)
+
+Major code clean-up: separate modules to enable re-use of core libraries.
+
+   PREDICTION MARKETS
+
+Ensure there is a stable sort order for positions within a market
+Performance improvements: caching in DB, generate charts only if there's a change
+AJAX now available.  Currently only used to refresh history chart asynchronously.
+Provide a configuration flag to suppress access to history and accounts pages
+Maker trades now charted by closing price rather than average price.
+
+   EXPERIMENTS
+
+Revamp scoring calculation and display.
+Support a simple calculation for judge and manipulator score
+new scoring approaches for experiments:
+    judges scored from table of values.
+    Manipulators get diff btwn actual value and average trading value
+    disable (with a timer) judges entering scores
+Judge default estimate is 50.
+Support Unary trading, including short sales and reserves.
+Provide many more configurable labels used in reporting scores.
+Enable limited Judges' choices using sliders or pull-downs
+
+   Windows
+
+Start server in separate Command window to allow more control.
+
+CHANGES THROUGH October 2008 (2008.4 Release)
+
+   PREDICTION MARKETS 
+
+Added a tool that can be used on the server to list all trades in a market.
+Track time of last trade so we don't have to regenerate charts on every request.
+Closed markets remember and display their outcomes. 
+Stable sort order for positions in graphs.
+Add a "sell holdings" button for multi-outcome markets.
+
+   EXPERIMENTS
+
+Enable more control of strip chart scale display (added minor scale).
+Using AJAX now for remote update.  Excised mod_pubsub.
+Support limiting some traders to only buy or only sell.
+Add unique IDs to log; created at trade time so we can identify log re-order bugs.
+prototype a configuration editor 
+Support experiments with voting.
+
+    FIXED BUGS
+
+Quantity limit wasn't being enforced.
+SourceForge: (#1987559).  Book orders could trade more shares than requested
+Some transactions were interleaved.  Added a synchronize block at the top level.
+Shue (sourceforge) showed how to repair bug requiring double ant build
+
+CHANGES THROUGH MAY 2008 (2008.3 Release)
+
+The change to the database format for MarketMakers is not backwards compatible.  If you have a database with multi-outcome markets that are worth saving (considering that the MarketMaker code was broken), you should run the migrate2008-3.py script.
+
+Synchronize access to server to prevent race conditions in trading.
+Update svn version file when building a tar or zip file
+Extract session state to simplify development of new experiment protocols
+
+      EXPERIMENTS
+
+Provide access to processed logfiles from Exerimenter's page.
+Update logToColumns
+Identify logged events so asynchrony in log4j won't produce anachronistic log files
+Ensure session config info is logged.
+
+      PREDICTION MARKETS
+
+ Make redemptions work for multi-markets.
+ Subsidy/Beta wasn't stored in database, severely breaking MarketMakers
+ rewrote MarketMaker algorithm to trade coupons when available
+ clean up account creation and registration
+ report costs of purchasing from MM (rather than mean of high and low)
+ Tell user how much holdings cost to purchase
+
+            UI CHANGES
+  stable sort order for positions in input forms.
+  allow question marks in claim descriptions.
+  Show graph of two position multi-outcome market as one line.
+  Show market maker price
+  ensure price chart runs zero-100
+  Display prices as cents rather than dollars
+  display book orders when there's no marketMaker
+  add refresh button (in cost limit)
+  remember input details for selected row.
+  Trade history sorts most recent first.
+
+
+CHANGES THROUGH April 2008 (2008.2 Release)
+
+      PREDICTION MARKETS
+
+Added ability to configure so traders specify a cost limit on
+multi-outcome markets rather than a quantity limit.  When doing so,
+the UI for order entry changes.
+
+Fixed some reported problems concerning creation of new accounts.
+
+      EXPERIMENTS
+
+Support private dividends so each trader can be given distinct incentives.
+
+CHANGES THROUGH March 2008 (2008.1 Release)
+
+include log4j.properties files in both distributions to suppress extraneous  warnings
+drop .../webpages/ from urls
+
+      PREDICTION MARKETS
+
+Support for xml-rpc for MIT-CCI automated agents (triggered by RPC.server.enable flag)
+UI Changes suggested by MIT-CCI group (rev 505, 502)
+Improve email confirmation instructions
+Some automatic schema migration support
+
+      EXPERIMENTS
+
+Add flag to enable suppression of display of Carry Forward scores
+updates to logToColumns to report more details (for GMU experiments)
+fix average price computation
+
+       DEVEL ENVIRONMENT
+
+Rearranged top-level devel directories to not use svn:externals
+Moved webpages into parallel hierarchy like etc and bin.
+
+CHANGES THROUGH September 2007 (2007.4 release)
+
+      PREDICTION MARKETS
+
+Support for Google gmail (TLS) 
+Improved installation documentation for mail and templates
+Script to shutdown database cleanly.
+Restore logging; unintentionally disabled default server logging.
+
+CHANGES THROUGH August 2007 (2007.3a release)
+
+Fixed two installation bugs in Prediction Markets server.
+Cleaned up installation  formatting for both releases
+
+CHANGES THROUGH August 2007 (2007.3 release)
+
+      EXPERIMENTS
+
+Added a Windows installer for econ experiments server.
+Update the log file analyzer, etc/logToColumns.pl
+Add messages triggered by a price threshold
+
+    PREDICTION MARKETS
+
+Updated Prediction Market INSTALL documentation to better describe
+admin powers.
+
+
+CHANGES THROUGH July, 2007 (2007.2 release)
+
+    PREDICTION MARKETS
+  
+New users can create an account; confirmation (via mail) is
+required.  Admin can no longer create accounts unilaterally.
+The confirmation mail message text is locally configurable.
+root.password has been renamed to admin.password (and "root"
+has been replaced with "admin" in all user-visible places.)
+
+    EXPERIMENTS
+
+Fixed a session-interaction bug that could cause sessions to
+end early.  allow times to be specified in minutes and
+seconds.  When displayAverages is specified in config file,
+compute and display the average trade price as part of the
+score table.
+
+Allow experimenters to control what logo is shown in
+experiments.
+
+Made labels displayed to subjects in experiments more
+customizable.  Allow experimenters to highlight messages.
+(allow use of html) Don't allow html characters in market
+names and descripitons.
+
+CHANGES THROUGH April 16, 2007 (2007.1 release)
+
+   PREDICTION MARKETS
+
+The software now requires use of Java 1.5.
+ 
+multi-outcome markets are supported using a market maker.  
+
+Add more chart types: show best price frontier for book
+orders; display market-maker markets with a continuous price
+line; Display multiple prices for multi-outcome markets.
+MarketMakers don't transact at a single price, so the charts
+should show how the prices move.
+
+Claim creation has a separate page, and is easier to find.
+
+   EXPERIMENTS
+
+Support experiments without manipulators or judges.  Allow
+configuration of multiple kinds of traders with different
+initial assets and cash.
+
+Allow the maximum price to be changed for an experiment.

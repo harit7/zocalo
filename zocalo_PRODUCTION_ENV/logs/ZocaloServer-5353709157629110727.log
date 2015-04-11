@@ -1,0 +1,21 @@
+03/10 12:31:51.778/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 12:31:51.780/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 12:31:51.854/IST   INFO -        trace -    creating AllMarkets
+03/10 12:31:53.482/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 12:31:53.482/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 12:31:55.888/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 12:32:11.097/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+03/10 12:32:15.180/IST   WARN -    UserError - 37# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/10 12:34:30.848/IST   WARN -    UserError - 38# told harit "Please specify a name for the market.".
+03/10 12:34:58.884/IST   INFO -   Transition - 39# State transition: new Multi Market, round: 0.
+03/10 12:34:58.886/IST   INFO -  PriceAction - 40# harit traded with the market maker for 0 of IPL FInal:Mumbai Indians at 11.1111
+03/10 12:34:58.887/IST   INFO -  PriceAction - 41# harit traded with the market maker for 0 of IPL FInal:Royal Challengers Bangalore at 11.1111
+03/10 12:34:58.887/IST   INFO -  PriceAction - 42# harit traded with the market maker for 0 of IPL FInal:Chennai Super Kings at 11.1111
+03/10 12:34:58.888/IST   INFO -  PriceAction - 43# harit traded with the market maker for 0 of IPL FInal:Pune Warriors India at 11.1111
+03/10 12:34:58.888/IST   INFO -  PriceAction - 44# harit traded with the market maker for 0 of IPL FInal:Kings XI Punjab at 11.1111
+03/10 12:34:58.889/IST   INFO -  PriceAction - 45# harit traded with the market maker for 0 of IPL FInal:Delhi Daredevils at 11.1111
+03/10 12:34:58.889/IST   INFO -  PriceAction - 46# harit traded with the market maker for 0 of IPL FInal:Kolkata Knight Riders at 11.1111
+03/10 12:34:58.890/IST   INFO -  PriceAction - 47# harit traded with the market maker for 0 of IPL FInal:Deccan Chargers at 11.1111
+03/10 12:34:58.890/IST   INFO -  PriceAction - 48# harit traded with the market maker for 0 of IPL FInal:Rajasthan Royals at 11.1111
+03/10 12:35:04.498/IST   INFO -     NewChart - The chart for IPL FInal has been updated.
+03/10 12:35:12.480/IST   WARN -    UserError - 67# told User(logging in) "Please type an account name and password".

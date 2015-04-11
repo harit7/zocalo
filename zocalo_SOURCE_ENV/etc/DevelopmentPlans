@@ -1,0 +1,52 @@
+The current release of Zocalo (November 2010) is stable.  It supports two
+different uses: laboratory economics experiments and long-lasting
+prediction markets.
+
+The Prediction Markets now have reasonable login security, transaction
+history, and charts of trading activity.  All transaction information
+is stored in a persistent database.  The charts and market maker prices update automatically as trading occurs.
+
+The academic economists I've been working with have used Zocalo to run
+quite a few experiments.  Configuration options allow running a variety of
+experiments.  
+
+
+Other minor changes I'm hoping to make:
+
+* report trades to the user via email.  (We now require an email
+address in order to create an account.)
+
+* allow the server to support distinct separate private markets.  This
+  would allow a single server to support multiple internal markets.
+
+* Allow a market manager to adjust the balances of participants.  This
+  would allow internal corporate markets in which the company paid
+  people off for their winnings without requiring those payouts to be
+  on a strict schedule.   (e.g.  Google closes out all accounts at
+  Quarterly market closings.)
+
+* a public home page showing charts for several markets
+
+Some longer term and more major changes:
+
+* create a transaction record object that would track all buyers and
+  sellers and which orders were market and book orders, and ensure
+  that details get mailed to traders and logged.
+
+There are a couple of larger projects beyond the short-term horizon.
+The most interesting to me would be to add support for more types of
+market formats (conditional claims, claims with scaled payouts, and so
+on.)
+
+A few people have asked how they could help with development.  It's
+open source, so if you want to just dive in and make changes, you can
+do that.  Before you start making more than a trivial change (unless
+you're fixing bugs!)  please contact me.  If you ask, I can help come
+up with small self-contained projects that would allow you to become
+familiar with the architecture of the system.  The ability to check
+changes into the source code repository remains with me.  If you want
+to make changes and get them into the repository, get in touch.  I'll
+want to verify that you're serious, but I would expect to allow
+reasonable updates, and anyone who makes more than a couple will
+probably get rights to make edits on their own.  If you're so
+inclined, please download the code and start playing with it.

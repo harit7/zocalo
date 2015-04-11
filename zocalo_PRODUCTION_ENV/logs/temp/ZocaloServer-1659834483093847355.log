@@ -1,0 +1,235 @@
+04/07 04:11:49.332/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/07 04:11:49.335/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/07 04:11:49.394/IST   INFO -        trace -    creating AllMarkets
+04/07 04:11:51.124/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/07 04:11:51.125/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/07 04:11:58.960/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/07 04:12:07.144/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:12:19.325/IST  DEBUG -      Trading - test1 wants to buy 5 with limit of 100 @ 25.
+04/07 04:12:19.389/IST   INFO -  PriceAction - 630# test1 traded with the market maker for 0 of IPL11:7 changing the price from 5.1928 to 4.2459
+04/07 04:12:19.393/IST   INFO -  PriceAction - 631# test1 traded with the market maker for 0 of IPL11:6 changing the price from 5.1777 to 4.2336
+04/07 04:12:19.394/IST   INFO -  PriceAction - 632# test1 traded with the market maker for 21.051 of IPL11:5 changing the price from 8.2747 to 25
+04/07 04:12:19.394/IST   INFO -  PriceAction - 633# test1 traded with the market maker for 0 of IPL11:1 changing the price from 18.1602 to 14.8488
+04/07 04:12:19.394/IST   INFO -  PriceAction - 634# test1 traded with the market maker for 0 of IPL11:9 changing the price from 28.8915 to 23.6234
+04/07 04:12:19.395/IST   INFO -  PriceAction - 635# test1 traded with the market maker for 0 of IPL11:3 changing the price from 11.2572 to 9.2045
+04/07 04:12:19.395/IST   INFO -  PriceAction - 636# test1 traded with the market maker for 0 of IPL11:2 changing the price from 8.2368 to 6.7349
+04/07 04:12:19.395/IST   INFO -  PriceAction - 637# test1 traded with the market maker for 0 of IPL11:4 changing the price from 5.8092 to 4.75
+04/07 04:12:19.396/IST   INFO -  PriceAction - 638# test1 traded with the market maker for 0 of IPL11:8 changing the price from 9 to 7.3589
+04/07 04:12:19.503/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:12:19.504/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:7: 4, IPL11:6: 4, IPL11:5: 25, IPL11:1: 15, IPL11:9: 24, IPL11:3: 9, IPL11:2: 7, IPL11:4: 5, IPL11:8: 7
+04/07 04:12:19.505/IST   WARN -    UserError - 639# told test1 "Bought 21.051 from MarketMaker.".
+04/07 04:12:19.643/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:12:34.190/IST  DEBUG -      Trading - test1 wants to buy 6 with limit of 100 @ 10.
+04/07 04:12:34.239/IST   INFO -  PriceAction - 937# test1 traded with the market maker for 0 of IPL11:2 changing the price from 6.7349 to 6.3293
+04/07 04:12:34.240/IST   INFO -  PriceAction - 938# test1 traded with the market maker for 0 of IPL11:3 changing the price from 9.2045 to 8.6503
+04/07 04:12:34.240/IST   INFO -  PriceAction - 939# test1 traded with the market maker for 0 of IPL11:5 changing the price from 25 to 23.4947
+04/07 04:12:34.240/IST   INFO -  PriceAction - 940# test1 traded with the market maker for 0 of IPL11:4 changing the price from 4.75 to 4.4639
+04/07 04:12:34.240/IST   INFO -  PriceAction - 941# test1 traded with the market maker for 0 of IPL11:1 changing the price from 14.8488 to 13.9547
+04/07 04:12:34.241/IST   INFO -  PriceAction - 942# test1 traded with the market maker for 0 of IPL11:8 changing the price from 7.3589 to 6.9158
+04/07 04:12:34.241/IST   INFO -  PriceAction - 943# test1 traded with the market maker for 0 of IPL11:7 changing the price from 4.2459 to 3.9903
+04/07 04:12:34.241/IST   INFO -  PriceAction - 944# test1 traded with the market maker for 0 of IPL11:9 changing the price from 23.6234 to 22.201
+04/07 04:12:34.242/IST   INFO -  PriceAction - 945# test1 traded with the market maker for -12.263 of IPL11:6 changing the price from 4.2336 to 10
+04/07 04:12:34.323/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:12:34.324/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:2: 6, IPL11:3: 9, IPL11:5: 23, IPL11:4: 4, IPL11:1: 14, IPL11:8: 7, IPL11:7: 4, IPL11:9: 22, IPL11:6: 10
+04/07 04:12:34.324/IST   WARN -    UserError - 946# told test1 "Bought -12.263 from MarketMaker.".
+04/07 04:12:34.425/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:18:29.123/IST  DEBUG -      Trading - test1 wants to buy 8 with limit of 100 @ 8.
+04/07 04:18:29.151/IST   INFO -  PriceAction - 1253# test1 traded with the market maker for 0 of IPL11:1 changing the price from 13.9547 to 13.7922
+04/07 04:18:29.151/IST   INFO -  PriceAction - 1254# test1 traded with the market maker for 0 of IPL11:6 changing the price from 10 to 9.8835
+04/07 04:18:29.152/IST   INFO -  PriceAction - 1255# test1 traded with the market maker for 0 of IPL11:5 changing the price from 23.4947 to 23.221
+04/07 04:18:29.152/IST   INFO -  PriceAction - 1256# test1 traded with the market maker for 0 of IPL11:3 changing the price from 8.6503 to 8.5495
+04/07 04:18:29.153/IST   INFO -  PriceAction - 1257# test1 traded with the market maker for -2.379 of IPL11:8 changing the price from 6.9158 to 8
+04/07 04:18:29.153/IST   INFO -  PriceAction - 1258# test1 traded with the market maker for 0 of IPL11:7 changing the price from 3.9903 to 3.9438
+04/07 04:18:29.153/IST   INFO -  PriceAction - 1259# test1 traded with the market maker for 0 of IPL11:2 changing the price from 6.3293 to 6.2556
+04/07 04:18:29.153/IST   INFO -  PriceAction - 1260# test1 traded with the market maker for 0 of IPL11:4 changing the price from 4.4639 to 4.412
+04/07 04:18:29.154/IST   INFO -  PriceAction - 1261# test1 traded with the market maker for 0 of IPL11:9 changing the price from 22.201 to 21.9424
+04/07 04:18:29.264/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:18:29.265/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:1: 14, IPL11:6: 10, IPL11:5: 23, IPL11:3: 9, IPL11:8: 8, IPL11:7: 4, IPL11:2: 6, IPL11:4: 4, IPL11:9: 22
+04/07 04:18:29.266/IST   WARN -    UserError - 1586# told test1 "Bought -2.379 from MarketMaker.".
+04/07 04:18:29.386/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:18:52.461/IST  DEBUG -      Trading - test1 wants to buy 9 with limit of 100 @ 25.
+04/07 04:18:52.521/IST   INFO -  PriceAction - 1902# test1 traded with the market maker for 0 of IPL11:8 changing the price from 8 to 7.6866
+04/07 04:18:52.522/IST   INFO -  PriceAction - 1903# test1 traded with the market maker for 0 of IPL11:4 changing the price from 4.412 to 4.2391
+04/07 04:18:52.523/IST   INFO -  PriceAction - 1904# test1 traded with the market maker for 0 of IPL11:7 changing the price from 3.9438 to 3.7893
+04/07 04:18:52.523/IST   INFO -  PriceAction - 1905# test1 traded with the market maker for 0 of IPL11:3 changing the price from 8.5495 to 8.2146
+04/07 04:18:52.524/IST   INFO -  PriceAction - 1906# test1 traded with the market maker for 0 of IPL11:2 changing the price from 6.2556 to 6.0106
+04/07 04:18:52.524/IST   INFO -  PriceAction - 1907# test1 traded with the market maker for 9.489 of IPL11:9 changing the price from 21.9424 to 25
+04/07 04:18:52.525/IST   INFO -  PriceAction - 1908# test1 traded with the market maker for 0 of IPL11:5 changing the price from 23.221 to 22.3114
+04/07 04:18:52.526/IST   INFO -  PriceAction - 1909# test1 traded with the market maker for 0 of IPL11:6 changing the price from 9.8835 to 9.4964
+04/07 04:18:52.526/IST   INFO -  PriceAction - 1910# test1 traded with the market maker for 0 of IPL11:1 changing the price from 13.7922 to 13.2519
+04/07 04:18:52.594/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:18:52.595/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:8: 8, IPL11:4: 4, IPL11:7: 4, IPL11:3: 8, IPL11:2: 6, IPL11:9: 25, IPL11:5: 22, IPL11:6: 9, IPL11:1: 13
+04/07 04:18:52.595/IST   WARN -    UserError - 1911# told test1 "Bought 9.489 from MarketMaker.".
+04/07 04:18:52.704/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:19:55.120/IST  DEBUG -      Trading - test1 wants to buy 9 with limit of 100 @ 50.
+04/07 04:19:55.151/IST   INFO -  PriceAction - 2236# test1 traded with the market maker for 0 of IPL11:8 changing the price from 7.6866 to 5.1244
+04/07 04:19:55.151/IST   INFO -  PriceAction - 2237# test1 traded with the market maker for 45.222 of IPL11:9 changing the price from 25 to 50
+04/07 04:19:55.152/IST   INFO -  PriceAction - 2238# test1 traded with the market maker for 0 of IPL11:2 changing the price from 6.0106 to 4.007
+04/07 04:19:55.152/IST   INFO -  PriceAction - 2239# test1 traded with the market maker for 0 of IPL11:7 changing the price from 3.7893 to 2.5262
+04/07 04:19:55.153/IST   INFO -  PriceAction - 2240# test1 traded with the market maker for 0 of IPL11:4 changing the price from 4.2391 to 2.8261
+04/07 04:19:55.153/IST   INFO -  PriceAction - 2241# test1 traded with the market maker for 0 of IPL11:3 changing the price from 8.2146 to 5.4764
+04/07 04:19:55.154/IST   INFO -  PriceAction - 2242# test1 traded with the market maker for 0 of IPL11:6 changing the price from 9.4964 to 6.3309
+04/07 04:19:55.154/IST   INFO -  PriceAction - 2243# test1 traded with the market maker for 0 of IPL11:1 changing the price from 13.2519 to 8.8346
+04/07 04:19:55.154/IST   INFO -  PriceAction - 2244# test1 traded with the market maker for 0 of IPL11:5 changing the price from 22.3114 to 14.8743
+04/07 04:19:55.238/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:19:55.239/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:8: 5, IPL11:9: 50, IPL11:2: 4, IPL11:7: 3, IPL11:4: 3, IPL11:3: 5, IPL11:6: 6, IPL11:1: 9, IPL11:5: 15
+04/07 04:19:55.239/IST   WARN -    UserError - 2587# told test1 "Bought 45.222 from MarketMaker.".
+04/07 04:19:55.347/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:20:40.678/IST  DEBUG -      Trading - test1 wants to buy 9 with limit of 100 @ 80.
+04/07 04:20:40.713/IST   INFO -  PriceAction - 2921# test1 traded with the market maker for 0 of IPL11:6 changing the price from 6.3309 to 2.5324
+04/07 04:20:40.714/IST   INFO -  PriceAction - 2922# test1 traded with the market maker for 0 of IPL11:2 changing the price from 4.007 to 1.6028
+04/07 04:20:40.715/IST   INFO -  PriceAction - 2923# test1 traded with the market maker for 0 of IPL11:8 changing the price from 5.1244 to 2.0498
+04/07 04:20:40.715/IST   INFO -  PriceAction - 2924# test1 traded with the market maker for 0 of IPL11:4 changing the price from 2.8261 to 1.1304
+04/07 04:20:40.716/IST   INFO -  PriceAction - 2925# test1 traded with the market maker for 0 of IPL11:1 changing the price from 8.8346 to 3.5338
+04/07 04:20:40.716/IST   INFO -  PriceAction - 2926# test1 traded with the market maker for 0 of IPL11:3 changing the price from 5.4764 to 2.1906
+04/07 04:20:40.717/IST   INFO -  PriceAction - 2927# test1 traded with the market maker for 0 of IPL11:5 changing the price from 14.8743 to 5.9497
+04/07 04:20:40.718/IST   INFO -  PriceAction - 2928# test1 traded with the market maker for 0 of IPL11:7 changing the price from 2.5262 to 1.0105
+04/07 04:20:40.718/IST   INFO -  PriceAction - 2929# test1 traded with the market maker for 15.983 of IPL11:9 changing the price from 50 to 80
+04/07 04:20:40.780/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:20:40.780/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:6: 3, IPL11:2: 2, IPL11:8: 2, IPL11:4: 1, IPL11:1: 4, IPL11:3: 2, IPL11:5: 6, IPL11:7: 1, IPL11:9: 80
+04/07 04:20:40.780/IST   WARN -    UserError - 2930# told test1 "Bought 15.983 from MarketMaker.".
+04/07 04:20:40.859/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:21:04.031/IST  DEBUG -      Trading - test1 wants to buy 9 with limit of 100 @ 99.
+04/07 04:21:04.087/IST   INFO -  PriceAction - 3273# test1 traded with the market maker for 0 of IPL11:3 changing the price from 2.1906 to 0.1095
+04/07 04:21:04.088/IST   INFO -  PriceAction - 3274# test1 traded with the market maker for 0 of IPL11:5 changing the price from 5.9497 to 0.2975
+04/07 04:21:04.089/IST   INFO -  PriceAction - 3275# test1 traded with the market maker for 3.851 of IPL11:9 changing the price from 80 to 99
+04/07 04:21:04.089/IST   INFO -  PriceAction - 3276# test1 traded with the market maker for 0 of IPL11:7 changing the price from 1.0105 to 0.0505
+04/07 04:21:04.090/IST   INFO -  PriceAction - 3277# test1 traded with the market maker for 0 of IPL11:1 changing the price from 3.5338 to 0.1767
+04/07 04:21:04.091/IST   INFO -  PriceAction - 3278# test1 traded with the market maker for 0 of IPL11:2 changing the price from 1.6028 to 0.0801
+04/07 04:21:04.091/IST   INFO -  PriceAction - 3279# test1 traded with the market maker for 0 of IPL11:4 changing the price from 1.1304 to 0.0565
+04/07 04:21:04.092/IST   INFO -  PriceAction - 3280# test1 traded with the market maker for 0 of IPL11:8 changing the price from 2.0498 to 0.1025
+04/07 04:21:04.092/IST   INFO -  PriceAction - 3281# test1 traded with the market maker for 0 of IPL11:6 changing the price from 2.5324 to 0.1266
+04/07 04:21:04.159/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:21:04.159/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:3: 0, IPL11:5: 0, IPL11:9: 99, IPL11:7: 0, IPL11:1: 0, IPL11:2: 0, IPL11:4: 0, IPL11:8: 0, IPL11:6: 0
+04/07 04:21:04.160/IST   WARN -    UserError - 3282# told test1 "Bought 3.851 from MarketMaker.".
+04/07 04:21:04.261/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 04:21:16.684/IST  DEBUG -      Trading - test1 wants to sell 9 with limit of 100 @ 4.
+04/07 04:50:05.379/IST   WARN -    UserError - 3634# told User(logging in) "Please type an account name and password".
+04/07 06:52:21.494/IST   WARN -    UserError - 3635# told User(logging in) "Please type an account name and password".
+04/07 06:52:26.055/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:52:38.076/IST  DEBUG -      Trading - laha1 wants to buy 8 with limit of 100 @ 10.
+04/07 06:52:38.108/IST   INFO -  PriceAction - 4014# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 0.1767 to 0.1592
+04/07 06:52:38.108/IST   INFO -  PriceAction - 4015# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 0.2975 to 0.268
+04/07 06:52:38.108/IST   INFO -  PriceAction - 4016# laha1 traded with the market maker for -8.21 of IPL11:8 changing the price from 0.1025 to 10
+04/07 06:52:38.108/IST   INFO -  PriceAction - 4017# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.1095 to 0.0987
+04/07 06:52:38.109/IST   INFO -  PriceAction - 4018# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 99 to 89.1914
+04/07 06:52:38.109/IST   INFO -  PriceAction - 4019# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 0.0505 to 0.0455
+04/07 06:52:38.109/IST   INFO -  PriceAction - 4020# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 0.0801 to 0.0722
+04/07 06:52:38.109/IST   INFO -  PriceAction - 4021# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 0.1266 to 0.1141
+04/07 06:52:38.110/IST   INFO -  PriceAction - 4022# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 0.0565 to 0.0509
+04/07 06:52:38.167/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:52:38.168/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:1: 0, IPL11:5: 0, IPL11:8: 10, IPL11:3: 0, IPL11:9: 89, IPL11:7: 0, IPL11:2: 0, IPL11:6: 0, IPL11:4: 0
+04/07 06:52:38.169/IST   WARN -    UserError - 4023# told laha1 "Bought -8.21 from MarketMaker.".
+04/07 06:52:38.266/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:53:10.354/IST  DEBUG -      Trading - laha1 wants to sell 9 with limit of 100 @ 20.
+04/07 06:53:10.387/IST   INFO -  PriceAction - 4042# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 0.0722 to 0.5344
+04/07 06:53:10.388/IST   INFO -  PriceAction - 4043# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.0987 to 0.7304
+04/07 06:53:10.388/IST   INFO -  PriceAction - 4044# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 0.0509 to 0.3769
+04/07 06:53:10.389/IST   INFO -  PriceAction - 4045# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 10 to 74.0152
+04/07 06:53:10.389/IST   INFO -  PriceAction - 4046# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 0.1592 to 1.1782
+04/07 06:53:10.390/IST   INFO -  PriceAction - 4047# laha1 traded with the market maker for 79.976 of IPL11:9 changing the price from 89.1914 to 20
+04/07 06:53:10.391/IST   INFO -  PriceAction - 4048# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 0.0455 to 0.3369
+04/07 06:53:10.391/IST   INFO -  PriceAction - 4049# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 0.1141 to 0.8443
+04/07 06:53:10.392/IST   INFO -  PriceAction - 4050# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 0.268 to 1.9837
+04/07 06:53:10.453/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:53:10.454/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:2: 1, IPL11:3: 1, IPL11:4: 0, IPL11:8: 74, IPL11:1: 1, IPL11:9: 20, IPL11:7: 0, IPL11:6: 1, IPL11:5: 2
+04/07 06:53:10.455/IST   WARN -    UserError - 4051# told laha1 "Sold -79.976 to MarketMaker.".
+04/07 06:53:10.552/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:53:24.032/IST  DEBUG -      Trading - laha1 wants to buy 7 with limit of 100 @ 30.
+04/07 06:53:24.062/IST   INFO -  PriceAction - 4079# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 1.9837 to 1.3933
+04/07 06:53:24.063/IST   INFO -  PriceAction - 4080# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 1.1782 to 0.8275
+04/07 06:53:24.063/IST   INFO -  PriceAction - 4081# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 20 to 14.0473
+04/07 06:53:24.063/IST   INFO -  PriceAction - 4082# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.7304 to 0.513
+04/07 06:53:24.063/IST   INFO -  PriceAction - 4083# laha1 traded with the market maker for 22.395 of IPL11:7 changing the price from 0.3369 to 30
+04/07 06:53:24.064/IST   INFO -  PriceAction - 4084# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 0.5344 to 0.3753
+04/07 06:53:24.064/IST   INFO -  PriceAction - 4085# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 0.3769 to 0.2647
+04/07 06:53:24.064/IST   INFO -  PriceAction - 4086# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 74.0152 to 51.9858
+04/07 06:53:24.064/IST   INFO -  PriceAction - 4087# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 0.8443 to 0.593
+04/07 06:53:24.127/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:53:24.127/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:5: 1, IPL11:1: 1, IPL11:9: 14, IPL11:3: 1, IPL11:7: 30, IPL11:2: 0, IPL11:4: 0, IPL11:8: 52, IPL11:6: 1
+04/07 06:53:24.128/IST   WARN -    UserError - 4088# told laha1 "Bought 22.395 from MarketMaker.".
+04/07 06:53:24.220/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:53:33.108/IST  DEBUG -      Trading - laha1 wants to buy 6 with limit of 100 @ 17.
+04/07 06:53:33.135/IST   INFO -  PriceAction - 4125# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 51.9858 to 43.4056
+04/07 06:53:33.135/IST   INFO -  PriceAction - 4126# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 0.3753 to 0.3134
+04/07 06:53:33.136/IST   INFO -  PriceAction - 4127# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 0.2647 to 0.221
+04/07 06:53:33.136/IST   INFO -  PriceAction - 4128# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 14.0473 to 11.7288
+04/07 06:53:33.137/IST   INFO -  PriceAction - 4129# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 1.3933 to 1.1633
+04/07 06:53:33.138/IST   INFO -  PriceAction - 4130# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.513 to 0.4283
+04/07 06:53:33.138/IST   INFO -  PriceAction - 4131# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 30 to 25.0485
+04/07 06:53:33.139/IST   INFO -  PriceAction - 4132# laha1 traded with the market maker for -11.116 of IPL11:6 changing the price from 0.593 to 17
+04/07 06:53:33.139/IST   INFO -  PriceAction - 4133# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 0.8275 to 0.691
+04/07 06:53:33.201/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:53:33.201/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:8: 43, IPL11:2: 0, IPL11:4: 0, IPL11:9: 12, IPL11:5: 1, IPL11:3: 0, IPL11:7: 25, IPL11:6: 17, IPL11:1: 1
+04/07 06:53:33.202/IST   WARN -    UserError - 4134# told laha1 "Bought -11.116 from MarketMaker.".
+04/07 06:53:33.296/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:03.324/IST  DEBUG -      Trading - laha1 wants to buy 5 with limit of 100 @ 15.
+04/07 06:54:03.356/IST   INFO -  PriceAction - 4180# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 17 to 14.6201
+04/07 06:54:03.356/IST   INFO -  PriceAction - 4181# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 25.0485 to 21.5419
+04/07 06:54:03.357/IST   INFO -  PriceAction - 4182# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.4283 to 0.3684
+04/07 06:54:03.357/IST   INFO -  PriceAction - 4183# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 0.221 to 0.1901
+04/07 06:54:03.358/IST   INFO -  PriceAction - 4184# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 43.4056 to 37.329
+04/07 06:54:03.358/IST   INFO -  PriceAction - 4185# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 0.691 to 0.5942
+04/07 06:54:03.359/IST   INFO -  PriceAction - 4186# laha1 traded with the market maker for -16.847 of IPL11:5 changing the price from 1.1633 to 15
+04/07 06:54:03.360/IST   INFO -  PriceAction - 4187# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 11.7288 to 10.0869
+04/07 06:54:03.360/IST   INFO -  PriceAction - 4188# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 0.3134 to 0.2695
+04/07 06:54:03.419/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:03.419/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:6: 15, IPL11:7: 22, IPL11:3: 0, IPL11:4: 0, IPL11:8: 37, IPL11:1: 1, IPL11:5: 15, IPL11:9: 10, IPL11:2: 0
+04/07 06:54:03.420/IST   WARN -    UserError - 4189# told laha1 "Bought -16.847 from MarketMaker.".
+04/07 06:54:03.507/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:17.730/IST  DEBUG -      Trading - laha1 wants to buy 4 with limit of 100 @ 36.
+04/07 06:54:17.768/IST   INFO -  PriceAction - 4244# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 10.0869 to 6.4679
+04/07 06:54:17.768/IST   INFO -  PriceAction - 4245# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 21.5419 to 13.813
+04/07 06:54:17.768/IST   INFO -  PriceAction - 4246# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 14.6201 to 9.3747
+04/07 06:54:17.769/IST   INFO -  PriceAction - 4247# laha1 traded with the market maker for 32.492 of IPL11:4 changing the price from 0.1901 to 36
+04/07 06:54:17.769/IST   INFO -  PriceAction - 4248# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 15 to 9.6183
+04/07 06:54:17.769/IST   INFO -  PriceAction - 4249# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 0.2695 to 0.1728
+04/07 06:54:17.769/IST   INFO -  PriceAction - 4250# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 37.329 to 23.9361
+04/07 06:54:17.770/IST   INFO -  PriceAction - 4251# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.3684 to 0.2362
+04/07 06:54:17.770/IST   INFO -  PriceAction - 4252# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 0.5942 to 0.381
+04/07 06:54:17.827/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:17.827/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:9: 6, IPL11:7: 14, IPL11:6: 9, IPL11:4: 36, IPL11:5: 10, IPL11:2: 0, IPL11:8: 24, IPL11:3: 0, IPL11:1: 0
+04/07 06:54:17.828/IST   WARN -    UserError - 4253# told laha1 "Bought 32.492 from MarketMaker.".
+04/07 06:54:17.917/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:33.371/IST  DEBUG -      Trading - laha1 wants to buy 1 with limit of 100 @ 34.
+04/07 06:54:33.399/IST   INFO -  PriceAction - 4317# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.2362 to 0.1565
+04/07 06:54:33.400/IST   INFO -  PriceAction - 4318# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 23.9361 to 15.8582
+04/07 06:54:33.400/IST   INFO -  PriceAction - 4319# laha1 traded with the market maker for 15.041 of IPL11:1 changing the price from 0.381 to 34
+04/07 06:54:33.401/IST   INFO -  PriceAction - 4320# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 0.1728 to 0.1145
+04/07 06:54:33.402/IST   INFO -  PriceAction - 4321# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 6.4679 to 4.2851
+04/07 06:54:33.402/IST   INFO -  PriceAction - 4322# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 36 to 23.8509
+04/07 06:54:33.403/IST   INFO -  PriceAction - 4323# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 13.813 to 9.1515
+04/07 06:54:33.403/IST   INFO -  PriceAction - 4324# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 9.6183 to 6.3723
+04/07 06:54:33.404/IST   INFO -  PriceAction - 4325# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 9.3747 to 6.2109
+04/07 06:54:33.467/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:33.467/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:3: 0, IPL11:8: 16, IPL11:1: 34, IPL11:2: 0, IPL11:9: 4, IPL11:4: 24, IPL11:7: 9, IPL11:5: 6, IPL11:6: 6
+04/07 06:54:33.468/IST   WARN -    UserError - 4326# told laha1 "Bought 15.041 from MarketMaker.".
+04/07 06:54:33.542/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:46.997/IST  DEBUG -      Trading - laha1 wants to buy 2 with limit of 100 @ 20.
+04/07 06:54:47.024/IST   INFO -  PriceAction - 4399# laha1 traded with the market maker for -3.623 of IPL11:2 changing the price from 0.1145 to 20
+04/07 06:54:47.025/IST   INFO -  PriceAction - 4400# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 6.3723 to 5.1037
+04/07 06:54:47.026/IST   INFO -  PriceAction - 4401# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 9.1515 to 7.3296
+04/07 06:54:47.026/IST   INFO -  PriceAction - 4402# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 6.2109 to 4.9745
+04/07 06:54:47.027/IST   INFO -  PriceAction - 4403# laha1 traded with the market maker for 0 of IPL11:3 changing the price from 0.1565 to 0.1253
+04/07 06:54:47.027/IST   INFO -  PriceAction - 4404# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 15.8582 to 12.7011
+04/07 06:54:47.028/IST   INFO -  PriceAction - 4405# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 23.8509 to 19.1026
+04/07 06:54:47.028/IST   INFO -  PriceAction - 4406# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 34 to 27.2312
+04/07 06:54:47.029/IST   INFO -  PriceAction - 4407# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 4.2851 to 3.432
+04/07 06:54:47.086/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:47.086/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:2: 20, IPL11:5: 5, IPL11:7: 7, IPL11:6: 5, IPL11:3: 0, IPL11:8: 13, IPL11:4: 19, IPL11:1: 27, IPL11:9: 3
+04/07 06:54:47.087/IST   WARN -    UserError - 4408# told laha1 "Bought -3.623 from MarketMaker.".
+04/07 06:54:47.173/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:56.576/IST  DEBUG -      Trading - laha1 wants to buy 3 with limit of 100 @ 15.
+04/07 06:54:56.604/IST   INFO -  PriceAction - 4490# laha1 traded with the market maker for 0 of IPL11:8 changing the price from 12.7011 to 10.8095
+04/07 06:54:56.604/IST   INFO -  PriceAction - 4491# laha1 traded with the market maker for 0 of IPL11:7 changing the price from 7.3296 to 6.238
+04/07 06:54:56.605/IST   INFO -  PriceAction - 4492# laha1 traded with the market maker for 0 of IPL11:9 changing the price from 3.432 to 2.9209
+04/07 06:54:56.605/IST   INFO -  PriceAction - 4493# laha1 traded with the market maker for 0 of IPL11:4 changing the price from 19.1026 to 16.2576
+04/07 06:54:56.605/IST   INFO -  PriceAction - 4494# laha1 traded with the market maker for 0 of IPL11:5 changing the price from 5.1037 to 4.3436
+04/07 06:54:56.606/IST   INFO -  PriceAction - 4495# laha1 traded with the market maker for 0 of IPL11:1 changing the price from 27.2312 to 23.1755
+04/07 06:54:56.606/IST   INFO -  PriceAction - 4496# laha1 traded with the market maker for 0 of IPL11:6 changing the price from 4.9745 to 4.2336
+04/07 06:54:56.606/IST   INFO -  PriceAction - 4497# laha1 traded with the market maker for 0 of IPL11:2 changing the price from 20 to 17.0213
+04/07 06:54:56.606/IST   INFO -  PriceAction - 4498# laha1 traded with the market maker for -14.258 of IPL11:3 changing the price from 0.1253 to 15
+04/07 06:54:56.664/IST   INFO -     NewChart - The chart for IPL11 has been updated.
+04/07 06:54:56.664/IST   INFO -  PriceChange - prices in market 'IPL11' changed.  IPL11:8: 11, IPL11:7: 6, IPL11:9: 3, IPL11:4: 16, IPL11:5: 4, IPL11:1: 23, IPL11:6: 4, IPL11:2: 17, IPL11:3: 15
+04/07 06:54:56.665/IST   WARN -    UserError - 4499# told laha1 "Bought -14.258 from MarketMaker.".
+04/07 06:54:56.745/IST   INFO -     NewChart - The chart for IPL11 has been updated.

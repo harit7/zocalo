@@ -1,0 +1,494 @@
+<?xml version="1.0"?>
+<project name="zocalo" default="build" basedir=".">
+    <property name="build.dir"       location="." />
+    <property name="etc.dir"         location="../etc" />
+    <property name="versionFileName" value="svn-version" />
+    <property name="versionFile"     location="${etc.dir}/${versionFileName}" />
+    <property name="source.dir"      location="../src" />
+    <property name="test.dir"        location="../test" />
+    <property name="log.dir"         location="../logs" />
+    <property name="winCrLf.dir"     location="${build.dir}/winCrLf" />
+    <property name="dojo.dir"         location="../web/dojo" />
+    <property name="db-web.dir"         location="../web/db" />
+    <property name="config-web.dir"         location="../web/config" />
+    <property name="images.dir"         location="../web/images" />
+    <property name="data.dir"         location="../data" />
+    <property name="exp-web.dir"    location="../web/exp" />
+    <property name="bin.dir"         location="../bin" />
+    <property name="doc.dir"         location="../doc" />
+    <property name="javadoc.dir"     location="${build.dir}/javadoc" />
+    <property name="classes.dir"     location="${build.dir}/classes" />
+    <property name="testclasses.dir" location="${build.dir}/testclasses" />
+    <property name="jsp-db.dir"    location="${build.dir}/jsp-db" />
+    <property name="jsp-exp.dir"     location="${build.dir}/jsp-exp" />
+    <property name="jsp-config.dir"     location="${build.dir}/jsp-config" />
+    <property name="jsp-classes.dir" location="${build.dir}/jsp-classes" />
+    <property name="test.out"        location="${build.dir}/TEST" />
+	<property name="test.web"        location="${build.dir}/webpages" />
+    <property name="lib.dir"         location="${build.dir}/jars" />
+
+    <property name="template.dir"    location="../templates/" />
+    <property name="zocaloJar"       location="${lib.dir}/zocalo.jar" />
+    <property name="testJar"         location="${lib.dir}/zocalo-test.jar" />
+    <property name="jsp.jar"         location="${lib.dir}/jsp.jar" />
+    <property name="hibernate.jar"   location="${lib.dir}/hibernate.jar" />
+    <property name="hibernateTest.jar" location="${lib.dir}/hibernateTest.jar" />
+    <property name="hibernateLibJar" location="${lib.dir}/hibernate3.jar" />
+
+    <property name="zocaloSrcTar"    location="${build.dir}/zocalo-src.tar" />
+    <property name="zocaloSrcTarZ"   location="${build.dir}/zocalo-src.tar.gz" />
+    <property name="zocaloPMBinTar"  location="${build.dir}/zocalo-PM-bin.tar" />
+    <property name="zocaloPMBinTarZ" location="${build.dir}/zocalo-PM-bin.tar.gz" />
+    <property name="zocaloPMBinZip"  location="${build.dir}/zocalo-PM-bin.zip" />
+    <property name="zocaloConfigBinTar"  location="${build.dir}/zocalo-Config-bin.tar" />
+    <property name="zocaloConfigBinTarZ" location="${build.dir}/zocalo-Config-bin.tar.gz" />
+    <property name="zocaloConfigBinZip"  location="${build.dir}/zocalo-Config-bin.zip" />
+    <property name="zocaloExpBinTar" location="${build.dir}/zocalo-Exp-bin.tar" />
+    <property name="zocaloExpBinTarZ" location="${build.dir}/zocalo-Exp-bin.tar.gz" />
+    <property name="zocaloExpBinZip" location="${build.dir}/zocalo-Exp-bin.zip" />
+
+  <target name="allClasses" depends="classes,testClasses" description="build all classes"/>
+
+  <path id="zocalo-classpath">
+        <fileset dir="${lib.dir}" includes="*.jar"/>
+  </path>
+
+  <path id="test-classpath">
+            <path refid="zocalo-classpath" />
+            <pathelement path="${zocaloJar}" />
+  </path>
+
+  <target name="release" depends="RELEASE" description="synonym for RELEASE" />
+
+  <target name="RELEASE" depends="versionFile,compress"
+          description="prepare a release version">
+  </target>
+
+  <target name="versionFile" description="update a version marker">
+     <exec executable="svnversion" output="${versionFile}">
+        <arg line=".."/>
+     </exec>
+  </target>
+
+  <target name="tar" depends="TAR" description="synonym for TAR" />
+
+  <target name="TAR" depends="exp-tar,exp-zip,pm-tar,pm-zip,config-tar" 
+          description="build binary tar and zip files for both releases">
+  </target>
+
+  <target name="exp-tar"
+          depends="classes,jsp-exp,clean-test,versionFile,clean-compress"
+          description="build a binary tar file for the experiment server">
+    <tar destfile="${zocaloExpBinTar}" excludes=".svn,*~">
+	  <tarfileset dir="${etc.dir}/" prefix="zocalo/etc" includes="${versionFileName}" />
+	  <tarfileset dir="${etc.dir}/Exp" includes="INSTALL" prefix="zocalo" />
+	  <tarfileset dir="${etc.dir}/" prefix="zocalo"
+			  includes="CHANGES,LICENSE,NOTES,THIRD_PARTY_SOFTWARE,RELEASE-TODO" />
+	  <tarfileset dir="${build.dir}/licenses" prefix="zocalo/LICENSES" />
+	  <tarfileset dir="${etc.dir}/Exp" prefix="zocalo/" includes="log4j.properties" />
+	  <tarfileset dir="${etc.dir}/Exp" prefix="zocalo" includes="CONFIGURATION" />
+	  <tarfileset dir="${etc.dir}/Exp" prefix="zocalo/etc" includes="*.txt,*.conf,*.pm" />
+	  <tarfileset dir="${etc.dir}/Exp" prefix="zocalo/cgi" mode="755" includes="*.cgi,*.pl" />
+	  <tarfileset dir="${etc.dir}/Exp" prefix="zocalo/etc" includes="*.pl,*.cgi" mode="755" />
+	  <tarfileset dir="${bin.dir}/exp" prefix="zocalo/bin" mode="755" excludes="*.bat" />
+	  <tarfileset dir="${lib.dir}/" prefix="zocalo/jars"
+				  excludes="hsqldb*,hibernate.jar,hibernateTest.jar" />
+	  <tarfileset dir="${exp-web.dir}" excludes="*.jsp" prefix="zocalo/webpages" />
+	  <tarfileset dir="${dojo.dir}" prefix="zocalo/webpages/dojo" />
+	  <tarfileset dir="${etc.dir}" prefix="zocalo/logs" includes="LICENSE" />
+	  <tarfileset dir="${images.dir}" prefix="zocalo/webpages/images" />
+    </tar>
+  </target>
+
+  <target name="exp-zip"
+          depends="classes,jsp-exp,clean-test,versionFile,clean-compress,winFiles"
+          description="build a binary zip file for the experiment server">
+    <zip destfile="${zocaloExpBinZip}" excludes=".svn,*~" update="false" whenempty="create" >
+	  <zipfileset dir="${etc.dir}/" prefix="zocalo/etc" includes="${versionFileName}" />
+	  <zipfileset dir="${build.dir}/" includes="ExpInstaller.nsi" />
+	  <zipfileset dir="${winCrLf.dir}/Exp"
+		   includes="INSTALL.win"      fullpath="zocalo/INSTALL.txt" />
+	  <zipfileset dir="${winCrLf.dir}/Exp"
+		   includes="INSTALL-short.win"      fullpath="zocalo/INSTALL-short.txt" />
+	  <zipfileset dir="${winCrLf.dir}"
+		  includes="CHANGES"        fullpath="zocalo/CHANGES.txt" />
+	  <zipfileset dir="${winCrLf.dir}"
+		  includes="LICENSE"       fullpath="zocalo/LICENSE.txt" />
+	  <zipfileset dir="${winCrLf.dir}"
+		  includes="NOTES"          fullpath="zocalo/NOTES.txt" />
+	  <zipfileset dir="${winCrLf.dir}" includes="THIRD_PARTY_SOFTWARE"
+		   fullpath="zocalo/THIRD_PARTY_SOFTWARE.txt" />
+	  <zipfileset dir="${winCrLf.dir}"
+		   includes="RELEASE-TODO" fullpath="zocalo/RELEASE-TODO.txt" />
+	  <zipfileset dir="${winCrLf.dir}/licenses" prefix="zocalo/LICENSES" />
+	  <zipfileset dir="${winCrLf.dir}/Exp"
+		  includes="CONFIGURATION" fullpath="zocalo/etc/CONFIGURATION.txt" />
+	  <zipfileset dir="${winCrLf.dir}/Exp" prefix="zocalo/etc" includes="**/*.txt,**/*.conf,**/*.pm" />
+	  <zipfileset dir="${winCrLf.dir}/Exp" prefix="zocalo/cgi" includes="*.cgi,*.pl" />
+	  <zipfileset dir="${winCrLf.dir}/Exp" prefix="zocalo/" includes="log4j.properties" />
+	  <zipfileset dir="${bin.dir}/exp" prefix="zocalo/bin" includes="**/*.bat,**/*.py,**/*.pl" />
+	  <zipfileset dir="${bin.dir}/exp" prefix="zocalo" includes="**/*.bat" />
+	  <zipfileset dir="${lib.dir}/" prefix="zocalo/jars"
+				  excludes="hsqldb*,hibernate.jar,hibernateTest.jar" />
+	  <zipfileset dir="${images.dir}" prefix="zocalo/webpages/images" />
+	  <zipfileset dir="${exp-web.dir}" excludes="*.jsp" prefix="zocalo/webpages" />
+	  <zipfileset dir="${dojo.dir}" prefix="zocalo/webpages/dojo" />
+    </zip>
+  </target>
+
+  <target name="pm-tar"
+          depends="classes,jsp-pm,versionFile,clean-test,clean-compress,hibernate-files"
+          description="build a binary tar file for the persistent server">
+    <tar destfile="${zocaloPMBinTar}" excludes=".svn,*~">
+	  <tarfileset dir="${etc.dir}/" prefix="zocalo/etc" includes="${versionFileName}" />
+	  <tarfileset dir="${etc.dir}/DB" includes="INSTALL,CONFIGURE" prefix="zocalo" />
+	  <tarfileset dir="${etc.dir}/" prefix="zocalo"
+			  includes="CHANGES,LICENSE,NOTES,THIRD_PARTY_SOFTWARE,RELEASE-TODO" />
+	  <tarfileset dir="${build.dir}/licenses" prefix="zocalo/LICENSES" />
+	  <tarfileset dir="${etc.dir}/DB" prefix="zocalo/" includes="log4j.properties" />
+	  <tarfileset dir="${etc.dir}/DB" prefix="zocalo/etc" excludes="INSTALL*" />
+	  <tarfileset dir="${bin.dir}/DB" prefix="zocalo/bin" mode="755" excludes="*.bat" />
+	  <tarfileset dir="${etc.dir}/Exp" prefix="zocalo/etc" includes="*.pm" />
+	  <tarfileset dir="${etc.dir}/DB" prefix="zocalo/bin" includes="*.pl" mode="755" />
+	  <tarfileset dir="${lib.dir}/" prefix="zocalo/jars" excludes="hibernateTest.jar" />
+	  <tarfileset dir="${etc.dir}" prefix="zocalo/logs" includes="LICENSE" />
+	  <tarfileset dir="${dojo.dir}" prefix="zocalo/webpages/dojo" />
+	  <tarfileset dir="${template.dir}/" prefix="zocalo/templates" />
+	  <tarfileset dir="${db-web.dir}" prefix="zocalo/webpages"
+			   excludes="*.jsp,**/*.png,users.html" />
+	  <tarfileset dir="${images.dir}" prefix="zocalo/webpages/images" />
+    </tar>
+  </target>
+
+  <target name="config-tar"
+          depends="classes,jsp-config,versionFile,clean-test,clean-compress,hibernate-files"
+          description="build a binary tar file for the configuration editor">
+    <tar destfile="${zocaloConfigBinTar}" excludes=".svn,*~">
+	  <tarfileset dir="${etc.dir}/" prefix="zocalo/etc" includes="${versionFileName}" />
+	  <tarfileset dir="${etc.dir}/DB" includes="INSTALL,CONFIGURE" prefix="zocalo" />
+	  <tarfileset dir="${etc.dir}/" prefix="zocalo"
+			  includes="CHANGES,LICENSE,NOTES,THIRD_PARTY_SOFTWARE,RELEASE-TODO" />
+	  <tarfileset dir="${build.dir}/licenses" prefix="zocalo/LICENSES" />
+	  <tarfileset dir="${etc.dir}/DB" prefix="zocalo/" includes="log4j.properties" />
+	  <tarfileset dir="${etc.dir}/Config" prefix="zocalo/etc" excludes="INSTALL*" />
+	  <tarfileset dir="${bin.dir}/Config" prefix="zocalo/bin" mode="755" excludes="*.bat" />
+	  <tarfileset dir="${etc.dir}" prefix="zocalo/logs" includes="LICENSE" />
+	  <tarfileset dir="${lib.dir}/" prefix="zocalo/jars" excludes="hibernateTest.jar" />
+	  <tarfileset dir="${config-web.dir}" prefix="zocalo/webpages"
+			   excludes="*.jsp,**/*.png,users.html" />
+	  <tarfileset dir="${images.dir}" prefix="zocalo/webpages/images" />
+    </tar>
+  </target>
+
+  <target name="winFiles"
+          description="convert line ends in documentation files for Windows environment">
+    <mkdir dir="${winCrLf.dir}" />
+    <fixcrlf srcdir="${etc.dir}" eol="crlf" includes="**/*" destdir="${winCrLf.dir}" />
+    <mkdir dir="${winCrLf.dir}/licenses" />
+    <fixcrlf srcdir="${build.dir}/licenses" eol="crlf" includes="**/*" destdir="${winCrLf.dir}/licenses" />
+    <fixcrlf srcdir="${etc.dir}/DB" eol="crlf" includes="**/INSTALL*.win" destdir="${winCrLf.dir}/DB" />
+    <copy file="${etc.dir}/DB/INSTALL.win" tofile="${winCrLf.dir}/DB/INSTALL" />
+    <copy file="${etc.dir}/DB/INSTALL-short.win" tofile="${winCrLf.dir}/DB/INSTALL-short" />
+    <fixcrlf srcdir="${etc.dir}/Exp" eol="crlf" includes="**/INSTALL*.win" destdir="${winCrLf.dir}/Exp" />
+  </target>
+
+  <target name="pm-zip"
+          depends="classes,jsp-pm,clean-test,clean-compress,versionFile,hibernate-files,winFiles"
+          description="build a binary zip file for the persistent server">
+    <zip destfile="${zocaloPMBinZip}" excludes=".svn,*~" update="false" whenempty="create" >
+	  <zipfileset dir="${build.dir}/" includes="DBInstaller.nsi" />
+	  <zipfileset dir="${etc.dir}/" prefix="zocalo/etc" includes="${versionFileName}" />
+	  <zipfileset dir="${winCrLf.dir}/DB" includes="INSTALL" fullpath="zocalo/INSTALL.txt" />
+	  <zipfileset dir="${winCrLf.dir}/DB"
+		   includes="INSTALL-short"      fullpath="zocalo/INSTALL-short.txt" />
+	  <zipfileset dir="${winCrLf.dir}/"
+			includes="CHANGES" fullpath="zocalo/CHANGES.txt" />
+	  <zipfileset dir="${winCrLf.dir}/"
+			includes="LICENSE" fullpath="zocalo/LICENSE.txt" />
+	  <zipfileset dir="${winCrLf.dir}/"
+		   includes="NOTES" fullpath="zocalo/NOTES.txt" />
+	  <zipfileset dir="${winCrLf.dir}/DB/"
+		   includes="CONFIGURE" fullpath="zocalo/CONFIGURE.txt" />
+	  <zipfileset dir="${winCrLf.dir}/DB" prefix="zocalo/" includes="log4j.properties" />
+	  <zipfileset dir="${winCrLf.dir}/" includes="THIRD_PARTY_SOFTWARE"
+				  fullpath="zocalo/THIRD_PARTY_SOFTWARE.txt" />
+	  <zipfileset dir="${winCrLf.dir}/" fullpath="zocalo/RELEASE-TODO.txt"
+			includes="RELEASE-TODO" />
+	  <zipfileset dir="${winCrLf.dir}/EXP" includes="ProcessLogs.pm" fullpath="zocalo/etc/ProcessLogs.pm" />
+	  <zipfileset dir="${winCrLf.dir}/licenses" prefix="zocalo/LICENSES" />
+	  <zipfileset dir="${winCrLf.dir}/DB" prefix="zocalo/etc" excludes="INSTALL*" />
+	  <zipfileset dir="${bin.dir}/DB" prefix="zocalo/bin" includes="**/*.bat,**/*.py,**/*.pl" />
+	  <zipfileset dir="${lib.dir}/" prefix="zocalo/jars" excludes="hibernateTest.jar" />
+	  <zipfileset dir="${template.dir}/" prefix="zocalo/templates" />
+	  <zipfileset dir="${db-web.dir}" prefix="zocalo/webpages" 
+		  excludes="*.jsp,**/*.png,users.html" />
+	  <zipfileset dir="${images.dir}" prefix="zocalo/webpages/images" />
+	  <zipfileset dir="${dojo.dir}" prefix="zocalo/webpages/dojo" />
+    </zip>
+  </target>
+
+  <target name="source-tar"
+          depends="javadoc,clean-test,versionFile,clean-compress" description="build a source tar file">
+    <tar destfile="${zocaloSrcTar}" excludes=".svn,*~">
+	  <tarfileset dir="../" prefix="zocalo/" includes="log4j*.properties" />
+	  <tarfileset dir="${source.dir}/" prefix="zocalo/src" />
+	  <tarfileset dir="${test.dir}/" prefix="zocalo/test" />
+	  <tarfileset dir="${etc.dir}/" prefix="zocalo/etc" />
+	  <tarfileset dir="${build.dir}" includes="build.xml,*.nsi,*.conf" prefix="zocalo/build" />
+	  <tarfileset dir="${bin.dir}" prefix="zocalo/bin" mode="755" />
+	  <tarfileset dir="${doc.dir}/" prefix="zocalo/doc" />
+	  <tarfileset dir="${lib.dir}/" prefix="zocalo/build/jars" />
+	  <tarfileset dir="${template.dir}/" prefix="zocalo/templates" />
+	  <tarfileset dir="${build.dir}/licenses" prefix="zocalo/build/licenses" />
+	  <tarfileset dir="${db-web.dir}" prefix="zocalo/web/db" />
+	  <tarfileset dir="${exp-web.dir}" prefix="zocalo/web/exp" />
+	  <tarfileset dir="${config-web.dir}" prefix="zocalo/web/config" />
+	  <tarfileset dir="${images.dir}" prefix="zocalo/web/images" />
+	  <tarfileset dir="${data.dir}" prefix="zocalo/data"
+				  excludes="AllMarkets.*,PersistentActionRead.*,PersistentActionTest.*,*-cya" />
+	  <tarfileset dir="${javadoc.dir}" prefix="zocalo/javadoc"  />
+    </tar>
+  </target>
+
+  <target name="compress" depends="TAR,source-tar" description="compress tar files for release">
+   <gzip zipfile="${zocaloExpBinTarZ}" src="${zocaloExpBinTar}" />
+   <gzip zipfile="${zocaloPMBinTarZ}" src="${zocaloPMBinTar}" />
+   <gzip zipfile="${zocaloConfigBinTarZ}" src="${zocaloConfigBinTar}" />
+   <gzip zipfile="${zocaloSrcTarZ}" src="${zocaloSrcTar}" />
+  </target>
+
+  <target name="defineJasper" description="dependency to the jsp-* targets. do not run directly">
+   <taskdef classname="org.apache.jasper.JspC" name="jasper2" > 
+    <classpath id="jsp.classpath"> 
+      <pathelement location="${lib.dir}/commons-logging-api.jar"/>
+      <pathelement location="${lib.dir}/jasper-compiler.jar"/>
+      <pathelement location="${lib.dir}/jasper-runtime.jar"/>
+      <pathelement location="${lib.dir}/log4j-1.2.15.jar"/>
+      <pathelement path="${zocaloJar}" />
+      <pathelement path="${hibernateLibJar}" />
+	  <pathelement location="${lib.dir}/servlet-api-2.5-6.1.5.jar"/>
+	  <pathelement location="${lib.dir}/jsp-api-2.1.jar"/>
+	  <pathelement location="${lib.dir}/jetty-6.1.11.jar"/>
+	  <pathelement location="${lib.dir}/jetty-util-6.1.11.jar"/>
+	  <pathelement location="${lib.dir}/cometd-bayeux-6.1.11.jar"/>
+	  <pathelement location="${lib.dir}/cometd-api-0.9.20080221.jar"/>
+	  <pathelement location="${lib.dir}/commons-el.jar"/>
+	  <pathelement location="${lib.dir}/commons-fileupload-1.2.jar"/>
+    </classpath> 
+   </taskdef>
+  </target>
+
+  <target name="jsp-pm" depends="classes,defineJasper"
+          description="pre-compile the jsp pages for the PM server"> 
+    <mkdir dir="${jsp-db.dir}" />
+    <jasper2 validateXml="false" uriroot="${db-web.dir}" outputDir="${jsp-db.dir}" />
+    <mkdir dir="${jsp-classes.dir}" />
+    <javac srcdir="${jsp-db.dir}" destdir="${jsp-classes.dir}" debug="on" >
+      <compilerarg value="-nowarn" />
+      <classpath>
+        <path refid="zocalo-classpath" />
+      </classpath>
+    </javac>
+    <jar jarfile="${jsp.jar}" basedir="${jsp-classes.dir}" />
+  </target>
+
+  <target name="jsp-config" depends="classes"
+          description="pre-compile the jsp pages for editing configurations"> 
+    <mkdir dir="${jsp-config.dir}" />
+    <jasper2 validateXml="false" uriroot="${config-web.dir}" outputDir="${jsp-config.dir}" />
+    <mkdir dir="${jsp-classes.dir}" />
+    <javac srcdir="${jsp-config.dir}" destdir="${jsp-classes.dir}" debug="on" >
+      <compilerarg value="-nowarn" />
+      <classpath>
+        <path refid="zocalo-classpath" />
+      </classpath>
+    </javac>
+    <jar jarfile="${jsp.jar}" basedir="${jsp-classes.dir}" />
+  </target>
+
+  <target name="jsp-exp" depends="classes,defineJasper"
+          description="pre-compile the jsp pages for the econ experiments"> 
+    <mkdir dir="${jsp-exp.dir}" />
+    <jasper2 validateXml="false" uriroot="${exp-web.dir}" outputDir="${jsp-exp.dir}" />
+    <mkdir dir="${jsp-classes.dir}" />
+    <javac srcdir="${jsp-exp.dir}" destdir="${jsp-classes.dir}" debug="on" >
+      <compilerarg value="-nowarn" />
+      <classpath>
+        <path refid="zocalo-classpath" />
+      </classpath>
+    </javac>
+    <jar jarfile="${jsp.jar}" basedir="${jsp-classes.dir}" />
+  </target>
+
+  <target name="javadoc" description="compile the javadoc">
+   <javadoc
+            destdir="${javadoc.dir}"
+            packagenames="net.commerce.zocalo.*"
+			overview="${source.dir}/net/commerce/zocalo/overview.html"
+			windowtitle="Zocalo Prediction Markets"
+            sourcepath="${source.dir}" >
+     <classpath>
+       <path refid="zocalo-classpath" />
+     </classpath>
+   </javadoc>
+  </target>
+
+  <target name="compClasses" description="compile source classes">
+    <mkdir dir="${classes.dir}" />
+    <javac srcdir="${source.dir}" destdir="${classes.dir}" nowarn="true" debug="on" >
+      <classpath>
+        <path refid="zocalo-classpath" />
+      </classpath>
+    </javac>
+  </target>
+
+  <target name="classes" description="build a jar file w/classes" depends="compClasses">
+    <jar jarfile="${zocaloJar}" basedir="${classes.dir}" />
+  </target>
+
+  <target name="testClasses" depends="classes" description="compile test classes">
+    <mkdir dir="${testclasses.dir}" />
+    <javac srcdir="../test" destdir="${testclasses.dir}" nowarn="true">
+      <classpath>
+        <path refid="test-classpath" />
+      </classpath>
+    </javac>
+    <jar jarfile="${testJar}" basedir="${testclasses.dir}" />
+  </target>
+
+  <target name="clean-test" description="clean up test output">
+     <delete dir="${testclasses.dir}" />
+     <delete file="${testJar}" />
+  </target>
+
+  <target name="clean-compress" description="remove compressed tar files">
+     <delete file="${zocaloSrcTarZ}" />
+     <delete file="${zocaloExpBinTarZ}" />
+     <delete file="${zocaloPMBinTarZ}" />
+     <delete file="${zocaloConfigBinTarZ}" />
+  </target>
+
+  <target name="clean" depends="CLEAN" description="synonym for CLEAN" />
+
+  <target name="CLEAN" depends="clean-test,clean-compress"
+          description="clean up">
+       <!-- classes -->
+         <delete dir="${classes.dir}" />
+         <delete file="${zocaloJar}" />
+
+       <!-- tar -->
+         <delete file="${zocaloSrcTar}" />
+         <delete file="${zocaloExpBinTar}" />
+         <delete file="${zocaloPMBinTar}" />
+         <delete file="${zocaloConfigBinTar}" />
+
+       <!-- zip -->
+         <delete file="${zocaloPMBinZip}" />
+         <delete file="${zocaloConfigBinZip}" />
+         <delete file="${zocaloExpBinZip}" />
+         <delete dir="${winCrLf.dir}" />
+
+       <!-- jsp files -->
+         <delete dir="${jsp-db.dir}" />
+         <delete dir="${jsp-config.dir}" />
+         <delete dir="${jsp-exp.dir}" />
+         <delete file="${jsp.jar}" />
+         <delete dir="${jsp-classes.dir}" />
+
+       <!-- javadoc dir -->
+         <delete dir="${javadoc.dir}" />
+       <!-- test output dir -->
+         <delete dir="${test.out}" />
+         <delete dir="${test.web}" />
+
+       <!-- hibernate jar -->
+         <delete file="${hibernate.jar}" />
+         <delete file="${hibernateTest.jar}" />
+
+       <!-- test -->
+         <delete dir="../webpages" />
+		<delete>
+			<fileset dir="${data.dir}">
+				<include name="AllMarkets.*" />
+				<include name="*Read.*" />
+				<include name="*Test.*" />
+				<include name="testPM.*" />
+				<include name="*-cya" />
+			</fileset>
+		</delete>
+  </target>
+
+  <target name="build"
+    depends="allClasses" description="compile zocalo classes" />
+
+  <target name="testTask" description="Runs JUnit Tests" depends="testClasses,hibernate-files">
+      <echo>=== Running JUnit Tests ===</echo>
+      <mkdir dir="${test.out}" />
+      <junit printsummary="on" fork="once" haltonfailure="no" showoutput="no" dir=".." >
+          <jvmarg value="-Djava.awt.headless=true"/>
+          <classpath>
+	        <fileset dir="${lib.dir}" excludes="junit.jar,ant.jar"/>
+            <pathelement path="${zocaloJar}" />
+            <pathelement path="${testJar}" />
+          </classpath>
+          <formatter type="brief"/>
+		  <batchtest fork="yes" todir="TEST">
+            <fileset dir="${test.dir}">
+              <include name="**/*Test.java"/>
+            </fileset>
+          </batchtest>
+<!--		  <test name="net.commerce.zocalo.JspSupport.ClaimPurchaseTest"/>
+		  <test name="net.commerce.zocalo.JspSupport.ExperimenterScreenTest"/>
+		  <test name="net.commerce.zocalo.JspSupport.TraderScreenTest"/>
+		  <test name="net.commerce.zocalo.market.BookTest"/>
+		  <test name="net.commerce.zocalo.market.MarketMakerTest"/>
+		  <test name="net.commerce.zocalo.market.MarketTest"/>
+  -->
+		  <!-- <test name="net.commerce.zocalo.market.MultiMarketMakerTest"/> -->
+		  <!-- <test name="net.commerce.zocalo.market.PersistentMultiMarketTest"/> -->
+      </junit>
+  </target>
+
+  <target name="test" depends="TEST" description="synonym for TEST" />
+
+  <target name="TEST" description="Run JUnit Tests Via an Exec Task">
+     <mkdir dir="${log.dir}" />
+     <mkdir dir="${test.out}" />
+     <mkdir dir="${test.web}" />
+     <exec executable="ant" >
+        <env key="CLASSPATH" path="${lib.dir}/junit.jar"/>
+        <arg line="testTask"/>
+     </exec>
+     <exec executable="egrep">
+        <arg line="-r" />
+        <arg line="'(Failures: [^0]|Errors: [^0])'" />
+        <arg line="TEST" />
+     </exec>
+  </target>
+
+  <target name="schema-export" depends="hibernate-files,classes,testClasses" description="exporting OO-Model to SQL">
+     <echo message="Exporting data model to SQL"/>
+     <taskdef name="schemaexport" classname="org.hibernate.tool.hbm2ddl.SchemaExportTask">
+      <classpath>
+            <path refid="zocalo-classpath" />
+            <pathelement location="${zocaloJar}" />
+            <pathelement location="${testJar}" />
+      </classpath>
+     </taskdef>
+     <schemaexport text="no" quiet="yes">
+       <fileset dir="${source.dir}" includes="**/*.hbm.xml" />
+       <fileset dir="${test.dir}" includes="**/*.hbm.xml" />
+     </schemaexport>
+  </target>
+
+  <target name="hibernate-files" description="non-java files for hibernate">
+    <jar jarfile="${hibernate.jar}">
+       <fileset dir="${etc.dir}/DB" includes="hibernate.properties" />
+       <fileset dir="${source.dir}" includes="**/*.hbm.xml" />
+    </jar>
+    <jar jarfile="${hibernateTest.jar}">
+       <fileset dir="${test.dir}" includes="**/*.hbm.xml" />
+    </jar>
+  </target>
+
+</project>

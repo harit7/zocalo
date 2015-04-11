@@ -1,0 +1,121 @@
+sessionTitle: April3
+rounds: 3
+players: traderA, traderB, manipulatorC, judgeD
+
+# in minutes
+timeLimit: 5
+
+traderA.role: trader
+traderB.role: trader
+manipulatorC.role: manipulator
+judgeD.role: judge
+initialHint: Trading has not started yet.
+
+endowment.trader: 200
+endowment.manipulator: 100
+tickets.trader: 5
+tickets.manipulator: 3
+
+# should the market require that new orders be at better prices than
+# previous ones?  "true" says yes.  "false" indicates that new orders
+# can be limit orders away from the market frontier.
+
+betterPriceRequired: false
+
+# should binary assets be supported in addition to unary?  "true" says
+# that participants can only sell assets if they have some on hand,
+# and all ticket holdings will be positive.  "false" supports binary
+# assets.  In this case, coupons can be positive or negative, and when
+# a buyer and seller agree on price, a new pair can be created.
+
+useUnaryAssets: false
+
+# Manipulators are rewarded for their assets plus a bonus based on the
+# difference between their target and the average of the judges' guesses
+#
+# The manipulator bonus:     constant - (difference * factor)
+scoringFactor.manipulator: 2
+scoringConstant.manipulator: 200
+
+# Judges are rewarded with a bonus based on the square of the difference
+# between their guess and the actual value of the tickets
+#
+# The  Judge's bonus:      constant - (difference * difference * factor)
+scoringFactor.judge: .02
+scoringConstant.judge: 250
+
+# These values are specified by round.
+
+commonMessage:        raisePrice, changePrice, noMessage
+actualValue:          70,          30,         40
+
+
+# The common message can be replaced by a message telling
+# participants whether the average trading price in the previous
+# round was higher or lower than some value.  The value may be
+# specified with the "thresholdValue" parameter, which can take the
+# values "dividend", "remainingDividend", or an explicit list giving
+# the threshold for each round.  All three of "thresholdValue",
+# "aboveThresholdMessage" and "belowThresholdMessage" must be
+# defined for this setting to take effect.  The message can be
+# defined to include the percentage difference, the absolute
+# difference, or can omit any data-dependent values.  In order to
+# include the difference as a percentage (in which case the dividend
+# shouldn't be zero), insert the word "percent" between a pair of
+# dollar signs in the text.  To print the value as the absolute
+# difference, insert "difference".  The dollar signs will not appear
+# in the displayed text. To insert a literal dollar sign, precede it
+# with two backslashes.  ("\\$")
+
+thresholdValue: remainingDividend
+#thresholdValue: dividend
+#thresholdValue: 37, 48, 95
+#aboveThresholdMessage: The price is %$percent$ too high
+#belowThresholdMessage: The price is $difference$ cents too low
+aboveThresholdMessage: The price is too high
+belowThresholdMessage: The price is too low
+
+# These values are specified by Player and Round.
+
+traderA.hint:         not100,     not40,       not100
+traderB.hint:         not40,      notZero,     notZero
+manipulatorC.hint:    not100,     notZero,     notZero
+manipulatorC.earningsHint: worth40, worth40,   worth100
+manipulatorC.target:  40,         40,          100
+
+# text labels can be used in hints or commonMessage
+
+not100: The ticket value is not 100.
+not40: The ticket value is not 40.
+notZero: The ticket value is not 0.
+raisePrice: Some players are trying to raise the apparent price
+changePrice: Some players are trying to change the apparent price
+noMessage:
+worth40: Your score will improve if the judge thinks the tickets are worth 40
+worth100: Your score will improve if the judge thinks the ticket are worth 100
+
+------------------------------
+
+# The following strings override default value labels used in the interface to
+#describe score computations.  If no value or an illegal value is provided the
+#default will be used.
+
+# Provide a value to replace "Your clue", which describes hints given to a
+#particular trader in an experiment.
+
+messageLabel: Your clue
+
+#Provide a value to replace "Shared Message", which describes a hint given to
+#all traders in an experiment.
+
+commonMessageLabel: Shared Message
+
+#Provide a value to replace "Actual Ticket Value", which describes the value
+#of each coupon a trader might hold in an experiment
+
+actualValueLabel: Actual Ticket Value
+
+#Provide a value to replace the description of the Total Asset Value.  If the
+#string doesn't follow the format of the default, the HTML display may not work
+
+totalAssetsLabel: Total Asset Value<br><font size='-2'>(cash + tickets)</font>

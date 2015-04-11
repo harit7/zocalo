@@ -1,0 +1,77 @@
+03/10 11:29:13.966/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/10 11:29:13.975/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/10 11:29:14.085/IST   INFO -        trace -    creating AllMarkets
+03/10 11:29:15.914/IST  ERROR - SchemaUpdate - could not get database metadata
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'system_sequences' in information_schema
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2618)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2568)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1557)
+	at org.hibernate.tool.hbm2ddl.DatabaseMetadata.initSequences(DatabaseMetadata.java:113)
+	at org.hibernate.tool.hbm2ddl.DatabaseMetadata.<init>(DatabaseMetadata.java:39)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:124)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:265)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1005)
+	at net.commerce.zocalo.hibernate.HibernateUtil.initializeSessionFactory(HibernateUtil.java:51)
+	at net.commerce.zocalo.service.AllMarkets.initializeDB(AllMarkets.java:116)
+	at net.commerce.zocalo.service.AllMarkets.configure(AllMarkets.java:95)
+	at net.commerce.zocalo.service.AllMarkets.<init>(AllMarkets.java:87)
+	at net.commerce.zocalo.service.AllMarkets.main(AllMarkets.java:43)
+03/10 11:29:15.916/IST  ERROR - SchemaUpdate - could not complete schema update
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'system_sequences' in information_schema
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2618)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2568)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1557)
+	at org.hibernate.tool.hbm2ddl.DatabaseMetadata.initSequences(DatabaseMetadata.java:113)
+	at org.hibernate.tool.hbm2ddl.DatabaseMetadata.<init>(DatabaseMetadata.java:39)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:124)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:265)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1005)
+	at net.commerce.zocalo.hibernate.HibernateUtil.initializeSessionFactory(HibernateUtil.java:51)
+	at net.commerce.zocalo.service.AllMarkets.initializeDB(AllMarkets.java:116)
+	at net.commerce.zocalo.service.AllMarkets.configure(AllMarkets.java:95)
+	at net.commerce.zocalo.service.AllMarkets.<init>(AllMarkets.java:87)
+	at net.commerce.zocalo.service.AllMarkets.main(AllMarkets.java:43)
+03/10 11:29:16.060/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/10 11:29:16.061/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/10 11:29:19.894/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/10 11:29:39.252/IST   WARN -    UserError - 36# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+03/10 11:30:35.935/IST   WARN -    UserError - 37# told User(logging in) "We've sent you a confirmation email. To activate your account, please follow the instructions in the email.".
+03/10 11:30:45.487/IST   WARN -    UserError - 38# told User(logging in) "Congratulations harit! You're now done. Now Jump in!".
+03/10 11:30:45.574/IST   WARN -    UserError - 39# told User(logging in) "Please type an account name and password".
+03/10 11:30:58.869/IST   WARN -    UserError - 40# told User(logging in) "Please type an account name and password".
+03/10 11:31:05.386/IST   WARN -    UserError - 41# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/10 11:31:12.807/IST   WARN -    UserError - 42# told harit "Please specify a name for the market.".
+03/10 11:33:46.768/IST   INFO -   Transition - 43# State transition: new Multi Market, round: 0.
+03/10 11:33:46.769/IST   INFO -  PriceAction - 44# harit traded with the market maker for 0 of India vs Bangladesh Quarter Final:India at 50
+03/10 11:33:46.771/IST   INFO -  PriceAction - 45# harit traded with the market maker for 0 of India vs Bangladesh Quarter Final:Bangladesh at 50
+03/10 11:33:48.760/IST  ERROR - JDBCExceptionReporter - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 this_.MARKETS_ID as MARKETS1_2_, this_.priceBetteringRequired as priceBet3_15_' at line 1
+03/10 11:33:57.172/IST   WARN -    UserError - 48# told harit "A market with the name 'India vs Bangladesh Quarter Final' already exists.".
+03/10 11:33:57.979/IST   INFO -     NewChart - The chart for India vs Bangladesh Quarter Final has been updated.
+03/10 11:34:28.401/IST  ERROR - JDBCExceptionReporter - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 this_.MARKETS_ID as MARKETS1_2_, this_.priceBetteringRequired as priceBet3_15_' at line 1
+03/10 11:34:30.964/IST   WARN -    UserError - 55# told User(logging in) "Please type an account name and password".
+03/10 11:34:35.655/IST   WARN -    UserError - 56# told User(logging in) "unknown account or password".
+03/10 11:34:45.734/IST   WARN -    UserError - 57# told User(logging in) "Congratulations haritcsa! You're now done. Now Jump in!".
+03/10 11:34:45.787/IST   WARN -    UserError - 58# told User(logging in) "Please type an account name and password".
+03/10 11:34:55.149/IST  ERROR - JDBCExceptionReporter - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 this_.MARKETS_ID as MARKETS1_2_, this_.priceBetteringRequired as priceBet3_15_' at line 1

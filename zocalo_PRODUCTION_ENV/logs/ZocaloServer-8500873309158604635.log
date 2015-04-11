@@ -1,0 +1,66 @@
+03/15 12:58:01.398/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/15 12:58:01.403/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/15 12:58:01.403/IST   INFO -   AllMarkets - version = 2
+03/15 12:58:01.482/IST   INFO -        trace -    creating AllMarkets
+03/15 12:58:02.308/IST   WARN - Configurator - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/mnt/SOLIDSTATE/predictionmarket2015/zocalo/zocalo_PRODUCTION_ENV/jars/ehcache-1.1.jar!/ehcache-failsafe.xml
+03/15 12:58:03.219/IST   INFO -   AllMarkets -  opened port '30020'.  Browse to                    http://<<yourhost>>:30020/Welcome.jsp
+03/15 12:58:03.219/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+03/15 12:58:31.498/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+03/15 12:59:28.507/IST   WARN -    UserError - 44# told User(logging in) "Please type an account name and password".
+03/15 12:59:45.247/IST  DEBUG -      Trading - test2 wants to buy India @ true.
+03/15 12:59:45.261/IST   INFO -  PriceAction - 45# test2 traded with the market maker for 11.699 of test:India changing the price from 40 to 60
+03/15 12:59:45.263/IST   INFO -  PriceAction - 46# test2 traded with the market maker for 0 of test:Bangladesh changing the price from 60 to 40
+03/15 12:59:45.264/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 60, test:Bangladesh: 40
+03/15 12:59:45.265/IST   WARN -    UserError - 47# told test2 "Bought 11.699 shares of the team.".
+03/15 12:59:45.473/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:59:50.208/IST  DEBUG -      Trading - test2 wants to liquidate India
+03/15 12:59:50.221/IST   INFO -  PriceAction - 58# test2 traded with the market maker for 0 of test:Bangladesh changing the price from 40 to 60
+03/15 12:59:50.221/IST   INFO -  PriceAction - 59# test2 traded with the market maker for -11.699 of test:India changing the price from 60 to 40
+03/15 12:59:50.278/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:59:50.279/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 60, test:India: 40
+03/15 12:59:50.330/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:59:50.331/IST   WARN -    UserError - 60# told test2 "Sold 11.699".
+03/15 12:59:56.958/IST  DEBUG -      Trading - test2 wants to buy India @ true.
+03/15 12:59:56.968/IST   INFO -  PriceAction - 63# test2 traded with the market maker for 0 of test:Bangladesh changing the price from 60 to 40
+03/15 12:59:56.969/IST   INFO -  PriceAction - 64# test2 traded with the market maker for 11.699 of test:India changing the price from 40 to 60
+03/15 12:59:57.017/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 12:59:57.018/IST   INFO -  PriceChange - prices in market 'test' changed.  test:Bangladesh: 40, test:India: 60
+03/15 12:59:57.019/IST   WARN -    UserError - 65# told test2 "Bought 11.699 shares of the team.".
+03/15 12:59:57.086/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:00:18.811/IST  DEBUG -      Trading - test2 wants to sell Bangladesh @ true.
+03/15 01:00:18.820/IST   WARN -   CouponBank - CouponBank received 0 instead of 14.1504236 in printNewCouponSets().
+03/15 01:00:18.822/IST   INFO -  PriceAction - 70# test2 traded with the market maker for 0 of test:India changing the price from 60 to 80
+03/15 01:00:18.822/IST   INFO -  PriceAction - 71# test2 traded with the market maker for -14.15 of test:Bangladesh changing the price from 40 to 20
+03/15 01:00:18.871/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:00:18.872/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 80, test:Bangladesh: 20
+03/15 01:00:18.873/IST   WARN -    UserError - 72# told test2 "Sold 14.15 shares of the team.".
+03/15 01:00:18.937/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:00:33.783/IST  DEBUG -      Trading - test2 wants to sell India @ true.
+03/15 01:00:33.792/IST   INFO -  PriceAction - 79# test2 traded with the market maker for -25.85 of test:India changing the price from 80 to 40
+03/15 01:00:33.793/IST   INFO -  PriceAction - 80# test2 traded with the market maker for 0 of test:Bangladesh changing the price from 20 to 60
+03/15 01:00:33.840/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:00:33.840/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 40, test:Bangladesh: 60
+03/15 01:00:33.841/IST   WARN -    UserError - 81# told test2 "Sold 25.85 shares of the team.".
+03/15 01:00:33.904/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:00:47.329/IST  DEBUG -      Trading - test2 wants to sell Bangladesh @ true.
+03/15 01:00:47.338/IST   INFO -  PriceAction - 90# test2 traded with the market maker for 0 of test:India changing the price from 40 to 70
+03/15 01:00:47.339/IST   INFO -  PriceAction - 91# test2 traded with the market maker for -18.074 of test:Bangladesh changing the price from 60 to 30
+03/15 01:00:47.385/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:00:47.386/IST   INFO -  PriceChange - prices in market 'test' changed.  test:India: 70, test:Bangladesh: 30
+03/15 01:00:47.387/IST   WARN -    UserError - 92# told test2 "Sold 18.074 shares of the team.".
+03/15 01:00:47.449/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:03:12.706/IST   INFO -     NewChart - The chart for test has been updated.
+03/15 01:03:52.615/IST   WARN -    UserError - 137# told User(logging in) "Please type an account name and password".
+03/15 01:03:59.154/IST   WARN -    UserError - 138# told User(logging in) "unknown account or password".
+03/15 01:04:33.622/IST   WARN -    UserError - 139# told User(logging in) "Please type an account name and password".
+03/15 01:04:39.909/IST   WARN -    UserError - 140# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+03/15 01:05:54.607/IST   INFO -  PriceAction - 143# test2 redeemed 18.074 coupons  for test:India at 100
+03/15 01:05:54.610/IST   INFO -  PriceAction - 144# iota redeemed 0 coupons  for test:Bangladesh at 0
+03/15 01:05:54.611/IST   INFO -  PriceAction - 145# iota redeemed 0 coupons  for test:India at 100
+03/15 01:05:54.613/IST   INFO -  PriceAction - 146# Market Maker redeemed 0 coupons  for test:India at 100
+03/15 01:05:54.613/IST   INFO -  PriceAction - 147# Market Maker redeemed 18.074 coupons  for test:Bangladesh at 0
+03/15 01:05:54.613/IST   INFO -   CouponBank - 148# Redeemed 18.0736 'India' Coupons for test
+03/15 01:05:54.615/IST   WARN -    UserError - 149# told mauka "3.45 was refunded at Market close.".
+03/15 01:05:54.615/IST   WARN -    UserError - 150# told mauka "Redeemed 75.622 pairs.".
+03/15 01:06:04.943/IST   WARN -    UserError - 153# told test2 "market is closed.".
+03/15 02:25:32.138/IST   WARN -    UserError - 167# told User(logging in) "Please type an account name and password".

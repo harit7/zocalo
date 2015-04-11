@@ -1,0 +1,16 @@
+04/06 04:47:38.468/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+04/06 04:47:38.470/IST   WARN -       Config - Using Cost Limit Purchase pages
+04/06 04:47:38.528/IST   INFO -        trace -    creating AllMarkets
+04/06 04:47:40.311/IST   INFO -   AllMarkets -  opened port '30000'.  Browse to                    http://<<yourhost>>:30000/Welcome.jsp
+04/06 04:47:40.312/IST   WARN - Session Config - 34# no RPC.server.enable property found in initialization file; defaulting to false
+04/06 04:48:20.117/IST   WARN -    UserError - 35# told User(logging in) "Please type an account name and password".
+04/06 04:48:38.010/IST  DEBUG -      Trading - rohithdv wants to buy palash with limit of 100 @ 40.
+04/06 04:59:07.645/IST   WARN -    UserError - 36# told User(logging in) "Please type an account name and password".
+04/06 04:59:10.250/IST   WARN -    UserError - 37# told User(logging in) "Please type an account name and password".
+04/06 04:59:16.687/IST   WARN -    UserError - 38# told User(logging in) "Added Admin Credentials.  Login to an account to trade or create markets.".
+04/06 04:59:28.053/IST   WARN -    UserError - 39# told rohithdv "Please specify a name for the market.".
+04/06 04:59:53.701/IST   INFO -   Transition - 40# State transition: new Multi Market, round: 0.
+04/06 04:59:53.702/IST   INFO -  PriceAction - 41# rohithdv traded with the market maker for 0 of test:yes at 33.3333
+04/06 04:59:53.702/IST   INFO -  PriceAction - 42# rohithdv traded with the market maker for 0 of test:no at 33.3333
+04/06 04:59:53.703/IST   INFO -  PriceAction - 43# rohithdv traded with the market maker for 0 of test:maybe at 33.3333
+04/06 05:00:32.186/IST   INFO -     NewChart - The chart for test has been updated.

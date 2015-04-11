@@ -1,0 +1,164 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../trading.css">
+<!--
+Copyright 2008, 2009 Chris Hibbert.   All rights reserved.
+
+This software is published under the terms of the MIT license, a copy
+of which has been included with this distribution in the LICENSE file.
+-->
+</head>
+<body onLoad="onload_actions()">
+
+<script type="text/javascript" src="../tradingUI.js"></script>
+<script type="text/javascript" src="../support.js"></script>
+<script type="text/javascript" src="../../exp/test/jsunit/jstest-v1.js"></script>
+
+<script type="text/javascript">
+
+    tests = {
+        copyRoleTest: function() {
+            var judge = document.getElementById('judging');
+            assert_equal("judging", judge.id);
+            assert(null == document.getElementById('judginh'));
+            judge.cloneNode(true);
+        },
+
+	   nextTest: function() {
+           assert(true);
+       },
+    }
+
+    function onload_actions() {
+        barebones_run_tests();
+    }
+
+</script>
+
+<a href="/Stuff/IF-java/test/jstest/jstest-v1.js">test framework</a>
+
+<h1> label change test </h1>
+
+<form method=POST action='configEditingTest.html'>
+    <table cellpadding='3' align='center' cellspacing='0' border='1' >
+
+       <tr><td>
+           <table cellpadding='3' align='center' cellspacing='0' border='1' >
+
+               <tr><td>title: <input type=text value='default' name='title'></tr>
+               <tr><td>rounds: <input type=text value='3' size=3 name='rounds'></tr>
+
+               <tr><td>duration: <input type=text value='0' name='duration'></tr>
+               <tr><td>saveFile: <input type=text value='default' name='saveFile'></tr>
+           </table></tr>
+       <tr><td>
+           <table cellpadding='3' align='center' cellspacing='0' border='1' >
+
+               <tr><td><label><input type=checkbox name='priceBettering' >priceBettering</label></tr>
+               <tr><td><label><input type=checkbox name='wholeShareTrading' checked>wholeShareTrading</label></tr>
+               <tr><td><table cellpadding='3' align='center' cellspacing='0' border='0' >
+
+               <tr><td align=center>
+               <label><input type=radio onclick='updateVisibility("Carry Forward", "no Carry Forward,")'
+                             value='Carry Forward' name='carryForward' checked>Carry Forward</label>
+               <label><input type=radio onclick='updateVisibility("no Carry Forward", "Carry Forward,")'
+                             value='no Carry Forward' name='carryForward'>no Carry Forward</label>
+
+               <tr><td>
+                   <table cellpadding='3' align='center' cellspacing='0' border='1' style='display:block;background:lightgray' id='Carry Forward'>
+                       <tr><td><label><input type=checkbox name='display Carry Forward scores' >display Carry Forward scores</label></tr>
+                   </table>&nbsp;</table></tr>
+               <tr><td>
+                   <table cellpadding='3' align='center' cellspacing='0' border='0' >
+
+                       <tr><td align=center>
+                       <label><input type=radio onclick='updateVisibility("unary assets", "binary assets,")'
+                                     value='unary assets' name='unary' checked>unary assets</label>
+                       <label><input type=radio onclick='updateVisibility("binary assets", "unary assets,")'
+                                     value='binary assets' name='unary'>binary assets</label>
+                       <tr><td>&nbsp;&nbsp;
+                   </table></tr>
+               <tr><td>maxPrice: <input type=text value='100' size=3 name='maxPrice'></tr>
+          </table></tr>
+       <tr><td>
+           <table cellpadding='3' align='center' cellspacing='0' border='0' >
+             <tr><td align=center>
+                 <label><input type=radio onclick='updateVisibility("conventional", "Judging,voting,")' value='conventional' name='main' checked>conventional</label>
+                 <label><input type=radio onclick='updateVisibility("Judging", "conventional,voting,")' value='Judging' name='main'>Judging</label>
+                 <label><input type=radio onclick='updateVisibility("voting", "conventional,Judging,")' value='voting' name='main'>voting</label>
+                 <table cellpadding='3' align='center' cellspacing='0' border='1' style='display:block;background:lightgray' id='conventional'>
+                   <tr><td>
+                       <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                         <tr><td><b>Trader</tr>
+                         <tr><td>&nbsp;</td></tr>
+                         <tr id="conventional-TraderA"><td>TraderA
+                             <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                               <tr><td>hint: <input type=text value='hint1,hint2' name='hint'></tr>
+                               <tr><td>target: <input type=text value='1,2' name='target'></tr>
+                               <tr><td>login names: <input type=text value='TraderA1' name='login names'></tr>
+                             </table>
+                   </table></tr>
+                 </table>
+                 <table cellpadding='3' align='center' cellspacing='0' border='1' style='display:none;background:lightgray' id='Judging'>
+                   <tr><td>judge scoring factor: <input type=text value='1.0' size=3 name='judge scoring factor'></tr>
+                   <tr><td>manipulator scoring factor: <input type=text value='1.0' size=3 name='manipulator scoring factor'></tr>
+                   <tr><td>
+                       <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                         <tr><td><b>Trader</tr>
+                         <tr><td>&nbsp;</td></tr>
+                         <tr id="Judging-TraderA"><td>TraderA
+                             <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                               <tr><td>hint: <input type=text value='hint1,hint2' name='hint'></tr>
+                               <tr><td>target: <input type=text value='1,2' name='target'></tr>
+                               <tr><td>login names: <input type=text value='TraderA1' name='login names'></tr>
+                             </table>
+                   </table></tr>
+                   <tr><td>
+                       <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                         <tr><td><b>Manipulator</tr>
+                         <tr><td>&nbsp;</td></tr>
+                         <tr id="Judging-ManipulatorA"><td>ManipulatorA
+                             <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                               <tr><td>hint: <input type=text value='hint1,hint2' name='hint'></tr>
+                               <tr><td>target: <input type=text value='1,2' name='target'></tr>
+                               <tr><td>login names: <input type=text value='ManipulatorA1' name='login names'></tr>
+                             </table>
+                   </table></tr>
+                   <tr><td>
+                       <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                         <tr><td><b>Judge</tr>
+                         <tr><td>&nbsp;</td></tr>
+                         <tr id="Judging-JudgeA"><td>JudgeA
+                             <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                               <tr><td>login names: <input type=text value='JudgingA1' name='login names'></tr>
+                             </table>
+                   </table></tr>
+                 </table>
+                 <table cellpadding='3' align='center' cellspacing='0' border='1' style='display:none;background:lightgray' id='voting'>
+                   <tr><td>voteRounds: <input type=text value='1,2' name='voteRounds'></tr>
+                   <tr><td>
+                       <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                         <tr><td><b>Trader</tr>
+                         <tr><td>&nbsp;</td></tr>
+                         <tr id="Voting-TraderA"><td>TraderA
+                             <input type=button class='smallFontButton' onclick="copyRoleNode('Voting-TraderA')" value='duplicate'>
+                             <input type=button class='smallFontButton' onclick="removeNode('Voting-TraderA')" value='remove'>
+                             <table cellpadding='3' align='center' cellspacing='0' border='1' >
+                               <tr><td>hint: <input type=text value='hint1,hint2' name='hint'></tr>
+                               <tr><td>target: <input type=text value='1,2' name='target'></tr>
+                               <tr><td>login names: <input type=text value='TraderA1' name='login names'></tr>
+                             </table>
+                   </table></tr>
+                 </table>
+           </table>
+       </tr>
+   </table>
+    <input type=submit class='smallFontButton'  name=action value='update Config'> &nbsp;
+    <input type=submit class='smallFontButton'  name=action value='save Config'>
+
+</form>
+
+
+</body>
+</html>

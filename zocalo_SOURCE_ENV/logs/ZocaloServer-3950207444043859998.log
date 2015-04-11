@@ -1,0 +1,26 @@
+03/11 01:40:36.278/IST   WARN - Session Config - 2# no announce.new.markets property found in initialization file; defaulting to false
+03/11 01:40:36.283/IST   WARN -       Config - Using Cost Limit Purchase pages
+03/11 01:40:36.412/IST   INFO -        trace -    creating AllMarkets
+03/11 01:40:39.132/IST  FATAL - DriverManagerConnectionProvider - JDBC Driver class not found: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:108)
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:61)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:80)
+	at org.hibernate.cfg.SettingsFactory.createConnectionProvider(SettingsFactory.java:362)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:60)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:1463)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1004)
+	at net.commerce.zocalo.hibernate.HibernateUtil.initializeSessionFactory(HibernateUtil.java:57)
+	at net.commerce.zocalo.service.AllMarkets.initializeDB(AllMarkets.java:120)
+	at net.commerce.zocalo.service.AllMarkets.configure(AllMarkets.java:99)
+	at net.commerce.zocalo.service.AllMarkets.<init>(AllMarkets.java:91)
+	at net.commerce.zocalo.service.AllMarkets.main(AllMarkets.java:47)

@@ -1,0 +1,64 @@
+sessionTitle: CarryForward-10.11
+rounds: 3
+players: traderA1, traderB, traderA2, Forecaster1
+
+# in minutes
+timeLimit: 2
+
+carryForward: true
+useUnaryAssets: true
+betterPriceRequired: false
+
+traderA1.role: trader
+traderA2.role: trader
+traderB.role: manipulator
+Forecaster1.role: judge
+initialHint: Trading has not started yet.
+
+endowment.trader: 200
+endowment.manipulator: 200
+tickets.trader: 2
+tickets.manipulator: 2
+
+# Traders are rewarded for the value of their assets.
+
+# Manipulators are rewarded for their assets plus a bonus based on the
+# difference between their target and the average of the judges' guesses
+#
+# The manipulator bonus:     constant - (difference * factor)
+scoringFactor.manipulator: 2
+scoringConstant.manipulator: 200
+
+# Judges are rewarded with a bonus based on the square of the difference
+# between their guess and the actual value of the tickets
+#
+# The  Judge's bonus:      constant - (difference * difference * factor)
+scoringFactor.judge: .022
+scoringConstant.judge: 250
+
+# These values are specified by round.
+commonMessage:        raisePrice, changePrice, noMessage
+dividendValue:          0,          100,         40
+
+#  Judges' Target should be specified when it differs from dividendValue
+#judge.target:          0,          100,         40
+
+# These values are specified by Player and Round.
+
+traderA1.hint:         not100,     not40,       not100
+traderA2.hint:         not40,      notZero,     notZero
+traderB.hint:          not100,     notZero,     notZero
+traderB.earningsHint:  worth40,    worth40,     worth100
+traderB.target:  40,         40,          100
+
+# text labels can be used in hints or commonMessage
+
+not100: The ticket value is not 100.
+not40: The ticket value is not 40.
+notZero: The ticket value is not 0.
+raisePrice: Some traders receive a bonus based on a Forecasters decision
+changePrice: Some traders receive a bonus based on a Forecasters decision
+noMessage:
+worth40: Your earnings will increase if the Forecasters thinks the asset is worth 40
+worth100: Your earnings will increase if the Forecasters thinks the asset is worth 100
+

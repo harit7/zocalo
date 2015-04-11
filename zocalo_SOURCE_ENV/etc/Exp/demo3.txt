@@ -1,0 +1,73 @@
+sessionTitle: DemoJune9
+rounds: 3
+players: t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, judge
+
+# in minutes
+timeLimit: 3
+
+t1.role: trader
+t2.role: trader
+t3.role: manipulator
+t4.role: judge
+t5.role: trader
+t6.role: manipulator
+t7.role: judge
+t8.role: trader
+t9.role: manipulator
+t10.role: trader
+judge.role: judge
+initialHint: Trading has not started yet.
+
+endowment.trader: 200
+endowment.manipulator: 200
+tickets.trader: 5
+tickets.manipulator: 3
+
+# Manipulators are rewarded for their assets plus a bonus based on the
+# difference between their target and the average of the judges' guesses
+#
+# The manipulator bonus:     constant - (difference * factor)
+scoringFactor.manipulator: 2
+scoringConstant.manipulator: 200
+
+# Judges are rewarded with a bonus based on the square of the difference
+# between their guess and the actual value of the tickets
+#
+# The  Judge's bonus:      constant - (difference * difference * factor)
+scoringFactor.judge: .02
+scoringConstant.judge: 250
+
+# These values are specified by round.
+
+commonMessage:        changePrice, changePrice, changePrice
+actualValue:          0,          100,         40
+
+# These values are specified by Player and Round.
+
+t1.hint:       not100,      notZero,      notZero
+t2.hint:       not40,       not40,        not100
+t3.hint:       not100,      not40,        not100
+t3.earningsHint: worth40,   worthZero,    worth40
+t3.target:          40,          0,         40
+t5.hint:       not100,     notZero,      notZero
+t6.hint:       not40,      notZero,      notZero
+t6.earningsHint: worth100, worth40,      worth100
+t6.target:         100,          40,         100
+t8.hint:       not40,       not40,        not100
+t9.hint:       not100,      not40,        not100
+t9.earningsHint: worthZero, worthZero,    worthZero
+t9.target:         0,          0,             0
+t10.hint:      not40,       not40,        not100
+
+# text labels can be used in hints or commonMessage
+
+not100: The ticket value is not 100.
+not40: The ticket value is not 40.
+notZero: The ticket value is not 0.
+raisePrice: Some players are trying to raise the apparent price
+changePrice: Some players are trying to change the apparent price
+noMessage:
+worthZero: Your score will improve if the judge thinks the tickets are worth 40
+worth40: Your score will improve if the judge thinks the tickets are worth 40
+worth100: Your score will improve if the judge thinks the ticket are worth 100
+

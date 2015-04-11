@@ -1,0 +1,37 @@
+In order to run the program under Idea, you need to set up libraries (class paths), and configure execution.
+
+You manage configuration using the Preferences pane  (Command-,) under Project Settings.  All the jar files in build/jars should be added in modules.  If you want to edit or debug code, add src, web, and test as source directories.  
+
+Libraries are managed under the Modules tab.  There are two important tabs here: Paths and Libraries.  Paths needs to point to where sources are and where test sources are.  You can use excludes to limit the number of things that show up in Idea's project pane.  
+
+Libraries neees to include most of the jar files in build/jars.  (Use the "Attach Classes" button.)
+
+In order to run or debug under Idea, you have to set up configurations
+(to the left of the green right arrow.  The funny arrow to its right
+is the debug button.)  Use the "+" button to create a new
+configuation.  You'll need a configuration for JUnit and possibly a
+couple for Applications.  
+
+Under JUnit, create a new configuration (call it "all tests").  Click
+the "All in Package" button.  The package is net.commerce.zocalo.
+(The "..." button will let you choose from the packages it knows
+about.)  Tell it to look "in whole project" for tests.  The working
+directory is build.  I keep "Make module before
+running/debugging/reloading" checked.
+
+I have two applications set up: experiment.ExperimentServer, and JspSupport.AllMarkets.  I set the working directory to a separate directory in which I have extracted  zocalo from the tar files, since the build file layout is different from the execution layout.
+
+The configurations match the invocations used in the shell scripts:
+
+ExperimentServer:
+ main class: net.commerce.zocalo.experiment.ExperimentServer
+ VM params: -Xmx128M
+ program params: 
+ working Dir: .../Run/Exp/zocalo
+
+AllMarkets
+ main class: net.commerce.zocalo.JspSupport.AllMarkets
+ VM params: -Xmx128M
+ program params: 
+ working Dir: .../Run/PM/zocalo
+

@@ -1,0 +1,246 @@
+x Add logging; log trades and book entries to console
+
+x constrain orders to single item, improved price (in interface?)
+
+x      show my orders and holdings; allow entry of price: buy 1
+x      no marketmaker or marketowner display
+x      constrain to improved price
+
+x display contents of order book
+x   4: Generate display of order book
+x   4: send display to user page
+
+x Dynamically update page
+x     pubsub
+
+x Show history of prices and order book
+x   3: retain history
+x   4: display history of prices and orders
+
+x Make an updating current price list
+
+x Trading against self produces 0/100 trade reports
+
+x 4: send personalized messages
+x 2: display user-specific session-stable message in html
+
+x My outstanding orders are upside-down
+x buy offers are upside down
+
+x move "Offers to buy" label to bottom of dynamic book display
+
+x empty orders display as 0 or 100
+
+x handle state transitions for experiment in Java
+x send event after self-dealing
+
+x in javascript:
+x   clear strip chart and orders for new round
+x   post scores
+x   allow judges to enter price guess
+
+x Automatically create a claim and setup accounts from a config file
+x  3: create a claim from a config file
+x  3: create accounts from a config file
+x  2: setup accounts from a config file
+
+x Label the chart y axis with prices
+
+x Separate sell and buy order input forms; GRO radio button.
+
+x Judges enter a judgement, preferably with a slider.
+
+x Each player sees his payoff at the end.
+
+x display user's status: cash, tickets, earnings
+x   3: generate display
+
+x 3: initial accounts include money, coupons
+
+x Build a timer for the experiment.
+
+xSession knows the url.  It should be updated from a config file.
+xconfiguration of pubsub server location:
+x    publishing in java,
+x    subscribing in javascript
+
+x self-dealing doesn't update outstanding offers.
+x My outstanding orders aren't updated when my offers are accepted
+
+x Display user-specific session-stable messages
+x   2: read message from config file
+
+x add warnings (self dealing, out of range orders, etc.) to user messages
+x    Out of range orders are rejected silently
+x      (logged to UserError, but not reflected to the user)
+
+x state Interlocks:  don't start next round until scores are computed.
+x   (Compute scores automatically if the experimenter forgets.)
+
+x Create a login screen
+
+x hide the bids and asks for historical strips.
+
+x Add time remaining (on left side?); move current round there, too.
+
+x Labels:
+x    score box should say "earnings".
+x    balance/holdings box should say "holdings"
+
+x verify that traders can't buy when their cash is zero.
+
+x Look at all Logger creations; ensure that all loggers go to a logfile.
+x    Currently UserError seems to be getting lost.
+
+xx Tell the experimenter if pubsub is down when initializing services.
+xx  (I think the server can tell, though the javascript can't.)
+xx It turns out that the server can't easily tell, either.
+xx org.mod_pubsub.client.command.BaseCommand.executeMethod swallows exceptions
+
+x Traders should be able to rescind their own orders
+
+x Allow traders to accept the current bid or ask (if it has already been
+x accepted or rescinded this should do nothing.)
+
+x Accept best bid/ask
+x   3: generate control to accept displayed bid/ask
+
+x 3: Order Book Display allows deletion of user's own order
+
+y Judges should be able to see projections for scoring assuming
+y various possible outcomes.
+
+x If both buy and sell order input boxes are entered, the code doesn't
+x    do anything clever.
+
+x Shouldn't be able to rescind an order when the market is closed.
+
+x Users (of the GMU experiment) should not be able to have negative
+x holdings.  They probably shouldn't be able to enter orders that
+x would take them below zero.
+
+x Show only total earnings for participants.
+
+x Don't let Judges score early.
+
+x Log events to a file and allow experimenter to download.
+
+1: an hour; 2: a half day; 3: one day; 4: 2 days; 5: bigger than that
+
+x A-3: Ensure all data reaches log at session end.  (currently, some data
+x is omitted.)
+
+x A-3: Change the way price orders are displayed in the log.  (Ideas/LogData)
+
+x A-2: Log Judges' estimates and traders' scores
+
+x A-2: Log and report to experimenter on config file load.
+
+x B-3: regularize money display.  Bids in cents, cash: dollars, scores: weird
+
+x B-3: Manipulators should have two hints, price and bonus
+
+x B-4: tell the Judges and Manipulators the basis for their scores.
+
+x C-1: move "curent round" and "round is finished" above the strip chart.
+    Make "finished" be RED or BOLD
+
+x 2: Strip chart labels display at different heights on different machines.
+
+x decrement the timer in javascript
+
+C-4:  Some login security so users can't see one another's accounts
+
+x all POSTs (at least ones on pages that will be refreshed autonomously)
+x      should result in redirection.
+
+x 4: account security
+
+x   The Judges screen did not disable when we started a new period
+
+x 2: Before the first round starts, traders have cash but no tickets
+
+x 1: disable order entry and acceptance between rounds  (blank the display?)
+
+x 2: disable the accept buttons when no orders are present.
+
+x Configurability:
+x   drop Price Bettering Rule
+x   binary assets in addition to unary ones
+
+x Strip Chart doesn't grow cleanly beyond initial width.
+x The Chart will fill up
+?display horizontal scrollbar for stripchart when full?
+
+x display error messages to the Experimenter 
+
+x3:(C)CarryForward requires a different scoring calculation.  Earnings
+x    should be added to cash, not to score.
+
+x update license info for hibernate, hsql, jfreechart, cewolf
+
+x 5:Persistence
+
+x persistent accounts
+x order deletion
+x Add copyright notices to hbm.xml files.
+
+x  When the judge submits an estimate, the submit button should be
+x  disabled.
+
+NSF mis-reported as self-dealing.  (masked by budget constraint in GMU UI.)
+
+xIf no judge has entered a score, the experimenter can't continue.
+x   The experimenter should get an error message in this case, but doesn't.
+
+x market maker transactions record price activity
+
+x trading page should show my orders 
+
+x Accounts page should group outstanding orders by market/claim
+
+x display order book (5 best orders)
+x chart name
+
+x claim owner's page should be different: no orders,history, HOLDINGS.
+
+x Show claim description on trading page
+
+x Add markets with market makers and no book orders.
+x    (implemented by Market.maketOrder() )
+
+x login security  (password)
+
+x Decide claim, pay off asset holders
+
+x inconspicuously default to quantity-one.  allow quantity to change.
+
+x display volumes
+
+x Judges should get a minimum score of zero.
+
+x Change INSTALL to give better hints about where to run.
+
+x Make open orders list on account page be links.
+x Link from Accounts page to markets
+
+x Separate or mark CLOSED claims in Market list.
+
+x add documentation to explain new market creation page.
+
+x If the marketMaker doesn't have enough money, transactions fail.
+
+x  When markets are created for a multi-maker, record open=close=original price (all positions)
+
++   No Judge or Manipulators
++     Multiple trader types with configurable initial cash and shares
++     Change scoring phases (don't wait for judge)
++   Configurable labels:
++	   "Your clue", "shared Message", "total asset value", "actual ticket value"
+
+x prices scaled to stripchart
+x log maxRange
+x write overview javadoc.  Update class javadoc
+
+x INSTALL  has inconsistent indentation.  (tabs/spaces)
+

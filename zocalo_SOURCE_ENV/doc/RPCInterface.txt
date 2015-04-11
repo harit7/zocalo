@@ -1,0 +1,37 @@
+There isn't any documentation of the RPC mechanism.  I had hoped to
+publish sample code, but it was written by the same student who wrote the
+RPCServer class, and he never got permission from his university to release
+it as open source.    Here's a quick sketch:
+
+These are the public methods in RPCServer:
+
+ String closeMarket(String userName, String marketName, String position)
+ String createMarket(String userName, String marketName, String outcomes,String description, int endowAMM)
+ Quantity getCurrentBalance(String userName) 
+ Price getMarketMakerPrice(String marketName, String positionName)
+ String grantCash(String userName, BigDecimal amt)
+ String tradeClaim(String userName, String marketName, String buySell,
+ String position, Price price, int shares)
+ String transferCash(String fromUserName, String toUserName, BigDecimal amt) 
+
+As an example, the way you call createMarket() is as follows.  I've left out exception
+handling and other important stuff.  
+
+	Vector<Object> params = new Vector<Object>();
+	params.addElement("Admin");
+	params.addElement("Stanley Cup");
+	params.addElement("Sharks,RedWings,Vancouver");
+	params.addElement("Who will win the Stanley Cup?");
+	params.addElement("1000");
+
+	XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
+	config.setServerURL(new URL("http://localhost:8180/RPC2"));
+
+	XmlRpcClient client = new XmlRpcClient();
+	client.setConfig(config);
+
+	Object result = client.execute("markets.createMarket", params);
+	if (result != null && result instanceof String){
+    	return (String)result;
+	}
+	return null;
