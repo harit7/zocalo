@@ -1,0 +1,106 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../trading.css">
+<!--
+Copyright 2008, 2009 Chris Hibbert.   All rights reserved.
+
+This software is published under the terms of the MIT license, a copy
+of which has been included with this distribution in the LICENSE file.
+-->
+</head>
+<body onLoad="onload_actions();">
+
+<script type="text/javascript" src="../tradingUI.js"></script>
+<script type="text/javascript" src="../../exp/test/jsunit/jstest-v1.js"></script>
+
+<script type="text/javascript">
+
+    tests = {
+        updateLabelsTest: function() {
+			var quantLimit = document.getElementById('QuantLimit');
+			if (quantLimit.innerHTML = "or I've<br>sold") {
+				var buy = false;
+		    } else if (quantLimit.innerHTML = "or I've<br>bought") {
+				var buy = true;
+			} else {
+			  assert(true == false, "QuantLimit text not matched");
+			}
+			if (buy) {
+			  updateLabelsForSell();
+			  assert_equal(quantLimit.innerHTML, "or I've<br>sold");
+			} else {
+			  updateLabelsForBuy();
+			  assert_equal(quantLimit.innerHTML, "or I've<br>bought");
+			}
+		  },
+
+	   hightlightRowTest: function() {
+			var row3 = document.getElementById("clinton");
+			var row5 = document.getElementById("clintonObama");
+			var row2 = document.getElementById("obama");
+			var selection = document.getElementById("rowSelection");
+
+			highlight('clinton');
+			assert_equal("clinton", selection.value);
+			assert_equal("", row5.className);
+			assert_equal("", row2.className);
+			assert_equal("chosen", row3.className);
+
+			highlight('obama');
+			assert_equal("", row3.className);
+			assert_equal("chosen", row2.className);
+			assert_equal("obama", selection.value);
+	   },
+     }
+
+    function onload_actions() {
+        barebones_run_tests();
+    }
+
+</script>
+
+<a href="/Stuff/IF-java/test/jstest/jstest-v1.js">test framework</a>
+
+<h1> label change test </h1>
+
+<form>
+<center>
+    <label><input type=radio name=buySell value="sell" onclick="updateLabelsForSell()" checked>too high</label>
+    <label><input type=radio name=buySell value="buy" onclick="updateLabelsForBuy()">too low</label>
+</center>
+<table border=1 id=buysell align=center>
+    <tr>
+	<th rowspan=2>Prediction
+	<th rowspan=2 align=center>Current<br>Price
+	<th rowspan=2>Holdings
+	<th colspan=2 id="SellUntil">Sell Until
+  <tr>
+	<th id="PriceGoes">price goes<br>down to ...
+	<th id="QuantLimit">or I've<br>sold ...
+
+  <tr id=obama><td>Obama (P) and other (VP)<td>$0.60<td>3.5
+      <td><input type=text size=2 name=obamaprice onchange="highlight('obama')" onblur="" >&cent;
+      <td>$<input type=text size=2 name=obamacost onchange="highlight('obama')" >
+
+  <tr id=clinton><td>Clinton (P) and other (VP)<td>$0.23<td>0
+	 <td><input type=text size=2 name=price style="text-align:right"
+	   onchange="highlight('clinton')" value="15">&cent;
+      <td>$<input type=text size=2 name=cost value="45" onchange="highlight('clinton')" >
+
+  <tr class=chosen id=obamaClinton><td>Obama (P) and Clinton (VP)<td>$0.11<td>0
+	 <td><input type=text size=2 name=price style="text-align:right"
+	   onchange="highlight('obamaClinton')">&cent;
+      <td>$<input type=text size=2 name=cost onchange="highlight('obamaClinton')" >
+
+  <tr id=clintonObama> <td>Clinton (P) and Obama (VP)<td>$0.06<td>-23.1
+	 <td><input type=text size=2 name=price style="text-align:right"
+	   onchange="highlight('clintonObama')" value="15">&cent;
+	 <td>$<input type=text size=2 name=cost value=37 onchange="highlight('clintonObama')" >
+
+</table>
+		<input id=rowSelection type=hidden name=selectedRow value="clintonObama">
+</form>
+
+</body>
+</html>

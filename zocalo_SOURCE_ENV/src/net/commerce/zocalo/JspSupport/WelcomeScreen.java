@@ -72,7 +72,7 @@ public class WelcomeScreen extends LoginScreen {
             removeAdminCookie(request, response);
             warn("removed Admin Authorization.  Login as Admin again when needed.");
         } else {
-            warn(USERNAME_AND_PASSWORD_WARNING);
+          //  warn(USERNAME_AND_PASSWORD_WARNING);
             removeExistingRegistrationCookie(request, response);
         }
     }

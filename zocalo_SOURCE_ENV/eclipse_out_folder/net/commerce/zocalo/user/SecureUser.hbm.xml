@@ -16,6 +16,7 @@
         <property name="name"/>
         <property name="email"/>
         <property name="hashedPassword"/>
+        <property name= "normalizedEmail"/>
         <many-to-one name="accounts" cascade="all" not-null="true" unique="true" class="net.commerce.zocalo.currency.Accounts" />
 
     </class>

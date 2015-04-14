@@ -18,6 +18,7 @@ import net.commerce.zocalo.market.BinaryMarket;
 import net.commerce.zocalo.market.Market;
 import net.commerce.zocalo.market.MultiMarket;
 import net.commerce.zocalo.market.Outcome;
+import net.commerce.zocalo.user.PasswordChangeRequest;
 import net.commerce.zocalo.user.SecureUser;
 import net.commerce.zocalo.user.UnconfirmedUser;
 import net.commerce.zocalo.user.User;
@@ -46,7 +47,8 @@ Utilities for dealing with Hibernate.  Everything from general tools for creatin
 managing connections to specific queries of general use.
  */
 
-public class HibernateUtil {
+public class HibernateUtil 
+{
     protected static SessionFactory sessionFactory = new NoDBSessionFactory();;
     protected static final ThreadLocal sessionHolder = new ThreadLocal();
     static public final String SCHEMA_CREATE = "create";
@@ -129,6 +131,8 @@ public class HibernateUtil {
         configuration.addClass(net.commerce.zocalo.orders.SortedOrders.class);
         configuration.addClass(net.commerce.zocalo.user.SecureUser.class);
         configuration.addClass(net.commerce.zocalo.user.UnconfirmedUser.class);
+        configuration.addClass(net.commerce.zocalo.user.PasswordChangeRequest.class);
+        
         configuration.addClass(net.commerce.zocalo.market.Market.class);
         configuration.addClass(net.commerce.zocalo.market.MarketMaker.class);
         configuration.addClass(net.commerce.zocalo.market.Book.class);
@@ -141,6 +145,7 @@ public class HibernateUtil {
         configuration.addClass(net.commerce.zocalo.ajax.events.SelfDealing.class);
         configuration.addClass(net.commerce.zocalo.ajax.events.OrderRemoval.class);
         configuration.addClass(net.commerce.zocalo.ajax.events.Redemption.class);
+        
 //        configuration.addClass(net.commerce.zocalo.currency.Quantity.class);        // Always a component
 //        configuration.addClass(net.commerce.zocalo.currency.Probability.class);     // Always a component
 //        configuration.addClass(net.commerce.zocalo.currency.Price.class);           // Always a component
@@ -177,7 +182,27 @@ public class HibernateUtil {
         }
         return result;
     }
-
+    public static PasswordChangeRequest getPasswordChangeRequest( String reqId)
+    {
+    	   Session session = currentSession();
+    	   Criteria userCriterion = session.createCriteria(PasswordChangeRequest.class);
+           userCriterion.add(Expression.eq("requestId", reqId));
+           userCriterion.setCacheable(true);
+           
+           return (PasswordChangeRequest) userCriterion.uniqueResult();
+       
+    	
+    }
+    public static PasswordChangeRequest getPasswordChangeRequest(Session session, String reqId)
+    {
+    	   Criteria userCriterion = session.createCriteria(PasswordChangeRequest.class);
+           userCriterion.add(Expression.eq("requestId", reqId));
+           userCriterion.setCacheable(true);
+           
+           return (PasswordChangeRequest) userCriterion.uniqueResult();
+       
+    	
+    }
     public static SecureUser getUserByName(String name) {
         return getUserByName(name, currentSession());
     }

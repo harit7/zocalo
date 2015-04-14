@@ -64,11 +64,11 @@ public class Config {
         Registry.initPasswdSeed(ServerUtil.readConfigFile().getProperty(ADMIN_PASSWORD_KEY));
     }
 
-    static public void sendMail(String emailAddress, StringTemplate tpl, Properties props) throws MessagingException {
+    static public void sendMail(String emailAddress, String subject ,StringTemplate tpl, Properties props) throws MessagingException {
         props.putAll(allProperties);
         tpl.setAttributes(props);
         String name = props.getProperty("userName");
-        String subject = "Please register your IWP account, " + name;
+       //
         MailUtil.sendSMTPMail(props, emailAddress, subject, tpl.toString(), false);
     }
 

@@ -31,7 +31,9 @@ public class AccountCreationScreen extends LoginScreen {
     private String password;
     private String password2;
     private String confirmation;
+    
 
+    
     public void processRequest(HttpServletRequest request, HttpServletResponse response) {
         // inputs are name, email, password, password2, and confirmation.  If a proposed name
         // is turned down, we can leave the email.  We should never remember or repopulate the

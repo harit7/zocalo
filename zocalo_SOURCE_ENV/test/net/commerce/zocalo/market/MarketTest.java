@@ -16,6 +16,7 @@ import net.commerce.zocalo.ajax.events.PriceAction;
 import net.commerce.zocalo.user.User;
 import net.commerce.zocalo.user.SecureUser;
 import net.commerce.zocalo.hibernate.HibernateTestUtil;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggingEvent;
 

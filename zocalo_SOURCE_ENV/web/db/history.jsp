@@ -12,7 +12,7 @@ of which has been included with this distribution in the LICENSE file.
 -->
     <link rel="stylesheet" type="text/css" href="trading.css">
     <script type="text/javascript" src="display.js"></script>
-<title><%= history.getUserName() %>-History</title>
+<title>Trading History</title>
 </head>
 <body bgcolor=linen>
 <p align=center>

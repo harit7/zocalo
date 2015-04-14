@@ -6,29 +6,36 @@ package net.commerce.zocalo.service;
 // This software is published under the terms of the MIT license, a copy
 // of which has been included with this distribution in the LICENSE file.
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.sql.SQLException;
+import java.util.Properties;
+
+import net.commerce.zocalo.JspSupport.AccountCreationScreen;
+import net.commerce.zocalo.JspSupport.AccountDisplay;
+import net.commerce.zocalo.JspSupport.ClaimPurchase;
+import net.commerce.zocalo.JspSupport.MarketCreation;
+import net.commerce.zocalo.JspSupport.MarketDisplay;
+import net.commerce.zocalo.JspSupport.ResetPasswordScreen;
+import net.commerce.zocalo.JspSupport.TradeHistory;
+import net.commerce.zocalo.JspSupport.UserRanking;
+import net.commerce.zocalo.JspSupport.WelcomeScreen;
+import net.commerce.zocalo.ajax.dispatch.NewChartAppender;
+import net.commerce.zocalo.ajax.dispatch.PriceActionAppender;
+import net.commerce.zocalo.ajax.dispatch.PriceChangeAppender;
+import net.commerce.zocalo.ajax.dispatch.PriceChangeDispatcher;
+import net.commerce.zocalo.ajax.dispatch.TransitionAppender;
 import net.commerce.zocalo.hibernate.HibernateUtil;
 import net.commerce.zocalo.logging.Log4JInitializer;
 import net.commerce.zocalo.rpc.RPCServer;
 import net.commerce.zocalo.user.Registry;
-import net.commerce.zocalo.user.UserRank;
-import net.commerce.zocalo.JspSupport.*;
-import net.commerce.zocalo.ajax.dispatch.*;
-import net.commerce.zocalo.ajax.events.PriceAction;
 
 import org.apache.log4j.Logger;
+import org.hibernate.HibernateException;
+import org.mortbay.cometd.AbstractBayeux;
+import org.mortbay.cometd.BayeuxService;
 import org.mortbay.jetty.servlet.Context;
 import org.mortbay.jetty.servlet.ServletHandler;
-import org.mortbay.cometd.BayeuxService;
-import org.mortbay.cometd.AbstractBayeux;
-import org.hibernate.HibernateException;
-
-import java.util.*;
-import java.sql.SQLException;
-import java.net.URLEncoder;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 
 /** Collection of markets and users, and main() entry point for running markets. */
 public class AllMarkets extends CometServer {
@@ -37,7 +44,8 @@ public class AllMarkets extends CometServer {
     final static public String DEFAULT_SERVER_PORT      = "80";
     final static public String RPC_SERVER_PORT          = "RPC.server.port";
     final static public String VERSION					=  "2";
-    static public void main(String[] args) throws Exception {
+    static public void main(String[] args) throws Exception 
+    {
     	
         Properties props = readConfigFile();
         Log4JInitializer.initializeLog4J(props.getProperty("log.file"), "log4j.properties");
@@ -76,7 +84,7 @@ public class AllMarkets extends CometServer {
         addServlet(handler, MarketCreation.CREATE_MARKETS_NAME);
         addServlet(handler, AccountCreationScreen.CREATE_ACCOUNT_NAME);
         addServlet(handler, UserRanking.RANKING_NAME); 
-        
+        addServlet(handler, ResetPasswordScreen.RESET_PASSWORD_NAME);
         addCometServletHandler(handler);
         context.setServletHandler(handler);
     }

@@ -12,7 +12,7 @@ of which has been included with this distribution in the LICENSE file.
 -->
     <link rel="stylesheet" type="text/css" href="trading.css">
     <script type="text/javascript" src="display.js"></script>
-<title><%= ranking.getUserName() %>-Ranking</title>
+<title>User Ranking</title>
 </head>
 <body bgcolor=linen>
 <p align=center>

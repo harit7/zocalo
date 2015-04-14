@@ -1,0 +1,228 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../trading.css">
+<!--
+Copyright 2008, 2009 Chris Hibbert.   All rights reserved.
+
+This software is published under the terms of the MIT license, a copy
+of which has been included with this distribution in the LICENSE file.
+-->
+</head>
+<body onLoad="onload_actions()">
+
+<script type="text/javascript" src="../tradingUI.js"></script>
+<script type="text/javascript" src="../reactiveIssue.js"></script>
+<script type="text/javascript" src="../../exp/test/jsunit/jstest-v1.js"></script>
+
+<link rel="stylesheet" type="text/css" href="trading.css">
+<script type="text/javascript" src="../display.js"></script>
+
+<script type="text/javascript" src="../../dojo/dojo/dojo.js"></script>
+<!--<script type="text/javascript" src="../../dojo/dojo/fx.js"></script>-->
+<!--<script type="text/javascript" src="../../dojo/dojox/fx/_base.js"></script>-->
+<script type="text/javascript">
+
+    var market = reactiveMarket( [ ['r0', 'carrots'], ['r2', 'long'], ['r3', 'beans'], ['r1', 'broccoli'], ['r4', 'tomatoes'] ], true );
+    var r0 = market.row('r0');
+    var r1 = market.row('r1');
+    var r2 = market.row('r2');
+    var r3 = market.row('r3');
+    var r4 = market.row('r4');
+
+    tests = {
+        updateLabelsTest: function() {
+            r0.changeLatest(37);
+            r0.changeReference(32);
+            r0.changeTarget(40);
+            assert_equal(37, r0.getLatestPrice());
+            assert_equal(32, r0.getReferencePrice());
+            assert_equal(40, r0.getTargetPrice());
+        },
+
+        onChangeTest: function() {
+            r0.changeTarget(45);
+            r0.handleChange();
+            assert_equal(45, r0.getTargetPrice());
+            var selection = document.getElementById("rowSelection");
+            assert_equal("r0", selection.value);
+        },
+
+        onFocusTest: function() {
+            market.handlePriceUpdate({ carrots: "10.3", broccoli: "21.1", "long": "8.3", beans: "16.5", tomatoes: "43.8" });
+            assert_equal(10.3, r0.getReferencePrice());
+            assert_equal(21.1, r1.getReferencePrice());
+            assert_equal(10.3, r0.getLatestPrice());
+            assert_equal(21.1, r1.getLatestPrice());
+            assert_equal(8.3, r2.getLatestPrice());
+            assert_equal(8.3, r2.getLatestValue());
+
+            r0.handleFocus();
+            assert_equal(true, r0.isLocked());
+            assert_equal(10.3, r0.getReferencePrice());
+            market.handlePriceUpdate({ carrots: "12.3", broccoli: "22.1", "long": "8.4", beans: "15.4", tomatoes: "41.8" });
+            assert_equal(12.3, r0.getLatestPrice());
+            assert_equal(12.3, r0.getReferencePrice());
+            assert_equal(22.1, r1.getLatestPrice());
+            assert_equal(22.1, r1.getReferencePrice());
+            assert_equal(15.4, r3.getLatestPrice());
+            assert_equal(15.4, r3.getLatestValue());
+
+            r0.handleBlur();
+            assert_equal(false, r0.isLocked());
+            market.handlePriceUpdate({ carrots: "11.3", broccoli: "20.1", "long": "9.4", beans: "16.3", tomatoes: "42.9" });
+            assert_equal(11.3, r0.getLatestPrice());
+            assert_equal(11.3, r0.getReferencePrice());
+            assert_equal(20.1, r1.getLatestPrice());
+            assert_equal(20.1, r1.getReferencePrice());
+            assert_equal(42.9, r4.getLatestPrice());
+            assert_equal(42.9, r4.getLatestValue());
+        },
+
+        textStyleTest: function() {
+            var latestNode = document.getElementById("r0Latest");
+            var referenceNode = document.getElementById("r0Reference");
+
+            r0.handleBlur();
+            market.handlePriceUpdate({ carrots: "10.3", broccoli: "21.1", "long": "8.3", beans: "16.5", tomatoes: "43.8" });
+            assert(latestNode !== undefined && latestNode.style.opacity === "1", "latest empty or transparent; opacity: " + latestNode.style.opacity);
+            assert(referenceNode.style.opacity !== undefined && referenceNode.style.opacity !== "1", "ref visible; opacity: " + referenceNode.style.opacity);
+            assert(latestNode.className === "", "lastest has class: " + latestNode.className);
+
+            market.handlePriceUpdate({ carrots: "10.3", broccoli: "21.1", "long": "8.3", beans: "16.5", tomatoes: "43.8" });
+            assert(latestNode.style.opacity === "1", "latest has opacity " + latestNode.style.opacity);
+            assert(latestNode.className === "", "lastest has class " + latestNode.className);
+            assert(referenceNode.style.length !== 0, "ref has no style");
+            assert_equal("0", referenceNode.style.opacity);
+
+            r0.handleFocus();
+            market.handlePriceUpdate({ carrots: "12.3", broccoli: "22.1", "long": "8.4", beans: "15.4", tomatoes: "41.8" });
+            assert(latestNode.style.opacity === "1", "latest has opacity " + latestNode.style.opacity);
+            assert(referenceNode.style.length !== 0, "ref has no style");
+            assert(latestNode.className === "glow", "latest isn't glowing " + latestNode.className);
+            referenceNode.style.opacity = 1;
+
+            r0.handleBlur();
+            assert(latestNode.style.opacity === "1", "latest has opacity " + latestNode.style.opacity);
+            assert(referenceNode.style.length !== 0, "ref has no style");
+            assert(latestNode.className === "", "latest has class--" + latestNode.className);
+            referenceNode.style.opacity = 1;
+        },
+
+        flashLatestTest: function() {
+            market.handlePriceUpdate({ carrots: "11.3", broccoli: "20.1", "long": "18.3", beans: "26.5", tomatoes: "23.8" });
+
+            var latestNode = document.getElementById("r3Latest");
+            var referenceNode = document.getElementById("r3Reference");
+
+            var row = document.getElementById("r3");
+            var inputs = row.getElementsByTagName('input');
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].name === "r3" + "Target") {
+                    var targetNode = inputs[i];
+                }
+            }
+
+            r0.handleFocus();
+            assert_equal(targetNode.value, "");
+
+            market.handlePriceUpdate({ carrots: "11.3", broccoli: "20.1", "long": "16.3", beans: "28.5", tomatoes: "23.8" });
+
+            r0.handleBlur();
+        },
+
+        coloredHighlightingTest: function() {
+            var row3 = document.getElementById("r3");
+            assert_equal(row3.className, '');
+
+            r3.changeTarget(25);
+            r3.handleChange();
+            assert(row3.className === 'chosen-sell', 'r3 should be active ' + row3.className);
+
+            market.handlePriceUpdate({ carrots: "11.4", broccoli: "20.2", "long": "21.3", beans: "25.3", tomatoes: "21.8" });
+            assert(row3.className === 'chosen-sell', 'r3 should still be active: ' + row3.className);
+
+            r2.handleChange();
+            assert(row3.className === '', 'r3 should no longer be active: ' + row3.className);
+        },
+     };
+
+    function onload_actions() {
+        barebones_run_tests();
+    }
+
+</script>
+
+<a href="/Stuff/IF-java/test/jstest/jstest-v1.js">test framework</a>
+
+<h1> AJAX UI Test</h1>
+
+<h2 align="center">vegatables</h2>
+    <table align=center cellPadding=0>
+        <tr><td bgcolor="dadbec">
+            <p class="claimDescription-wide">Which vegetable will produce the largest crop by weight?</p>
+            <form method=POST action='purchaseCost.jsp' autocomplete="off"><input type=hidden name='claimName' value='vegatables'>
+                <table align='center' cellpadding='3' border='1' cellspacing='0' id='buysell' bgcolor='DADBEC'>
+                  <tr>
+                    <th rowspan=2>Prediction
+                    <th rowspan=2 align=center>Current<br>Price
+                    <th colspan=2>Buy or<br>Sell Until
+                  <tr>
+                    <th>price goes<br>to ...
+                    <th>or I've<br>spent ...
+                  <tr id=r1> <td>broccoli
+                      <td align='center'>
+                        <span id="r1Latest">5&cent;</span><span style="float:right;opacity:0;" id='r1Reference'>5&cent;</span>
+                        <input type=hidden name='r1Reference' value='5'>
+                      <td align='center'>
+                        <input type=text size=2 maxLength=2 name='r1Target' onblur="r1.handleBlur()" onfocus="r1.handleFocus()" onchange="r1.handleChange()" autocomplete='off' >&cent;
+                      <td align='center'>$
+                        <input type=text size=3 maxLength=4 name='r1cost' value='100'  onchange="highlight('r1')" autocomplete='off' >
+
+                  <tr id=r0> <td>carrots
+                      <td align='center'>
+                      <span id="r0Latest">5&cent;</span><span style="float:right;opacity:0" id='r0Reference'>5&cent;</span>
+                      <input type=hidden name='r0Reference' value='5'>
+                      <td align='center'>
+                        <input type=text size=2 maxLength=2 name='r0Target' onblur="r0.handleBlur()" onfocus="r0.handleFocus()" onchange="r0.handleChange()" autocomplete='off' >&cent;
+                      <td align='center'>$
+                        <input type=text size=3 maxLength=4 name='r0cost' value='100'  onchange="highlight('r0')" autocomplete='off' >
+
+                  <tr id=r2> <td>long
+                      <td align='center'>
+                        <span id="r2Latest">5&cent;</span><span style="float:right;opacity:0;" id='r2Reference'>5&cent;</span>
+                        <input type=hidden name='r2Reference' value='5'>
+                      <td align='center'>
+                        <input type=text size=2 maxLength=2 name='r2Target' onblur="r2.handleBlur()"  onfocus="r2.handleFocus()" onchange="r2.handleChange()" autocomplete='off' >&cent;
+                      <td align='center'>$
+                        <input type=text size=3 maxLength=4 name='r2cost' value='100'  onchange="highlight('r2')" autocomplete='off' >
+
+                  <tr id=r3> <td>beans
+                      <td align='center'>
+                        <span id="r3Latest">5&cent;</span><span style="float:right;opacity:0;" id='r3Reference'>5&cent;</span>
+                        <input type=hidden name='r3Reference' value='5'>
+                      <td align='center'>
+                        <input type=text size=2 maxLength=2 name='r3Target' onblur="r3.handleBlur()"  onfocus="r3.handleFocus()" onchange="r3.handleChange()" autocomplete='off' >&cent;
+                      <td align='center'>$
+                        <input type=text size=3 maxLength=4 name='r3cost' value='100'  onchange="highlight('r3')" autocomplete='off' >
+
+                  <tr class="chosen" id=r4> <td>tomatoes
+                      <td align='center'>
+                        <span id="r4Latest">5&cent;</span><span style="float:right;opacity:0;" id='r4Reference'>5&cent;</span>
+                        <input type=hidden name='r4Reference' value='5'>
+                      <td align='center'>
+                        <input type=text size=2 maxLength=2 name='r4Target' onblur="r4.handleBlur()"  onfocus="r4.handleFocus()" onchange="r4.handleChange()" autocomplete='off' >&cent;
+                      <td align='center'>$
+                        <input type=text size=3 maxLength=4 name='r4cost' value='100'  onchange="highlight('r4')" autocomplete='off' >
+
+                </table>
+            <input id=rowSelection type=hidden name=selectedRow value=r4>
+            <input id=claimSelection type=hidden name=selectedClaim value=beans>
+
+    <input type=submit class='smallFontButton'  name=action value='Trade'>&nbsp; &nbsp;<input type=submit class='smallFontButton'  name=action value='Refresh'></form>
+    </tr>
+    </table>
+<br>
+
+</body>
+</html>

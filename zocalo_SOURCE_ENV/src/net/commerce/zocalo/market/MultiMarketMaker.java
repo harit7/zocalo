@@ -68,12 +68,14 @@ public class MultiMarketMaker extends MarketMaker {
         System.out.println("Initing betaS");
         Quantity rootOutcomes = new Quantity(Math.sqrt(numOutcomes));
         setBetaSpherical(endowment.div(maxPrice).div(rootOutcomes.minus(Quantity.ONE)));
+        System.out.println("betaL = "+getBetaSpherical());
     }
 
     private void initBetaQuad(Quantity endowment, int outcomeCount,
             Price maxPrice) {
         System.out.println("Initing betaQ");
         setBetaQuadratic(endowment.times(new Quantity(numOutcomes)).div(new Quantity(numOutcomes-1)).div(maxPrice));
+        System.out.println("betaL = "+getBetaQuadratic());
     }
 
     private void initBetaLog(Quantity endowment, int outcomeCount,
@@ -81,6 +83,7 @@ public class MultiMarketMaker extends MarketMaker {
         System.out.println("Initing betaL");
         Quantity logOutcomes = new Quantity(Math.log(numOutcomes));
         setBeta(endowment.div(maxPrice).div(logOutcomes));
+        System.out.println("betaL = "+getBeta());
         
     }
 

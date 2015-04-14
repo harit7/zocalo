@@ -59,7 +59,9 @@ public class UnconfirmedUser extends Warnable {
         props.put("userName", name);
         props.put(CONFIRMATION_CODE, confirmationToken);
         props.put(CONFIRMATION_URL, requestURL + "?userName=" + name + "&confirmation=" + confirmationToken);
-        Config.sendMail(emailAddress, tpl, props);
+        String subject = "Please confirm your account, " + name;
+        System.out.println(props.get(CONFIRMATION_URL)); 
+        Config.sendMail(emailAddress, subject, tpl, props);
     }
 
     public void setToken(String token) {
