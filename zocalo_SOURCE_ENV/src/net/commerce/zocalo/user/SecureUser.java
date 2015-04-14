@@ -25,7 +25,7 @@ public class SecureUser extends User {
         email = emailAddress;
         if(email != null)
         {
-        	normalizedEmail =  email.toLowerCase().replace(",", "");
+        	normalizedEmail =  email.toLowerCase().replace(".", "");
         }
     }
 
